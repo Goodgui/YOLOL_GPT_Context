@@ -1,0 +1,162 @@
+{{Otherlang2
+|jp=コントロールテーブル
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Control table (assembled).png]]
+	  |factionLogo=
+	  |caption=A two part control table
+	  |name=Control table
+	  |subtitle=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Control devices
+	  |function=Modular device interface
+	  
+	  |size=
+	  |mass=
+	  |volume=
+	  |corrosionResistance=
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+}}
+Control tables are comprised of a variety of parts, and can be configured to suit a user's needs. They provide a wealth of modular interfaces for control devices (eg: levers, buttons), eliminating the need to cable each individual device and keeping your ship tidy.
+
+== Basic information ==
+
+Unlike traditional wires, control tables provide access to the data network through their flat faces, allowing appropriate devices (eg: [[Buttons|hybrid buttons]], [[Levers|levers]], etc.) to snap and connect to the data network through contact alone. Control tables can also connect to other control tables when they are snapped on top of one another, allowing complex builds to be easily controlled at a single area of a ship or station. A device mounted to a control table shares its access with every other device connected to the control table, enabling users to get creative with how they connect the table to the network at large.
+
+Control tables come in a variety of sizes, but only the '''Control Table Stand 45° (Small)''' has a socket directly attached to it.
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Control table 45 (socket).png]]
+		|name=45° stand (socketed)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×48×24 cm
+		|mass=174.32
+		|volume=17.52
+		|corrosionResistance=410
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=24×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=45%
+		|ajatite=40%
+		|vokarium=15%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Control table 45.png]]
+		|name=45° stand
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×48×24 cm
+		|mass=57.21
+		|volume=5.75
+		|corrosionResistance=410
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=24×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=45%
+		|ajatite=40%
+		|vokarium=15%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Control table, 24x72.png]]
+		|name=Control table 24×72
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×24×3 cm
+		|mass=68.26
+		|volume=6.86
+		|corrosionResistance=410
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=24×72 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=45%
+		|ajatite=40%
+		|vokarium=15%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Control table, 48x72.png]]
+		|name=Control table 48×72
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×48×3 cm
+		|mass=136.61
+		|volume=13.73
+		|corrosionResistance=410
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=48×72 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=45%
+		|ajatite=40%
+		|vokarium=15%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Control table, 72x72.png]]
+		|name=Control table 72×72
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×72×3 cm
+		|mass=204.87
+		|volume=20.59
+		|corrosionResistance=410
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=72×72 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=45%
+		|ajatite=40%
+		|vokarium=15%
+	  }}
+	}}
+}}
+
+[[Category:Devices and machines|Control table]]

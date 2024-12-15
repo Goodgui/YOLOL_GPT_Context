@@ -1,0 +1,165 @@
+Two of the many types of hinges available
+Hinges
+Type
+Utility machinery
+Function
+Joint motor
+Hinges are devices used for creating turning, sliding and opening mechanisms such as doors, hatches and sliding doors.
+Basic information
+Hinges are most frequently interacted with via a button or YOLOL script, but can also be interacted with directly via the universal tool. They are not especially strong, and cannot be used to mount thrusters to a ship; nor do any of them have provisions to transfer power or propellant beyond the joint itself.
+Gallery
+Hinge (C-profile)
+Size
+48×144×36 cm
+Mass
+1,419 kg kg
+Volume
+142.7 kv kv
+Corrosion resistance
+400
+Input / Output
+Electric input
+5 e/s
+Sockets
+2
+Modular interfaces
+2
+Composition
+Bastium
+100%
+Hinge (L-profile)
+Size
+24×144×36 cm
+Mass
+1,148 kg kg
+Volume
+115.3 kv kv
+Corrosion resistance
+400
+Input / Output
+Electric input
+5 e/s
+Sockets
+2
+Modular interfaces
+2
+Composition
+Bastium
+100%
+Hinge (A-1)
+Size
+48×48×12 cm
+Mass
+331 kg kg
+Volume
+33.3 kv kv
+Corrosion resistance
+425
+Input / Output
+Electric input
+5 e/s
+Sockets
+1
+Modular interfaces
+1
+Composition
+Ajatite
+10%
+Bastium
+75%
+Tengium
+15%
+Hinge (A-2)
+Size
+48×144×12 cm
+Mass
+940 kg kg
+Volume
+94.4 kv kv
+Corrosion resistance
+435
+Input / Output
+Electric input
+5 e/s
+Sockets
+2
+Modular interfaces
+2
+Composition
+Ajatite
+15%
+Bastium
+65%
+Tengium
+20%
+Hinge (B-1)
+Size
+48×48×12 cm
+Mass
+331 kg kg
+Volume
+33.3 kv kv
+Corrosion resistance
+425
+Input / Output
+Electric input
+5 e/s
+Sockets
+1
+Modular interfaces
+1
+Composition
+Ajatite
+10%
+Bastium
+75%
+Tengium
+15%
+Hinge (B-2)
+Size
+48×144×12 cm
+Mass
+940 kg kg
+Volume
+94.4 kv kv
+Corrosion resistance
+435
+Input / Output
+Electric input
+5 e/s
+Sockets
+2
+Modular interfaces
+2
+Composition
+Ajatite
+15%
+Bastium
+65%
+Tengium
+20%
+Device fields
+YOLOL field
+Description
+Range
+DoorOpenState
+Input field for requested door state. 0 is closed, 1 is fully open.
+[0,1]
+DoorCurrentState
+Reports the current position of the door, on the same scale as
+DoorOpenState
+[0,1]
+EndAngle / EndPosition
+The rotation/position the joint should be at when
+DoorOpenState
+is 1. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+StartAngle / StartPosition
+The rotation/position the joint should be at when
+DoorOpenState
+is 0. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+TargetVelocity
+The maximum velocity the joint will reach. Different joint devices have different velocity limits, and might not be able to reach the configured velocity.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

@@ -1,0 +1,30 @@
+Launcher mount small turntable
+Type
+Utility device
+Function
+Utility mount with yawing ability
+Size
+96×96×36  cm
+Mass
+1,232.6 kg
+Volume
+123.88 kv
+Corrosion resistance
+390
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Ajatite
+20%
+Bastium
+55%
+Vokarium
+25%
+A fixed mount for a small turntable. While not as mobile as a turntable and a cradle, these devices allow a full range of motion about the Y-axis when mounted to a turntable, and can fit a single torpedo launcher or missile launcher.
+Related pages
+Fixed mount

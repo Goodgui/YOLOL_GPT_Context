@@ -1,0 +1,115 @@
+Audio signal device, Mk. 1
+Type
+Audio device
+Function
+Plays audio tones
+Size
+24 × 24 × 12 cm
+Mass
+64.33 kg
+Volume
+7.14 kv
+Corrosion resistance
+470
+Primary material
+Bastium
+Input / Output
+Electric input
+Passive
+Sockets
+2
+Modular interfaces
+1
+Composition
+Ajatite
+20%
+Arkanium
+10%
+Bastium
+30%
+Vokarium
+40%
+The audio signal device is used to add audio feedback to spaceships and station devices. They support a plethora of options to customize the playback of audio, and can be wired to directly via their sockets or via a modular interface on their backside.
+Basic Usage
+You must first match the
+InputValue
+device field name to another device field name that you want to use to trigger playback. The
+TriggerValue
+and
+TriggerRule
+device fields are used to determine when the change in the
+InputValue
+field will trigger audio playback.
+TriggerRule
+accepts one of three values (-1, 0, 1), which are equivalent to the comparison operators lesser-than, equal-to, and greater-than respectively.
+SoundCategory
+values
+Sound
+0
+Bleeps
+1
+Alerts
+2
+Fake endoskeleton voicelines
+3
+One octave of notes (chromatic scale: C, C#, D, D#, E, F, F#, G, G#, A, A#, B, C)
+4
+Drums
+5
+Meow
+Device fields
+YOLOL field
+Description
+Range
+SoundOn
+Will start to play sound queue when set to 1 and stop when set to 0.
+0, 1
+TriggerRule
+Controls the comparison type:-1 : less0 : equal1 : greater
+-1, 0, 1
+TriggerValue
+Value, which
+InputValue
+will be compared against.
+any
+InputValue
+Value, which will be compared against
+TriggerValue
+.
+any
+SoundCategory
+The category from which a sound is selected using
+SoundType
+0 - 5
+SoundType
+The sound that will be played.
+0 - 99
+RetriggerRate
+The delay between each played sound.
+0 - 100
+RetriggerAmount
+Limits how often the sound is repeated. Sound is repeated indefinitely if set to 0.
+0 - 99
+Priority
+0 - 99
+Radius
+0 - 200
+To learn more about the usage of fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Material
+Weight (Kg)
+66.45
+Material Required (Kv)
+Ajatite
+1.428
+Bastium
+1.785
+Ilmatrium
+1.071
+Vokarium
+2.856
+To learn more about materials, consult these wiki pages:
+Materials
+Ores

@@ -1,0 +1,73 @@
+{{Otherlang2 
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Panel base.png]]
+	  |factionLogo=
+	  |caption=The front and back sides of a panel base
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Interface device
+	  |function=Provides a modular connection
+	  
+	  |size= 24×24 cm
+	  |mass=48.65
+	  |volume=4.89
+	  |corrosionResistance=510
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Passive
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=1
+	  |YOLOLchips=
+	  |modInterfaces=1
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |overrideHeader=
+	  |aegisium=
+	  |ajatite=14.98%
+	  |arkanium=
+	  |bastium=15.02%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=9.99%
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=60%
+	  |xhalium=
+	}}
+
+}}
+
+The panel base provides a convenient way to connect modular devices such as [[Text_panel|text panels]] and [[Buttons|buttons]] to the network, which it itself connects to via the socket on the rear side of the device.
+
+== Basic information ==
+
+Like most devices, panel bases provide a bilateral connection to the network that they are connected to: Data that is received on the modular connection is shared with any device connected to the socket, and vice versa. It is worth noting that panel bases provide a proximal connection with their modular side, and some devices such as [[Progress_bar|progress bars]] do not necessarily need to snapped onto the panel base in order to be 'connected'.
+
+[[Category:Devices and machines|Modular displays]]

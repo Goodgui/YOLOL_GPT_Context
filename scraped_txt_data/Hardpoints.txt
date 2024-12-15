@@ -1,0 +1,206 @@
+{{Otherlang2
+|zh-cn=转接插座
+|ua=Платформа для пристроїв
+|jp=ハードポイント
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:DeviceHardpoint.png]]
+	  |factionLogo=
+	  |caption=A standard device hardpoint
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Structural device
+	  |function=Device mount
+	  
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+}}
+<section begin=summary/>
+Hardpoints are used for mounting most devices, including [[thrusters]], [[mounted weapons|weapons]] and tools, and they are available in three common forms: Small, large, and a large corner variant. Apart from the corner variant (which has an additional mounting point for devices), there are no functional differences between the three variants. Hardpoints accept [[Cable_tool|cables]] and [[Pipe_tool|pipes]] on the socket side, the resources of which are made available to the device that is mounted to them.
+<section end=summary/>
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Hardpoint.png|150px]]
+		|name=Standard Hardpoint
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×72×12 cm
+		|mass=570.3
+		|volume=57.32
+		|corrosionResistance=450
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=1
+		|sockets=4
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=30%
+		|bastium=25%
+		|vokarium=45%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Large hardpoint.png|150px]]
+		|name=Large Hardpoint
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=144×144×36 cm
+		|mass=4,876.9
+		|volume=490.14
+		|corrosionResistance=420
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=1
+		|sockets=4
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=26%
+		|bastium=40%
+		|vokarium=34%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Hardpoint corner.png|150px]]
+		|name=Hardpoint Corner
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=144×120×120 cm
+		|mass=9,859
+		|volume=990.86
+		|corrosionResistance=420
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=2
+		|sockets=8
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=26%
+		|bastium=40%
+		|vokarium=34%
+	  }}
+	}}
+
+}}
+
+== Support frames ==
+
+Additionally, the large hardpoint and hardpoint corner have separate mounting plates that can (optionally) be used to make mounting them to the beam frame more convenient:
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Large hardpoint support frame.png|150px]]
+		|name=Large hardpoint support frame
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=144×144×12 cm
+		|mass=1,300.4
+		|volume=130.69
+		|corrosionResistance=300
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Large hardpoint corner support frame.png|150px]]
+		|name=Hardpoint corner support frame
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=144×84×84 cm
+		|mass=1,305.1
+		|volume=131.17
+		|corrosionResistance=300
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=100%
+	  }}
+	}}
+
+}}
+
+== Material ==
+
+To learn more about materials, consult these wiki pages:
+
+* [[Materials]]
+* [[Ores]]
+
+{|class="wikitable"
+!
+! '''Device Hardpoint (kv)'''
+! '''Large Hardpoint (kv)'''
+! '''Large Hardpoint Corner (kv)'''
+! '''Large Hardpoint Corner Support Frame (kv)''
+! '''Large Hardpoint Support Frame (kv)'''
+|-
+! '''Weight (Kg)'''
+| 524.56
+| 4583.20
+| 9265.39
+| 1305.33
+| 1300.55
+|-
+! Ajatite
+| 6.011
+| 41
+| 81
+| 
+|
+|-
+! Bastium
+| 18
+| 255
+| 509
+| 137
+| 134
+|-
+! Tengium
+| 15
+| 123
+| 244
+|
+|
+|-
+! Vokarium
+| 21
+| 92
+| 183
+|
+|
+|-
+|}
+
+
+[[Category:Devices and machines]]

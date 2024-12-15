@@ -1,0 +1,82 @@
+{{ClosedAlphaContent}}
+{{Otherlang2
+|de=Rail_socket:de
+|fr=Rail_socket/fr
+|zh-cn=轨道插座
+|ru=Рельсовый разъём
+|ua=Рейковий роз'єм
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase rail socket.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Rail device
+	  |function=Power interface
+	  
+	  |size=48×12×1.5 cm
+	  |mass=18.7
+	  |volume=1.88
+	  |corrosionResistance=400
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}<section begin=summary/>Rail sockets are used to power rail networks and to transmit power to any connected [[Rail mover|rail mover]]. <section end=summary/>
+
+== Basic information ==
+
+Bolting a rail socket onto a rail piece allows [[Cable tool|cables]] connected to the socket to transmit [[Generator (Assembly)|power]] and [[Data networks|data]] to the rail network.
+
+[[Category:Devices and machines|Socket]]

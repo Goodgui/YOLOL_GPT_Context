@@ -1,0 +1,233 @@
+{{Otherlang2
+|de=Flight_control_unit:de
+|fr=Flight_control_unit/fr
+|zh-cn=飞行控制单元
+|ru=Узел контроля полёта
+|ua=Блок управління польотом
+|jp=フライトコントロールユニット
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:FCU Types.png]]
+	  |factionLogo=
+	  |caption=Basic (blue), advanced (red), and premium (yellow) FCUs
+	  |name=Flight Control Unit
+	  |subtitle=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Control device
+	  |function=Automatic thruster control
+	  
+	}}
+
+}}
+Flight control units (FCU) receive input from control devices like [[Levers|levers]] and - in conjunction with the [[Main flight computer|Main Flight Computer]] (MFC) - determines which thrusters to fire to achieve the desired maneuvering. FCUs come in three varieties with progressively more control schema with each successive upgrade, and several can be used on a single ship to allow for cockpits placed in unusual orientations.
+
+== Basic information ==
+* An FCU's input devices, such as [[Buttons|buttons]] or [[Levers|levers]], need to be in the same [[Data networks|network]] as the FCU for them to function.
+* Control devices are mapped to an FCU's different inputs by matching their device fields.
+* FCUs must be connected to the MFC in order to function properly.
+* Each [[Thrusters|thruster]] group is controlled by exactly one MFC. There can be several MFCs in one ship.
+* The FCU must be installed in a correct orientation, the three arrows on the top of the FCU point towards the front of the ship.
+
+A basic FCU allows forward, backwards, pitch, yaw, and roll. A basic FCU will also automatically balance the ship while maneuvering.
+
+An advanced FCU allows all of the maneuvers and has all the features that a basic FCU does, but adds lateral and vertical strafing.
+
+A premium FCU allows all of the maneuvers and has all the features that an advanced FCU does, but adds functionality to coordinate forward and backward movement with pitch, roll, and yaw movements. This is particularly noticeable on large ships.
+
+== Types ==
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:FCU basic.png]]
+		|name=Basic FCU
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×48×24 cm
+		|mass=514
+		|volume=51.66
+		|corrosionResistance=460
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+	  |electricIn=0.5 e/s
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=20%
+		|ajatite=60%
+		|vokarium=20%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:FCU advanced.png]]
+		|name=Advanced FCU
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×48×24 cm
+		|mass=774.9
+		|volume=51.66
+		|corrosionResistance=455
+		|primaryMaterial=Charodium
+	  }}
+
+	  |{{SB Infobox Device IO
+	  |electricIn=0.5 e/s
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|charodium=15%
+		|ajatite=12%
+		|vokarium=73%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:FCU premium.png]]
+		|name=Premium FCU
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×48×24 cm
+		|mass=483.8
+		|volume=51.69
+		|corrosionResistance=431
+		|primaryMaterial=Kutonium
+	  }}
+
+	  |{{SB Infobox Device IO
+	  |electricIn=0.5 e/s
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|kutonium=15%
+		|xhalium=25%
+		|arkanium=22%
+		|vokarium=10%
+		|lukium=10%
+		|ajatite=18%
+	  }}
+	}}
+
+
+}}
+
+== Device fields ==
+{|class="wikitable"
+! YOLOL field
+! description
+! default range
+! availability
+|-
+! '''FcuMfcIO'''
+| For connecting the Main flight computer
+|
+| All
+|-
+! '''FcuInputRange'''
+| Scales the accepted input range
+| 100
+| All
+|-
+! '''FcuGeneralMultiplier'''
+| A "soft power switch", scales all output
+| 100
+| All
+|-
+!'''FcuForward'''
+| Moves the ship straight forward or combines FcuFwdBwd rotations with the forward movement
+| 0 to 100
+| All
+|-
+! '''FcuBackward'''
+| Moves the ship straight backward or combines FcuFwdBwd rotations with the backward movement
+| 0 to 100
+| All
+|-
+! '''FcuRotationalPitch'''
+| In-place pitch rotation
+| -100 to 100
+| All
+|-
+! '''FcuRotationalYaw'''
+| In-place yaw rotation
+| -100 to 100
+| All
+|-
+! '''FcuRotationalRoll'''
+|In-place roll rotation
+| -100 to 100
+| All
+|-
+! '''FcuUpDown'''
+| Moves the ship straight up or down
+| -100 to 100
+| Advanced, Premium
+|-
+! '''FcuRightLeft'''
+| Moves the ship straight right or left
+| -100 to 100
+| Advanced, Premium
+|-
+! '''FcuFwdBwdPitch'''
+| Rotation combined to forward/backward movement
+| -100 to 100
+| Premium
+|-
+! '''FcuFwdBwdYaw'''
+| Rotation combined to forward/backward movement
+| -100 to 100
+| Premium
+|-
+! '''FcuFwdBwdRoll'''
+| Rotation combined to forward/backward movement
+| -100 to 100
+| Premium
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+[[Category:Devices and machines|Flight control unit]]

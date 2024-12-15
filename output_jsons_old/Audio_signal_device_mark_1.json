@@ -1,0 +1,83 @@
+{
+    "device": {
+        "name": "Audio signal device, Mk. 1",
+        "type": "Audio device",
+        "function": "Plays audio tones",
+        "size": "24 \u00d7 24 \u00d7 12 cm",
+        "mass": "64.33 kg",
+        "volume": "7.14 kv",
+        "corrosion_resistance": 470,
+        "primary_material": "Bastium",
+        "input_output": {
+            "electric_input": "Passive",
+            "sockets": 2,
+            "modular_interfaces": 1
+        },
+        "composition": {
+            "Ajatite": "20%",
+            "Arkanium": "10%",
+            "Bastium": "30%",
+            "Vokarium": "40%"
+        },
+        "description": "OUTDATED The audio signal device is used to add audio feedback to spaceships and station devices. They support a plethora of options to customize the playback of audio, and can be wired to directly via their sockets or via a modular interface on their backside.",
+        "basic_usage": "You must first match the InputValue device field name to another device field name that you want to use to trigger playback. The TriggerValue and TriggerRule device fields are used to determine when the change in the InputValue field will trigger audio playback. TriggerRule accepts one of three values (-1, 0, 1), which are equivalent to the comparison operators lesser-than, equal-to, and greater-than respectively.",
+        "sound_category_values": {
+            "0": "Sound",
+            "1": "Bleeps",
+            "2": "Alerts",
+            "3": "Fake endoskeleton voicelines",
+            "4": "One octave of notes (chromatic scale: C, C#, D, D#, E, F, F#, G, G#, A, A#, B, C)",
+            "5": "Drums",
+            "6": "Meow"
+        },
+        "device_fields": {
+            "SoundOn": {
+                "description": "Will start to play sound queue when set to 1 and stop when set to 0.",
+                "range": "0, 1"
+            },
+            "TriggerRule": {
+                "description": "Controls the comparison type:-1 : less0 : equal1 : greater",
+                "range": "-1, 0, 1"
+            },
+            "TriggerValue": {
+                "description": "Value, which InputValue will be compared against.",
+                "range": "any"
+            },
+            "InputValue": {
+                "description": "Value, which will be compared against TriggerValue.",
+                "range": "any"
+            },
+            "SoundCategory": {
+                "description": "The category from which a sound is selected using SoundType",
+                "range": "0 - 5"
+            },
+            "SoundType": {
+                "description": "The sound that will be played.",
+                "range": "0 - 99"
+            },
+            "RetriggerRate": {
+                "description": "The delay between each played sound.",
+                "range": "0 - 100"
+            },
+            "RetriggerAmount": {
+                "description": "Limits how often the sound is repeated. Sound is repeated indefinitely if set to 0.",
+                "range": "0 - 99"
+            },
+            "Priority": {
+                "range": "0 - 99"
+            },
+            "Radius": {
+                "range": "0 - 200"
+            }
+        },
+        "material_requirements": {
+            "material_weight_kg": 66.45,
+            "material_required_kv": {
+                "Ajatite": 1.428,
+                "Bastium": 1.785,
+                "Ilmatrium": 1.071,
+                "Vokarium": 2.856
+            }
+        }
+    }
+}

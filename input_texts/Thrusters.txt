@@ -1,0 +1,145 @@
+{{Otherlang2
+|jp=スラスター
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Thrusters_promo.png]]
+	  |factionLogo=
+	  |caption=Box thrusters on an [[OKI Manta]]
+	  |suppressName=1
+	  |border=none
+	}}
+}}
+Thrusters are a mandatory part of spaceships: Not only can a spaceship not move on its own without them, but the game defines a spaceship by their inclusion. Thrusters determine which directions a spaceship can be flown and at what speed, and they require power and propellant to function. Cables and pipes must attach a thrusters [[Hardpoints|hardpoint]] to a network with sufficient power and sufficient [[Propellant tank|propellant]] in order for them to function. The hardpoint '''must''' be bolted '''directly''' to the frame to be seen as a valid thruster hardpoint.
+
+== Basic information ==
+
+* To be able to fly, a spaceship needs at least one thruster.
+** [[Plasma_thruster|Plasma]] Thrusters are the biggest thrusters so far, which can be upgraded to output more thrust. For full thrust they need a warm up time. 
+** [[Box_thruster|Box]] and [[Triangle_thruster|triangle]] thrusters are big "main" thrusters and consist of multiple parts that need to be bolted together.
+** [[Maneuver_thruster|Maneuver]] thrusters enable small movements of the ship such as adjusting yaw and pitch, though they can still be used as main thrusters on smaller ships.
+** Thrusters need to be [[Bolt tool|bolted]] to a [[Hardpoints|hardpoint]] that has access to propellant and electricity.
+*** The [[Hardpoints|hardpoint]] has to be [[Bolt tool|bolted]] to the ship's frame with at least two bolts in order for the mounted thruster to properly function or respond to the [[Main flight computer|main flight computer's]] inputs.
+
+* Thrusters need to be in the same [[Data networks|data network]] as both the [[Flight control unit|flight control unit]] and [[Main flight computer|main flight computer]], if they are to be controlled by the main flight computer.
+
+* Thrusters require power to function.
+** To get power, a [[Cable tool|cable]] has to be drawn from a power source, such as a [[Generator]] or [[Battery]] to the [[Hardpoints|hardpoint]]'s socket. 
+
+* A thruster also requires [[Propellant tank|propellant]] to function.
+** To get propellant, a [[Pipe tool|pipe]] has to be drawn between the device hardpoint and a propellant container.
+
+* Plasma Thrusters will need an additional type of propellant in the future, called Karnite.
+** This new fuel will come in the same containers as regular propellant does. 
+
+== Thruster types ==
+
+There are four different thruster types currently available, with all thrusters except the plasma thruster now having three separate variants outlined as tiers one through three:
+
+{{SB Infobox Compact
+|{{#invoke:Transcluder|main|Box thruster|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Triangle thruster|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Plasma thruster|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Maneuver thruster|only=templates|templates=SB Infobox|makeLink=true|removeSections=SB Infobox Device Construction}}
+}}
+
+{| class="wikitable"
+!colspan="10"|Thrusters comparison 
+|-
+!rowspan="2"|
+!colspan="3"|thrust/electricity
+!colspan="3"|thrust/propellant
+!colspan="3"|thrust/kg
+|-
+!T1
+!T2
+!T3
+!T1
+!T2
+!T3
+!T1
+!T2
+!T3
+|-
+!Box thruster
+|2381
+|style="background-color: green;"|2996
+|2189
+|16150
+|style="background-color: green;"|20396
+|16601
+|26,49
+|29,13
+|style="background-color: green;"|34,43
+|-
+!Triangle thruster
+|3119
+|style="background-color: green;"|3924
+|2866
+|10767
+|style="background-color: green;"|13542
+|11067
+|26,06
+|28,67
+|style="background-color: green;"|33,88
+|-
+!Maneuver thruster
+|1000
+|style="background-color: green;"|1222
+|867
+|2667
+|style="background-color: green;"|3259
+|2889
+|89,69
+|98,65
+|style="background-color: green;"|116,59
+|-
+!Plasma thruster
+|colspan="3"|4380 + 7955 per ring
+|colspan="3"|16129 + 18135 per ring
+|colspan="3"|5,82 + 50,36 per ring
+|}
+
+== Device fields ==
+
+Each of the four thrusters share a set of common device fields (below), but the plasma thruster has additional device fields owing to its unique characteristics.
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ThrusterState'''
+| Requested output of the thruster
+| 0 - 10 000
+|-
+! '''ThrusterCurrentThrust'''
+| Current output of the thruster
+| 0 - 10 000
+|}
+
+In addition to these, the plasma thruster has two extra fields. 
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''isactive'''
+| 1 = charge ; 0 = discharge
+| /
+|-
+! '''chargelevel'''
+| the current charge level of the plasma thruster, must be 1 to produce thrust
+| 0 - 1
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+
+== Related Content ==
+<!--[[File:Box_thruster_resource_usage_(dark).png|400px]] [[File:Triangle_thruster_resource_usage_(dark).png|400px]] [[File:Maneuver_thruster_resource_usage_(dark).png|400px]]-->[[File:Plasma_thruster_resource_usage_(dark).png|400px]]
+[[File:Thruster_exhaust_1.jpg|400px]]
+[[File:Thruster_exhaust_2.jpg|400px]]
+
+[[Category:Devices and machines|Thrusters]]

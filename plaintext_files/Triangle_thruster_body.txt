@@ -1,0 +1,100 @@
+An empty tier 2 triangle thruster body
+Triangle thruster body
+Type
+Thruster device
+Function
+Houses thruster components
+The triangle thruster body is a device designed to house other components required for the triangle thruster to function, and to provide convenient mounting points along its hull. The triangle thruster body is unique in that it also contains three resource ports that can share propellant and electricity with adjacent thrusters, enabling the construction of larger thruster banks that all operate from the same hardpoint. However, when triangle thrusters are assembled this way, they will always act as one thruster, and individual thrusters in the array cannot fire without also firing the rest of the thruster bank.
+Types
+The triangle thruster body is currently available in the following styles:
+Tier 1 body
+Size
+144×144×144 cm
+Mass
+5,671.2 kg
+Volume
+569.97 kv
+Corrosion resistance
+280
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+3
+Device interfaces
+1
+Composition
+Bastium
+35%
+Charodium
+50%
+Vokarium
+15%
+Tier 2 body
+Size
+144×144×144 cm
+Mass
+5,511.6 kg
+Volume
+569.97 kv
+Corrosion resistance
+505
+Primary material
+Aegisium
+Input / Output
+Modular interfaces
+3
+Device interfaces
+1
+Composition
+Aegisium
+45%
+Bastium
+20%
+Charodium
+30%
+Vokarium
+5%
+Tier 3 body
+Size
+144×144×144 cm
+Mass
+5,671.2 kg
+Volume
+569.97 kv
+Corrosion resistance
+411
+Primary material
+Ymrium
+Input / Output
+Modular interfaces
+3
+Device interfaces
+1
+Composition
+Bastium
+35%
+Charodium
+23%
+Kutonium
+15%
+Vokarium
+7%
+Device fields
+YOLOL field
+description
+range
+ThrusterState
+Requested output of the thruster
+0 - 10 000
+ThrusterCurrentThrust
+Current output of the thruster
+0 - 10 000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related pages
+Box thruster
+Triangle thruster
+Maneuver thruster

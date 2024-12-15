@@ -1,0 +1,30 @@
+Power plug
+Type
+Utility device
+Function
+Modular cable socket
+Size
+24×24×12 cm
+Mass
+40.60 kg
+Volume
+4.08 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Electric input
+10,000 e/s
+Electric output
+10,000 e/s
+Sockets
+1
+Modular interfaces
+1
+Composition
+Bastium
+100%
+The power plug is a simple tool used to connect a modular device panel like the control table to the cable network via a socket, or vice versa.
+Related Pages
+Generator (Assembly)

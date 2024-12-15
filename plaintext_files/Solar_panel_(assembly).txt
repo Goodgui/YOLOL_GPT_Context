@@ -1,0 +1,39 @@
+An assembled solar panel array, with optional turntable
+Solar panel (assembly)
+Type
+Power device
+Function
+Converts solar power to network power
+Sub-components
+Solar panels are complex devices used to generate electricity via the conversion of solar power. They can be assembled in a variety of ways to suit the requirements of the operator, and made to automatically track the sun to maximize their generation potential. Adjacent solar panels and solar panel light sensors are automatically added to the same device network, and do not require individual hardpoints to provide power.
+Device fields
+Solar panel light sensor
+YOLOL field
+Description
+Range
+LightDetected
+Whether the sensor is currently facing a viable source of light
+0 - 1
+LightOffsetVertical
+Vertical offset of the panel to the source of light, in degrees
+-90 - 90
+LightOffsetHorizontal
+Horizontal offset of the panel to the source of light, in degrees
+-90 - 90
+Solar power converter
+YOLOL field
+Description
+Range
+ConverterPriority
+Usage priority for the device
+0 - 1
+ConverterOutput
+Power generated after performing the conversion process
+∞
+ArrayAreaTotal
+Total surface area of attached solar panels
+Number expressed in square meters
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

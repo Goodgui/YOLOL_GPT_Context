@@ -1,0 +1,41 @@
+Device,Field,Description,Range
+Battery,StoredBatteryPower,Current charge level of the battery,0 - 10,000
+Battery,MaxBatteryPower,Maximum charge level of the battery,10,000
+Cargo Beam,CargoBeamOnState,Dictates whether the beam is on or off (0 = off, any other value = on),0 or 1
+Cargo Beam,CargoBeamSearchLength,The maximum distance from where the beam can lock onto objects (measured in meters),0 - 1,000
+Cargo Beam,CargoBeamStatus,Current status of the beam (0 = off/unlocked, 1 = touching object but unlocked, 2 = locked),0 - 2
+Fuel Chamber,FuelChamberFuel,Amount of fuel currently available in this chamber's fuel rod,0 - 300,000
+Fuel Chamber,FuelChamberMaxFuel,Maximum amount of fuel that can be stored in this chamber's rod,0 - 300,000
+Fuel Chamber,FuelChamberStoredHeat,Amount of heat currently stored in the fuel chamber,0 - 1,500
+Fuel Chamber,FuelChamberMaxStoredHeat,Maximum amount of heat that can be stored in the fuel chamber,1,500
+Fuel Chamber,FuelChamberUnitRateLimit,Upper limit for conversion rate for this fuel chamber (percentage),0 - 100
+Fuel Chamber,FuelChamberUnitRate,Current conversion rate for this fuel chamber (percentage),0 - 100
+Generator,ElectricityProduction,Amount of electricity the generator unit is producing per second,0 or more
+Generator,HeatProduction,Amount of heat the generator unit is producing per second,0 or more
+Generator,GeneratorUnitRateLimit,Upper limit for conversion rate for this generator unit (percentage),0 - 100
+Generator,GeneratorUnitRate,Current conversion rate for this generator unit (percentage),0 - 100
+Generator,GeneratorUnitStoredHeat,Amount of heat currently stored in the generator unit,0 - 1,500
+Cooler,CoolerUnitRateLimit,Upper limit for conversion rate for this cooler (percentage),0 - 100
+Cooler,CoolerUnitRate,Current conversion rate for this cooler (percentage),0 - 100
+Radiator,RadiatorHeatDissipation,Current radiation rate for this radiator (base),0 - 1,500
+Radiator,RadiatorStoredHeat,Current amount of heat in this radiator (base),0 - RadiatorMaxStoredHeat
+Radiator,RadiatorMaxStoredHeat,Maximum amount of heat that can be stored in the radiator base,1,500
+Lamp,LampOn,Determines whether the light is on (0 = off, 1 = on),0 - 1
+Lever,LeverState,Lever's current state between LeverMinOutput and LeverMaxOutput,LeverMinOutput - LeverMaxOutput
+Lever,LeverMinOutput,Unidirectional - Output in low end, Bidirectional - Output in left end,N/A
+Lever,LeverMaxOutput,Unidirectional - Output in high end, Bidirectional - Output in right end,N/A
+Lever,LeverCenterOutput,Output value when the lever is in the center,N/A
+Lever,LeverCenterDeadZone,How large is the dead zone in the center of an unidirectional lever,N/A
+Range Finder,RangeFinderOnState,Whether the range finder should try to be on (0 = off, any other value = on),0 or more
+Range Finder,RangeFinderSearchLength,The maximum distance to check for hits (meters),0 - 1,000
+Range Finder,RangeFinderDistance,The distance the laser goes (meters, accuracy 1 mm),N/A
+Radio Transmitter,TransmitMessage,Message being sent,N/A
+Radio Transmitter,TransmitRange,Range where the message can be received,1,000,000
+Radio Transmitter,Frequency,The frequency channel the transmitter will send signals to,1
+Mining Laser,MiningLaserOn,Mining laser on/off (0 = off, 1 = on),0 - 1
+Mining Laser,MiningLaserBeamLength,The length of the beam (meters),0 - 20
+Tractor Beam,tractorBeamOnState,Beam on/off,1 or 0
+Tractor Beam,tractorBeamSearchLength,Length of the beam when not attached (meters),0 - 100
+Tractor Beam,tractorBeamForce,Maximum force the beam will apply,0 - 50,000
+Tractor Beam,tractorBeamTorque,Maximum torque the beam will apply,0 - 50,000
+Tractor Beam,tractorBeamObjectInBeam,Indicates whether an object is grabbed by the beam,1 or 0

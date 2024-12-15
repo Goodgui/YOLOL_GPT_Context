@@ -1,0 +1,91 @@
+{{Otherlang2
+|jp=レーザーデジネーター（アセンブリ）
+|ua=Лазерний цілевказувач (комплект)
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Laser designator (assembly, blown-up).png]]
+	  |factionLogo=
+	  |caption=The components of an assembled laser designator
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Weapon device
+	  |function=Guides [[Torpedo|torpedoes]]
+	  
+	  |size=132×84×36 cm
+	  |mass=2,538
+	  |volume=255
+	  |corrosionResistance=370
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Passive
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+	|{{SB Infobox Component Section
+	  |Laser designator
+	  |Utility tool body type 2
+	  |Utility tool capacitor
+	}}
+}}<section begin=summary/>The Laser Designator is a device used primarily in combination with [[Torpedo|torpedos]] to guide them towards a target. <section end=summary/>
+
+== Basic information ==
+
+*Laser Designators need to hit a target in order for the torpedo laser sensor to update their fields.<br> 
+*The Laser Designator fits into the utility tool body 2 only.<br>
+*Currently the Laser Designator functions without a power supply.<br>
+*Connecting the Laser Designator to a power source will randomly reset its active field to 0. <br>
+*A torpedo linked to a Laser Designator can use the acquired field information to guide itself towards the tip of the laser using YOLOL.<br>
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''Active'''
+| Turns the laser designator on/off
+| 0 - 1
+|-
+! '''LaserLength'''
+| The maximum length of the beam. Measured in meters.
+| 0 - 1000
+|-
+! '''IdentifierId'''
+| What torpedo laser sensors connect to when IdentifierId is the same. Both strings and numbers can be used.  
+|
+|-
+! '''TargetFound'''
+| 1 if the designator is hitting a surface, otherwise 0.
+| 0 - 1
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+* [[Torpedo|Torpedo]]
+
+[[Category:Devices and machines|Laser Designator]]

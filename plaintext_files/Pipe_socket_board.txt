@@ -1,0 +1,39 @@
+Pipe socket board
+Type
+Coolant device
+Function
+Connects generators to pipe network
+Size
+96×96×48 cm
+Mass
+731.23 kg
+Volume
+73.49 kv
+Corrosion resistance
+335
+Primary material
+Bastium
+Input / Output
+Sockets
+4
+Modular interfaces
+1
+Composition
+Bastium
+45%
+Charodium
+25%
+Vokarium
+30%
+The pipe socket board provides a generator with access to the pipe network. This is an important step in connecting a radiator to the generator. It should be noted that cube heatsinks attached directly to the generator can also be used for pipe connection.
+Basic Usage
+Allows for transfer of heat between generator, heatsinks and radiators.
+Can distribute a maximum of 100,000
+Heat
+per second.
+Connects pipes.
+Related Articles
+Generator (Assembly)
+Radiator
+Heatsink
+Heat mechanics

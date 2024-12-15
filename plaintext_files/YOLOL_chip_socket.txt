@@ -1,0 +1,33 @@
+YOLOL chip socket
+Type
+YOLOL device
+Function
+Reads YOLOL chips
+Size
+48×48×24 cm
+Mass
+362.18 kg
+Volume
+36.40 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Electric input
+Passive
+Sockets
+4
+Chip slots
+1
+Composition
+Bastium
+100%
+YOLOL chip socket is a base device, which relays power and connection to a data network for the YOLOL chip. Another option for mounting YOLOL chips is the Modular device rack.
+Basic information
+Chip sockets have:
+Four cable slots
+Bolting spots in each corner
+Chip sockets are placed to any construct (ship, station or machine) that requires YOLOL to work.
+The socket is then bolted to the structure and cabled to a network with power and YOLOL chip's target devices.
+Several chip sockets can be placed side by side and they connect to each other without cables.

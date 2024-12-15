@@ -1,0 +1,54 @@
+{
+    "CargoLockFrame": {
+        "Type": "Cargo device",
+        "Function": "Carries cargo in stasis",
+        "InputOutput": {
+            "ElectricInput": "1 e/s per cubic meter"
+        },
+        "Description": "OUTDATED Cargo-lock frames are a number of devices that can be configured to form a cargo-lock frame assembly, which can be used to transport objects without needing to physically bolt them down. Cargo-lock frames create a stasis field that holds objects within them in place, and can be built to size as needed. For safety reasons, a cargo-lock frame won't activate if there is an endoskeleton inside them, and an active cargo-lock frame is similarly physically inaccessible to an endoskeleton.",
+        "Parts": [
+            {
+                "Type": "48cm Linear",
+                "Mass": "185 kg",
+                "Volume": "18.59 kv",
+                "CorrosionResistance": "340",
+                "PrimaryMaterial": "Bastium",
+                "Composition": {
+                    "Bastium": "20.01%",
+                    "Karnite": "15%",
+                    "Kutonium": "30%",
+                    "Nhurgite": "15%",
+                    "Vokarium": "20%"
+                }
+            },
+            {
+                "Type": "144cm Linear",
+                "Mass": "598 kg",
+                "Volume": "60.06 kv",
+                "CorrosionResistance": "340",
+                "PrimaryMaterial": "Bastium",
+                "Composition": {
+                    "Bastium": "20.01%",
+                    "Karnite": "15%",
+                    "Kutonium": "30%",
+                    "Nhurgite": "15%",
+                    "Vokarium": "20%"
+                }
+            },
+            {
+                "Type": "48cm corner",
+                "Mass": "429 kg",
+                "Volume": "43.09 kv",
+                "CorrosionResistance": "340",
+                "PrimaryMaterial": "Bastium",
+                "Composition": {
+                    "Bastium": "20.01%",
+                    "Karnite": "15%",
+                    "Kutonium": "30%",
+                    "Nhurgite": "15%",
+                    "Vokarium": "20%"
+                }
+            }
+        ]
+    }
+}

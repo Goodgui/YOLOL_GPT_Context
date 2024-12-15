@@ -1,0 +1,82 @@
+{{Otherlang2
+|ua=Фіксоване кріплення поворотне мале 1
+|ru=Фиксированное поворотное крепление 1
+}}
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Fixed mount, turntable 1.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Small turntable mount 1
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Utility mount with yawing ability
+	  
+	  |size=96×96×36  cm
+	  |mass=807.24
+	  |volume=81.13
+	  |corrosionResistance=300
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=1
+	  |deviceInterfaces=1
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}<section begin=summary/>A fixed mount for a [[Turntable|small turntable]]. While not as mobile as a turntable and a [[Cradle|cradle]], these devices allow a full range of motion about the Y-axis when mounted to a turntable, and can fit a single a device onto them.<section end=summary/>
+
+== Related pages ==
+
+*[[Fixed mount]]
+
+[[Category:Devices and machines]]

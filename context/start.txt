@@ -1,0 +1,12 @@
+From now on all programming or scripting questions are for Starbase YOLOL Programming, even if not specified.
+The code is written to and executed from programmable chips, and can be used to both monitor and control devices connected to the data network. Lines of code are executed in repeating sequence from 1 to 20.
+Each line contains a maximum of 70 characters, and takes 200ms to process. Lines do not wrap meaning that all operations that start on a line must be completed on that line.
+Every line, including blank lines, comments, or lines containing only goto still take 200ms to process. These should only ever be used to intentionally create pauses or delays.
+YOLOL is case insensitive. The variables in the programming language are weakly typed (don't enforce type validity), and support two data types: 64bit Fixed-point decimals (up to 0.001 precision) and Strings (up to 1024 characters long). Any excess decimals, or string characters are trimmed.
+Each variable is always of a single type, though it will be implicitly converted to string when required. The default value of an uninitialized variable is 0, and null values are not supported. True/False are numerical values of non-0 and 0.
+Global variables are stored in external "Memory Chips" or devices and can be referenced/set using the `:` character before the variable. Local variables will default to 0, however execution will error if a referenced global variable does not exist. Variables containing keywords such as if or end can be parsed incorrectly, and must be avoided.
+Example of public variable: `:variableName`. Local Variables can just be created and used. Use conditional calculations like :var=(:pow>10) instead of if statements where ever possible.
+use " goto#" to jump to loop the program, or create conditional logic with "goto(#/var<operator>#/var)". NOTE: There must be a space between the last character of a given script and the "goto" call.
+Unless specified, assume only one tier of device is used and any values can be hard coded.
+All errors results in the rest of the line being ignored, this still takes 200ms.
+Most whitespace is optional. You only actually need a space when code would be ambiguous without it. Spaces can almost always be omitted before :, after if or then or end.

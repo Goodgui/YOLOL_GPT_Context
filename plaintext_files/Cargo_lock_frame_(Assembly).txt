@@ -1,0 +1,40 @@
+Cargo lock frame (Assembly)
+Type
+Cargo device
+Function
+Freezes objects in place
+Input / Output
+Electric input
+1 e/s per cubic meter of volume
+Sub-components
+A cargo lock frame is formed from a series of components, which -- when properly assembled -- holds objects within it in static place. Because of this, cargo lock frames are optimal for transportation of cargo of any kind. The cargo lock frame can be transported inside a spaceship, with a cargo beam, or even by hand.
+Basic information
+In order to function, the cargo lock frame needs to be constructed properly from specific individual components, consisting of multiple side pieces, and eight corner pieces.
+When the frame is constructed and bolted together, device controller is attached to it and power is provided, cargo lock frame can be activated, locking cargo inside it in place.
+Cargo lock frames on/off state can be controlled with buttons and levers, or with YOLOL.
+Cargo mass is evenly distributed between all cargo lock frame parts.
+Power consumption when turned on: 1 electricity per second for each cubic meter.
+Cargo lock frame can be found on the mining ship Urchin by default.
+Auto bolting does not currently (as of 18th August 2021) bolt the lock frames together. Auto bolting will bolt the lock frames to any adjacent beams but not other lock frames. The lock frame will still power up though (last tested 28th September 2021).
+Physical objects cannot penetrate the lock frame field once activated, but the following beams will penetrate the lock frame field while active (blue):
+Tractor Beam will penetrate the lock frame field but will not pull or push objects once they are inside an activated lock frame field. They can however pull or push objects through (outside) the field.
+Mining Lasers can penetrate the lock frame field.
+Cargo Lock beams can penetrate the lock frame field although this is largely pointless because the lock frame field holds any objects inside in stasis.
+Range Finder beams cannot penetrate the lock frame field, they will register the field exterior as the distance.
+Device fields
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+YOLOL field
+description
+range
+CargoFrameState
+Is the force field on or off
+0 - 1
+Gallery
+Inactive grid
+Cargo lock frame parts
+Device controller
+Device controller bolted to the frame with button attached to it
+Tractor Beam Penetrating Activated Cargo Lock Frame

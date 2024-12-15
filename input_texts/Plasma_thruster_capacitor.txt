@@ -1,0 +1,57 @@
+{{Otherlang2
+|jp=プラズマスラスターキャパシター
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Plasma thruster, capacitor.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Stores charge for plasma thrusters
+	  
+	  |size=156×168×132 cm
+	  |mass=11,967.3
+	  |volume=1,278.56
+	  |corrosionResistance=668
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+	
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=26%
+	  |ajatite=
+	  |arkanium=25%
+	  |bastium=
+	  |charodium=
+	  |corazium=15%
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=5%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=29%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The plasma thruster capacitor is a device that mounts to the [[Plasma thruster capacitor struct|capacitor struct]] of a [[Plasma thruster|plasma thruster]]. They store vast amounts of charge, and four of them are required for a properly assembled plasma thruster.<section end=summary/>
+
+== Related pages ==
+
+*[[Plasma thruster]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,52 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Fast travel gate core support.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Navigation device
+	  |function=Part of a [[Fast travel gate core|warp device]]
+	  |availability=
+	  |size=576×288×180 cm
+	  |mass=21,968
+	  |volume=2,207.8
+	  |corrosionResistance=330
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=85%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=15%
+	  |xhalium=
+	}}
+
+}}<section begin=summary/>The fast travel gate core support accounts for two of the seven components of a properly assembled [[Fast travel gate core|fast travel gate core]]. Two are required for the device, and they support the entire device from opposite sides.<section end=summary/>
+
+[[Category:Devices and machines]]

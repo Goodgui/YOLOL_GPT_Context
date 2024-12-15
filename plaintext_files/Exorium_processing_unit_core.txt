@@ -1,0 +1,44 @@
+Exorium processing unit core
+Size
+576×576×576 cm
+Mass
+24,302.25 kg
+Volume
+2,767.91 kv
+Corrosion resistance
+676
+Primary material
+Ymrium
+Input / Output
+Fuel conversion rate
+4,200 per second
+Modular interfaces
+6
+Composition
+Aegisium
+28%
+Arkanium
+15%
+Corazium
+20%
+Lukium
+22%
+Ymrium
+15%
+Core of the exorium processing unit, positioned inside the outer shell. Turns liquid exorium into processed fuel usable by large generators.
+Device fields
+YOLOL field
+Description
+Range
+ProcessingUnitRateLimit
+Upper limit for conversion rate for this processor
+0 - 100
+ProcessingUnitRate
+Current conversion rate for this processor. Conversion is being performed at 1 conversion * this percentage per second.
+0 - 100
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Exorium processing unit (Assembly)

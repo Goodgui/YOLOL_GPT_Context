@@ -1,0 +1,71 @@
+Large generator core
+Size
+576×576×576 cm
+Mass
+28,930.89 kg
+Volume
+3,295.09 kv
+Corrosion resistance
+473
+Primary material
+Ymrium
+Input / Output
+Electric output
+70,000 per second
+Heat capacity
+1,500
+Heat generation
+2,560 per second
+Heat transfer
+75 per second
+(to radiator)
+Heat dissipation
+5 per second
+Modular interfaces
+6
+Composition
+Arkanium
+11%
+Charodium
+21%
+Corazium
+8%
+Lukium
+12%
+Vokarium
+23%
+Ymrium
+25%
+Core of the large generator unit, positioned inside the outer shell. Creates electricity and waste heat from processed fuel provided by Exorium Processing Unit.
+Resource details:
+Max rate without external cooling: approx. 3%
+Max rate with radiators: approx. 53%
+Needs 2 heat sinks and 1 radiator block to run at 100%
+Device fields
+YOLOL field
+Description
+Range
+ElectricityProduction
+Current electrical output
+0 - 70,000
+HeatProduction
+Current heat output
+0 - 2,560
+GeneratorUnitRateLimit
+Maximum electrical output, expressed as a percentage
+0 - 100
+GeneratorUnitRate
+Current electrical output, expressed as a percentage
+0 - 100
+GeneratorUnitStoredHeat
+Amount of heat stored inside the generator core
+0 - 1,500
+GeneratorUnitMaxStoredHeat
+Maximum value for heat storage
+0 - 1,500
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Large generator (Assembly)

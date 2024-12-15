@@ -1,0 +1,29 @@
+Laser designator
+Type
+Utility device
+Function
+Provides tracking data for torpedoes
+Size
+60×36×36 cm
+Mass
+500.8 kg
+Volume
+50.33 kv
+Corrosion resistance
+720
+Primary material
+Bastium
+Composition
+Arkanium
+20%
+Bastium
+15%
+Corazium
+15%
+Surtrite
+40%
+Vokarium
+10%
+The laser designator is a device that projects a beam where the user points it. Torpedoes can then detect the beam and home in on it via the use of YOLOL. Maximum range is 1km (tested 2021.09.02) same as the Rangefinder.
+Related Pages
+Laser designator (Assembly)

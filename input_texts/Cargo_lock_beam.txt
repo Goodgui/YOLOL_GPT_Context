@@ -1,0 +1,108 @@
+{{Otherlang2
+|de=Cargo_beam:de
+|fr=Cargo_beam/fr
+|zh-cn=货运光束
+|ru=Грузовой луч
+|pl=Cargo_beam:pl
+|ua=Вантажний промінь
+|jp=カーゴビーム
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase cargo beam .png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Cargo Lock Beam
+	  |subtitle=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Cargo device
+	  |function=Towing objects
+	  
+	  |size= 72 × 72 × 12 cm
+	  |mass=546.35
+	  |volume=54.91
+	  |corrosionResistance=400
+	  |primaryMaterial=Bastium
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=5 + (0.002 ⋅ 𝑥 kg) e/s
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=1
+	}}
+
+	|{{SB Infobox Device Construction
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=45%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=30%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=25%
+	  |xhalium=
+	}}
+}}
+The cargo lock beam emits a laser which locks onto any object on its trajectory, and is most commonly used in spaceships designed for cargo transportation, and especially asteroid haulers.
+For safety reasons, the locking laser does not affect [[Endoskeleton|endoskeletons]].
+
+== Basic information ==
+In order for the cargo beam to lock onto objects and to be able to lift or otherwise move them, at least three beams should target the desired object from different directions.The beams should simultaneously hit the object from perpendicular angles. For example: If the object is a cube, the cargo beams should target the cube from at least three different sides. Cargo lock beams are currently unable to lock on to any player built object that includes thrusters (is considered a ship).
+
+Power consumption of the cargo lock beam is variable, and changes significantly depending on the mass of the object being towed. They require a base electricity input of 5 e/s, plus an additional 0.002 e/s per kilogram of mass of the object being towed. It is important to remember that the mass applied to each cargo-lock beam (and thus, how much electricity each requires) is equal to the object mass divided by the number of cargo lock beams applied to it.
+
+For example: a 1,500 kg object being towed by 3 cargo lock beams:
+
+<span style="background: rgba(49, 68, 77, 0.25);padding: .8em;border: 1px solid #304344;margin: 0.5em;line-height: 3em;">5 + ((1,500 / 3) ⋅ 0.002) = 6 e/s</span>
+
+.. will consume 6 e/s per beam.
+
+== Device fields ==
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''CargoBeamOnState'''
+| Dictates whether the beam is on or off. 0 = off, any other value = on.
+|
+|-
+! '''CargoBeamSearchLength'''
+| The maximum distance from where the beam can lock onto objects. Measured in meters.
+| 0 - 1000
+|-
+! '''CargoBeamStatus'''
+| The current status of the beam, 0 = off or unlocked, 1 = touching object but unlocked, 2 = locked
+| 0 - 2
+|}
+To learn more about the usage of fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+
+[[Category:Devices and machines|Cargo beam]]

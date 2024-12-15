@@ -1,0 +1,52 @@
+An assembled towing beam
+Towing beam
+Type
+Utility device
+Function
+Towing other ships
+Size
+300×96×72 cm
+Mass
+7,883.98 kg
+Volume
+792.36 kv
+Corrosion resistance
+400
+Input / Output
+Electric input
+5 e/s per ton towed
+Sub-components
+The towing beam is a device that can be used to tow other ships.
+The towing beam uses power relative to the mass of the ship being towed (5e/s per ton), this mass is also added to the ship's mass, slowing the towing ship, but not adding any stress.
+Outside of a safezone any ship can be towed, inside a safezone only un-owned ships are able to be towed.
+Device fields
+Towing beam
+YOLOL field
+description
+range
+TowBeamOnState
+The towing beam turns off when this is set to 0 and on when set to anything else
+0 - 1
+TowBeamSearchLength
+The distance the beam will try extend to, and try to grab ships from.
+200
+TowBeamStatus
+0 if off, 1 if on, 2 if a ship is being towed.
+0 - 2
+LockedMass
+The mass of the towed ship, in kg.
+0 -
+Utility tool capacitor
+YOLOL field
+description
+range
+StoredLocalPower
+How much power is stored in the capacitor
+0 - 4000
+MaxLocalPower
+Maximum amount of power that can be stored
+4000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

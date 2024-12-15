@@ -1,0 +1,41 @@
+Ore collector
+Type
+Utility device
+Function
+Gathers mined ore
+Size
+108×84×60 cm
+Mass
+2,159 kg
+Volume
+223.2 kv
+Corrosion resistance
+710
+Primary material
+Aegisium
+Composition
+Aegisium
+47%
+Ajatite
+22%
+Arkanium
+19%
+Exorium
+12%
+The ore collector is a device that efficiently collects mined ore, and is often used in conjunction with the mining laser. They are also used in the tutorial halls at the mining job. A value of 2,000 in the Power field is recommended for 2 or more lasers, with an extra 1,000 per lasers above 4. Alternatively, multiple collectors may be used.
+Device fields
+YOLOL field
+description
+range
+ToggleOn
+Ore collector turns off when this is set to 0 and on when set to anything else
+0 - 1
+Power
+Determines how fast the collector collects ore, and how much power it consumes in KV.
+0 - 6000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Pages
+Ore collector (Assembly)

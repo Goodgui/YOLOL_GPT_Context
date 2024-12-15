@@ -1,0 +1,187 @@
+!
+This page contains information that
+        pertains only to the
+closed alpha
+version of the game, which was discontinued on July 26th, 2021. It has been kept up for posterity only,
+        but you may still
+edit
+          it.
+The small 3D printer
+3D Printer
+Type
+Station device
+Function
+Constructs station parts
+Availability
+X Constructs
+Used with station or ship blueprint chips to automate the building of a blueprint.
+Types
+Small printer
+Size
+216×108×216 cm
+Mass
+32,128.85 kg
+Volume
+3,229.03 kv
+Corrosion resistance
+439
+Primary material
+Bastium
+Input / Output
+Electric input
+10,000 e/s
+Sockets
+4
+Modular interfaces
+8x 24cm
+Composition
+Ajatite
+14%
+Arkanium
+22%
+Bastium
+11%
+Charodium
+15%
+Kutonium
+20%
+Vokarium
+18%
+Large printer
+Size
+864×432×324 cm
+Mass
+721,414.06 kg
+Volume
+103,206.59 kv
+Corrosion resistance
+474
+Primary material
+Arkanium
+Input / Output
+Electric input
+10,000 e/s
+Sockets
+12
+Modular interfaces
+15x 24cm
+Composition
+Ajatite
+15.68%
+Arkanium
+24.64%
+Bastium
+0.31%
+Charodium
+16.8%
+Corazium
+8.96%
+Kutonium
+22.4%
+Vokarium
+11.2%
+Small 3D Printer
+The small 3D printer is a smaller, but slower version of the large printer. It has an integrated utility
+      box and can accept it's own fuel rod, or use power
+      provided from other sources
+3D Printer
+The large 3D printer requires a Utility box to connect to a station's power grid and to access the station
+      inventory for material and to output complete parts.
+How to use
+Small 3D Printer
+Insert fuel rod into the printer
+Insert the blueprint chip
+You can buy these from the Marketplace.
+Turn on the printer
+Change UtilityConnection field to 1, this is required to allow printer to put finished items into
+            station storage.
+Change PrinterControl field to 1 and make sure PrinterOrderAmount is above 0 (should be 1 by
+            default).
+Printer requires access to the building materials for each piece (through station storage or
+            connected ore crates)
+3D Printer
+Prepare the printer
+Requires a lot of power, it's recommended to use a Utility box and to purchase electricity to the
+            station storage.
+Radiators must be used to cool the printer, one printer needs approximately 17 radiators.
+Printer needs to be connected to a storage. Use pipe connection with a Utility box.
+Insert a blueprint chip
+Turn on the printer
+Change PrinterControl field to 1.
+Printer requires access to the building materials for each piece (through station storage or
+            connected ore crates)
+Device fields
+YOLOL Field
+Description
+Range
+PrintingRateLimit
+[0, inf]
+PrintingRate
+[0, inf]
+WorkingRateLimit
+[0, inf]
+WorkingRate
+Shows the time for the CurrentItemWorkRemaining at the current moment, affected by the radiator
+            efficiency.
+[0, inf]
+CurrentItemWorkRemaining
+Shows amount of work remaining for selected item, calculated every time CurrentItem changes and
+            printer is on (-1 if printer is not on).
+-1[0, inf]
+UtilityConnection
+Connects the printer's internal inventory to the station's/ship's inventory for material access and
+            item output.
+0/1
+PrinterControl
+Used to control the printer. 0: off, 1: on, -1: manual cancel of ongoing operation.
+-1/0/1
+PrinterStatus
+Current state of the printer. 0: idle, 1: waiting for materials, 2: printing, 3: waiting for output.
+0/1/2/3
+PrinterOrderAmount
+Used to select the number of times full blueprint is printed. Decrements by 1 every time the final
+            item on the blueprint is completed unless already at or below 0,
+printer repeats from the first piece of not 0. -1 repeats printing indefinitely.
+-1[0, inf]
+CurrentItem
+Index of selected item within blueprint chip.
+[0, inf]
+BlueprintItemCount
+Amount of items in currently inserted blueprint chip. Updated when blueprint chip is inserted or
+            removed (0 if no chip).
+[0, inf]
+To learn more about the usage of fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Material
+Small Printer
+Large Printer
+Weight (Kg)
+32 128
+1 027 070
+Material Required (Kv)
+Ajatite
+1 173
+38 343
+Bastium
+921
+767
+Charodium
+1 256
+41 082
+Merkerium
+1 675
+54 776
+Tengium
+1 843
+60 254
+Ukonium
+670
+21 910
+Vokarium
+838
+27 388
+To learn more about materials, consult these wiki pages:
+Materials
+Ores

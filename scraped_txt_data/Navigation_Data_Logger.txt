@@ -1,0 +1,280 @@
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[File:Navigation_data_logger_chip_saving.JPG]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	  |edgeless=true
+	}}
+|{{SB Infobox Device General Information
+	  |type=Navigation device
+	  |function=Saves location data to Navigation Chips
+	  
+	  |size=1152×1152×456 cm
+	  |mass=389,036
+	  |volume=29,975
+	  |corrosionResistance=456-536
+	  |primaryMaterial=Ymrium
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Passive
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=1
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Back
+	  |aegisium=
+	  |ajatite=18%
+	  |arkanium=
+	  |bastium=
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=16%
+	  |kutonium=20%
+	  |lukium=31%
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+|ymrium=15%
+	}}
+|{{SB Infobox Device Construction
+	  |headerOverride=Connector
+	  |aegisium=
+	  |ajatite=18%
+	  |arkanium=
+	  |bastium=
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=16%
+	  |kutonium=20%
+	  |lukium=31%
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+|ymrium=15%
+	}}
+|{{SB Infobox Device Construction
+	  |headerOverride=Corner
+	  |aegisium=
+	  |ajatite=18%
+	  |arkanium=
+	  |bastium=
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=16%
+	  |kutonium=20%
+	  |lukium=31%
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+|ymrium=15%
+	}}
+|{{SB Infobox Device Construction
+	  |headerOverride=Mainframe
+	  |aegisium=
+	  |ajatite=15%
+	  |arkanium=
+	  |bastium=
+	  |charodium=
+	  |corazium=10%
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=15%
+	  |lukium=30%
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+|ymrium=15%
+	}}
+|{{SB Infobox Device Construction
+	  |headerOverride=Monitor
+	  |aegisium=
+	  |ajatite=22%
+	  |arkanium=
+	  |bastium=
+	  |charodium=
+	  |corazium=12%
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=18%
+	  |kutonium=12%
+	  |lukium=20%
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+|ymrium=16%
+	}}
+|{{SB Infobox Device Construction
+	  |headerOverride=Sensor
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=14%
+	  |bastium=
+	  |charodium=
+	  |corazium=20%
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=12%
+	  |lukium=11%
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=22%
+	  |xhalium=
+|ymrium=21%
+	}}
+|{{SB Infobox Device Construction
+	  |headerOverride=Side
+	  |aegisium=
+	  |ajatite=18%
+	  |arkanium=
+	  |bastium=
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=16%
+	  |kutonium=20%
+	  |lukium=31%
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+|ymrium=15%
+	}}
+}}<section begin=summary/>When Capital ship is ready for fast travel it can fast travel to destinations saved into Navigation Chips with Navigation Data Logger. Saved Navigation Chip are shown in Fast Travel Terminal as available fast travel destinations when having the chip in inventory. Navigation Data Logger is unlocked in "Advanced Crafting Tree". <section end=summary/>
+
+== Functionality ==
+
+Travel to the location in the universe you wish to save, insert empty Navigation Chips into the chip slots, and select the amount of chips you want to save the location to.
+
+# Navigation Data Logger needs to be fully assembled and connected to an electricity source in order to function
+# Insert empty Navigation Chip(s) into the provided slots in order to save the current location into the Navigation Chips
+# Select the amount of chips you wish to save the location to, and give a name to the Navigation Chips 
+# Saving a location to a Navigation Chip requires 6000 electricity per second for 10 minutes
+
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Navigation_chip.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Navigation Chip
+	  |border=none
+	  |edgeless=true
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Chip device
+	  |function=Stores data
+	  
+	  |size=46×31×6 cm
+	  |mass=70.95
+	  |volume=6.37
+	  |corrosionResistance=475
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=39.99%
+	  |arkanium=
+	  |bastium=20.02%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=15%
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=24.99%
+	  |xhalium=
+	}}
+}}
+
+[[Category:Devices and machines]]

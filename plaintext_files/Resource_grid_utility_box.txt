@@ -1,0 +1,39 @@
+!
+This page contains information that pertains only to the
+closed alpha
+version of the game, which was discontinued on July 26th, 2021. It has been kept up for posterity only, but you may still
+edit it.
+Resource grid utility box
+Type
+Utility device
+Function
+Break-out junction for station power
+Availability
+X-Constructs
+Size
+216 × 96 × 216 cm
+Mass
+37,314.7 kg
+Volume
+4141.48 kv
+Corrosion resistance
+511
+Primary material
+Vokarium
+Input / Output
+Sockets
+10
+Composition
+Aegisium
+18%
+Ajatite
+15%
+Bastium
+21%
+Valkite
+22%
+Vokarium
+24%
+The resource grid utility box is a device used to connect ordinary to a station's power network.
+Related pages
+Station creator

@@ -1,0 +1,33 @@
+Solar panel
+Type
+Power device
+Function
+Produces solar power
+Size
+144×144×12 cm
+Mass
+3.321.6 kg
+Volume
+221.44 kv
+Corrosion resistance
+510
+Primary material
+Charodium
+Input / Output
+Electric output
+50 e/s
+Composition
+Aegisium
+40%
+Bastium
+10%
+Charodium
+30%
+Vokarium
+20%
+Solar panels are devices used to convert light from the sun into usable electrical power. Though they produce relatively little power per panel, their benefit of maintenance-less operation makes them an appealing option for factories or for ships and constructs that cannot rely on fuel rods.
+Usage
+Solar panels must be wired into the same network as a solar power converter in order to produce usable electricity. To maximize efficiency, solar panel arrays should incorporate a solar panel light sensor, the output of which is used by a turntable and a solar panel support in order to keep the solar panel oriented towards the sun.
+Adjacent solar panels and solar panel light sensors are automatically added to the same device network, and do not require individual hardpoints to provide power.
+Related pages
+Solar panel (assembly)

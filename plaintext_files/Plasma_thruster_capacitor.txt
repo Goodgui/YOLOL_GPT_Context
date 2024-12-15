@@ -1,0 +1,29 @@
+Plasma thruster capacitor
+Type
+Thruster device
+Function
+Stores charge for plasma thrusters
+Size
+156×168×132 cm
+Mass
+11,967.3 kg
+Volume
+1,278.56 kv
+Corrosion resistance
+668
+Primary material
+Kutonium
+Composition
+Aegisium
+26%
+Arkanium
+25%
+Corazium
+15%
+Kutonium
+5%
+Vokarium
+29%
+The plasma thruster capacitor is a device that mounts to the capacitor struct of a plasma thruster. They store vast amounts of charge, and four of them are required for a properly assembled plasma thruster.
+Related pages
+Plasma thruster

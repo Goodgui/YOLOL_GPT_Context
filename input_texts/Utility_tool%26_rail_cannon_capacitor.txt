@@ -1,0 +1,107 @@
+{{Otherlang2
+|en=Utility tool capacitor
+|jp=ユーティリティーツールキャパシター
+|ru=Конденсатор для вспомогательного устройства
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Utility capacitors.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Utility tool capacitor
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Stores local power
+	  |availability=[[S.H.]]
+	  |size=60×24×26 cm
+	  |mass=358.39
+	  |volume=36.02
+	  |corrosionResistance=460
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=1
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=20%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=80%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The utility tool capacitor is a device used to store power for devices that require quick discharge.<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''StoredLocalPower'''
+| How much power is stored in the capacitor
+| 0 - 4000
+|-
+! '''MaxLocalPower'''
+| Maximum amount of power that can be stored
+| 4000
+|}
+<section end=deviceFields/>
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Pages ==
+
+*[[Rail cannon]]
+*[[Mining laser (Assembly)]]
+*[[Material point scanner (Assembly)]]
+*[[Laser designator (Assembly)]]
+
+
+[[Category:Devices and machines]]

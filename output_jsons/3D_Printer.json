@@ -1,0 +1,92 @@
+{
+  "title": "3D Printers",
+  "summary": "Used with station or ship blueprint chips to automate the building of a blueprint.",
+  "tiers": [
+    {
+      "name": "Small 3D Printer",
+      "size": "216 x 108 x 216 cm",
+      "mass": 32128.85,
+      "volume": 3229.03,
+      "corrosionResistance": 439,
+      "composition": {
+        "vokarium": "18%",
+        "arkanium": "22%",
+        "kutonium": "20%",
+        "charodium": "15%",
+        "ajatite": "14%",
+        "bastium": "11%"
+      },
+      "materials": {
+        "ajatite": 1173,
+        "bastium": 921,
+        "charodium": 1256,
+        "merkerium": 1675,
+        "tengium": 1843,
+        "ukonium": 670,
+        "vokarium": 838
+      },
+      "device_fields": [
+        {
+          "name": "PrintingRateLimit",
+          "description": "",
+          "range": "[0, inf]"
+        },
+        {
+          "name": "PrintingRate",
+          "description": "",
+          "range": "[0, inf]"
+        },
+        {
+          "name": "WorkingRateLimit",
+          "description": "",
+          "range": "[0, inf]"
+        }
+      ],
+      "other": "The small 3D printer is a smaller, but slower version of the large printer. It has an integrated utility box and can accept its own fuel rod, or use power provided from other sources."
+    },
+    {
+      "name": "Large 3D Printer",
+      "size": "864 x 432 x 324 cm",
+      "mass": 721414.06,
+      "volume": 103206.59,
+      "corrosionResistance": 474,
+      "composition": {
+        "ajatite": "15.68%",
+        "charodium": "16.8%",
+        "vokarium": "11.2%",
+        "kutonium": "22.4%",
+        "arkanium": "24.64%",
+        "bastium": "0.31%",
+        "corazium": "8.96%"
+      },
+      "materials": {
+        "ajatite": 38343,
+        "bastium": 767,
+        "charodium": 41082,
+        "merkerium": 54776,
+        "tengium": 60254,
+        "ukonium": 21910,
+        "vokarium": 27388
+      },
+      "device_fields": [
+        {
+          "name": "WorkingRate",
+          "description": "Shows the time for the CurrentItemWorkRemaining at the current moment, affected by the radiator efficiency.",
+          "range": "[0, inf]"
+        },
+        {
+          "name": "CurrentItemWorkRemaining",
+          "description": "Shows amount of work remaining for selected item, calculated every time CurrentItem changes and printer is on (-1 if printer is not on).",
+          "range": "-1[0, inf]"
+        },
+        {
+          "name": "UtilityConnection",
+          "description": "Connects the printer's internal inventory to the station's/ship's inventory for material access and item output.",
+          "range": "0/1"
+        }
+      ],
+      "other": "The large 3D printer requires a Utility box to connect to a station's power grid and to access the station inventory for material and to output complete parts."
+    }
+  ],
+  "other": "How to use: Small 3D Printer: Insert fuel rod into the printer, Insert the blueprint chip (You can buy these from the Marketplace), Turn on the printer (Change UtilityConnection field to 1, this is required to allow printer to put finished items into station storage. Change PrinterControl field to 1 and make sure PrinterOrderAmount is above 0 (should be 1 by default). Printer requires access to the building materials for each piece (through station storage or connected ore crates)). 3D Printer: Prepare the printer (Requires a lot of power, it's recommended to use a Utility box and to purchase electricity to the station storage. Radiators must be used to cool the printer, one printer needs approximately 17 radiators. Printer needs to be connected to a storage. Use pipe connection with a Utility box.), Insert a blueprint chip, Turn on the printer (Change PrinterControl field to 1. Printer requires access to the building materials for each piece (through station storage or connected ore crates))."
+}

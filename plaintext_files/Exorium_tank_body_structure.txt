@@ -1,0 +1,24 @@
+Exorium tank body structure
+Size
+576×288×396 cm
+Mass
+32,755.99 kg
+Volume
+3,730.75 kv
+Corrosion resistance
+678
+Primary material
+Ymrium
+Input / Output
+Modular interfaces
+1
+Composition
+Aegisium
+78.09%
+Kutonium
+17.35%
+Ymrium
+4.56%
+One half of the circular outer shell for an exorium tank. 2 body structures, together with 2 end covers and 2 side structures, form the outer shell of exorium tank.
+Related Articles
+Exorium tank (Assembly)

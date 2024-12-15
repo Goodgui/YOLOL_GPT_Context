@@ -1,0 +1,56 @@
+Alloy Furnace
+Type
+Crafting device
+Function
+Alloy crafting
+Size
+288 x 216 x 144 cm
+Mass
+42,421.74 kg
+(Belt)
+43,090.91 kg
+(Moon)
+Volume
+3,827.47 kv
+(Belt)
+3,888.86 kv
+(Moon)
+Corrosion resistance
+504
+Primary material
+Bastium
+Input / Output
+Electric input
+Up to 1,000,000
+Sockets
+4
+Composition
+Aegisium
+16%
+Bastium
+10%
+Lukium
+14%
+Vokarium
+22%
+Ymrium
+38%
+The Alloy furnace is crafting device that is used to create alloys. There are two types of alloy furnaces, one for asteroid belts and one for atmospheres of moons. Each alloy has specific requirement for type of belt or atmosphere they need to be crafted in. In order to alloy furnace to work, it needs to accumulate crafting charges. Each charge costs 1,000,000 electricity and the furnace can store up to 100 charges. Each charge allows you to craft 1 stack of an alloy that is compatible with the current atmosphere.
+Basic information
+Charge accumulation speed can be adjusted from Furnace UI or device fields. Alloy furnace can be attached to resource network to boost the charge accumulation speed. The internal electricity plant of furnace produces 3,000 electricity per second when fuel rod is attached to it. Alloy furnace supports both Tier 1 and Tier 2 fuel rods.
+Device fields
+YOLOL field
+description
+range
+FurnaceChargingLimit
+Percentage value of electricity charge of the furnace
+0 - 100
+FurnaceChargingRate
+Current rate in percent
+0 - 100
+StoredCharges
+How many alloy crafting orders you can currently queue
+0 - MaxCharges
+MaxCharges
+How many alloy crafting orders you can queue at full charge
+100

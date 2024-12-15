@@ -1,0 +1,77 @@
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Mounted_weapon_bodies.png]]
+	  |factionLogo=
+	  |caption=The mounted weapon body and its mirrored version
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Weapons device
+	  |function=Mounts [[Mounted weapons|ship weapons]]
+	  
+	  |size=96×48×84 cm
+	  |mass=1,430.7
+	  |volume=143.79
+	  |corrosionResistance=470
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=5,000
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation=
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=30%
+	  |ajatite=
+	  |arkanium=
+	  |bastium=15%
+	  |charodium=35%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=20%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The mounted weapon body is the core component of all [[Mounted weapons|mounted weapons]], and is what the barrel, ammo struct, and [[Fixed mount|mount]] are bolted to. It can store a limited amount of energy, and performs the conversion from network power to local power.<section end=summary/>
+
+== Related pages ==
+
+*[[Mounted weapons]]
+
+[[Category:Devices and machines]]

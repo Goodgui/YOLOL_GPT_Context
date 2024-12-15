@@ -1,0 +1,47 @@
+Socket board
+Type
+Power device
+Function
+Allows generators to export power to the network
+Size
+96×96×48 cm
+Mass
+750.93 kg
+Volume
+75.47 kv
+Corrosion resistance
+390
+Primary material
+Bastium
+Input / Output
+Electric input
+100,000
+Electric output
+100,000
+Sockets
+4
+Modular interfaces
+1
+Composition
+Ajatite
+15%
+Bastium
+55%
+Vokarium
+30%
+The socket board provides an access panel to connect generators to the electricity and data network (cables).
+Note that one socket board per 100 tier 1/2 generator units (or 80 tier 3 generator units) is required, if cables are connected via a cube heat sink a socket board is still required to export power.
+Basic Usage
+Transforms Local Power into
+Power
+.
+Connects cables.
+Distributes
+Power
+to a data network.
+Can distribute a maximum of 100,000
+Electricity
+per second.
+Doesn't get any benefits from enhancers.
+Related Articles
+Generator (Assembly)

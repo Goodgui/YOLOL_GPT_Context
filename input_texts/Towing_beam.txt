@@ -1,0 +1,114 @@
+{{Otherlang2
+|ru=Буксировочный_луч
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Towing beam.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Towing other ships
+	  
+	  |size=204×72×72 cm
+	  |mass=3,198.9
+	  |volume=395.9
+	  |corrosionResistance=400
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=5 e/s per ton towed
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=10%
+	  |charodium=
+	  |corazium=
+	  |exorium=25%
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=35%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=30%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The towing beam is a device that can be used to tow other ships.
+
+The towing beam uses power relative to the mass of the ship being towed (5e/s per ton), this mass is also added to the ship's mass, slowing the towing ship, but not adding any stress.
+
+Outside of a safezone any ship can be towed, inside a safezone only un-owned ships are able to be towed.<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''TowBeamOnState'''
+| The towing beam turns off when this is set to 0 and on when set to anything else
+| 0 - 1
+|-
+! '''TowBeamSearchLength'''
+| The distance the beam will try extend to, and try to grab ships from.
+| 200
+|-
+! '''TowBeamStatus'''
+| 0 if off, 1 if on, 2 if a ship is being towed.
+| 0 - 2
+|-
+! '''LockedMass'''
+| The mass of the towed ship, in kg.
+| 0 -
+|-
+|}
+<section end=deviceFields/>
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Pages ==
+
+[[Towing beam (Assembly)]]
+
+[[Category:Devices and machines]]

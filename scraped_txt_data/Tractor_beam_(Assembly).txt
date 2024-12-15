@@ -1,0 +1,95 @@
+{{Otherlang2
+|de=Tractor_beam:de
+|fr=Tractor_beam/fr
+|zh-cn=牵引光束
+|ru=Тяговый_луч
+|ua=Тяговий промінь
+|jp=トラクタービーム
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Tractor beam (exploded).png]]
+	  |factionLogo=
+	  |caption=An exploded view of an assembled tractor beam
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Cargo device
+	  |function=Non-contact cargo ferrying
+	  
+	  |size=216×96×72 cm
+	  |mass=5,645
+	  |volume=567.31
+	  |corrosionResistance=320
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=~25 e/s
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Component Section
+	  |Tractor beam
+	  |Utility tool body type 1
+	  |Utility tool capacitor
+	}}
+}}<section begin=summary/>Tractor beams grab objects that their beams hit. They are most commonly found in cargo spaceships as they enable the transportation of heavy cargo. The beam drags the attached object close to the tractor beam base, orientating the object according to the nozzle of the beam.<section end=summary/>
+
+== Basic information ==
+
+* The device requires [[Generator (Assembly)|power]] to work. The amount of power needed is determined by the beam length, device state, and force applied when moving objects.
+** The further and the heavier the objects are, the more power the tractor beam needs to be able to move them.
+* If power is cut out, the object will stop moving but it will be held in place.
+** This is a safety feature to prevent objects from drifting away, causing possible damage in interiors, such as factories and ships.
+
+* Tractor beams are commonly controlled with [[Buttons|buttons]] and [[Levers|levers]].
+** Buttons toggle the power on and off.
+** Levers control the beam length, rotation and such.
+
+* In automated [[Capital Mega Station#Factory|factories]], the tractor beams are generally connected to a [[Rail mover|mover]].
+*[[Endoskeleton|Endoskeletons]] can be moved by a tractor beam, but can easily escape.
+* [[Cargo_lock_beam|Cargo lock beam]] locks object entirely if hits it from 3 sides and small. Tractor beam, meanwhile, will never lock an object entirely and used to transport something. Also, as stated above(but will serve as a reminder here), tractor beam can actually manipulate with it's target, unlike Cargo lock Beam.
+
+== Assembly ==
+
+A tractor beam needs to be attached to several objects to function:
+* [[Utility tool body type 1|Utility Tool Body]] which needs equipped with 2 [[Utility_tool_capacitor|Utility Tool & Rail Cannon Capacitors]]
+* A weapon mount: Either a [[Turret_cradle|Turret Cradle]], [[Fixed_mount_small_turntable_2|Small Turntable Mount 2]], or [[Fixed_weapon_mount_2|Fixed Weapon Mount 2]] will work
+** Note that the small turntable mount will require a matching [[Turntable|turntable]]
+* [[Hardpoints|Device Hardpoint]]
+
+The hardpoint needs connected to power via [[Cable_tool|Cable]] or [[Duct]].
+
+== Device fields ==
+
+===[[Tractor beam|Tractor beam]]===
+{{#lst:Tractor_beam|deviceFields}}
+===[[Utility tool capacitor|Utility tool capacitor]]===
+{{#lst:Utility_tool_capacitor|deviceFields}}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Tractor beam]]

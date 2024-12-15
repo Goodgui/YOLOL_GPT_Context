@@ -1,0 +1,21 @@
+Fast travel gate core support
+Type
+Navigation device
+Function
+Part of a warp device
+Size
+576×288×180 cm
+Mass
+21,968 kg
+Volume
+2,207.8 kv
+Corrosion resistance
+330
+Primary material
+Bastium
+Composition
+Bastium
+85%
+Vokarium
+15%
+The fast travel gate core support accounts for two of the seven components of a properly assembled fast travel gate core. Two are required for the device, and they support the entire device from opposite sides.

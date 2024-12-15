@@ -1,0 +1,131 @@
+{{Otherlang2
+|jp=ボックススラスターボディ
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Box thruster, body.png]]
+	  |previewImage=[[Image:Box thruster body, preview.png]]
+	  |factionLogo=
+	  |caption=An empty box thruster body
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Houses [[Box thruster|thruster]] components
+	  
+	}}
+}}<section begin=summary/>The [[Box thruster|box thruster]] body is a device designed to house other components required for the box thruster to function, and to provide convenient mounting points along its hull. Unlike [[Triangle thruster|triangle thrusters]], the box thruster body has no interfaces to share propellant and power with adjacent thrusters, and each requires its own [[Hardpoints|hardpoint]] to function. It is also worth noting the device hardpoint on thee thruster body is for the Radiator Base to be attatched without the need of an additional hardpoint.<section end=summary/>
+
+== Types ==
+
+The box thruster body is currently available in the following styles:
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Box thruster body, tier 1.png]]
+		|name=Tier 1 body
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=336×96×144 cm
+		|mass=8,358.3
+		|volume=840.03
+		|corrosionResistance=280
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=35%
+		|charodium=50%
+		|vokarium=15%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Box thruster body, tier 2.png]]
+		|name=Tier 2 body
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=336×96×144 cm
+		|mass=8,123.1
+		|volume=840.03
+		|corrosionResistance=425
+		|primaryMaterial=Aegisium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|aegisium=30%
+		|bastium=15%
+		|charodium=45%
+		|vokarium=10%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Box thruster body, tier 3.png]]
+		|name=Tier 3 body
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=336×96×144 cm
+		|mass=7,375.5
+		|volume=840.03
+		|corrosionResistance=411
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ymrium=35%
+		|kutonium=15%
+		|aegisium=20%
+		|charodium=23%
+		|vokarium=7%
+	  }}
+	}}
+}}
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ThrusterState'''
+| Requested output of the thruster
+| 0 - 10 000
+|-
+! '''ThrusterCurrentThrust'''
+| Current output of the thruster
+| 0 - 10 000
+|}
+<section end=deviceFields/>
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+
+== Related pages ==
+
+* [[Box thruster]]
+* [[Triangle thruster]]
+* [[Maneuver thruster]]
+
+[[Category:Devices and machines]]

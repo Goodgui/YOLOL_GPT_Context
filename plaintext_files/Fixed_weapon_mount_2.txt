@@ -1,0 +1,28 @@
+Fixed weapon mount 2
+Type
+Utility device
+Function
+Mounts ship weapons or utility devices
+Size
+96×96×36  cm
+Mass
+1,446.6 kg
+Volume
+145.39 kv
+Corrosion resistance
+330
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Bastium
+85%
+Vokarium
+15%
+A fixed mount for a variety of devices. This device enables YOLOL operation of ship weapons or utility devices such as mining lasers, and can mount two small devices or a single large one (like the mining laser).
+Related pages
+Fixed mount

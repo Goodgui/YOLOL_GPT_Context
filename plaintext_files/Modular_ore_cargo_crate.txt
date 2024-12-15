@@ -1,0 +1,64 @@
+Modular crates in various configurations
+Modular ore cargo crate
+Type
+Cargo device
+Function
+Holds mined ore
+Size
+144 × 144 × 144 cm
+Mass
+9,502.35 kg
+Volume
+955.01 kv
+Corrosion resistance
+340
+Primary material
+Bastium
+Input / Output
+Sockets
+6
+Modular interfaces
+6
+Composition
+Bastium
+80%
+Vokarium
+20%
+A modular ore cargo crate is a storage device that can hold ore and materials. The crates can be stacked to form a larger storage unit with a proportionally increased storage capacity, and they share power, data, and pipe networks when stacked. Crates are interacted with via a connection to a resource bridge.
+Basic information
+A modular storage crate can hold ore and materials. Its maximum capacity is 1,728 kv (the equivalent of a 120cm x 120cm x 120cm material cube).
+One crate can store only one material type at a time.
+Crates require power to be able to transfer ore.
+However, crates do not require power to merely store the ore.
+Each crate has sockets for cable and pipe connections on each side.
+Cargo crates can be attached to one another to create larger storage units. No cables or pipes are needed between adjacent crates.
+Interaction
+Cargo crate interaction is done with any inventory connection established with the crates. For example, a connection will show cargo crates as slots in the backpack inventory, and ore can be pulled to the game world as material cubes. Each cargo crate is represented as one inventory slot in any interface that they are shown within.
+Example usage
+Correct setup for interacting with the crates:
+The crate should be wired from a socket to a source of electricity.
+The crate should have a pipe connection from a socket to the hardpoint of a resource bridge.
+The resource bridge's hardpoint should likewise be connected to a source of electricity.
+With the above setup, the player should be able to activate a tether connection to the resource bridge by pointing the resource bridge and pressing their 'use' button.
+When a connection is established, the player should see the inventory space of the crates in their inventory screen.
+Device fields
+YOLOL field
+description
+range
+Priority
+Crates with a lower priority get used first
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Material
+Weight (Kg)
+9 502
+Material Required (Kv)
+Bastium
+224
+Vokarium
+50
+To learn more about materials, consult these wiki pages:
+Materials
+Ores

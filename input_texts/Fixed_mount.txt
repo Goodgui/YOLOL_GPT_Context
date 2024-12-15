@@ -1,0 +1,54 @@
+{{Otherlang2
+|de=Halterung
+|fr=Fixed_mount/fr
+|zh-cn=固定支架
+|ru=Фиксированное крепление
+|ua=Фіксоване кріплення
+|jp=固定マウント
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_fixed_mount.png]]
+	  |factionLogo=
+	  |caption=The fixed launcher mount, fixed weapon mount 1, and fixed weapon mount 2
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Machinery
+	  |function=Mounts tools and weapons
+	  
+	}}
+}}
+<section begin=summary/>
+Machinery that are not required to be mobile (such as [[Tractor beam (Assembly)|tractor beams]], [[Mining laser (Assembly)|mining lasers]], and [[Mounted_weapons|guns]]) can be attached to a fixed mount for a simple and easy connection. The mount for a weapon or utility is required, as these objects do not have sockets directly mounted to them and require the mount to receive electricity.
+<section end=summary/>
+
+== Types ==
+
+=== Immobile mounts ===
+
+These variants of fixed mounts are bolted directly to [[Hardpoints|hardpoints]], and offer no rotation:
+{{SB Infobox Compact
+|includeComposition=true
+|{{#invoke:Transcluder|main|Fixed weapon mount 1|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Fixed weapon mount 2|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Fixed launcher mount|only=templates|templates=SB Infobox|makeLink=true}}
+}}
+
+=== Mobile mounts ===
+
+These variants of fixed mounts are bolted to [[Turntable|small turntables]], and offer rotation on the Y-axis:
+{{SB Infobox Compact
+|includeComposition=true
+|{{#invoke:Transcluder|main|Fixed mount small turntable 1|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Fixed mount small turntable 2|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Launcher mount small turntable|only=templates|templates=SB Infobox|makeLink=true}}
+}}
+
+== Related pages ==
+
+*[[Cradle]]
+*[[Mounted weapons]]
+
+[[Category:Devices and machines|Fixed mounts]]

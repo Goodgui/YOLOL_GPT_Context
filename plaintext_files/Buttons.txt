@@ -1,0 +1,353 @@
+A variety of buttons for your most pressing requirements
+Buttons
+Type
+Input devices
+Function
+Toggles device fields
+Buttons come in many different shapes, sizes, and colors, but all serve the same purpose: Toggling device field values. While some buttons like the simple button 12×12 or the switch can only toggle between preset values, others can have customized on and off states applied when triggered. This is particularly useful to avoid using YOLOL to interpret button states.
+Basic information
+Hybrid buttons
+are 24×24cm, support custom on/off states, and have a label on their faces that indicate which device field they modify.
+Safety lid buttons
+are 24×24 cm, and have a physical shield in place over them which must be interacted with before the button can be pressed. These buttons support custom on/off states, and also support coloring via their device fields.
+Simple buttons
+come in 12×12 cm and 12×24 cm sizes, and support coloring via their device fields.
+Warning light buttons
+are 12×12 cm, and support custom on/off states, coloring, and a blinking back-light which can be turned on and off.
+Switches
+are 12×24cm, and output one of three states: -1, 0, 1. They also support coloring via their device fields.
+Small buttons
+are approximately 30×30×36 cm, and support custom on/off states.
+Twist handles
+are approximately 24×24×36 cm, and support custom on/off states. These are most typically used to control the flow of propellant tanks.
+Configuring a button:
+Set the
+ButtonState
+field name to match the device field you want to control.
+Set the On- and Off-state values.
+Pressing the button changes its state depending on
+ButtonStyle
+-field value.
+Buttons with the "ButtonColor" field can have a different button color depending on the value of this field.
+Types
+Hybrid button
+Size
+24×24×6 cm
+Mass
+16.6 kg
+Volume
+1.67 kv
+Corrosion resistance
+489
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+24×24 cm
+Composition
+Ajatite
+29.94%
+Bastium
+35.3%
+Nhurgite
+14.87%
+Vokarium
+19.89%
+Simple button 12×12 cm
+Size
+12×12×6 cm
+Mass
+4.27 kg
+Volume
+0.43 kv
+Corrosion resistance
+420
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+12×12 cm
+Composition
+Ajatite
+40%
+Bastium
+40%
+Vokarium
+20%
+Simple button 12×24 cm
+Size
+12×24×6 cm
+Mass
+8.66 kg
+Volume
+0.87 kv
+Corrosion resistance
+420
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+12×24 cm
+Composition
+Ajatite
+39.85%
+Bastium
+40.22%
+Vokarium
+19.93%
+Small button
+Size
+30×30×36 cm
+Mass
+127.36 kg
+Volume
+12.80 kv
+Corrosion resistance
+360
+Primary material
+Bastium
+Input / Output
+Sockets
+1
+Composition
+Bastium
+70%
+Vokarium
+30%
+Switch 12×24
+Size
+24×12×12 cm
+Mass
+786 kg
+Volume
+0.79 kv
+Corrosion resistance
+360
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+12×24 cm
+Composition
+Bastium
+70.07%
+Vokarium
+29.93%
+Twist handle
+Size
+24×24×30 cm
+Mass
+64.1 kg
+Volume
+6.44 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+24×24 cm
+Composition
+Bastium
+100%
+Safety lid button (round)
+Size
+24×24×12 cm
+Mass
+22.8 kg
+Volume
+2.29 kv
+Corrosion resistance
+480
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+24×24 cm
+Composition
+Ajatite
+59.85%
+Bastium
+10.22%
+Vokarium
+29.93%
+Safety lid button (square)
+Size
+24×24×12 cm
+Mass
+22.6 kg
+Volume
+2.27 kv
+Corrosion resistance
+480
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+24×24 cm
+Composition
+Ajatite
+59.85%
+Bastium
+10.22%
+Vokarium
+29.93%
+Warning light button 12×12
+Size
+24×24×12 cm
+Mass
+4.28 kg
+Volume
+0.43 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+12×12 cm
+Composition
+Bastium
+100%
+Device fields
+Small button, Hybrid button & Twist handle
+YOLOL field
+description
+range
+ButtonState
+The name of the field of which value the button modifies.
+ButtonOnStateValue / ButtonOffStateValue
+ButtonOnStateValue
+Controls the value when pressed
+ButtonOffStateValue
+Controls the value when released
+ButtonStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Basic Toggle (in-game button remains down while it is "on")
+2:
+4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+Warning light button
+YOLOL field
+description
+range
+ButtonState
+The name of the field of which value the button modifies.
+0/1
+ButtonStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Basic Toggle (in-game button remains down while it is "on")
+2:
+4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+ButtonColor
+Sets the color of the button.
+0
+= Red,
+1
+= Orange,
+2
+= Green,
+3
+= Blue, Anything else = Red
+ButtonEnableBlink
+When enabled the button will light up periodically.
+0
+= No blinking,
+1
+= Blinking (Number sets the interval)
+Simple buttons
+YOLOL field
+description
+range
+ButtonState
+The name of the field of which value the button modifies.
+0/1
+ButtonStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Basic Toggle (in-game button remains down while it is "on")
+2:
+4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+ButtonColor
+Sets the color of the button.
+0
+= Blue,
+1
+= Red,
+2
+= Green,
+3
+= White, Anything else = Blue
+Switch
+YOLOL field
+description
+range
+SwitchState
+The name of the field of which value the button modifies.
+-1/0/1
+SwitchStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Toggle (-1/0/1)
+2:
+Toggle (-1/1)
+SwitchColor
+Sets the color of the button.
+0
+= Black,
+1
+= Red,
+2
+= Orange,
+3
+= Green,
+4
+= Blue, Anything else = Black
+Safety lid buttons
+YOLOL field
+description
+range
+ButtonState
+The name of the field of which value the button modifies.
+ButtonOnStateValue / ButtonOffStateValue
+ButtonOnStateValue
+Controls the value when pressed
+ButtonOffStateValue
+Controls the value when released
+ButtonStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Basic Toggle (in-game button remains down while it is "on")
+2:
+4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+ButtonColor
+Sets the color of the button.
+0
+= Red,
+1
+= Orange,
+2
+= Green,
+3
+= Blue, Anything else = Red
+ButtonEnableBlink
+When enabled the button will light up periodically.
+0
+= No blinking,
+1
+= Blinking (Number sets the interval)
+To learn more about the usage of fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

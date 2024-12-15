@@ -1,0 +1,45 @@
+Ship diagnostic scanner
+Type
+Sensor device
+Function
+Reports durability errors
+Size
+48×48×24 cm
+Mass
+504.16 kg
+Volume
+50.67 kv
+Corrosion resistance
+567
+Primary material
+Bastium
+Input / Output
+Sockets
+2
+Composition
+Ajatite
+35%
+Arkanium
+29%
+Bastium
+10%
+Vokarium
+26%
+The ship diagnostic scanner is a device that reports durability errors. When mounted to a ship and cabled in properly, the scanner will output the total number of durability errors and the lowest strength factor value on the ship.
+Device fields
+YOLOL field
+description
+range
+Active
+The scanner turns off when this is set to 0 and on when set to anything else
+0 - 1
+StrengthFactor
+The current strength factor of the ship
+0 - ∞
+DurabilityErrors
+The number of durability errors the ship currently has
+X
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

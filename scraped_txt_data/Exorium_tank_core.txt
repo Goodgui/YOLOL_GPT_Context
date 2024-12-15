@@ -1,0 +1,59 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Exorium Tank Body, Core.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=23,896.88
+		|volume=2,721.74
+		|size=576×576×576 cm
+		|corrosionResistance=610
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|fuelCapacity=100,000,000
+		|modInterfaces=6
+	  }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=40%
+	|aegisium=50%
+	|vokarium=10%
+	  }}
+}}<section begin=summary/>Core of the exorium tank, positioned inside the outer shell. Required for tank to be able to function.
+
+Capacity: 100 000 000 units 
+
+To refuel the tank: remove core, refuel the core with crafting.<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''ContainerStoredResource'''
+| Total volume of stored fuel
+| 0 - 100,000,000
+|-
+! '''ContainerMaxResource'''
+| Maximum capacity of stored fuel
+| 100,000,000
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+
+* [[Exorium tank (Assembly)]]
+
+[[Category:Devices and machines]]

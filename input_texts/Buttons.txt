@@ -1,0 +1,397 @@
+{{Otherlang2
+|fr=Buttons/fr
+|de=Buttons:de
+|zh-cn=按钮
+|ru=Кнопки
+|ua=Кнопка
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Control_Devices.png]]
+	  |factionLogo=
+	  |caption=A variety of buttons for your most pressing requirements
+	  |name=Buttons
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Input devices
+	  |function=Toggles device fields
+	  
+	}}
+}}
+Buttons come in many different shapes, sizes, and colors, but all serve the same purpose: Toggling [[Device fields|device field]] values. While some buttons like the simple button 12×12 or the switch can only toggle between preset values, others can have customized on and off states applied when triggered. This is particularly useful to avoid using [[YOLOL]] to interpret button states.
+
+== Basic information ==
+
+'''Hybrid buttons''' are 24×24cm, support custom on/off states, and have a label on their faces that indicate which device field they modify.
+
+'''Safety lid buttons''' are 24×24 cm, and have a physical shield in place over them which must be interacted with before the button can be pressed. These buttons support custom on/off states, and also support coloring via their device fields.
+
+'''Simple buttons''' come in 12×12 cm and 12×24 cm sizes, and support coloring via their device fields.
+
+'''Warning light buttons''' are 12×12 cm, and support custom on/off states, coloring, and a blinking back-light which can be turned on and off.
+
+'''Switches''' are 12×24cm, and output one of three states: -1, 0, 1. They also support coloring via their device fields.
+
+'''Small buttons''' are approximately 30×30×36 cm, and support custom on/off states.
+
+'''Twist handles''' are approximately 24×24×36 cm, and support custom on/off states. These are most typically used to control the flow of [[Propellant tank|propellant tanks]].
+
+
+Configuring a button:
+* Set the '''ButtonState''' field name to match the device field you want to control.
+* Set the On- and Off-state values.
+* Pressing the button changes its state depending on '''ButtonStyle''' -field value.
+* Buttons with the "ButtonColor" field can have a different button color depending on the value of this field.
+
+== Types ==
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Hybrid button.png]]
+		|name=Hybrid button
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×24×6 cm
+		|mass=16.6
+		|volume=1.67
+		|corrosionResistance=489
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=24×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=35.3%
+		|ajatite=29.94%
+		|vokarium=19.89%
+		|nhurgite=14.87%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Simple button 12x12.png]]
+		|name=Simple button 12×12 cm
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=12×12×6 cm
+		|mass=4.27
+		|volume=0.43
+		|corrosionResistance=420
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=12×12 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=40%
+		|ajatite=40%
+		|vokarium=20%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Simple button 12x24.png]]
+		|name=Simple button 12×24 cm
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=12×24×6 cm
+		|mass=8.66
+		|volume=0.87
+		|corrosionResistance=420
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=12×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=40.22%
+		|ajatite=39.85%
+		|vokarium=19.93%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Small button.png]]
+		|name=Small button
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=30×30×36 cm
+		|mass=127.36
+		|volume=12.80
+		|corrosionResistance=360
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|sockets=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=70%
+		|vokarium=30%
+	  }}
+	}}
+
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Switch 12x24.png]]
+		|name=Switch 12×24
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×12×12 cm
+		|mass=786
+		|volume=0.79
+		|corrosionResistance=360
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=12×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=70.07%
+		|vokarium=29.93%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Twist handle.png]]
+		|name=Twist handle
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×24×30 cm
+		|mass=64.1
+		|volume=6.44
+		|corrosionResistance=300
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=24×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Safety lid button (round).png]]
+		|name=Safety lid button (round)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×24×12 cm
+		|mass=22.8
+		|volume=2.29
+		|corrosionResistance=480
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=24×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=10.22%
+		|ajatite=59.85%
+		|vokarium=29.93%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Safety lid button (square).png]]
+		|name=Safety lid button (square)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×24×12 cm
+		|mass=22.6
+		|volume=2.27
+		|corrosionResistance=480
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=24×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=10.22%
+		|ajatite=59.85%
+		|vokarium=29.93%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Warning light button 12x12.png]]
+		|name=Warning light button 12×12
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×24×12 cm
+		|mass=4.28
+		|volume=0.43
+		|corrosionResistance=300
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=12×12 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=100%
+	  }}
+	}}
+}}
+== Device fields ==
+<section begin=deviceFields/>
+=== Small button, Hybrid button & Twist handle ===
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ButtonState'''
+| The name of the field of which value the button modifies.
+| ButtonOnStateValue / ButtonOffStateValue
+|- 
+! '''ButtonOnStateValue'''
+| Controls the value when pressed
+| 
+|-
+! '''ButtonOffStateValue'''
+| Controls the value when released
+|
+|-
+!'''ButtonStyle'''
+| Controls the interaction type of the button
+| '''0:''' Hold down and release '''1:''' Basic Toggle (in-game button remains down while it is "on") '''2:''' 4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+|}
+
+=== Warning light button ===
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ButtonState'''
+| The name of the field of which value the button modifies.
+| 0/1
+|-
+!'''ButtonStyle'''
+| Controls the interaction type of the button
+| '''0:''' Hold down and release '''1:''' Basic Toggle (in-game button remains down while it is "on") '''2:''' 4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+|- 
+! '''ButtonColor'''
+| Sets the color of the button.
+| '''0''' = Red, '''1''' = Orange, '''2''' = Green, '''3''' = Blue, Anything else = Red
+|- 
+! '''ButtonEnableBlink'''
+| When enabled the button will light up periodically. 
+| '''0''' = No blinking, '''1''' = Blinking (Number sets the interval) 
+|}
+
+=== Simple buttons ===
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ButtonState'''
+| The name of the field of which value the button modifies.
+| 0/1
+|-
+!'''ButtonStyle'''
+| Controls the interaction type of the button
+| '''0:''' Hold down and release '''1:''' Basic Toggle (in-game button remains down while it is "on") '''2:''' 4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+|- 
+! '''ButtonColor'''
+| Sets the color of the button.
+| '''0''' = Blue, '''1''' = Red, '''2''' = Green, '''3''' = White, Anything else = Blue
+|}
+
+=== Switch ===
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''SwitchState'''
+| The name of the field of which value the button modifies.
+| -1/0/1
+|-
+!'''SwitchStyle'''
+| Controls the interaction type of the button
+|'''0:''' Hold down and release '''1:''' Toggle (-1/0/1) '''2:''' Toggle (-1/1)
+|- 
+! '''SwitchColor'''
+| Sets the color of the button.
+| '''0''' = Black, '''1''' = Red, '''2''' = Orange, '''3''' = Green, '''4''' = Blue, Anything else = Black
+|}
+
+=== Safety lid buttons ===
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ButtonState'''
+| The name of the field of which value the button modifies.
+| ButtonOnStateValue / ButtonOffStateValue
+|- 
+! '''ButtonOnStateValue'''
+| Controls the value when pressed
+| 
+|-
+! '''ButtonOffStateValue'''
+| Controls the value when released
+|
+|-
+!'''ButtonStyle'''
+| Controls the interaction type of the button
+| '''0:''' Hold down and release '''1:''' Basic Toggle (in-game button remains down while it is "on") '''2:''' 4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+|- 
+! '''ButtonColor'''
+| Sets the color of the button.
+| '''0''' = Red, '''1''' = Orange, '''2''' = Green, '''3''' = Blue, Anything else = Red
+|- 
+! '''ButtonEnableBlink'''
+| When enabled the button will light up periodically. 
+| '''0''' = No blinking, '''1''' = Blinking (Number sets the interval) 
+|}
+<section end=deviceFields/>
+
+To learn more about the usage of fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Buttons]]

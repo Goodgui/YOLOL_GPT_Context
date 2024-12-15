@@ -1,0 +1,56 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Laser designator.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Provides tracking data for [[Torpedo|torpedoes]]
+	  
+	  |size=60×36×36 cm
+	  |mass=500.8
+	  |volume=50.33
+	  |corrosionResistance=720
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=20%
+	  |bastium=15%
+	  |charodium=
+	  |corazium=15%
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=40%
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=10%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The laser designator is a device that projects a beam where the user points it. [[Torpedo|Torpedoes]] can then detect the beam and home in on it via the use of [[YOLOL]]. Maximum range is 1km (tested 2021.09.02) same as the Rangefinder.<section end=summary/>
+
+== Related Pages ==
+
+* [[Laser designator (Assembly)]]
+
+[[Category:Devices and machines]]

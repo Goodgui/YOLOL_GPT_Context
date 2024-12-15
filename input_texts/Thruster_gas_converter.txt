@@ -1,0 +1,93 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Thruster gas converter, tier 2 updated.png]]
+	  |factionLogo=
+	  |caption=A tier 2 gas converter
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Prepares [[Propellant tank|propellant]] for use
+	  
+	}}
+}}<section begin=summary/>The gas converter is a device that handles the ingest of propellant, and prepares it for burning in the combustion chamber of a [[Thrusters|thruster]].<section end=summary/>
+
+== Types ==
+
+The gas converter is currently available in the following styles:
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Thruster gas converter, tier 1 updated.png]]
+		|name=Tier 1 gas converter
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|bonus=10%
+		|mass=202.6
+		|volume=20.36
+		|size=60×36×36 cm
+		|corrosionResistance=420
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=40%
+		|vokarium=60%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Thruster gas converter, tier 2 updated.png]]
+		|name=Tier 2 gas converter
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|bonus=12.5%
+		|mass=202.6
+		|volume=20.36
+		|size=60×36×36 cm
+		|corrosionResistance=500
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|aegisium=20%
+		|bastium=30%
+		|vokarium=50%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Thruster gas converter, tier 3 updated.png]]
+		|name=Tier 3 gas converter
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|bonus=17%
+		|mass=202.6
+		|volume=20.36
+		|size=60×36×36 cm
+		|corrosionResistance=510
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|aegisium=50%
+		|bastium=30%
+		|xhalium=20%
+	  }}
+	}}
+}}
+
+== Related pages ==
+
+* [[Box thruster]]
+* [[Triangle thruster]]
+* [[Maneuver thruster]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,52 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Grab handle.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Control device
+	  |function=Physical interaction with [[Hinges|hinges]] and [[Turntable|turntables]]
+	  |availability=
+	  |size=24×12×12 cm
+	  |mass=21.4
+	  |volume=2.15
+	  |corrosionResistance=360
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}
+<section begin=summary/>The grab handle is a device that allows a player to interact with and manipulate an object that is mounted to a [[Hinges|hinge]] or [[Turntable|turntable]], and physically rotate the joint without using [[YOLOL]]. Grab handles work only if a hinge/turntable is unpowered. [[Sliders|Sliders]] cannot be moved with grab handles.<section end=summary/>
+
+[[Category:Devices and machines]]

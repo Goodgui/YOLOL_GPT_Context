@@ -1,0 +1,182 @@
+{{Otherlang2
+|zh-cn=发电单元
+|ua=Генераторна установка
+|jp=発電ユニット
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_devices_generator_unit.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Power device
+	  |function=Converts [[Fuel rod|fuel]] to power
+	  
+	}}
+
+}}
+
+This page contains information for '''individual generator unit parts''', for information on multi-part assembled generators see: [[Generator (Assembly)]].
+
+<section begin=summary/>Generators are one of the most important parts of a spaceship, as they convert [[Fuel rod|fuel]] into electrical energy in an efficient process. They are extremely modular, and can be configured into complexes of many different shapes and sizes - however, for each adjacent generator, the heat output is also increased. <section end=summary/>
+
+== Basic Usage ==
+
+* '''NOTE!''' tier 1 generator parts are not compatible with Tier 2 or 3.
+** Tier 2 and tier 3 parts are compatible.
+
+
+* Receives '''Processed Fuel''' from the [[Fuel chamber|fuel chamber]] and converts it to '''Power'''.
+** This process also generates '''Heat'''.
+** '''NOTE!''' The generators will constantly consume '''Processed fuel''', wasting excess '''Power''' unless their ''ConversionRateLimit'' is modified via [[YOLOL|YOLOL]].
+* There are six connectors, one on each side.
+* Other modules can be attached to the connectors.
+
+
+* Generators produce heat proportional to their unit rate.
+* For every adjacent generator unit or fuel chamber, extra heat will be generated.
+** See [[heat mechanics]] for more info.
+
+
+* T1 and T2 units produce 1000 units of electricity per second, if enough fuel is available, T3 units can produce 1250 units of electricity per second.
+* One fuel rod can support three generator units, or 3000 (3750 for T3) units of electricity per second, without enhancement.
+** An enhanced generator unit will generate more power. See [[enhancer]]s for more info.
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Generator unit, tier 1.png]]
+		|name=Tier 1 generator
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=4,625.7
+		|volume=464.89
+		|size=96×96×96 cm
+		|corrosionResistance=385
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricOut=1,000 e/s
+		|heatGeneration=80 per second
+		|fuelIn=25 per second ''(processed)''
+		|modInterfaces=6
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=15%
+		|bastium=20%
+		|ajatite=40%
+		|charodium=25%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Generator unit, tier 2.png]]
+		|name=Tier 2 generator
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=4,495.5
+		|volume=464.89
+		|size=96×96×96 cm
+		|corrosionResistance=395
+		|primaryMaterial=Aegisium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricOut=1,000 e/s
+		|heatGeneration=90 per second
+		|fuelIn=25 per second ''(processed)''
+		|modInterfaces=6
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|charodium=50%
+		|aegisium=15%
+		|vokarium=15%
+		|ajatite=20%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Generator unit, tier 3.png]]
+		|name=Tier 3 generator
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=4,081.7
+		|volume=464.89
+		|size=96×96×96 cm
+		|corrosionResistance=535
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricOut=1,250 e/s
+		|heatGeneration=100 per second
+		|fuelIn=25 per second ''(processed)''
+		|modInterfaces=6
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|charodium=15%
+		|lukium=10%
+		|ymrium=20%
+		|arkanium=40%
+		|bastium=15%
+	  }}
+	}}
+}}
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''ElectricityProduction'''
+|Amount of electricity the generator unit is currently producing per second
+| 0 -
+|-
+! '''HeatProduction'''
+|Amount of heat the generator unit is currently producing per second
+| 0 -
+|-
+! '''GeneratorUnitRateLimit'''
+| Upper limit for conversion rate for this generator unit
+| 0 - 100
+|-
+! '''GeneratorUnitRate'''
+| Current conversion rate for this generator unit, expressed as a percentage.
+| 0 - 100
+|-
+! '''GeneratorUnitStoredHeat'''
+|Amount of heat currently stored in the generator unit
+| 0 - 1500
+|-
+! '''GeneratorUnitMaxStoredHeat'''
+|Maximum amount of heat that can be stored in the generator unit
+| 1500
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+
+* [[Generator (Assembly)]]
+
+[[Category:Devices and machines]]

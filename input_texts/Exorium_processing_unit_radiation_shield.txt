@@ -1,0 +1,30 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Exorium Processing Unit, Radiation Shield.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=28,834.84
+		|volume=3,284.15
+		|size=576×288×72cm
+		|corrosionResistance=480
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=5%
+	|lukium=45%
+	|charodium=20%
+	|kutonium=15%
+	|aegisium=15%
+	  }}
+}}<section begin=summary/>Radiation shield for exorium processing unit. Forms the outer shell for the unit together with 2 end covers, 2 side structures and 2 top/bottom structures.<section end=summary/>
+
+==Related Pages==
+
+* [[Exorium processing unit (Assembly)]]
+
+[[Category:Devices and machines]]

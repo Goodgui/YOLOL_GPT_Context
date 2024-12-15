@@ -1,0 +1,162 @@
+Propellant tank
+Type
+Thruster machinery
+Function
+Stores thruster propellant
+Propellant tanks are the vessels used to store propellant, which thrusters use to produce force. They come in a variety of sizes, and are constructed of the propellant tank and two structural supports, which also provide socket access to the propellant tank itself. These support pieces also have one modular device interface per piece, and the propellant tank can also convey other resources if the tank is placed in-line with a pipe network.
+Note!
+Multiple propellant tanks will automatically balance the propellant in the network between tanks, and as such in-space refueling by taking out the propellant tank is not recommended. Rather a portable custom propellant tank item (resource bridge, hardpoint piped to one support frame, and a propellant tank) is often used to quickly refuel.
+Basic information
+Propellant tanks do not usually require regular maintenance.
+They are placed in a ship with either one or two support pieces, connected to the ship's thrusters with a pipe tool, and replaced when empty or refueled at a station.
+The small, medium and large tanks hold 1, 4, and 9 million units of propellant respectively. To display data to the ship's data network, a cable must be attached as well.
+Propellant tanks with propellant inside explode when damaged.
+Variants
+Small Hydrogen Propellant Tank
+Size
+96×96×144 cm
+Mass
+4,638 kg
+Volume
+466.1 kv
+Corrosion resistance
+360
+(tank)
+380
+(supports)
+Primary material
+Bastium
+Input / Output
+Propellant input
+50,000 per second
+Propellant output
+50,000 per second
+Propellant capacity
+1,000,000
+Sockets
+4
+Device interfaces
+2
+Composition (tank)
+Bastium
+70%
+Vokarium
+30%
+Composition (supports)
+Ajatite
+10%
+Bastium
+60%
+Vokarium
+30%
+Composition (Refill)
+Ice
+1,000KV
+Medium Hydrogen Propellant Tank
+Size
+144×144×192 cm
+Mass
+11,090 kg
+Volume
+1,125.7 kv
+Corrosion resistance
+710
+(tank)
+380
+(supports)
+Primary material
+Aegisium
+Input / Output
+Propellant input
+50,000 per second
+Propellant output
+50,000 per second
+Propellant capacity
+4,000,000
+Sockets
+4
+Device interfaces
+2
+Composition (tank)
+Aegisium
+70%
+Vokarium
+30%
+Composition (supports)
+Ajatite
+10%
+Bastium
+60%
+Vokarium
+30%
+Composition (Refill)
+Ice
+4,000KV
+Large Hydrogen Propellant Tank
+Size
+192×192×288 cm
+Mass
+24,413 kg
+Volume
+2,502 kv
+Corrosion resistance
+710
+(tank)
+380
+(supports)
+Primary material
+Aegisium
+Input / Output
+Propellant input
+50,000 per second
+Propellant output
+50,000 per second
+Propellant capacity
+12,000,000
+Sockets
+4
+Device interfaces
+2
+Composition (tank)
+Aegisium
+70%
+Vokarium
+30%
+Composition (supports)
+Ajatite
+10%
+Bastium
+60%
+Vokarium
+30%
+Composition (Refill)
+Ice
+12,000KV
+Device fields
+Propellant tank support
+YOLOL field
+description
+range
+IsOpenId
+Input/output field for closing/opening connectors.
+0 - 1
+FlowId
+Output field for resource amounts flowing through the network.
+GasNetworkStoredResource
+Amount of propellant currently available in all conected containers.
+0 - GasNetworkMaxResource
+GasNetworkMaxResource
+Maximum amount of propellant that can be stored in all conected containers.
+Propellant tank
+YOLOL field
+description
+range
+GasContainerStoredResource
+Amount of propellant currently available in this container.
+0 - GasContainerMaxResource
+GasContainerMaxResource
+Maximum amount of propellant that can be stored in this container.
+To learn more about how to use the device fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

@@ -1,0 +1,87 @@
+{
+    "type": "Thrusters",
+    "function": "Generates propulsion",
+    "size": "360\u00d796\u00d7144 cm",
+    "mass": "18,878.53 kg",
+    "volume": "1,897.34 kv",
+    "corrosion_resistance": 350,
+    "inputs_outputs": {
+        "electric_input": {
+            "T1": "210 e/s",
+            "T2": "183.6 e/s",
+            "T3": "297 e/s"
+        },
+        "propellant_input": {
+            "T1": "30.96 p/s",
+            "T2": "26.966 p/s",
+            "T3": "39.154 p/s"
+        }
+    },
+    "thrust_power": {
+        "T1": 500000,
+        "T2": 550000,
+        "T3": 650000
+    },
+    "device_interfaces": 2,
+    "description": "OUTDATED Box thrusters are a type of thruster that produce significantly more thrust than triangle thrusters, at the expense of nearly double the electricity intake. They are most commonly found working as the main thrusters of civilian ships.",
+    "basic_information": {
+        "components": [
+            {
+                "name": "Body",
+                "function": "Houses other components and provides mounting surfaces",
+                "compatibility": "Any tier compatible with any component tier"
+            },
+            {
+                "name": "Chamber",
+                "function": "Burns propellant to produce thrust"
+            },
+            {
+                "name": "Nozzle",
+                "function": "Channels exhaust out of the chamber to produce thrust",
+                "compatibility": "Any tier compatible with any Box Thruster tier"
+            },
+            {
+                "name": "Electricity Converter",
+                "function": "Converts power from generators and batteries into thruster-usable power",
+                "compatibility": "Any tier compatible with any Box Thruster tier"
+            },
+            {
+                "name": "Propellant Converter",
+                "function": "Prepares propellant to be burnt",
+                "compatibility": "Any tier compatible with any Box Thruster tier"
+            }
+        ],
+        "resource_sharing": "Box thrusters do not have a resource-sharing port and must each connect individually to power and propellant networks",
+        "advantage": "Produce considerable thrust per unit and require less propellant than triangle thrusters despite the increased electricity intake"
+    },
+    "thrust_values": {
+        "Tier 1": {
+            "Body": 400000,
+            "Nozzle": 100000
+        },
+        "Tier 2": {
+            "Body": 440000,
+            "Nozzle": 110000
+        },
+        "Tier 3": {
+            "Body": 520000,
+            "Nozzle": 130000
+        }
+    },
+    "device_fields": {
+        "Box_thruster_body": {
+            "YOLOL_field": [
+                {
+                    "name": "ThrusterState",
+                    "description": "Requested output of the thruster",
+                    "range": "0 - 10 000"
+                },
+                {
+                    "name": "ThrusterCurrentThrust",
+                    "description": "Current output of the thruster",
+                    "range": "0 - 10 000"
+                }
+            ]
+        }
+    }
+}

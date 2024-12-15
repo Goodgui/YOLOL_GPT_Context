@@ -1,0 +1,89 @@
+{{Otherlang2
+|de= Chip_socket:de
+|fr= Chip_socket/fr
+|ru= Разъём для чипа
+|zh-cn=芯片槽
+|ua=Роз'єм для чіпа
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Chip socket.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=YOLOL device
+	  |function=Reads YOLOL chips
+	  
+	  |size=48×48×24 cm
+	  |mass=362.18
+	  |volume=36.40
+	  |corrosionResistance=300
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Passive
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=4
+	  |YOLOLchips=1
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}<section begin=summary/>[[YOLOL]] chip socket is a base device, which relays [[Generator (Assembly)|power]] and connection to a [[Data networks|data network]] for the [[YOLOL Chip|YOLOL chip]]. Another option for mounting YOLOL chips is the [[Modular device rack]].<section end=summary/>
+
+== Basic information ==
+
+Chip sockets have:
+* Four [[Cable tool|cable]] slots
+* [[Bolt tool|Bolting]] spots in each corner
+
+Chip sockets are placed to any construct (ship, station or machine) that requires YOLOL to work.<br>
+The socket is then bolted to the structure and cabled to a network with [[Generator (Assembly)|power]] and YOLOL chip's target devices.
+
+Several chip sockets can be placed side by side and they connect to each other without cables.
+
+[[Category:Devices and machines|Chip socket]]

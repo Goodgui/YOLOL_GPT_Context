@@ -1,0 +1,76 @@
+Robotic arms
+Type
+Utility machinery
+Function
+Automation
+Size
+156×156×432 cm
+(small)
+156×156×720 cm
+(med)
+Mass
+9,236.2 kg
+(small)
+14.382.2 kg
+(med)
+Volume
+928.26 kv
+(small)
+1445.45 kv
+(med)
+Corrosion resistance
+300
+Primary material
+400
+Input / Output
+Electric input
+Approx. 5-10 e/s
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Bastium
+100%
+Robot arms are a series of mechanical joints that enable a wide variety of automated tasks, such as ship-building factories and assembly lines. Each segment can be controlled individually through a player's universal tool, or by a device such as a lever, but these movements can also be computed automatically. Robot arms have a special tool-head at their end, which allows a user to equip tools to perform specific tasks. They can also accept a standard hardpoint onto the tool-head, which enables the use of such devices as a rangefinder or any of a variety of weapons.
+Basic information
+Robot arms consist of two types of joints, revolute and prismatic, which can be stacked together to form articulated arms of varying complexity.
+The basic arm configuration has one or two telescoping segments, and an end segment with a revolute joint. More arms or tool holders can be attached to this revolute joint.
+The base of any arm combination has to be attached to a special turret base joint.
+There are four different sizes of the basic arm.
+Device fields
+YOLOL field
+description
+range
+TargetArmLength
+Telescoping arm target length
+[0,100]: percent of maximum extension
+CurrentArmLength
+Current arm length updated during arm movement
+[0,100]: percent of maximum extension
+EndPosition
+Extension at maximum arm length
+StartPosition
+Extension at minimim arm length
+TargetVelocity
+Target velocity of telescoping movement
+YOLOL field
+description
+range
+TargetArmAngle
+Rotating joint target angle
+[-180,180]: degrees
+CurrentArmAngle
+Rotating joint current angle updated during arm rotation
+[-180,180]: degrees
+MaxRotation
+Maximum rotation
+MinRotation
+Minimum rotation
+TargetVelocity
+Target velocity of rotation
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Videos

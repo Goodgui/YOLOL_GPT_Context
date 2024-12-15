@@ -1,0 +1,38 @@
+{
+    "battery": {
+        "type": "Power",
+        "function": "Stores electrical power",
+        "specifications": {
+            "size": "96\u00d748\u00d772 cm",
+            "mass": "3236.64 kg",
+            "volume": "325.29 kv",
+            "corrosion_resistance": 790,
+            "primary_material": "Bastium"
+        },
+        "input_output": {
+            "electric_input": "10000 e/s",
+            "electric_output": "10000 e/s"
+        },
+        "sockets": 2,
+        "modular_interfaces": 6,
+        "composition": {
+            "bastium": "15%",
+            "nhurgite": "80%",
+            "vokarium": "5%"
+        },
+        "description": "OUTDATED A battery is a storage device for electrical energy, and currently is available in just one size. This battery holds up to 10,000 energy units and has two sockets on opposite sides for ease-of-use, but are also semi-modular and can share connections with batteries placed immediately adjacent to them. Small ships can run entirely on batteries, but most ships use them as a buffer to handle periods of higher energy drain while their generators are warming up. Batteries with energy stored tend to explode when damaged, so designers should be careful about how many batteries they place near one another. Power drain and recharge is automatically balanced between all batteries on the network if all batteries have the same priority. It is common to see ships with an emergency buffer using the priority field to keep vital systems running in the case of an unintended shutdown."
+    },
+    "device_fields": {
+        "yolol_field": {
+            "battery_priority": "Batteries with a lower priority get used first",
+            "stored_battery_power": {
+                "description": "Current charge level of the battery",
+                "range": "0 - 10000"
+            },
+            "max_battery_power": {
+                "description": "Maximum charge level of the battery",
+                "value": 10000
+            }
+        }
+    }
+}

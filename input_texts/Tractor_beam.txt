@@ -1,0 +1,124 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Tractor beam (device).png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Non-contact cargo ferrying
+	  
+	  |size=132×72×84 cm
+	  |mass=1,712.8
+	  |volume=172.14
+	  |corrosionResistance=475
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=15%
+	  |ajatite=
+	  |arkanium=
+	  |bastium=45%
+	  |charodium=
+	  |corazium=
+	  |exorium=20%
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=20%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The tractor beam is a device that projects a ray which can be used to manipulate the object it touches. They can push, pull, and rotate the object in all directions, and are a useful tool for asteroid haulers.<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{| class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''tractorBeamOnState'''
+| Beam on/off
+| 1 or 0
+|-
+! '''tractorBeamSoftRelease'''
+| When set to 1, brings the object grabbed by the beam to a stop, then turns off the beam
+| 1 or 0
+|-
+! '''tractorBeamSnapToObjects'''
+| When set to 1, tractor beam tries to snap held object to nearby objects 
+| 1 or 0
+|-
+! '''tractorBeamSearchLength'''
+| Length (meters) of the beam when the beam is not attached to anything. Max range of the beam.
+| 0-100
+|-
+! '''tractorBeamForce'''
+| Maximum amount of force the beam will try to apply to grabbed object.
+| 0-50,000
+|-
+! '''tractorBeamTorque'''
+| Maximum amount of torque the beam will try to apply to grabbed object.
+| 0-50,000
+|-
+! '''tractorBeamPosition'''
+| The distance (meters) the beam tries to move a held object to. Resets on grab, but does not message network / other devices.
+| 0-100
+|-
+! '''tractorBeamYaw'''
+| The yaw (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+| -
+|-
+! '''tractorBeamPitch'''
+| The pitch (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+| -
+|-
+! '''tractorBeamRoll'''
+| The roll (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+| -
+|-
+! '''tractorBeamObjectInBeam'''
+| Indicates whether an object is grabbed by the beam.
+| 1 or 0
+|-
+! '''tractorBeamForceApplied'''
+| Indicates the force currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target position.
+| -
+|-
+! '''tractorBeamTorqueApplied'''
+| Indicates the torque currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target rotation.
+| -
+|}
+<section end=deviceFields/>
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Notes ==
+Tractor Beams are relatively weak compared to Cargo Lock Beams. Attempting to pull or push an object whilst moving through space (depending on the objects weight) will cause the object to move according to loose objects in space. This means it is not feasible to pull or push objects on a set trajectory whilst moving using the Tractor Beam.
+
+== Related Pages ==
+
+[[Tractor beam (Assembly)]]
+
+[[Category:Devices and machines]]

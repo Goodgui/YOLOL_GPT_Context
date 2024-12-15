@@ -1,0 +1,26 @@
+Large module connector
+Size
+144×72×72 cm
+Mass
+2,591.33 kg
+Volume
+295.14 kv
+Corrosion resistance
+532
+Primary material
+Ymrium
+Input / Output
+Modular interfaces
+2
+Composition
+Aegisium
+20%
+Lukium
+12%
+Vokarium
+28%
+Ymrium
+40%
+Used to connect large generator modules together, enabling resource flow between devices without placing the units directly adjacent to each other. Attaches to the connection points on large generator, exorium tank and exorium processing unit end covers.
+Related Articles
+Large module connector collar

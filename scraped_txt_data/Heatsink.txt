@@ -1,0 +1,139 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Heatsinks group.png]]
+	  |caption=A collection of heatsink types
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Cooling device
+	  |function=Stores and transfers [[Heat mechanics|heat]]
+	  
+	}}
+
+}}<section begin=summary/>A heatsink is an integral part to most high-performance [[Generator (Assembly)|power plants]], and is used to rapidly store or transfer [[Heat mechanics|heat]] away from generators. Heatsinks also double as [[ducts|Duct]].<section end=summary/>
+
+== Usage ==
+Heatsinks facilitate the interaction between devices that produce heat (such as [[Generator unit|generators]], [[Fuel chamber|fuel chambers]], and [[Mounted weapons|mounted weapons]]) and the devices that can dissipate heat (such as [[Radiator|radiators]]). Heatsinks can be used to effectively bypass the transfer limitation for heat that exists between devices and radiators, as their thermal transfer limitation is significantly higher. Despite their significant visual differences, each heatsink style has the same effective mass and thermal properties.
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Heatsink cube.png]]
+		|name=Heatsink, Cube
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=5,074.5
+		|volume=510.0
+		|size=96×96×96 cm
+		|corrosionResistance=440
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|heatDissipation=50 per second
+		|heatCapacity=15,000
+		|heatTransfer=750 per second
+		|modInterfaces=6
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=75%
+		|bastium=15%
+		|charodium=10%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Heatsink panel.png]]
+		|name=Heatsink, Plate
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=5,074.5
+		|volume=510.0
+		|size=192×192×24 cm
+		|corrosionResistance=440
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|heatDissipation=50 per second
+		|heatCapacity=15,000
+		|heatTransfer=750 per second
+		|modInterfaces=6
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=75%
+		|bastium=15%
+		|charodium=10%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Heatsink rod.png]]
+		|name=Heatsink, Beam
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=5,074.5
+		|volume=510.0
+		|size=384×48×48 cm
+		|corrosionResistance=440
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|heatDissipation=50 per second
+		|heatCapacity=15,000
+		|heatTransfer=750 per second
+		|modInterfaces=6
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=75%
+		|bastium=15%
+		|charodium=10%
+	  }}
+	}}
+}}
+== Device fields ==
+<section begin=deviceFields/>
+===[[Heatsink|Heatsink]]===
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''HeatTransferRateLimit'''
+| Maximum heat transfer to radiators, expressed as a percentage
+| 0 - 100
+|-
+! '''HeatTransferRate'''
+| Current heat transfer to radiators, expressed as a percentage
+| 0 - 100
+|-
+! '''HeatsinkStoredHeat'''
+| Amount of heat stored inside the heatsink
+| 0 - 15,000
+|-
+! '''HeatsinkMaxStoredHeat'''
+| Maximum value for heat storage
+| 0 - 15,000
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines]]

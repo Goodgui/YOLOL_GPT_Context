@@ -1,0 +1,56 @@
+An exploded view of an assembled mining laser
+Mining laser (Assembly)
+Type
+Mining device
+Function
+Non-contact mining device
+Size
+216×96×72 cm
+Mass
+6,149.697 kg
+Volume
+618.06 kv
+Corrosion resistance
+395
+Input / Output
+Electric input
+6,000 e/s
+Sub-components
+The mining laser applies continuous damage to the first object hit within its configured range, making it an efficient tool in professional mining, and is often used in conjunction with ore collectors.
+For example the mining ship Urchin is equipped with mining lasers.
+Basic information
+Mining laser uses a device field to control the length and state of the laser. 
+The mining laser is usually connected to a control device such as buttons or levers.
+The mining laser consumes 6000 electricity per second while active.
+Assembly
+A mining laser needs to be attached to several objects to function:
+Utility Tool Body which needs equipped with 2 Utility Tool & Rail Cannon Capacitors
+A weapon mount: Either a Turret Cradle, Small Turntable Mount 2, or Fixed Weapon Mount 2 will work
+Note that the small turntable mount will require a matching turntable
+Device Hardpoint
+The hardpoint needs connected to power via Cable or Duct.
+Device fields
+Mining laser
+YOLOL field
+description
+range
+MiningLaserOn
+Mining laser turns off when this is set to 0 and on when set to anything else
+0 - 1
+MiningLaserBeamLength
+The length of the beam. Measured in meters.
+0 - 20
+Utility tool capacitor
+YOLOL field
+description
+range
+StoredLocalPower
+How much power is stored in the capacitor
+0 - 4000
+MaxLocalPower
+Maximum amount of power that can be stored
+4000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

@@ -1,0 +1,66 @@
+!
+This page contains information that pertains only to the
+closed alpha
+version of the game, which was discontinued on July 26th, 2021. It has been kept up for posterity only, but you may still
+edit it.
+Rail movers in a variety of configurations
+Rail mover
+Type
+Factory machinery
+Function
+Linear motor
+Size
+72×72×36 cm
+(base)
+72×72×36 cm
+(turntable)
+Mass
+344 kg
+(base)
+392 kg
+(turntable)
+Volume
+34.57 kv
+(base)
+39.42 kv
+(turntable)
+Corrosion resistance
+400
+Input / Output
+Electric input
+5 e/s
+Sockets
+2
+Device interfaces
+1
+Composition
+Bastium
+100%
+Three different rail mover entities exist: basic, turntable, and jointed for machinery.
+Rails can be used to create anything that moves on rails, like elevators, gun turrets, and factory lines.
+The primary use for rails however is automation.
+Basic information
+The mover is the device which is located on the rail and performs the actual locomotion of other devices on top of it.
+Rail movers are controlled by using a
+YOLOL
+variable; by default, the "
+speed
+" variable.
+A mover will automatically connect to any rail it is on, and can only move along the rails.
+Anything connected to the sockets or plugs of a mover will also be on the same network as the mover.
+This means that devices properly connected through a mover can be YOLOL-controlled from the same network as the mover.
+Rail movers will move in the direction of the arrow on the mover.
+In the case of a negative speed, rail movers will move in the opposite direction of the arrow.
+Videos
+Device fields
+YOLOL field
+description
+range
+speed
+Target velocity of the rail mover in m/s
+RailMoverTriggerValue
+If we cross a rail trigger that is configured to emit values read from the mover, it reads from this field.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

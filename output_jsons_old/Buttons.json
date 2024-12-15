@@ -1,0 +1,321 @@
+{
+    "title": "Buttons",
+    "summary": {
+        "type": "Input devices",
+        "function": "Toggles device fields",
+        "description": "OUTDATED Buttons come in many different shapes, sizes, and colors, but all serve the same purpose: Toggling device field values. While some buttons like the simple button 12\u00d712 or the switch can only toggle between preset values, others can have customized on and off states applied when triggered. This is particularly useful to avoid using YOLOL to interpret button states."
+    },
+    "configuration": {
+        "general": {
+            "set_name": "ButtonState",
+            "on_off_state_values": "Set the On- and Off-state values",
+            "button_style": "Pressing the button changes its state depending on ButtonStyle-field value",
+            "button_color": "Buttons with the 'ButtonColor' field can have a different button color depending on the value of this field"
+        },
+        "devices": [
+            {
+                "name": "Hybrid buttons",
+                "specs": {
+                    "size": "24\u00d724 cm",
+                    "support": [
+                        "Custom on/off states",
+                        "Label on their faces"
+                    ],
+                    "functions": [
+                        "Toggles device fields"
+                    ]
+                }
+            },
+            {
+                "name": "Safety lid buttons",
+                "specs": {
+                    "size": "24\u00d724 cm",
+                    "features": [
+                        "Physical shield"
+                    ],
+                    "support": [
+                        "Coloring via their device fields",
+                        "Custom on/off states"
+                    ],
+                    "functions": [
+                        "Toggles device fields"
+                    ]
+                }
+            },
+            {
+                "name": "Simple buttons",
+                "specs": {
+                    "sizes": [
+                        "12\u00d712 cm",
+                        "12\u00d724 cm"
+                    ],
+                    "support": [
+                        "Coloring via their device fields"
+                    ],
+                    "functions": [
+                        "Toggles device fields"
+                    ]
+                }
+            },
+            {
+                "name": "Warning light buttons",
+                "specs": {
+                    "size": "12\u00d712 cm",
+                    "support": [
+                        "Custom on/off states",
+                        "Coloring",
+                        "Blinking back-light"
+                    ],
+                    "functions": [
+                        "Toggles device fields"
+                    ]
+                }
+            },
+            {
+                "name": "Switches",
+                "specs": {
+                    "size": "12\u00d724cm",
+                    "output_states": [
+                        -1,
+                        0,
+                        1
+                    ],
+                    "support": [
+                        "Coloring via their device fields"
+                    ],
+                    "functions": [
+                        "Toggles device fields"
+                    ]
+                }
+            },
+            {
+                "name": "Small buttons",
+                "specs": {
+                    "size": "30\u00d730\u00d736 cm",
+                    "support": [
+                        "Custom on/off states"
+                    ],
+                    "functions": [
+                        "Toggles device fields"
+                    ]
+                }
+            },
+            {
+                "name": "Twist handles",
+                "specs": {
+                    "size": "24\u00d724\u00d736 cm",
+                    "support": [
+                        "Custom on/off states"
+                    ],
+                    "functions": [
+                        "Control the flow of propellant tanks"
+                    ]
+                }
+            }
+        ]
+    },
+    "detailed_specs": {
+        "Hybrid button": {
+            "size": "24\u00d724\u00d76 cm",
+            "mass": "16.6 kg",
+            "volume": "1.67 kv",
+            "corrosion_resistance": "489",
+            "primary_material": "Bastium",
+            "input_output": "Modular interfaces 24\u00d724 cm",
+            "composition": {
+                "Ajatite": "29.94%",
+                "Bastium": "35.3%",
+                "Nhurgite": "14.87%",
+                "Vokarium": "19.89%"
+            }
+        },
+        "Simple button 12\u00d712 cm": {
+            "size": "12\u00d712\u00d76 cm",
+            "mass": "4.27 kg",
+            "volume": "0.43 kv",
+            "corrosion_resistance": "420",
+            "primary_material": "Bastium",
+            "input_output": "Modular interfaces 12\u00d712 cm",
+            "composition": {
+                "Ajatite": "40%",
+                "Bastium": "40%",
+                "Vokarium": "20%"
+            }
+        },
+        "Simple button 12\u00d724 cm": {
+            "size": "12\u00d724\u00d76 cm",
+            "mass": "8.66 kg",
+            "volume": "0.87 kv",
+            "corrosion_resistance": "420",
+            "primary_material": "Bastium",
+            "input_output": "Modular interfaces 12\u00d724 cm",
+            "composition": {
+                "Ajatite": "39.85%",
+                "Bastium": "40.22%",
+                "Vokarium": "19.93%"
+            }
+        },
+        "Small button": {
+            "size": "30\u00d730\u00d736 cm",
+            "mass": "127.36 kg",
+            "volume": "12.80 kv",
+            "corrosion_resistance": "360",
+            "primary_material": "Bastium",
+            "input_output": "Sockets 1",
+            "composition": {
+                "Bastium": "70%",
+                "Vokarium": "30%"
+            }
+        },
+        "Switch 12\u00d724": {
+            "size": "24\u00d712\u00d712 cm",
+            "mass": "786 kg",
+            "volume": "0.79 kv",
+            "corrosion_resistance": "360",
+            "primary_material": "Bastium",
+            "input_output": "Modular interfaces 12\u00d724 cm",
+            "composition": {
+                "Bastium": "70.07%",
+                "Vokarium": "29.93%"
+            }
+        },
+        "Twist handle": {
+            "size": "24\u00d724\u00d730 cm",
+            "mass": "64.1 kg",
+            "volume": "6.44 kv",
+            "corrosion_resistance": "300",
+            "primary_material": "Bastium",
+            "input_output": "Modular interfaces 24\u00d724 cm",
+            "composition": {
+                "Bastium": "100%"
+            }
+        },
+        "Safety lid button (round)": {
+            "size": "24\u00d724\u00d712 cm",
+            "mass": "22.8 kg",
+            "volume": "2.29 kv",
+            "corrosion_resistance": "480",
+            "primary_material": "Bastium",
+            "input_output": "Modular interfaces 24\u00d724 cm",
+            "composition": {
+                "Ajatite": "59.85%",
+                "Bastium": "10.22%",
+                "Vokarium": "29.93%"
+            }
+        },
+        "Safety lid button (square)": {
+            "size": "24\u00d724\u00d712 cm",
+            "mass": "22.6 kg",
+            "volume": "2.27 kv",
+            "corrosion_resistance": "480",
+            "primary_material": "Bastium",
+            "input_output": "Modular interfaces 24\u00d724 cm",
+            "composition": {
+                "Ajatite": "59.85%",
+                "Bastium": "10.22%",
+                "Vokarium": "29.93%"
+            }
+        },
+        "Warning light button 12\u00d712": {
+            "size": "24\u00d724\u00d712 cm",
+            "mass": "4.28 kg",
+            "volume": "0.43 kv",
+            "corrosion_resistance": "300",
+            "primary_material": "Bastium",
+            "input_output": "Modular interfaces 12\u00d712 cm",
+            "composition": {
+                "Bastium": "100%"
+            }
+        }
+    },
+    "YOLOL_fields": {
+        "Small button, Hybrid button & Twist handle": {
+            "ButtonState": "The name of the field of which value the button modifies",
+            "ButtonOnStateValue/ButtonOffStateValue": {
+                "ButtonOnStateValue": "Controls the value when pressed",
+                "ButtonOffStateValue": "Controls the value when released"
+            },
+            "ButtonStyle": {
+                "0": "Hold down and release",
+                "1": "Basic Toggle (in-game button remains down while it is 'on')",
+                "2": "4-state switch (in-game button returns to the unpressed position whether it is 'on' or 'off')"
+            }
+        },
+        "Warning light button": {
+            "ButtonState": "The name of the field of which value the button modifies",
+            "0/1": "",
+            "ButtonStyle": {
+                "0": "Hold down and release",
+                "1": "Basic Toggle (in-game button remains down while it is 'on')",
+                "2": "4-state switch (in-game button returns to the unpressed position whether it is 'on' or 'off')"
+            },
+            "ButtonColor": {
+                "0": "Red",
+                "1": "Orange",
+                "2": "Green",
+                "3": "Blue",
+                "default": "Red"
+            },
+            "ButtonEnableBlink": {
+                "0": "No blinking",
+                "1": "Blinking (Number sets the interval)"
+            }
+        },
+        "Simple buttons": {
+            "ButtonState": "The name of the field of which value the button modifies",
+            "0/1": "",
+            "ButtonStyle": {
+                "0": "Hold down and release",
+                "1": "Basic Toggle (in-game button remains down while it is 'on')",
+                "2": "4-state switch (in-game button returns to the unpressed position whether it is 'on' or 'off')"
+            },
+            "ButtonColor": {
+                "0": "Blue",
+                "1": "Red",
+                "2": "Green",
+                "3": "White",
+                "default": "Blue"
+            }
+        },
+        "Switch": {
+            "SwitchState": "The name of the field of which value the button modifies",
+            "-1/0/1": "",
+            "SwitchStyle": {
+                "0": "Hold down and release",
+                "1": "Toggle (-1/0/1)",
+                "2": "Toggle (-1/1)"
+            },
+            "SwitchColor": {
+                "0": "Black",
+                "1": "Red",
+                "2": "Orange",
+                "3": "Green",
+                "4": "Blue",
+                "default": "Black"
+            }
+        },
+        "Safety lid buttons": {
+            "ButtonState": "The name of the field of which value the button modifies",
+            "ButtonOnStateValue/ButtonOffStateValue": {
+                "ButtonOnStateValue": "Controls the value when pressed",
+                "ButtonOffStateValue": "Controls the value when released"
+            },
+            "ButtonStyle": {
+                "0": "Hold down and release",
+                "1": "Basic Toggle (in-game button remains down while it is 'on')",
+                "2": "4-state switch (in-game button returns to the unpressed position whether it is 'on' or 'off')"
+            },
+            "ButtonColor": {
+                "0": "Red",
+                "1": "Orange",
+                "2": "Green",
+                "3": "Blue",
+                "default": "Red"
+            },
+            "ButtonEnableBlink": {
+                "0": "No blinking",
+                "1": "Blinking (Number sets the interval)"
+            }
+        }
+    }
+}

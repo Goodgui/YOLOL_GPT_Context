@@ -1,0 +1,89 @@
+{{Otherlang2
+|ru = Большой генератор. Ядро
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Large Generator, Core.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=28,930.89
+		|volume=3,295.09
+		|size=576×576×576 cm
+		|corrosionResistance=473
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device IO
+        |electricOut=70,000 per second
+        |heatGeneration=2,560 per second
+        |heatCapacity=1,500
+        |heatDissipation=5 per second
+        |heatTransfer=75 per second ''(to radiator)''
+        |modInterfaces=6
+      }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=25%
+	|charodium=21%
+	|lukium=12%
+	|vokarium=23%
+	|arkanium=11%
+	|corazium=8%
+	  }}
+}}<section begin=summary/>Core of the large generator unit, positioned inside the outer shell. Creates electricity and waste heat from processed fuel provided by Exorium Processing Unit.
+
+
+Resource details:
+
+Max rate without external cooling: approx. 3%
+
+Max rate with radiators: approx. 53%
+
+Needs 2 heat sinks and 1 radiator block to run at 100%
+<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''ElectricityProduction'''
+| Current electrical output
+| 0 - 70,000
+|-
+! '''HeatProduction'''
+| Current heat output
+| 0 - 2,560
+|-
+! '''GeneratorUnitRateLimit'''
+| Maximum electrical output, expressed as a percentage
+| 0 - 100
+|-
+! '''GeneratorUnitRate'''
+| Current electrical output, expressed as a percentage
+| 0 - 100
+|-
+! '''GeneratorUnitStoredHeat'''
+| Amount of heat stored inside the generator core
+| 0 - 1,500
+|-
+! '''GeneratorUnitMaxStoredHeat'''
+| Maximum value for heat storage
+| 0 - 1,500
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+
+* [[Large generator (Assembly)]]
+
+[[Category:Devices and machines]]

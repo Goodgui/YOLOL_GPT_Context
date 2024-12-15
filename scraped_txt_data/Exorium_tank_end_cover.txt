@@ -1,0 +1,28 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Exorium Tank, End Cover.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=24,687.87
+		|volume=2,811.83
+		|size=504×504×108 cm
+		|corrosionResistance=560
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=45%
+	|aegisium=45%
+	|kutonium=10%
+	  }}
+}}<section begin=summary/>End cover for exorium tank. 2 end covers, together with 2 body halves, complete the shell around the tank. Includes connection point to link with other large generator parts or large module connector.<section end=summary/>
+
+== Related Articles ==
+
+* [[Exorium tank (Assembly)]]
+
+[[Category:Devices and machines]]

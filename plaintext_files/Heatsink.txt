@@ -1,0 +1,112 @@
+A collection of heatsink types
+Heatsink
+Type
+Cooling device
+Function
+Stores and transfers heat
+A heatsink is an integral part to most high-performance power plants, and is used to rapidly store or transfer heat away from generators. Heatsinks also double as Duct.
+Usage
+Heatsinks facilitate the interaction between devices that produce heat (such as generators, fuel chambers, and mounted weapons) and the devices that can dissipate heat (such as radiators). Heatsinks can be used to effectively bypass the transfer limitation for heat that exists between devices and radiators, as their thermal transfer limitation is significantly higher. Despite their significant visual differences, each heatsink style has the same effective mass and thermal properties.
+Types
+Heatsink, Cube
+Size
+96×96×96 cm
+Mass
+5,074.5 kg
+Volume
+510.0 kv
+Corrosion resistance
+440
+Primary material
+Bastium
+Input / Output
+Heat capacity
+15,000
+Heat transfer
+750 per second
+Heat dissipation
+50 per second
+Modular interfaces
+6
+Composition
+Bastium
+15%
+Charodium
+10%
+Vokarium
+75%
+Heatsink, Plate
+Size
+192×192×24 cm
+Mass
+5,074.5 kg
+Volume
+510.0 kv
+Corrosion resistance
+440
+Primary material
+Bastium
+Input / Output
+Heat capacity
+15,000
+Heat transfer
+750 per second
+Heat dissipation
+50 per second
+Modular interfaces
+6
+Composition
+Bastium
+15%
+Charodium
+10%
+Vokarium
+75%
+Heatsink, Beam
+Size
+384×48×48 cm
+Mass
+5,074.5 kg
+Volume
+510.0 kv
+Corrosion resistance
+440
+Primary material
+Bastium
+Input / Output
+Heat capacity
+15,000
+Heat transfer
+750 per second
+Heat dissipation
+50 per second
+Modular interfaces
+6
+Composition
+Bastium
+15%
+Charodium
+10%
+Vokarium
+75%
+Device fields
+Heatsink
+YOLOL field
+Description
+Range
+HeatTransferRateLimit
+Maximum heat transfer to radiators, expressed as a percentage
+0 - 100
+HeatTransferRate
+Current heat transfer to radiators, expressed as a percentage
+0 - 100
+HeatsinkStoredHeat
+Amount of heat stored inside the heatsink
+0 - 15,000
+HeatsinkMaxStoredHeat
+Maximum value for heat storage
+0 - 15,000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

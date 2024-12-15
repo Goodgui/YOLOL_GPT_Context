@@ -1,0 +1,142 @@
+{{Otherlang2
+|fr=YOLOL_Chip/fr
+|de=YOLOL_Chip:de
+|ru=Чип YOLOL
+|zh-cn=YOLOL芯片
+|ua=Чіп YOLOL
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Yolol chip.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=YOLOL device
+	  |function=Executes code
+	  
+	  |size=
+	  |mass=
+	  |volume=
+	  |corrosionResistance=
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+}}<section begin=summary/>The [[YOLOL]] chip is a movable container for programmed scripts. Scripts can be edited via the physical chip interface directly, or by using the [[Universal tool|universal tool]]. The chip must be placed in a reader, such as the [[Chip socket|chip socket]] or [[Modular device rack|device rack]], in order to function.<section end=summary/>
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:YOLOL chip (basic).png]]
+		|name=YOLOL chip (basic)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=42×28×3 cm
+		|mass=25.1
+		|volume=2.52
+		|corrosionResistance=460
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=0.01 e/s
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=45%
+		|bastium=20%
+		|vokarium=35%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:YOLOL chip (advanced).png]]
+		|name=YOLOL chip (adv.)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=42×28×3 cm
+		|mass=25.1
+		|volume=2.52
+		|corrosionResistance=514
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=0.01 e/s
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=20.04%
+		|ajatite=41.98%
+		|arkanium=17.98%
+		|vokarium=10%
+		|karnite=10%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:YOLOL chip (professional).png]]
+		|name=YOLOL chip (pro.)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=42×28×3 cm
+		|mass=25.1
+		|volume=2.52
+		|corrosionResistance=306
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=0.01 e/s
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=12.06%
+		|ajatite=7.98%
+		|xhalium=50%
+		|corazium=15%
+		|vokarium=7.98%
+		|karnite=6.98%
+	  }}
+	}}
+}}
+
+== Basic information ==
+
+The YOLOL chip can interact with any connected [[Data networks|device networks]] when placed inside a chip slot.<br>
+This interaction is done with a specific script.
+
+'''How the programmable chips work:'''
+* The chip executes a single line of the script per configured time interval.
+* The chip has play and pause buttons, and screen lock and unlock buttons.
+** The chips are locked by default, and are opened by sliding down the lock icon on the screen.
+* The chip must be placed into a chip socket, which is connected to a [[Generator (Assembly)|power source]] and to a [[Data networks|data network]].
+* The chip can hold 20 lines of code.
+** One line in the chip can hold a total 70 characters of code.
+* '''NOTE!''' The available [[YOLOL#Operators_and_commands|operators and commands]] may be limited by the type of chip.
+** Basic chips have a limited selection of functions while more advanced ones can perform more complex operations natively.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ChipWait'''
+| Controls script execution. Negative values mean execution is paused, zero means script is being executed, and positive values mean execution will continue after the amount of line runs have passed that are equal to the value. 
+| Numeric, any
+|}
+
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Chip]]

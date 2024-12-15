@@ -1,0 +1,82 @@
+{{Otherlang2
+|ru=Шахтерский Лазер
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Mining laser.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Mines material
+	  |size=132×48×48 cm
+	  |mass=2,155
+	  |volume=222.9
+	  |corrosionResistance=467
+	  |primaryMaterial=Aegisium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=6,000 e/s
+	}}
+
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=15%
+	  |ajatite=
+	  |arkanium=10%
+	  |bastium=
+	  |charodium=42%
+	  |corazium=
+	  |exorium=18%
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=15%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The mining laser is a device that projects a strong laser within a short range before it. This laser is capable of pulverizing asteroids and other materials, which can then be collected with the [[Ore collector (Assembly)|ore collector]], making for an expedient method of mining.<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''MiningLaserOn'''
+| Mining laser turns off when this is set to 0 and on when set to anything else
+| 0 - 1
+|-
+! '''MiningLaserBeamLength'''
+| The length of the beam. Measured in meters.
+| 0 - 20
+|}
+<section end=deviceFields/>
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Pages ==
+
+*[[Mining laser (Assembly)]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,87 @@
+{{Otherlang2
+|fr=Solar_Panel/fr
+|de=Solar_Panel:de
+|ru=Солнечная панель
+|zh-cn=太阳能板
+|ua=Сонячна панель
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Solar panel.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Power device
+	  |function=Produces solar power
+	  |availability=
+	  |size=144×144×12 cm
+	  |mass=3.321.6
+	  |volume=221.44
+	  |primaryMaterial=Charodium
+	  |corrosionResistance=510
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=50 e/s
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=40%
+	  |ajatite=
+	  |arkanium=
+	  |bastium=10%
+	  |charodium=30%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=20%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Solar panels are devices used to convert light from the sun into usable electrical power. Though they produce relatively little power per panel, their benefit of maintenance-less operation makes them an appealing option for factories or for ships and constructs that cannot rely on [[Fuel rod|fuel rods]].<section end=summary/>
+
+== Usage ==
+
+Solar panels must be wired into the same network as a [[Solar power converter|solar power converter]] in order to produce usable electricity. To maximize efficiency, solar panel arrays should incorporate a [[Solar panel light sensor|solar panel light sensor]], the output of which is used by a [[turntable]] and a [[solar panel support]] in order to keep the solar panel oriented towards the sun.
+
+Adjacent solar panels and solar panel light sensors are automatically added to the same device network, and do not require individual [[Hardpoints|hardpoints]] to provide power.
+
+== Related pages ==
+* [[Solar panel (assembly)]]
+
+[[Category:Devices and machines]]

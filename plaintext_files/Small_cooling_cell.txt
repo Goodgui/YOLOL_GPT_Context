@@ -1,0 +1,51 @@
+Small cooling cell
+Type
+Cooling device
+Function
+Stores coolant
+Size
+48×24×48 cm
+Mass
+251.7 kg
+Volume
+29.27 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Coolant capacity
+10,000
+Coolant recycle rate
+1/s15/s in a Recharge rack
+Heat dissipation
+Up to 25,000 per second
+Composition
+Bastium
+100%
+Composition (Refill)
+Nhurgite
+50 kV
+Cooling cells are devices used in cooling racks to supply a Generator with fresh coolant, which it regenerates passively. The passive regeneration can be improved in a Recharge rack.
+Basic Use
+Put in a Cooling rack it allows the cooling rack to cool the attached Generator Assembly.
+Put in a Coolant recharge rack it regenerates coolant faster at the cost of electricity, but does not contribute to heat removal.
+Note
+as the coolant cell regenerates coolant by itself you can craft an empty cell, circumventing the Nhurgite cost.
+Device fields
+YOLOL field
+Description
+Range
+CoolantPriority
+Cells with a higher priority get used up first and refilled last
+integer
+StoredCoolant
+Current amount of coolant in this cooling cell
+0 - MaxCoolant
+MaxCoolant
+Maximum amount of coolant that can be stored in the cooling cell
+10000
+Related Pages
+Cooling rack
+Coolant recharge rack
+Generator (Assembly)

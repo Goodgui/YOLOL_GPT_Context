@@ -1,0 +1,31 @@
+Cargo lock frame controller
+Type
+Cargo device
+Function
+Powers cargo lock frames
+Size
+72×24×24 cm
+Mass
+233.83 kg
+Volume
+23.50 kv
+Corrosion resistance
+390
+Primary material
+Bastium
+Input / Output
+Sockets
+2
+Modular interfaces
+2
+Composition
+Ajatite
+15%
+Bastium
+55%
+Vokarium
+30%
+Cargo-lock controllers are devices used solely to power and control a cargo-lock frame. They can be snapped to any external point of the frame in order to transfer power to the frame from their sockets. They also have two modular interfaces on their face for placing buttons, which are frequently used to activate and deactivate the cargo-lock frame.
+Related Pages
+Cargo lock frame (Assembly)
+Cargo lock frame

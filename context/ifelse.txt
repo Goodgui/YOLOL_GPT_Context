@@ -1,0 +1,36 @@
+If statements in YOLOL are used for conditional execution of code. They evaluate a condition and execute a statement or block based on the result. Conditions are numeric expressions where 0 is considered False, and any non-zero value is considered True.
+Rules:
+1. Syntax: `if condition then statement else statement end`
+2. `condition` must evaluate to a numeric value.
+3. `then` and `else` are required if a condition branches into two paths.
+4. `end` must always conclude an if-else block.
+5. Statements must fit on a single line. The `if`, `then`, `else`, and `end` cannot span multiple lines.
+6. The `else` clause is optional. Omitting it results in no action if the condition is False.
+7. Nested if statements are allowed within `then` or `else` blocks.
+8. If a condition evaluates to True, the `then` block executes; otherwise, the `else` block executes.
+9. Spaces in the syntax are optional but improve readability.
+
+Examples:
+Basic if-else:
+if x == 1 then y = 2 else y = 3 end
+
+If without else:
+if x > 5 then y = 10 end
+
+Nested if statements:
+if x == 0 then
+  if y == 1 then z = 2 end
+else
+  z = 3
+end
+
+If with arithmetic:
+if x + y > 10 then result = 1 else result = 0 end
+
+If with external variables:
+if :ButtonState == 1 then :DoorState = 1 end
+
+Notes:
+1. Conditions and statements must respect YOLOL's 70-character limit.
+2. Unused `else` blocks can be omitted, simplifying logic.
+3. Nesting multiple if statements increases script size but allows more branching logic. Must be careful about line length

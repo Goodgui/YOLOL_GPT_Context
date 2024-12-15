@@ -1,0 +1,58 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Turret cradle chair side mount.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Control device
+	  |function=Mounts [[Pilot chair|chairs]]
+	  |availability=
+	  |size=96×96×96cm
+	  |mass=745.9
+	  |volume=74.96
+	  |corrosionResistance=300
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}
+<section begin=summary/>The turret cradle chair side mount is a device used exclusively with [[Cradle|advanced turret cradles]], and enables a designer to place a [[Pilot chair|pilot chair]] on the 'ear' of the cradle. When properly assembled, this device connects the chair to the [[Data networks|device network]].<section end=summary/>
+
+== Gallery ==
+
+<gallery mode="packed" widths="220px">
+Image:Turret cradle chair side mount (example).png|''An advanced turret cradle with two side mounts''
+</gallery>
+
+[[Category:Devices and machines]]

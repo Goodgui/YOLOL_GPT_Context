@@ -1,0 +1,78 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Cargolock frame controller.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Cargo device
+	  |function=Powers [[Cargo lock frame (Assembly)|cargo lock frames]]
+	  
+	  |size=72×24×24 cm
+	  |mass=233.83
+	  |volume=23.50
+	  |corrosionResistance=390
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |primaryMaterial=Bastium
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=2
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=15%
+	  |arkanium=
+	  |bastium=55%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=30%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Cargo-lock controllers are devices used solely to power and control a [[Cargo lock frame (Assembly)|cargo-lock frame]]. They can be snapped to any external point of the frame in order to transfer power to the frame from their sockets. They also have two modular interfaces on their face for placing [[Buttons|buttons]], which are frequently used to activate and deactivate the cargo-lock frame.<section end=summary/>
+
+== Related Pages ==
+* [[Cargo lock frame (Assembly)]]
+* [[Cargo lock frame]]
+
+[[Category:Devices and machines]]

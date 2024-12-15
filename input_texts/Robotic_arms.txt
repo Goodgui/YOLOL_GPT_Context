@@ -1,0 +1,156 @@
+{{Otherlang2
+|de=Robot_arms:de
+|fr=Robot_arms/fr
+|zh-cn=机械臂
+|ru=Роботизированные манипуляторы
+|ua=Роботизовані маніпулятори
+|jp=ロボットアーム
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Robot_arms.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility machinery
+	  |function=Automation
+	  |availability=
+	  |size=<ul><li>156×156×432 cm ''(small)''</li><li>156×156×720 cm ''(med)''</li></ul>
+	  |mass=<ul><li>9,236.2 kg ''(small)''</li><li>14.382.2 kg ''(med)''</li></ul>
+	  |volume=<ul><li>928.26 kv ''(small)''</li><li>1445.45 kv ''(med)''</li></ul>
+	  |corrosionResistance=300
+	  |primaryMaterial=400
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Approx. 5-10 e/s
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=1
+	  |deviceInterfaces=1
+	}}
+
+	|{{SB Infobox Device Construction
+	  |overrideHeader=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}
+
+Robot arms are a series of mechanical joints that enable a wide variety of automated tasks, such as ship-building [[factories]] and assembly lines. Each segment can be controlled individually through a player's [[Universal tool|universal tool]], or by a device such as a [[Levers|lever]], but these movements can also be computed automatically. Robot arms have a special tool-head at their end, which allows a user to equip [[Tools|tools]] to perform specific tasks. They can also accept a standard [[Hardpoints|hardpoint]] onto the tool-head, which enables the use of such devices as a [[Range finder|rangefinder]] or any of a variety of weapons.
+
+
+== Basic information ==
+
+* Robot arms consist of two types of joints, revolute and prismatic, which can be stacked together to form articulated arms of varying complexity.
+** The basic arm configuration has one or two telescoping segments, and an end segment with a revolute joint. More arms or tool holders can be attached to this revolute joint.
+* The base of any arm combination has to be attached to a special turret base joint.
+** There are four different sizes of the basic arm.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''TargetArmLength'''
+| Telescoping arm target length
+| [0,100]: percent of maximum extension
+|-
+! '''CurrentArmLength'''
+| Current arm length updated during arm movement
+| [0,100]: percent of maximum extension
+|-
+! '''EndPosition'''
+| Extension at maximum arm length
+| 
+|-
+!'''StartPosition'''
+| Extension at minimim arm length
+|
+|-
+!'''TargetVelocity'''
+| Target velocity of telescoping movement
+|
+|}
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''TargetArmAngle'''
+| Rotating joint target angle
+| [-180,180]: degrees
+|-
+! '''CurrentArmAngle'''
+| Rotating joint current angle updated during arm rotation
+| [-180,180]: degrees
+|-
+! '''MaxRotation'''
+| Maximum rotation
+| 
+|-
+!'''MinRotation'''
+| Minimum rotation
+|
+|-
+!'''TargetVelocity'''
+| Target velocity of rotation
+|
+|}
+
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+
+== Videos ==
+{{#evt:
+service=youtube
+|id=https://www.youtube.com/watch?v=LDy9Kt3KuGE
+}}
+
+{{#evt:
+service=youtube
+|id=https://www.youtube.com/watch?v=Borzb8ipqZ8
+}}
+
+<!-- claw -->
+<!-- grab -->
+[[Category:Devices and machines|Robot arms]]

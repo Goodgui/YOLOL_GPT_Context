@@ -1,0 +1,26 @@
+Information screen
+Input / Output
+Composition
+Currently unavailable in game
+Programmable information screens are a way to leave a visible message for the universe.
+Programmable information screens take a string variable, which is then displayed on the panels.
+The displayed content can be set and modified by accessing the information screen's InfoScreenContent field with the universal tool or YOLOL.
+Basic information
+Information screens require power.
+Information screens have a cable socket on the backside.
+Content displayed on the information screens is automatically word wrapped.
+The content is cut at the 364th character, as the character limit is reached.
+Total characters in panel: 364
+Lines per panel: 14
+Characters per line: 26
+Device fields
+YOLOL field
+description
+range
+InfoScreenContent
+Input string which will be displayed on the screen
+364 mark string
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

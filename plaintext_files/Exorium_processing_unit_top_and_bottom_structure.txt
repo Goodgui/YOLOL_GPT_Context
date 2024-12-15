@@ -1,0 +1,25 @@
+Exorium processing unit top and bottom structure
+Size
+576×204×72 cm
+Mass
+16,948.74 kg
+Volume
+1,930.38 kv
+Corrosion resistance
+480
+Primary material
+Ymrium
+Composition
+Aegisium
+15%
+Charodium
+20%
+Kutonium
+15%
+Lukium
+45%
+Ymrium
+5%
+Top/Bottom structure for exorium processing unit. 2 top/bottom structures, together with 2 end covers, 2 side structures and 4 side covers, are required to complete the outer shell of the processing unit.
+Related Articles
+Exorium processing unit (Assembly)

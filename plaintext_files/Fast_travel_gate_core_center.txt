@@ -1,0 +1,38 @@
+Fast travel gate core center
+Type
+Navigation device
+Function
+Part of a warp device
+Size
+84×228×228 cm
+Mass
+14,297.9 kg
+Volume
+1,436.98 kv
+Corrosion resistance
+464
+Primary material
+Bastium
+Composition
+Arkanium
+22%
+Bastium
+15%
+Charodium
+30%
+Exorium
+18%
+Vokarium
+15%
+The fast travel gate core center is one of the seven components of a properly assembled fast travel gate core. Just one is required for the device, and it is sandwiched between the inner bodies of the device.
+Device fields
+YOLOL field
+description
+range
+TravelCoreAssembled
+Indicates the readiness of the warp gate core
+0 - 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

@@ -1,0 +1,106 @@
+{{Otherlang2
+|de=Main_flight_computer:de
+|fr=Main_flight_computer/fr
+|zh-cn=主飞行计算机
+|ru= Основной компьютер полёта
+|ua=Головний Бортовий комп'ютер
+|jp=メインフライトコンピュータ
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase main flight computer.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Main flight computer
+	  |subtitle=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Control device
+	  |function=Automatic thruster control
+	  
+	  |size=96 × 48 × 48 cm
+	  |mass=2017.96
+	  |volume=202.81
+	  |corrosionResistance=470
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=0.5 e/s
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=4
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |overrideHeader=
+	  |aegisium=
+	  |ajatite=15%
+	  |arkanium=
+	  |bastium=15%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=70%
+	  |xhalium=
+	}}
+}}
+The Main flight computer combines information from one or more [[Flight control unit|flight control units]] and sends the necessary data to each [[Thrusters|thruster]] connected to it. Due to this it is possible to use several FCUs on a single ship. However, it is recommended to use only one FCU per MFC, meaning that if 2 MFC's are used, they would each need their own FCU, with the IO fields renamed to prevent crosstalk (will cause significant issues if present)
+
+== Basic information ==
+
+Main flight computers are placed in the same [[Data networks|network]] as flight control units and thrusters. Main flight computers require electricity in order for them to work, but do not actually consume any power.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''FcuMfcIO1'''
+| For connecting an FCU to the MFC
+| -
+|-
+! '''FcuMfcIO2'''
+| 
+| -
+|-
+<!-- ! '''CurrentSpeed'''
+| Current speed of the ship
+| 0-150 m/s
+|- -->
+! '''ThrusterPowerLevel01 - 50'''
+| 50 fields for connecting thrusters to the MFC. These field names are set for the ships thrusters.
+| -
+|}
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Main flight computer]]

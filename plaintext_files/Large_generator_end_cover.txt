@@ -1,0 +1,47 @@
+Large generator end cover
+Size
+348×348×156 cm
+Mass
+31,172.86 kg
+Volume
+3,550.44 kv
+Corrosion resistance
+368
+Primary material
+Ymrium
+Input / Output
+Heat capacity
+1,500
+Heat transfer
+75 per second
+(to radiator)
+Heat dissipation
+5 per second
+Composition
+Charodium
+23%
+Kutonium
+10%
+Lukium
+17%
+Valkite
+10%
+Ymrium
+40%
+End cover for large generator unit. 2 end covers, together with 2 side structures, 4 edge structures and 8 corner structures, form the outer shell of a large generator unit. Includes connection point to link with other large generator parts or large module connector.
+Device fields
+YOLOL field
+Description
+Range
+GeneratorUnitStoredHeat
+Current value for stored heat
+0 - 1,500
+GeneratorUnitMaxStoredHeat
+Maximum value for stored heat
+0 - 1,500
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Large generator (Assembly)

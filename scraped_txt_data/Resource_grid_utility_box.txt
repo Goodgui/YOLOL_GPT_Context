@@ -1,0 +1,69 @@
+{{ClosedAlphaContent}}
+{{Otherlang2
+
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Resource grid utility box.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |subtitle=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Break-out junction for station power
+	  |availability=[[X-Constructs]]
+	  |size=216 × 96 × 216 cm
+	  |mass=37,314.7
+	  |volume=4141.48
+	  |primaryMaterial=Vokarium
+	  |corrosionResistance=511
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=10
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |aegisium=18%
+	  |ajatite=15%
+	  |arkanium=
+	  |bastium=21%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=22%
+	  |vokarium=24%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The resource grid utility box is a device used to connect ordinary [[Category:Devices and machines|devices]] to a station's power network.<section end=summary/>
+
+== Related pages ==
+*[[Station creator]]
+
+[[Category:Devices and machines]]

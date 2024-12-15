@@ -1,0 +1,117 @@
+{{Otherlang2
+|fr=Range_finder/fr
+|de=Range_finder:de
+|zh-cn=测距仪
+|ru=Дальномер
+|ua=Далекомір
+|jp=レンジファインダー
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:starbase_rangefinder.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=YOLOL device
+	  |function=Measures distance
+	  
+	  |size=72×72×6 cm
+	  |mass=282.08
+	  |volume=28.35
+	  |corrosionResistance=430
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=1 e/s
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=1
+	}}
+
+	|{{SB Infobox Device Construction
+	  |overrideHeader=
+	  |aegisium=
+	  |ajatite=15%
+	  |arkanium=
+	  |bastium=35%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=50%
+	  |xhalium=
+	}}
+}}
+The range finder is a laser pointer that reports the distance to the object it hits.
+If the range finder does not hit anything, it reports the search distance.
+The finder can be used on [[Endoskeleton|endoskeletons]] and other objects such as asteroids and ships.
+
+== Basic information ==
+
+'''Range finders can be used to:'''
+
+* Trigger changes when the detected range changes.
+* Create balance systems for space ships by comparing ranges on the opposite sides of a ship.
+* Hover ship elevation control by comparing a elevation level to a range finder.
+* Asteroid AutoAutoavoidance, which detects where an asteroid is located within the rangefinder array and uses simple YOLOL scripts to maneuver the ship out of the path of the asteroid to prevent a collision. These scripts have to be optimized for response time.
+
+'''How to use:'''
+
+* Range finders are bolted to a [[hardpoints|hardpoint]].
+* Requires a power source, such as the [[Generator (Assembly)|generator]] via [[Cable tool|cable]] or [[Duct|ducts]].
+* Once installed, the measured range can be found from the RangeFinderDistance device field (in metres). It is important to note that the RangeFinderDistance will show the ''maximum'' range (which is the beam length set in RangeFinderSearchLength) if the beam doesn't collide with anything in front of it.
+
+Power consumption when turned on: 1 electricity per second.<br>
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! RangeFinderOnState
+| Whether the range finder should try to be on. 0 is off, everything else is on.
+|
+|-
+! RangeFinderSearchLength
+| The maximum distance to check for hits, up to the device's maximum. Measured in meters.
+| 0 - 1000
+|-
+! RangeFinderDistance
+| The output field which reports the distance the laser goes. Measured in meters. Accuracy is 1mm.
+|
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Range finder]]

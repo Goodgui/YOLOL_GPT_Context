@@ -1,0 +1,119 @@
+{{Otherlang2
+|zh-cn=冷却室槽
+|ua=Плата охолодження
+|jp=冷却ラック
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_generator_coolingboard.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Power device
+	  |function=Provides [[Small cooling cell|coolant]] to [[Generator_(Assembly)|generators]]
+	  
+	  |size=96×96×48 cm
+	  |mass=731.23
+	  |volume=73.49
+	  |corrosionResistance=440
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	  |primaryMaterial=Bastium
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=5,000 per second
+	  |coolantCapacity=30,000 (3 [[Small cooling cell|cooling cells]])
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation=
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=1
+	  |deviceInterfaces=
+	  |enhancement
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=15%
+	  |arkanium=
+	  |bastium=65%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=20%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The cooling rack is a device used to provide a significant reduction in [[Heat mechanics|heat]] via [[Small cooling cell|coolant]]. Unlike a [[heatsink]] and [[radiator]] system, a coolant rack is not designed for long-term usage, as its coolant is quickly used up during operation and will require replenishing. Thus, some ships use a combination of both systems to cool their [[Generator (Assembly)|generator]].<section end=summary/>
+
+== Basic Usage ==
+
+* The cooling board can hold up to three cooling cells.
+* Receives '''Coolant''' from the cooling cells and processes it to reduce '''Heat'''.
+** Coolant cells will slowly replenish their supply of fresh coolant over time. However, a [[coolant recharge rack]] can be used to expedite this process.
+
+* The cooling board can be placed anywhere on a generator, and will provide coolant to each generator of the complex it is directly connected to. Generator complexes connected via pipe will not share coolant.
+* A single coolant rack can provide up to 5,000 coolant per second (half of the coolant cell's capacity), and can disperse 5 units of heat with 1 unit of coolant. Thus, a coolant rack can disperse up to 25,000 heat per second.
+** See [[heat mechanics]] for more info.
+
+
+* There is only one connector on the cooling board.
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''CoolerUnitRateLimit'''
+|Upper limit for conversion rate for this cooler
+|0 - 100
+|-
+! '''CoolerUnitRate'''
+|Current conversion rate for this cooler. Conversion is being performed at 1 conversion * this percentage per second.
+|0 - 100
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+
+*[[Generator (Assembly)]]
+*[[Small cooling cell]]
+*[[Heat mechanics]]
+
+[[Category:Devices and machines]]

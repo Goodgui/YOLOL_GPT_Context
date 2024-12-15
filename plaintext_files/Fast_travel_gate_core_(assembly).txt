@@ -1,0 +1,41 @@
+This article is a stub. You can help the Starbase Wiki by
+expanding it.
+Fast travel gate core
+Type
+Navigation device
+Function
+Permits travel through warp gates
+Size
+576×576×288 cm
+Mass
+173,389 kg
+Volume
+17,761.1 kv
+Input / Output
+Electric input
+Passive
+Sub-components
+The fast travel gate core is a complex device that allows passage through warp gates. Though it requires no input power, it must be securely mounted to the ship with each part accounted for and in good condition in order for a ship to be able to use the warp gate.
+NOTE:
+The Fast Travel Gate Core is no longer required for using the Fast Travel Gate and can no longer be crafted.
+Assembly
+Each gate core requires the following sub-components to be properly assembled:
+2x supports
+2x outer bodies
+2x inner bodies
+1x core
+These sub-components must be bolted together, but do not require any other input. The core of the device has one device field
+TravelCoreAssembled
+which indicates if the device is currently capable of warp gate travel.
+Device fields
+Gate core center
+YOLOL field
+description
+range
+TravelCoreAssembled
+Indicates the readiness of the warp gate core
+0 - 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

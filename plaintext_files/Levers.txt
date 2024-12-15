@@ -1,0 +1,59 @@
+Levers
+Type
+Control devices
+Function
+Sliding input control
+Size
+24 × 72 × 24 cm
+Mass
+174.32 kg
+Volume
+17.52 kv
+Corrosion resistance
+400
+Primary material
+Bastium
+Input / Output
+Electric input
+Passive
+Sockets
+1
+Modular interfaces
+2
+Composition
+Ajatite
+40%
+Bastium
+50%
+Vokarium
+10%
+Levers are interactable devices used mainly for controlling devices and machinery. They have many configurable options to allow them to be used in a plethora of ways, and come in two visually identical but functionally distinct forms: A regular lever, and a centering lever. A regular lever (typically) starts at its minimum value, and can be adjusted upwards, while a centering lever starts at a value between its minima and maxima.
+Basic information
+Uni-directional levers have "zero" in one end and maximum in the opposite end.
+Lowering the maximum value lowers the given lever's maximum output to a device.
+Bi-directional levers have minimum and maximum in the far ends and the middle/neutral value is 50.
+Minimum output has to be lower than the neutral value. Default is 0.
+Maximum has to be higher than the neutral value. Default is 100.
+Device fields
+YOLOL field
+description
+range
+LeverState
+Lever's current state between LeverMinOutput and LeverMaxOutput
+LeverMinOutput - LeverMaxOutput
+LeverMinOutput
+Unidirectional - Output in low end, Bidirectional - Output in left end
+LeverMaxOutput
+Unidirectional - Output in high end, Bidirectional - Output in right end
+LeverCenterOutput
+Output value when the lever is in the center
+LeverCenterDeadZone
+How large is the dead zone in the center of an unidirectional lever
+LeverCenteringSpeed
+How fast does (unidirectional lever reset to low end)(bidirectional lever reset to center) once released
+LeverBindsMoveSpeed
+How fast does the lever move with binds
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

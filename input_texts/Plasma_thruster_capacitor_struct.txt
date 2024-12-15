@@ -1,0 +1,57 @@
+{{Otherlang2
+|jp=プラズマスラスターキャパシター構造体
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Plasma thruster, capacitor struct.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Mounts plasma thruster capacitors
+	  
+	  |size=576×72×204 cm
+	  |mass=23,683.4
+	  |volume=2530.28
+	  |corrosionResistance=365
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+	
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=10%
+	  |bastium=
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=55%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=35%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The plasma thruster capacitor struct is a device that mounts capacitors to the [[Plasma thruster|plasma thruster]]. Two of them are required for the proper construction of a plasma thruster, bolted around the [[Plasma thruster core|core module]] of the thruster.<section end=summary/>
+
+== Related pages ==
+
+*[[Plasma thruster]]
+
+[[Category:Devices and machines]]

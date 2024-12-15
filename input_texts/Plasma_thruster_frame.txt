@@ -1,0 +1,58 @@
+{{Otherlang2
+|jp=プラズマスラスターフレーム
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Plasma thruster, frame.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Mounts the nozzle collar of a plasma thruster
+	  
+	  |size=288×288×144 cm
+	  |mass=33,507.7
+	  |volume=3,579.88
+	  |corrosionResistance=440
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+	
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=25%
+	  |ajatite=
+	  |arkanium=5%
+	  |bastium=
+	  |charodium=10%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=35%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |ymrium=15%
+	  |vokarium=10%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The plasma thruster frame is a component of the [[Plasma thruster|plasma thruster]] that mounts the [[Plasma thruster superconductor|superconductors]] to the [[Plasma thruster engine|engine]] of the thruster. Four of these are required for a properly assembled plasma thruster, arranged in a 2×2 pattern.<section end=summary/>
+
+== Related pages ==
+
+*[[Plasma thruster]]
+
+[[Category:Devices and machines]]

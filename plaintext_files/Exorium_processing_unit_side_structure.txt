@@ -1,0 +1,25 @@
+Exorium processing unit side structure
+Size
+576×204×72 cm
+Mass
+17,147.08 kg
+Volume
+1,952.97 kv
+Corrosion resistance
+480
+Primary material
+Ymrium
+Composition
+Aegisium
+15%
+Charodium
+20%
+Kutonium
+15%
+Lukium
+45%
+Ymrium
+5%
+Side structure for exorium processing unit. 2 side structures, together with 2 end covers, 2 top/bottom structures and 4 side covers, are required to complete the outer shell of the processing unit.
+Related Articles
+Exorium processing unit (Assembly)

@@ -1,0 +1,27 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Large Module Connector Collar.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=905.56
+		|volume=103.14
+		|size=120×120×12 cm
+		|corrosionResistance=300
+		|primaryMaterial=Ymrium
+	  }}
+
+
+	  |{{SB Infobox Device Construction
+	|bastium=100%
+	  }}
+}}<section begin=summary/>Collar for Large Module Connector. Used to improve large module connector pass-through when surrounding modules with plate walls, for example.<section end=summary/>
+
+== Related Articles ==
+
+* [[Large module connector]]
+
+[[Category:Devices and machines]]

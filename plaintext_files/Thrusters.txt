@@ -1,0 +1,241 @@
+Box thrusters on an OKI Manta
+Thrusters are a mandatory part of spaceships: Not only can a spaceship not move on its own without them, but the game defines a spaceship by their inclusion. Thrusters determine which directions a spaceship can be flown and at what speed, and they require power and propellant to function. Cables and pipes must attach a thrusters hardpoint to a network with sufficient power and sufficient propellant in order for them to function. The hardpoint
+must
+be bolted
+directly
+to the frame to be seen as a valid thruster hardpoint.
+Basic information
+To be able to fly, a spaceship needs at least one thruster.
+Plasma Thrusters are the biggest thrusters so far, which can be upgraded to output more thrust. For full thrust they need a warm up time.
+Box and triangle thrusters are big "main" thrusters and consist of multiple parts that need to be bolted together.
+Maneuver thrusters enable small movements of the ship such as adjusting yaw and pitch, though they can still be used as main thrusters on smaller ships.
+Thrusters need to be bolted to a hardpoint that has access to propellant and electricity.
+The hardpoint has to be bolted to the ship's frame with at least two bolts in order for the mounted thruster to properly function or respond to the main flight computer's inputs.
+Thrusters need to be in the same data network as both the flight control unit and main flight computer, if they are to be controlled by the main flight computer.
+Thrusters require power to function.
+To get power, a cable has to be drawn from a power source, such as a Generator or Battery to the hardpoint's socket.
+A thruster also requires propellant to function.
+To get propellant, a pipe has to be drawn between the device hardpoint and a propellant container.
+Plasma Thrusters will need an additional type of propellant in the future, called Karnite.
+This new fuel will come in the same containers as regular propellant does.
+Thruster types
+There are four different thruster types currently available, with all thrusters except the plasma thruster now having three separate variants outlined as tiers one through three:
+Box thruster
+Type
+Thrusters
+Function
+Generates propulsion
+Size
+360×96×144 cm
+Mass
+18,878.53 kg
+(approx.)
+Volume
+1,897.34 kv
+Corrosion resistance
+350
+Input / Output
+Electric input
+210 e/s
+(all T1)
+183.6 e/s
+(all T2)
+297 e/s
+(all T3)
+Propellant input
+30.96 p/s
+(all T1)
+26.966 p/s
+(all T2)
+39.154 p/s
+(all T3)
+Thrust power
+500,000
+(all T1)
+550,000
+(all T2)
+650,000
+(all T3)
+Device interfaces
+2
+Sub-components
+Triangle thruster
+Type
+Thrusters
+Function
+Generates propulsion
+Size
+144×144×144 cm
+Mass
+11,512.05
+(approx.)
+Volume
+1,156.99 kv
+Corrosion resistance
+350
+Input / Output
+Electric input
+96.2 e/s
+(all T1)
+84.1 e/s
+(all T2)
+136.1 e/s
+(all T3)
+Propellant input
+27.864 p/s
+(all T1)
+24.369 p/s
+(all T2)
+35.239 p/s
+(all T3)
+Thrust power
+300,000
+(all T1)
+330,000
+(all T2)
+390,000
+(all T3)
+Modular interfaces
+3
+Device interfaces
+1
+Sub-components
+An assembled plasma thruster with two superconductor rings
+Plasma thruster
+Type
+Thrusters
+Function
+Generates propulsion
+Size
+972×576×576 cm
+(min.)
+Mass
+687,479.93 kg
+(min.)
+Volume
+73,448.71 kv
+(min.)
+Corrosion resistance
+230
+Primary material
+Kutonium
+Input / Output
+Electric input
+913.3 + 880 per ring e/s
+Propellant input
+248 + 386 per ring p/s
+Thrust power
+4,000,000 + 7,000,000 per ring
+Device interfaces
+3
+Sub-components
+Maneuver thruster
+Type
+Thrusters
+Function
+Generates propulsion
+Size
+72×72×24 cm
+Mass
+446 kg
+(approx.)
+Volume
+46.16 kv
+Corrosion resistance
+350
+Input / Output
+Electric input
+40 e/s
+(T1)
+36 e/s
+(T2)
+60 e/s (T3)
+Propellant input
+17.4 p/s
+(T1)
+15.7 p/s
+(T2)
+20.97 p/s
+(T3)
+Thrust power
+40,000
+(T1)
+44,000
+(T2)
+52,000
+(T3)
+Device interfaces
+1
+Thrusters comparison
+thrust/electricity
+thrust/propellant
+thrust/kg
+T1
+T2
+T3
+T1
+T2
+T3
+T1
+T2
+T3
+Box thruster
+2381
+2996
+2189
+16150
+20396
+16601
+26,49
+29,13
+34,43
+Triangle thruster
+3119
+3924
+2866
+10767
+13542
+11067
+26,06
+28,67
+33,88
+Maneuver thruster
+1000
+1222
+867
+2667
+3259
+2889
+89,69
+98,65
+116,59
+Plasma thruster
+4380 + 7955 per ring
+16129 + 18135 per ring
+5,82 + 50,36 per ring
+Device fields
+Each of the four thrusters share a set of common device fields (below), but the plasma thruster has additional device fields owing to its unique characteristics.
+YOLOL field
+description
+range
+ThrusterState
+Requested output of the thruster
+0 - 10 000
+ThrusterCurrentThrust
+Current output of the thruster
+0 - 10 000
+In addition to these, the plasma thruster has two extra fields.
+YOLOL field
+description
+range
+isactive
+1 = charge ; 0 = discharge
+/
+chargelevel
+the current charge level of the plasma thruster, must be 1 to produce thrust
+0 - 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Content

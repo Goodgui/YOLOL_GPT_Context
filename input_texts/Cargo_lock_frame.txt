@@ -1,0 +1,121 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Cargolock frame parts.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Cargo device
+	  |function=Carries cargo in stasis
+	  
+	  |size=
+	  |mass=
+	  |volume=
+	  |corrosionResistance=
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=1 e/s per cubic meter
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+	
+}}<section begin=summary/>Cargo-lock frames are a number of devices that can be configured to form a [[Cargo lock frame (Assembly)|cargo-lock frame assembly]], which can be used to transport objects without needing to physically bolt them down. Cargo-lock frames create a stasis field that holds objects within them in place, and can be built to size as needed. For safety reasons, a cargo-lock frame won't activate if there is an [[Endoskeleton|endoskeleton]] inside them, and an active cargo-lock frame is similarly physically inaccessible to an endoskeleton.<section end=summary/>
+
+== Parts ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Cargo lock frame linear 48cm.png]]
+		|name=48cm Linear
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=185
+		|volume=18.59
+		|corrosionResistance=340
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=20.01%
+		|kutonium=30%
+		|karnite=15%
+		|nhurgite=15%
+		|vokarium=20%
+	  }}
+	}}
+		|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Cargo lock frame linear 144cm.png]]
+		|name= 144cm Linear
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=598
+		|volume=60.06
+		|corrosionResistance=340
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=20.01%
+		|kutonium=30%
+		|karnite=15%
+		|nhurgite=15%
+		|vokarium=20%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Cargo lock frame corner.png]]
+		|name=48cm corner
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=429
+		|volume=43.09
+		|corrosionResistance=340
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=20.01%
+		|kutonium=30%
+		|karnite=15%
+		|nhurgite=15%
+		|vokarium=20%
+	  }}
+	}}
+}}
+
+== Related Pages ==
+*[[Cargo lock frame (Assembly)]]
+*[[Cargo lock controller]]
+
+[[Category:Devices and machines]]

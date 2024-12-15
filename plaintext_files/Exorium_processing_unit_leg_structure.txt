@@ -1,0 +1,19 @@
+Exorium processing unit leg structure
+Size
+576×204×48 cm
+Mass
+12,553.03 kg
+Volume
+1,429.73 kv
+Corrosion resistance
+380
+Primary material
+Ymrium
+Composition
+Bastium
+20%
+Ymrium
+80%
+Leg structure for durable attachment of exorium processing unit to ships. Not mandatory for processing unit operation, but usually required to secure tank in place.
+Related Articles
+Exorium processing unit (Assembly)

@@ -1,0 +1,158 @@
+Generator unit
+Type
+Power device
+Function
+Converts fuel to power
+This page contains information for
+individual generator unit parts
+, for information on multi-part assembled generators see: Generator (Assembly).
+Generators are one of the most important parts of a spaceship, as they convert fuel into electrical energy in an efficient process. They are extremely modular, and can be configured into complexes of many different shapes and sizes - however, for each adjacent generator, the heat output is also increased.
+Basic Usage
+NOTE!
+tier 1 generator parts are not compatible with Tier 2 or 3.
+Tier 2 and tier 3 parts are compatible.
+Receives
+Processed Fuel
+from the fuel chamber and converts it to
+Power
+.
+This process also generates
+Heat
+.
+NOTE!
+The generators will constantly consume
+Processed fuel
+, wasting excess
+Power
+unless their
+ConversionRateLimit
+is modified via YOLOL.
+There are six connectors, one on each side.
+Other modules can be attached to the connectors.
+Generators produce heat proportional to their unit rate.
+For every adjacent generator unit or fuel chamber, extra heat will be generated.
+See heat mechanics for more info.
+T1 and T2 units produce 1000 units of electricity per second, if enough fuel is available, T3 units can produce 1250 units of electricity per second.
+One fuel rod can support three generator units, or 3000 (3750 for T3) units of electricity per second, without enhancement.
+An enhanced generator unit will generate more power. See enhancers for more info.
+Types
+Tier 1 generator
+Size
+96×96×96 cm
+Mass
+4,625.7 kg
+Volume
+464.89 kv
+Corrosion resistance
+385
+Primary material
+Bastium
+Input / Output
+Electric output
+1,000 e/s
+Heat generation
+80 per second
+Fuel input
+25 per second
+(processed)
+Modular interfaces
+6
+Composition
+Ajatite
+40%
+Bastium
+20%
+Charodium
+25%
+Vokarium
+15%
+Tier 2 generator
+Size
+96×96×96 cm
+Mass
+4,495.5 kg
+Volume
+464.89 kv
+Corrosion resistance
+395
+Primary material
+Aegisium
+Input / Output
+Electric output
+1,000 e/s
+Heat generation
+90 per second
+Fuel input
+25 per second
+(processed)
+Modular interfaces
+6
+Composition
+Aegisium
+15%
+Ajatite
+20%
+Charodium
+50%
+Vokarium
+15%
+Tier 3 generator
+Size
+96×96×96 cm
+Mass
+4,081.7 kg
+Volume
+464.89 kv
+Corrosion resistance
+535
+Primary material
+Ymrium
+Input / Output
+Electric output
+1,250 e/s
+Heat generation
+100 per second
+Fuel input
+25 per second
+(processed)
+Modular interfaces
+6
+Composition
+Arkanium
+40%
+Bastium
+15%
+Charodium
+15%
+Lukium
+10%
+Ymrium
+20%
+Device fields
+YOLOL field
+Description
+Range
+ElectricityProduction
+Amount of electricity the generator unit is currently producing per second
+0 -
+HeatProduction
+Amount of heat the generator unit is currently producing per second
+0 -
+GeneratorUnitRateLimit
+Upper limit for conversion rate for this generator unit
+0 - 100
+GeneratorUnitRate
+Current conversion rate for this generator unit, expressed as a percentage.
+0 - 100
+GeneratorUnitStoredHeat
+Amount of heat currently stored in the generator unit
+0 - 1500
+GeneratorUnitMaxStoredHeat
+Maximum amount of heat that can be stored in the generator unit
+1500
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Generator (Assembly)

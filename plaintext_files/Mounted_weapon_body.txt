@@ -1,0 +1,27 @@
+The mounted weapon body and its mirrored version
+Mounted weapon body
+Type
+Weapons device
+Function
+Mounts ship weapons
+Size
+96×48×84 cm
+Mass
+1,430.7 kg
+Volume
+143.79 kv
+Corrosion resistance
+470
+Input / Output
+Composition
+Aegisium
+30%
+Bastium
+15%
+Charodium
+35%
+Vokarium
+20%
+The mounted weapon body is the core component of all mounted weapons, and is what the barrel, ammo struct, and mount are bolted to. It can store a limited amount of energy, and performs the conversion from network power to local power.
+Related pages
+Mounted weapons

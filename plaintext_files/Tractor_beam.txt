@@ -1,0 +1,76 @@
+Tractor beam
+Type
+Utility device
+Function
+Non-contact cargo ferrying
+Size
+132×72×84 cm
+Mass
+1,712.8 kg
+Volume
+172.14 kv
+Corrosion resistance
+475
+Primary material
+Bastium
+Composition
+Aegisium
+15%
+Bastium
+45%
+Exorium
+20%
+Vokarium
+20%
+The tractor beam is a device that projects a ray which can be used to manipulate the object it touches. They can push, pull, and rotate the object in all directions, and are a useful tool for asteroid haulers.
+Device fields
+YOLOL field
+Description
+Range
+tractorBeamOnState
+Beam on/off
+1 or 0
+tractorBeamSoftRelease
+When set to 1, brings the object grabbed by the beam to a stop, then turns off the beam
+1 or 0
+tractorBeamSnapToObjects
+When set to 1, tractor beam tries to snap held object to nearby objects
+1 or 0
+tractorBeamSearchLength
+Length (meters) of the beam when the beam is not attached to anything. Max range of the beam.
+0-100
+tractorBeamForce
+Maximum amount of force the beam will try to apply to grabbed object.
+0-50,000
+tractorBeamTorque
+Maximum amount of torque the beam will try to apply to grabbed object.
+0-50,000
+tractorBeamPosition
+The distance (meters) the beam tries to move a held object to. Resets on grab, but does not message network / other devices.
+0-100
+tractorBeamYaw
+The yaw (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+-
+tractorBeamPitch
+The pitch (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+-
+tractorBeamRoll
+The roll (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+-
+tractorBeamObjectInBeam
+Indicates whether an object is grabbed by the beam.
+1 or 0
+tractorBeamForceApplied
+Indicates the force currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target position.
+-
+tractorBeamTorqueApplied
+Indicates the torque currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target rotation.
+-
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Notes
+Tractor Beams are relatively weak compared to Cargo Lock Beams. Attempting to pull or push an object whilst moving through space (depending on the objects weight) will cause the object to move according to loose objects in space. This means it is not feasible to pull or push objects on a set trajectory whilst moving using the Tractor Beam.
+Related Pages
+Tractor beam (Assembly)

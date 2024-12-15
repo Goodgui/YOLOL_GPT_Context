@@ -1,0 +1,59 @@
+{{Otherlang2
+|ru=Солнечная панель. Опора
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Solar panel support.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Power device
+	  |function=Support device for [[Solar panel|solar panels]]
+	  |availability=
+	  |size=144×108×144
+	  |mass=2,008.9
+	  |volume=201.9
+	  |primaryMaterial=Bastium
+	  |corrosionResistance=350
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	  |{{SB Infobox Device IO
+		|sockets=4
+	  }}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=75%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=25%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Solar panel supports are devices which can be used to support [[Solar panel|solar panels]] and connect them to a [[Data networks|network]]. They include 2 sockets on opposite sides, but can also be mounted directly to a [[Turntable|turntable]] to attach to the network without the use of [[Cable tool|cables]].<section end=summary/>
+
+== Related pages ==
+* [[Solar panel (assembly)]]
+
+[[Category:Devices and machines]]

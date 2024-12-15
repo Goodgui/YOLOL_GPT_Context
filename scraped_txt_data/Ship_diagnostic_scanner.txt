@@ -1,0 +1,100 @@
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Ship diagnostic scanner1.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Ship diagnostic scanner
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Sensor device
+	  |function=Reports durability errors
+	  
+	  |size=48×48×24 cm
+	  |mass=504.16
+	  |volume=50.67
+	  |corrosionResistance=567
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=35%
+	  |arkanium=29%
+	  |bastium=10%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=26%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The ship diagnostic scanner is a device that reports durability errors. When mounted to a ship and [[Cable tool|cabled]] in properly, the scanner will output the total number of durability errors and the lowest strength factor value on the ship.<section end=summary/>
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''Active'''
+| The scanner turns off when this is set to 0 and on when set to anything else
+| 0 - 1
+|-
+! '''StrengthFactor'''
+| The current strength factor of the ship
+| 0 - ∞
+|-
+! '''DurabilityErrors'''
+| The number of durability errors the ship currently has
+| X
+|-
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines]]

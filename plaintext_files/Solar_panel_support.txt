@@ -1,0 +1,26 @@
+Solar panel support
+Type
+Power device
+Function
+Support device for solar panels
+Size
+144×108×144
+Mass
+2,008.9 kg
+Volume
+201.9 kv
+Corrosion resistance
+350
+Primary material
+Bastium
+Input / Output
+Sockets
+4
+Composition
+Bastium
+75%
+Vokarium
+25%
+Solar panel supports are devices which can be used to support solar panels and connect them to a network. They include 2 sockets on opposite sides, but can also be mounted directly to a turntable to attach to the network without the use of cables.
+Related pages
+Solar panel (assembly)

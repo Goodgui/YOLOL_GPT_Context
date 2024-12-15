@@ -1,0 +1,80 @@
+Triangle thruster
+Type
+Thrusters
+Function
+Generates propulsion
+Size
+144×144×144 cm
+Mass
+11,512.05
+(approx.)
+Volume
+1,156.99 kv
+Corrosion resistance
+350
+Input / Output
+Electric input
+96.2 e/s
+(all T1)
+84.1 e/s
+(all T2)
+136.1 e/s
+(all T3)
+Propellant input
+27.864 p/s
+(all T1)
+24.369 p/s
+(all T2)
+35.239 p/s
+(all T3)
+Thrust power
+300,000
+(all T1)
+330,000
+(all T2)
+390,000
+(all T3)
+Modular interfaces
+3
+Device interfaces
+1
+Sub-components
+Triangle thrusters are a type of thruster. While smaller and less powerful than Box Thrusters, they allow for modular construction of compound thrusters. Triangle thrusters that touch on any of the three sides (excluding the nozzle or Hardpoint) fire as one and share resources (power and propellant). This means that Triangle Thrusters can be stacked to form large single thrusters, however this comes at the cost of finite control as single thrusters within the group become inaddressable.
+Important: Renaming connected triangle thrusters into separate groups will not make them fire individually! Instead it will cause significant scripting issues.
+Basic information
+Triangle thrusters are composed of five distinct components:
+The body, which houses the other components and provides convenient mounting surfaces. The body also holds two of the modular ports.
+The chamber, which burns propellant to produce thrust. The chamber holds the final modular port.
+The nozzle, which channels the exhaust out of the chamber (thus producing thrust). Any tier of nozzle is compatible with any tier of body.
+The electricity converter, which converts power from generators and batteries into power usable by the thruster. Any tier of electricity converter is compatible with any tier of body.
+The propellant converter, which prepares propellant to be burnt. Any tier of propellant converter is compatible with any tier of body.
+Despite their relatively low thrust power per unit, the modularity and ease-of-use that triangle thrusters offer is unmatched, though one does need to be careful to properly protect grouped thrusters as the destruction of just a few units can cause a total disruption of the entire thruster bank. 2 triangle thrusters exceeds the amount of thrust from a single box thruster while saving on space, so they are common on cheap short range shuttles or as part of the main thrust on massive freighters where propellant is not a concern.
+Thrust Values
+Tier
+Body
+Nozzle
+1
+240000
+60000
+2
+264000
+66000
+3
+312000
+78000
+Device fields
+Triangle thruster body
+YOLOL field
+description
+range
+ThrusterState
+Requested output of the thruster
+0 - 10 000
+ThrusterCurrentThrust
+Current output of the thruster
+0 - 10 000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related content

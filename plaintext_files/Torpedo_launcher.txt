@@ -1,0 +1,111 @@
+Torpedo launcher
+Type
+Ship weaponry
+Function
+Launches torpedoes
+Size
+276×90×90 cm
+Mass
+11,481.5 kg
+Volume
+1,307.69 kv
+Corrosion resistance
+345
+Weapon Characteristics
+Muzzle velocity
+~110 m/s
+Projectile voxel mass
+499 kv
+Magazine capacity
+1
+The torpedo launcher is a multi-component device used to store, prime, and launch torpedoes.
+Parts
+The torpedo launcher is a modular device, and can be adapted to fit any size torpedo by placing multiple middle sections.
+Launcher (end)
+Size
+132×90×90 cm
+Mass
+5,115.1 kg
+Volume
+582.59 kv
+Corrosion resistance
+345
+Primary material
+Ymrium
+Composition
+Kutonium
+40%
+Vokarium
+25%
+Ymrium
+35%
+Launcher (middle)
+Size
+144×90×90 cm
+Mass
+5,034.6 kg
+Volume
+573.42 kv
+Corrosion resistance
+345
+Primary material
+Ymrium
+Composition
+Aegisium
+30%
+Charodium
+15%
+Kutonium
+20%
+Ymrium
+35%
+Launcher (front)
+Size
+48×90×90 cm
+Mass
+1,331.8 kg
+Volume
+151.68 kv
+Corrosion resistance
+345
+Primary material
+Ymrium
+Composition
+Kutonium
+40%
+Vokarium
+25%
+Ymrium
+35%
+Basic Usage
+The entire tube must first be mounted to gain access to the device fields, and only the end part provides access to the device fields required to operate the torpedo tube.
+A torpedo must be snapped inside the torpedo launcher
+The torpedo tube should have its 'LauncherLock' device field toggled to '1' in order to lock the torpedo in place
+The 'launchTorpedo' field should be toggled to '1' to fire the torpedo
+Device Fields
+These device fields are located only on the end component of the launcher tube.
+YOLOL field
+description
+default range
+tube
+Identifier of tube
+X
+LauncherLock
+Should the launcher's torpedo be locked in place?
+0 - 1
+selectedTube
+Which torpedo tube is currently selected and thus is ready to fire
+X
+tubeStatus
+Status of the tube's magazine
+"Empty" / "Locked"
+launchTorpedo
+Launch the currently selected torpedo
+0 - 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related pages
+Torpedo
+Laser designator (Assembly)

@@ -1,0 +1,27 @@
+!
+This page contains information that pertains only to the
+closed alpha
+version of the game, which was discontinued on July 26th, 2021. It has been kept up for posterity only, but you may still
+edit it.
+Rail socket
+Type
+Rail device
+Function
+Power interface
+Size
+48×12×1.5 cm
+Mass
+18.7 kg
+Volume
+1.88 kv
+Corrosion resistance
+400
+Input / Output
+Sockets
+2
+Composition
+Bastium
+100%
+Rail sockets are used to power rail networks and to transmit power to any connected rail mover.
+Basic information
+Bolting a rail socket onto a rail piece allows cables connected to the socket to transmit power and data to the rail network.

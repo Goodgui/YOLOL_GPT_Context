@@ -1,0 +1,60 @@
+An exploded view of an assembled ore collector
+Ore collector
+Type
+Mining device
+Function
+Collects ore
+Size
+216×96×72 cm
+Mass
+6,153 kg
+Volume
+618.4 kv
+Corrosion resistance
+370
+Input / Output
+Electric input
+3,500 e/s
+Sub-components
+The ore collector functions as an industrial version of the backpack, vacuuming up small ore chunks, it is often used along with mining lasers.
+Basic information
+The ore collector consumes energy while collecting ore chunks, equal to the 'power' field.
+At 1000
+power
+the ore collector collects ore at the rate of 1 mining laser, at 6000
+power
+it can keep up with 3.5 mining lasers.
+The ore collector must be connected through a pipe network to modular ore cargo crates to function, collected ore is placed into the connected crates.
+The collection area is a 20x5x5m cuboid, extending 20m out in the direction the ore collector points.
+Assembly
+A ore collector needs to be attached to several objects to function:
+Utility Tool Body which needs equipped with 2 Utility Tool & Rail Cannon Capacitors
+A weapon mount: Either a Turret Cradle, Small Turntable Mount 2, or Fixed Weapon Mount 2 will work
+Note that the small turntable mount will require a matching turntable
+Device Hardpoint
+The hardpoint needs connected to power and your ships network via Cable or Duct to supply power. The hardpoint also needs connection via Pipe or Duct to unfilled modular ore cargo crate. If you can see your ships inventory while connected via a Resource Bridge you can right click and delete any ore to make room for the ore collector to collect more ore.
+Device fields
+Ore collector
+YOLOL field
+description
+range
+ToggleOn
+Ore collector turns off when this is set to 0 and on when set to anything else
+0 - 1
+Power
+Determines how fast the collector collects ore, and how much power it consumes in KV.
+0 - 6000
+Utility tool capacitor
+YOLOL field
+description
+range
+StoredLocalPower
+How much power is stored in the capacitor
+0 - 4000
+MaxLocalPower
+Maximum amount of power that can be stored
+4000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

@@ -1,0 +1,38 @@
+{
+    "id": "chatcmpl-AaAF0yl7DPk2JYpeTCs9zgwHvY5Oj",
+    "choices": [
+        {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+                "content": "```json\n{\n  \"description\": \"OUTDATED This page contains information that pertains only to the closed alpha version of the game, which was discontinued on July 26th, 2021.\",\n  \"devices\": [\n    {\n      \"name\": \"Small 3D Printer\",\n      \"type\": \"Station device\",\n      \"function\": \"Constructs station parts\",\n      \"availability\": \"X Constructs\",\n      \"size\": \"216\u00d7108\u00d7216 cm\",\n      \"mass\": \"32,128.85 kg\",\n      \"volume\": \"3,229.03 kv\",\n      \"corrosion_resistance\": 439,\n      \"primary_material\": \"Bastium\",\n      \"electric_input\": \"10,000 e/s\",\n      \"sockets\": 4,\n      \"modular_interfaces\": \"8x 24cm\",\n      \"composition\": {\n        \"Ajatite\": \"14%\",\n        \"Arkanium\": \"22%\",\n        \"Bastium\": \"11%\",\n        \"Charodium\": \"15%\",\n        \"Kutonium\": \"20%\",\n        \"Vokarium\": \"18%\"\n      }\n    },\n    {\n      \"name\": \"Large 3D Printer\",\n      \"size\": \"864\u00d7432\u00d7324 cm\",\n      \"mass\": \"721,414.06 kg\",\n      \"volume\": \"103,206.59 kv\",\n      \"corrosion_resistance\": 474,\n      \"primary_material\": \"Arkanium\",\n      \"electric_input\": \"10,000 e/s\",\n      \"sockets\": 12,\n      \"modular_interfaces\": \"15x 24cm\",\n      \"composition\": {\n        \"Ajatite\": \"15.68%\",\n        \"Arkanium\": \"24.64%\",\n        \"Bastium\": \"0.31%\",\n        \"Charodium\": \"16.8%\",\n        \"Corazium\": \"8.96%\",\n        \"Kutonium\": \"22.4%\",\n        \"Vokarium\": \"11.2%\"\n      }\n    }\n  ],\n  \"instructions\": {\n    \"Small 3D Printer\": [\n      \"Insert fuel rod into the printer\",\n      \"Insert the blueprint chip (can be bought from the Marketplace)\",\n      \"Turn on the printer\",\n      \"Change UtilityConnection field to 1\",\n      \"Change PrinterControl field to 1\",\n      \"Ensure PrinterOrderAmount is above 0\",\n      \"Printer needs access to building materials through station storage or connected ore crates\"\n    ],\n    \"Large 3D Printer\": [\n      \"Requires a Utility box for station power grid connection\",\n      \"Radiators needed for cooling (approximately 17 per printer)\",\n      \"Needs connection to storage via pipe with a Utility box\",\n      \"Insert a blueprint chip\",\n      \"Turn on the printer\",\n      \"Change PrinterControl field to 1\",\n      \"Printer needs access to building materials through station storage or connected ore crates\"\n    ]\n  },\n  \"device_fields\": [\n    {\n      \"field_name\": \"PrintingRateLimit\",\n      \"description\": \"Limit for the printing rate\",\n      \"range\": \"[0, inf]\"\n    },\n    {\n      \"field_name\": \"PrintingRate\",\n      \"description\": \"Current printing rate\",\n      \"range\": \"[0, inf]\"\n    },\n    {\n      \"field_name\": \"WorkingRateLimit\",\n      \"description\": \"Limit for the working rate\",\n      \"range\": \"[0, inf]\"\n    },\n    {\n      \"field_name\": \"WorkingRate\",\n      \"description\": \"Time for CurrentItemWorkRemaining, affected by radiator efficiency\",\n      \"range\": \"[0, inf]\"\n    },\n    {\n      \"field_name\": \"CurrentItemWorkRemaining\",\n      \"description\": \"Work remaining for selected item, updated when the item changes and printer is on\",\n      \"range\": \"-1[0, inf]\"\n    },\n    {\n      \"field_name\": \"UtilityConnection\",\n      \"description\": \"Connects printer's inventory to the station's/ship's inventory\",\n      \"range\": \"0/1\"\n    },\n    {\n      \"field_name\": \"PrinterControl\",\n      \"description\": \"Controls the printer; 0: off, 1: on, -1: manual cancel\",\n      \"range\": \"-1/0/1\"\n    },\n    {\n      \"field_name\": \"PrinterStatus\",\n      \"description\": \"Current state of the printer\",\n      \"range\": \"0/1/2/3\"\n    },\n    {\n      \"field_name\": \"PrinterOrderAmount\",\n      \"description\": \"Number of full blueprint prints, decrements by 1 each cycle (or repeats if set to -1)\",\n      \"range\": \"-1[0, inf]\"\n    },\n    {\n      \"field_name\": \"CurrentItem\",\n      \"description\": \"Index of selected item within blueprint chip\",\n      \"range\": \"[0, inf]\"\n    },\n    {\n      \"field_name\": \"BlueprintItemCount\",\n      \"description\": \"Number of items in inserted blueprint chip\",\n      \"range\": \"[0, inf]\"\n    }\n  ],\n  \"materials\": {\n    \"Small Printer\": {\n      \"weight_kg\": \"32 128\",\n      \"material_required_kv\": {\n        \"Ajatite\": 1173,\n        \"Bastium\": 921,\n        \"Charodium\": 1256,\n        \"Merkerium\": 1675,\n        \"Tengium\": 1843,\n        \"Ukonium\": 670,\n        \"Vokarium\": 838\n      }\n    },\n    \"Large Printer\": {\n      \"weight_kg\": \"1 027 070\",\n      \"material_required_kv\": {\n        \"Ajatite\": 38343,\n        \"Bastium\": 767,\n        \"Charodium\": 41082,\n        \"Merkerium\": 54776,\n        \"Tengium\": 60254,\n        \"Ukonium\": 21910,\n        \"Vokarium\": 27388\n      }\n    }\n  }\n}\n```",
+                "refusal": null,
+                "role": "assistant",
+                "audio": null,
+                "function_call": null,
+                "tool_calls": null
+            }
+        }
+    ],
+    "created": 1733182538,
+    "model": "gpt-4o-2024-08-06",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": "fp_831e067d82",
+    "usage": {
+        "completion_tokens": 1255,
+        "prompt_tokens": 1181,
+        "total_tokens": 2436,
+        "completion_tokens_details": {
+            "accepted_prediction_tokens": 0,
+            "audio_tokens": 0,
+            "reasoning_tokens": 0,
+            "rejected_prediction_tokens": 0
+        },
+        "prompt_tokens_details": {
+            "audio_tokens": 0,
+            "cached_tokens": 0
+        }
+    }
+}

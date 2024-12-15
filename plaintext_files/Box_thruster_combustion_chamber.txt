@@ -1,0 +1,34 @@
+A tier 1 box thruster combustion chamber
+Box thruster combustion chamber
+Type
+Thruster device
+Function
+Converts propellant to thrust force
+The box thruster combustion chamber is a device that burns propellant to produce thrust force. Propellant and Electricity converters are attached to the combustion chamber and not the thruster body, allowing for complete backwards and forwards compatibility (e.g. tier 2 converters on a tier 3 box thruster).
+Types
+The box thruster combustion chamber is currently available in the following styles:
+Tier 1 combustion chamber
+Size
+288×96×132 cm
+Mass
+5,972 kg
+Volume
+600.2 kv
+Corrosion resistance
+295
+Primary material
+Bastium
+Input / Output
+Propellant input
+41.28 p/s
+Composition
+Bastium
+35%
+Charodium
+45%
+Vokarium
+20%
+Related pages
+Box thruster
+Triangle thruster
+Maneuver thruster

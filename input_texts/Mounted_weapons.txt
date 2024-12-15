@@ -1,0 +1,52 @@
+{{Otherlang2
+|de=Mounted_weapons:de
+|fr=Mounted_weapons/fr
+|zh-cn=舰载武器
+|ru=Навесное оружие
+|ua=Навісне озброєння
+|jp=搭載武器
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Turrets_all.png]]
+	  |factionLogo=
+	  |caption=The laser cannon, plasma thrower, rail cannon, auto cannon, and flak cannon
+	  |border=none
+	}}
+}}
+<section begin=summary/>
+Mounted weapons are attached to spaceships or space stations via a [[hardpoints|hardpoint]] and a fixed or turntable mount. They typically receive power from the network via their mount, which is converted into local energy within the weapon's body, though missiles and torpedoes do not actively draw electricity to fire their payloads. The available weapons are the autocannon, laser cannon, plasma thrower, rail cannon, missile, and torpedo.
+<section end=summary/>
+== Use ==
+
+Mounted weapons such as the autocannon, laser cannon, plasma thrower, or rail cannon are constructed of many different modules, each of which is required for the weapon to fire. These parts include:
+* A hardpoint, which connects weapon mounts to the ship or station
+* A weapon mount, which connects the weapon body and supplies power
+* A mounted weapon body, which converts power into ''local power'' and supports all other parts of the weapon
+* A weapon-specific ''struct'', which converts ammunition stored in the magazine into active ammunition
+* A magazine, which contains inactive ammo held in reserve
+** The rail cannon also requires four capacitors
+* A barrel, which fires projectiles
+
+Some weapons are small enough that several can be mounted to the same weapon mount; these weapons include the autocannon, laser cannon, and plasma thrower.
+
+Missiles and torpedoes are fired from their respective launchers, which are assembled in a way similar to the aforementioned mounted weapons. However, these launchers do not have magazines to feed ammo, and must be reloaded by hand.
+
+This article is about spaceship and space station weapons, for articles about infantry weapons, see the [[Weapons|weapons]] collection page.
+
+== Weapon types ==
+
+=== Cannons ===
+{{SB Infobox Compact
+|{{#invoke:Transcluder|main|Autocannon|only=templates|templates=SB Infobox|makeLink=true|removeSections=SB Infobox Device Construction}}
+|{{#invoke:Transcluder|main|Laser cannon|only=templates|templates=SB Infobox|makeLink=true|removeSections=SB Infobox Device Construction}}
+|{{#invoke:Transcluder|main|Plasma cannon|only=templates|templates=SB Infobox|makeLink=true|removeSections=SB Infobox Device Construction}}
+|{{#invoke:Transcluder|main|Rail cannon|only=templates|templates=SB Infobox|makeLink=true|removeSections=SB Infobox Device Construction}}
+}}
+
+=== Ordnance ===
+{{SB Infobox Compact
+|{{#invoke:Transcluder|main|Missile|only=templates|templates=SB Infobox|makeLink=true|removeSections=SB Infobox Device Construction}}
+|{{#invoke:Transcluder|main|Torpedo|only=templates|templates=SB Infobox|makeLink=true|removeSections=SB Infobox Device Construction}}
+}}
+
+[[Category:Devices and machines|Mounted weapons]]

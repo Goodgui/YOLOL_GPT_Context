@@ -1,0 +1,58 @@
+Rangefinder
+Type
+YOLOL device
+Function
+Measures distance
+Size
+72×72×6 cm
+Mass
+282.08 kg
+Volume
+28.35 kv
+Corrosion resistance
+430
+Primary material
+Bastium
+Input / Output
+Electric input
+1 e/s
+Device interfaces
+1
+Composition
+Ajatite
+15%
+Bastium
+35%
+Vokarium
+50%
+The range finder is a laser pointer that reports the distance to the object it hits.
+If the range finder does not hit anything, it reports the search distance.
+The finder can be used on endoskeletons and other objects such as asteroids and ships.
+Basic information
+Range finders can be used to:
+Trigger changes when the detected range changes.
+Create balance systems for space ships by comparing ranges on the opposite sides of a ship.
+Hover ship elevation control by comparing a elevation level to a range finder.
+Asteroid AutoAutoavoidance, which detects where an asteroid is located within the rangefinder array and uses simple YOLOL scripts to maneuver the ship out of the path of the asteroid to prevent a collision. These scripts have to be optimized for response time.
+How to use:
+Range finders are bolted to a hardpoint.
+Requires a power source, such as the generator via cable or ducts.
+Once installed, the measured range can be found from the RangeFinderDistance device field (in metres). It is important to note that the RangeFinderDistance will show the
+maximum
+range (which is the beam length set in RangeFinderSearchLength) if the beam doesn't collide with anything in front of it.
+Power consumption when turned on: 1 electricity per second.
+Device fields
+YOLOL field
+description
+range
+RangeFinderOnState
+Whether the range finder should try to be on. 0 is off, everything else is on.
+RangeFinderSearchLength
+The maximum distance to check for hits, up to the device's maximum. Measured in meters.
+0 - 1000
+RangeFinderDistance
+The output field which reports the distance the laser goes. Measured in meters. Accuracy is 1mm.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

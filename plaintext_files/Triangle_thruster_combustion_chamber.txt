@@ -1,0 +1,36 @@
+A tier 1 triangle thruster combustion chamber
+Triangle thruster combustion chamber
+Type
+Thruster device
+Function
+Houses thruster components
+The triangle thruster combustion chamber is a device that burns propellant to produce thrust force.
+Types
+The triangle thruster combustion chamber is currently available in the following styles:
+Tier 1 combustion chamber
+Size
+96×96×96 cm
+Mass
+5,769.0 kg
+Volume
+384.60 kv
+Corrosion resistance
+295
+Primary material
+Bastium
+Composition
+Bastium
+35%
+Charodium
+45%
+Vokarium
+20%
+Input / Output
+Modular interfaces
+3
+Device interfaces
+1
+Related pages
+Box thruster
+Triangle thruster
+Maneuver thruster

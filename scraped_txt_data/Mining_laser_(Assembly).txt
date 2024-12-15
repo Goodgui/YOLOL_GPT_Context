@@ -1,0 +1,86 @@
+{{Otherlang2
+|de=Mining_laser:de
+|fr=Mining_laser/fr
+|zh-cn=采矿激光
+|ru=Шахтерский лазер
+|ua=Шахтарський лазер
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Mining laser (assembly) (exploded).png]]
+	  |factionLogo=
+	  |caption=An exploded view of an assembled mining laser
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Mining device
+	  |function=Non-contact mining device
+	  |size=216×96×72 cm
+	  |mass=6,149.697
+	  |volume=618.06
+	  |corrosionResistance=395
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=6,000 e/s
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Component Section
+	  |Mining laser
+	  |Utility tool body type 1
+	  |Utility tool capacitor
+	}}
+}}<section begin=summary/>The mining laser applies continuous damage to the first object hit within its configured range, making it an efficient tool in professional mining, and is often used in conjunction with [[ore collector|ore collectors]].<br>
+For example the [[Urchin|mining ship Urchin]] is equipped with mining lasers.<section end=summary/>
+
+== Basic information ==
+
+Mining laser uses a device field to control the length and state of the laser.<br> 
+The mining laser is usually connected to a control device such as [[Buttons|buttons]] or [[Levers|levers]].<br>
+The mining laser consumes 6000 electricity per second while active.
+
+== Assembly ==
+
+A mining laser needs to be attached to several objects to function:
+
+* [[Utility tool body type 1|Utility Tool Body]] which needs equipped with 2 [[Utility_tool_capacitor|Utility Tool & Rail Cannon Capacitors]]
+* A weapon mount: Either a [[Turret_cradle|Turret Cradle]], [[Fixed_mount_small_turntable_2|Small Turntable Mount 2]], or [[Fixed_weapon_mount_2|Fixed Weapon Mount 2]] will work
+** Note that the small turntable mount will require a matching [[Turntable|turntable]]
+* [[Hardpoints|Device Hardpoint]]
+
+The hardpoint needs connected to power via [[Cable_tool|Cable]] or [[Duct]].
+
+== Device fields ==
+
+===[[Mining laser|Mining laser]]===
+{{#lst:Mining_laser|deviceFields}}
+===[[Utility tool capacitor|Utility tool capacitor]]===
+{{#lst:Utility_tool_capacitor|deviceFields}}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Mining laser]]

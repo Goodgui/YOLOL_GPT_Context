@@ -1,0 +1,25 @@
+Plasma thruster capacitor struct
+Type
+Thruster device
+Function
+Mounts plasma thruster capacitors
+Size
+576×72×204 cm
+Mass
+23,683.4 kg
+Volume
+2530.28 kv
+Corrosion resistance
+365
+Primary material
+Kutonium
+Composition
+Arkanium
+10%
+Kutonium
+55%
+Vokarium
+35%
+The plasma thruster capacitor struct is a device that mounts capacitors to the plasma thruster. Two of them are required for the proper construction of a plasma thruster, bolted around the core module of the thruster.
+Related pages
+Plasma thruster

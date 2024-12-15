@@ -1,0 +1,51 @@
+YOLOL memory chip
+Type
+YOLOL device
+Function
+Stores data
+Size
+42×28×3 cm
+Mass
+21.16 kg
+Volume
+2.46 kv
+Corrosion resistance
+485
+Primary material
+Bastium
+Input / Output
+Electric input
+Passive
+Composition
+Ajatite
+60%
+Bastium
+15%
+Exorium
+15%
+Vokarium
+10%
+Contains non-functional device fields that enable a user to share data between YOLOL chips. They can also be used to translate device field names.
+Basic information
+Core part in any integrated system of multiple YOLOL chips
+Serves as a physically transportable data storage medium
+Same size and connectivity as YOLOL Chip
+While similar in size and shape, it is visually easy to differentiate from a full chip
+Holds 10 device fields
+Device fields
+YOLOL field
+description
+range
+ChipField1
+ChipField2
+ChipField3
+ChipField4
+ChipField5
+ChipField6
+ChipField7
+ChipField8
+ChipField9
+ChipField10
+Universal Tool
+Data networks
+YOLOL

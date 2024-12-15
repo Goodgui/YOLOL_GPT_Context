@@ -1,0 +1,330 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Ducts.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Ducts
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Cargo device
+	  |function=Forms resource networks
+	  
+	<!--  |size=<ul><li>15x15 cm ''(Corner)''</li><li>48x30 cm ''(Intersection)''</li><li>48x48 cm </li><li>72x42 cm </li><li>72x72 cm </li><li>12x12 cm ''(Straight)''</li><li>12x36 cm </li><li>12x48 cm </li><li>12x72 cm </li><li>12x96 cm </li><li>12x144 cm </li><li>12x192 cm </li></ul>
+	  |mass=<ul><li>9.25 kg ''(Corner)''</li><li>23.08 kg ''(Intersection)''</li><li>29.25 kg </li><li>39.92 kg </li><li>46.46 kg </li><li>4.08 kg ''(Straight)''</li><li>12.54 kg </li><li>19.5 kg </li><li>25.37 kg </li><li>34.03 kg </li><li>51.14 kg </li><li>68.36 kv </li></ul>
+	  |volume=<ul><li>0.93 kv ''(Corner)''</li><li>2.32 kv ''(Intersection)''</li><li>2.94 kv </li><li>3.61 kv </li><li>4.67 kv </li><li>0.41 kv ''(Straight)''</li><li>1.26 kv </li><li>1.96 kv </li><li>2.55 kv </li><li>3.42 kv </li><li>5.14 kv </li><li>6.87 kv </li></ul>
+	  |corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	  |subComponents= -->
+	}}
+}}<section begin=summary/>Ducts form part of a resource network, and can be used to replace cables and pipes. The ducts connect with adjacent and stacked ducts, and with cables and pipes when in contact with them. The dimensions of the ducts are compatable with the grooved part of [[beams]], but they can be used anywhere.<section end=summary/>
+
+== Collections ==
+
+=== Corners ===
+<div class="mw-collapsible sb-collapsible mw-collapsed">
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct corner.png|250px]]
+		|name=Corner 15×15
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=15×15 cm
+		|mass=8.38
+		|volume=0.93
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+
+}}
+</div>
+
+=== Intersections ===
+<div class="mw-collapsible sb-collapsible mw-collapsed">
+{{SB Mini Infobox Wrap
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct intersection 48x30.png|250px]]
+		|name=Intersection 48×30
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×30 cm
+		|mass=20.9
+		|volume=2.32
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct intersection 48x48.png|250px]]
+		|name=Intersection 48×48
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×48 cm
+		|mass=26.5
+		|volume=2.94
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct intersection 72x42.png|250px]]
+		|name=Intersection 72×42
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×42 cm
+		|mass=32.5
+		|volume=3.61
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct intersection 72x72.png|250px]]
+		|name=Intersection 72×72
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×72 cm
+		|mass=42.1
+		|volume=4.67
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+}}
+</div>
+
+=== Linear ===
+<div class="mw-collapsible sb-collapsible mw-collapsed">
+{{SB Mini Infobox Wrap
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct straight 12x12.png|250px]]
+		|name=Straight 12×12
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=12×12 cm
+		|mass=3.69
+		|volume=0.41
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct straight 12x36.png|250px]]
+		|name=Intersection 12×36
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=12×36 cm
+		|mass=11.4
+		|volume=1.26
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct straight 12x48.png|250px]]
+		|name=Intersection 12×48
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=12×48 cm
+		|mass=17.7
+		|volume=1.96
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct straight 12x72.png|250px]]
+		|name=Intersection 12×72
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=12×72 cm
+		|mass=23.0
+		|volume=2.55
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct straight 12x96.png|250px]]
+		|name=Intersection 12×96
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=12×96 cm
+		|mass=30.8
+		|volume=3.42
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct straight 12x144.png|250px]]
+		|name=Intersection 12×144
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=12×144 cm
+		|mass=46.3
+		|volume=5.14
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Duct straight 12x192.png|250px]]
+		|name=Intersection 12×192
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=12×192 cm
+		|mass=61.9
+		|volume=6.87
+		|corrosionResistance=500
+		|primaryMaterial=Vokarium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=Entire surface
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=100%
+	  }}
+	}}
+
+}}
+</div>
+
+== Related Pages ==
+*[[Pipe networks]]
+*[[Data networks]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,84 @@
+{{Otherlang2
+|ru=Корпус вспомогательного устройства, тип 2
+|jp=ユーティリティーツールボディ タイプ２
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Utility tool body 2.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Utility tool body type 2
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Mounts utility devices
+	  
+	  |size=108×48×84 cm
+	  |mass=1,579.8
+	  |volume=168.78
+	  |corrosionResistance=410
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=1
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=30%
+	  |ajatite=
+	  |arkanium=
+	  |bastium=
+	  |charodium=50%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=10%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=10%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The utility tool body is a device that can mount certain tools, and provides power and [[YOLOL]] access to them. The utility tool body type 2 also comes in a mirrored version. It is important to note that ''only'' the Laser Designator can be used with this tool body,as Mining Lasers, Tractor Beams, Material Point Scanners, and Ore Collectors will not fit.
+<section end=summary/>
+
+== Related Pages ==
+
+*[[Utility tool bodies]]
+*[[Laser designator (Assembly)]]
+
+
+[[Category:Devices and machines]]

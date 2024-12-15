@@ -1,0 +1,139 @@
+{{Otherlang2
+|de=Radio_transmitters:de
+|fr=Radio_transmitters/fr
+|zh-cn=无线电接收器
+|ru=Радиоприёмник
+|ua=Радіоприймач
+|jp=ナビゲーションレシーバー
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Radio Receiver.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Navigation device
+	  |function=Receives signals
+	  
+	  |size=<ul><li>156×156×180 cm ''(large)''</li><li>120×120×120 cm ''(small)''</li></ul>
+	  |mass=<ul><li>18,492.47 kg ''(large)''</li><li>5,094 kg ''(small)''</li></ul>
+	  |volume=<ul><li>1,858.54 kv ''(large)''</li><li>511.96 kv ''(small)''</li></ul>
+	  |corrosionResistance=380
+	  |primaryMaterial=Charodium
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Passive
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=1
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=10%
+	  |arkanium=
+	  |bastium=10%
+	  |charodium=10%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=70%
+	  |xhalium=
+	}}
+}}
+A navigation receiver is a device that can receive signals sent out by [[Radio transmitters]].
+
+== Basic information ==
+
+* Have to be pointed to the direction of a transmitter.
+* They only look for signals in the area they're pointed at. This means that receivers may have to scan areas section by section to find transmitter messages.
+* If a receiver is in the range of a transmitter and is pointed towards the transmitter, the transmitter's message is set to the receiver's "Message"-field.
+* Both large and small receivers currently have the same properties.
+* The current maximum range is 1000km (1000000m).
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''Message'''
+| Found message
+| 0
+|-
+! '''SignalStrength'''
+| Strength of the found signal, measured in meters
+| 0
+|-
+! '''ListenAngle'''
+| An angle of 180 coresponds to an omnidirectional receiver.
+| 0-180
+|-
+! '''TargetMessage'''
+| The message the receiver will exclusively listen to, 0 means listens to all
+| 0
+|-
+! '''TargetFrequency'''
+| The frequency the receiver will exclusively listen to, 0 means listens to all
+| 0
+|-
+! '''Frequency'''
+| The frequency of the transmitter currently listened to, 0 if no signal found.
+| 0
+|-
+! '''ReceiverPitch'''
+| Target pitch of the device
+| 0
+|-
+! '''ReceiverCurrentPitch'''
+| Current pitch of the device
+| 0
+|-
+! '''MaxRotation'''
+| Maximum limit for rotation
+| 180
+|-
+! '''MinRotation'''
+| Minimum limit for rotation
+| -180
+|-
+! '''TargetVelocity'''
+| Target velocity in which the device rotates
+| 0-3
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+
+[[Category:Devices and machines|Radio transmitters]]

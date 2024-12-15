@@ -1,0 +1,65 @@
+A tier 2 gas converter
+Thruster gas converter
+Type
+Thruster device
+Function
+Prepares propellant for use
+The gas converter is a device that handles the ingest of propellant, and prepares it for burning in the combustion chamber of a thruster.
+Types
+The gas converter is currently available in the following styles:
+Tier 1 gas converter
+Size
+60×36×36 cm
+Mass
+202.6 kg
+Volume
+20.36 kv
+Corrosion resistance
+420
+Primary material
+Bastium
+Composition
+Bastium
+40%
+Vokarium
+60%
+Tier 2 gas converter
+Size
+60×36×36 cm
+Mass
+202.6 kg
+Volume
+20.36 kv
+Corrosion resistance
+500
+Primary material
+Bastium
+Composition
+Aegisium
+20%
+Bastium
+30%
+Vokarium
+50%
+Tier 3 gas converter
+Size
+60×36×36 cm
+Mass
+202.6 kg
+Volume
+20.36 kv
+Corrosion resistance
+510
+Primary material
+Bastium
+Composition
+Aegisium
+50%
+Bastium
+30%
+Xhalium
+20%
+Related pages
+Box thruster
+Triangle thruster
+Maneuver thruster

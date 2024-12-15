@@ -1,0 +1,55 @@
+{{stub}}{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Fast travel gate core (assembly).png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Fast travel gate core
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Navigation device
+	  |function=Permits travel through [[Warp gate|warp gates]]
+	  |availability=
+	  |size=576×576×288 cm
+	  |mass=173,389
+	  |volume=17,761.1
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Passive
+	}}
+
+	|{{SB Infobox Component Section
+	  |Fast travel gate core center
+	  |Fast travel gate core outer body
+	  |Fast travel gate core inner body
+	  |Fast travel gate core support
+	}}
+
+}}<section begin=summary/>The fast travel gate core is a complex device that allows passage through [[Warp gate|warp gates]]. Though it requires no input power, it must be securely mounted to the ship with each part accounted for and in good condition in order for a ship to be able to use the warp gate.</br></br>'''NOTE:''' The Fast Travel Gate Core is no longer required for using the Fast Travel Gate and can no longer be crafted.<section end=summary/>
+
+== Assembly ==
+
+Each gate core requires the following sub-components to be properly assembled:
+* 2x [[Fast travel gate core support|supports]]
+* 2x [[Fast travel gate core outer body|outer bodies]]
+* 2x [[Fast travel gate core inner body|inner bodies]]
+* 1x [[Fast travel gate core center|core]]
+
+These sub-components must be bolted together, but do not require any other input. The core of the device has one device field ''TravelCoreAssembled'' which indicates if the device is currently capable of warp gate travel.
+
+== Device fields ==
+
+===[[Fast travel gate core center|Gate core center]]===
+{{#lst:Fast travel gate core center|deviceFields}}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines]]

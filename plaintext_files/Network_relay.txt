@@ -1,0 +1,52 @@
+Network relay
+Size
+48×24×24 cm
+Mass
+244.17 kg
+Volume
+24.54 kv
+Corrosion resistance
+440
+Primary material
+Bastium
+Input / Output
+Sockets
+2
+Composition
+Ajatite
+20%
+Arkanium
+10%
+Bastium
+45%
+Vokarium
+25%
+The network relay is a device used to separate a network within a ship or station into multiple partially separate sub-networks. Separate sub-networks allow one-way broadcasting of variable changes between them, and enable the creation of modular YOLOL systems.
+Basic information
+Network Relays are connected to two separate data networks via cable sockets at both ends of the device
+One end of the relay acts as the "input" connection
+The other end acts as the "output" connection
+The input / output direction is shown through triangles pointing towards the output side
+When the relay is powered, changes made to device fields connected to the input propagate / will apply to all similarly named device fields that are connected to relay output
+Values between networks are not automatically synchronized
+This means that connected networks may contain different values for similarly named device fields
+A Network Relay can also not propagate data, by setting MasterIsEnabled or IsEnabled to 0
+MasterIsEnabled can only be influenced from the Input side
+IsEnabled can be influenced from the input side if it is propagating data. If it is 0, it can only be influenced from the Output side.
+NOTE:
+the Network relay can only function, if there is no open connection between the separate data networks, like a different network relay or a direct cable connection.
+Use in conjunction with memory relays to transfer power and select data
+Device fields
+YOLOL field
+description
+range
+IsMasterEnabled
+On / Off (Input side)
+0 / 1
+IsEnabled
+On / Off (Output side)
+0 / 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

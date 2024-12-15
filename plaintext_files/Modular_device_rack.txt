@@ -1,0 +1,110 @@
+YOLOL rack
+Type
+YOLOL device
+Function
+Houses modular YOLOL readers
+Size
+48×48×48 cm
+Mass
+629.74 kg
+Volume
+63.29 kv
+Corrosion resistance
+450
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+5
+Composition
+Ajatite
+40%
+Bastium
+25%
+Vokarium
+35%
+The YOLOL rack is the base device for any modular device rack. It does nothing on its own, except join the data network of adjacent racks. All the modules plug into a rack to provide actual functionality for a rack. It can connect to any rack adjacent to it from any side except the front and will form one network with those devices, which is a nice alternative to wiring each chip when using chip sockets. The socket core module provides a cable socket to connect a set of device racks to another network.
+Modules
+There are three modules that can be plugged into the slot on the front of a rack:
+Chip core
+Mass
+316.6 kg
+Volume
+31.82 kv
+Corrosion resistance
+430
+Primary material
+Bastium
+Input / Output
+Sockets
+0
+Chip slots
+3
+Composition
+Ajatite
+25%
+Bastium
+35%
+Vokarium
+40%
+Socket core
+Mass
+347.5 kg
+Volume
+34.92 kv
+Corrosion resistance
+430
+Primary material
+Bastium
+Input / Output
+Sockets
+1
+Chip slots
+2
+Composition
+Ajatite
+15%
+Bastium
+35%
+Vokarium
+50%
+Chip Reader
+Mass
+384.4 kg
+Volume
+38.63 kv
+Corrosion resistance
+430
+Primary material
+Bastium
+Input / Output
+Sockets
+0
+Chip slots
+1
+Composition
+Ajatite
+20%
+Bastium
+35%
+Vokarium
+45%
+Chip Core
+: Basic module with three chip slots
+Socket Core
+: Module with two chip slots, and a cable socket to connect the rack network to an external network
+Chip Reader
+: Alternate chip module for one chip in a configuration that allows editing and monitoring
+The modular attachment points on the sides of the device rack can also interact with memory relays, both as a means of including those into their network and to exploit the sockets on the relays in order to power the device rack in the event that a Socket Core is not installed.
+Device fields
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+YOLOL field
+description
+range
+CurrentState
+OnState
+OffState
+ButtonStyle

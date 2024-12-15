@@ -1,0 +1,115 @@
+{{Otherlang2
+|fr=Network_relay/fr
+|de=Network_relay:de
+|zh-cn=单向网络中继器
+|ru=Сетевое реле
+|ua=Мережеве реле
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Network relay.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=
+	  |function=
+	  
+	  |size=48×24×24 cm
+	  |mass=244.17
+	  |volume=24.54
+	  |corrosionResistance=440
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=20%
+	  |arkanium=10%
+	  |bastium=45%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=25%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The network relay is a device used to separate a [[Data networks|network]] within a ship or station into multiple partially separate sub-networks. Separate sub-networks allow one-way broadcasting of variable changes between them, and enable the creation of modular [[YOLOL|YOLOL]] systems.<section end=summary/>
+
+== Basic information ==
+
+* Network Relays are connected to two separate [[Data networks|data networks]] via cable sockets at both ends of the device
+** One end of the relay acts as the "input" connection
+** The other end acts as the "output" connection
+** The input / output direction is shown through triangles pointing towards the output side
+* When the relay is powered, changes made to device fields connected to the input propagate / will apply to all similarly named device fields that are connected to relay output
+** Values between networks are not automatically synchronized
+*** This means that connected networks may contain different values for similarly named device fields
+* A Network Relay can also not propagate data, by setting MasterIsEnabled or IsEnabled to 0
+** MasterIsEnabled can only be influenced from the Input side
+** IsEnabled can be influenced from the input side if it is propagating data. If it is 0, it can only be influenced from the Output side.
+
+'''NOTE:''' the Network relay can only function, if there is no open connection between the separate [[Data networks|data networks]], like a different network relay or a direct cable connection.
+* Use in conjunction with [[Memory relay|memory relays]] to transfer power and select data
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''IsMasterEnabled'''
+| On / Off (Input side)
+| 0 / 1
+|-
+! '''IsEnabled'''
+| On / Off (Output side)
+| 0 / 1
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Network relay]]

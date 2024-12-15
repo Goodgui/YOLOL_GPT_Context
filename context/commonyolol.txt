@@ -1,0 +1,62 @@
+Single Forward/Backward Lever
+:FcuBackward=-:FcuForward goto1
+Explanation: Inverts the forward lever to control backward thrust for simple two-direction movement.
+
+Speed Limiter
+:FcuForward=:Fwd/100*:Limiter goto1
+Explanation: Limits the maximum forward speed using a lever, useful for precision movement during activities like mining or docking.
+
+Turtle Mode
+:FcuForward=:Fwd/100*:Turtle goto1
+Explanation: Reduces speed to a preset percentage when a button is activated. Useful for precision maneuvering.
+
+Gradual Generator Script
+:Generator=100-:Battery_1/100 goto1
+Explanation: Adjusts the fuel chamber's fuel rate dynamically based on battery charge level. Higher battery levels reduce the generator rate, preserving fuel.
+
+Gradual Generator Script (Higher Charge Threshold)
+:Generator=1000-:Battery_1/50 goto1
+Explanation: Keeps the battery level higher by adjusting the generator's fuel rate more aggressively. The generator output is higher when the battery charge drops below 50%.
+
+Flagged Generator Script
+:Generator=100-:Eco*:Battery_1/100 goto1
+Explanation: Introduces an "Eco" button that toggles fuel saving mode. In Eco mode, fuel usage adjusts based on the battery charge. Useful for activities requiring a maximum power button, like mining.
+
+Advanced Generator Script
+MaxBattery=10000           // total capacity
+LowBattery=0.99*MaxBattery // start charging below 99%
+MinBattery=0.20*MaxBattery // max charge rate below 20%
+MaxGenerator=100           // max fuel rate
+MinGenerator=2             // min fuel rate (near 100% charge)
+h=MaxGenerator c=MinGenerator          // auxiliary variables
+f=MaxBattery l=LowBattery e=MinBattery // no need to change these
+r=(h-c)/(f-e) z=h-r*l a=r*(f-l)
+y=:PWR-z-r*(:Battery_1+:Battery_2)+c*(y>c)+a*(y>0)
+:Generator=y goto9
+Explanation: Dynamically adjusts the generator's fuel rate based on multiple thresholds for battery charge levels. It incorporates auxiliary variables for flexibility and efficiency. This script is highly tweakable and can be customized for various ship configurations.
+
+Material Point Scanner Script
+:Index=(:Index+:Next)*(:Index<:ScanResults) :Next=0
+:Material=:Material :Volume=:Volume goto1
+Explanation: Cycles through material scan results and displays the selected material and volume for further use or analysis.
+
+Pulsed Mining Laser
+:MiningLaserOn=(1-:MiningLaserOn)*:Mining goto1
+Explanation: Toggles the mining laser on and off to reduce power consumption while maintaining effectiveness during mining.
+
+Received Signal Display
+if :SignalStrength>0 then goto2 else :Nav="No Signal" goto1 end
+:Nav=:Message+"\n"+(1000000-:SignalStrength)/1000+"km" goto1
+Explanation: Displays the received signal message and calculates the distance in kilometers based on signal strength. Switches to "No Signal" if the signal is lost.
+
+Mining Laser/Ore Collector Swapping Power
+:ToggleOn=(1-:MiningLaserOn)*:Collecting goto1
+Explanation: Activates the ore collector only when the mining laser is off and the button is active, reducing power consumption and optimizing mining operations.
+
+Outside Safezone Warning
+:ButtonEnableBlink=1-:InsideSafeZone goto1
+Explanation: Activates a blinking button warning when the ship is outside the safe zone.
+
+Stations Building Availability
+:ButtonEnableBlink=:StationsAllowed goto1
+Explanation: Activates a blinking button when the ship is in an area where station building is permitted.

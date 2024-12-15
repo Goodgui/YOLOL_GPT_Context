@@ -1,0 +1,141 @@
+A standard device hardpoint
+Hardpoints
+Type
+Structural device
+Function
+Device mount
+Hardpoints are used for mounting most devices, including thrusters, weapons and tools, and they are available in three common forms: Small, large, and a large corner variant. Apart from the corner variant (which has an additional mounting point for devices), there are no functional differences between the three variants. Hardpoints accept cables and pipes on the socket side, the resources of which are made available to the device that is mounted to them.
+Types
+Standard Hardpoint
+Size
+72×72×12 cm
+Mass
+570.3 kg
+Volume
+57.32 kv
+Corrosion resistance
+450
+Primary material
+Bastium
+Input / Output
+Sockets
+4
+Device interfaces
+1
+Composition
+Ajatite
+30%
+Bastium
+25%
+Vokarium
+45%
+Large Hardpoint
+Size
+144×144×36 cm
+Mass
+4,876.9 kg
+Volume
+490.14 kv
+Corrosion resistance
+420
+Primary material
+Bastium
+Input / Output
+Sockets
+4
+Device interfaces
+1
+Composition
+Ajatite
+26%
+Bastium
+40%
+Vokarium
+34%
+Hardpoint Corner
+Size
+144×120×120 cm
+Mass
+9,859 kg
+Volume
+990.86 kv
+Corrosion resistance
+420
+Primary material
+Bastium
+Input / Output
+Sockets
+8
+Device interfaces
+2
+Composition
+Ajatite
+26%
+Bastium
+40%
+Vokarium
+34%
+Support frames
+Additionally, the large hardpoint and hardpoint corner have separate mounting plates that can (optionally) be used to make mounting them to the beam frame more convenient:
+Large hardpoint support frame
+Size
+144×144×12 cm
+Mass
+1,300.4 kg
+Volume
+130.69 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Composition
+Bastium
+100%
+Hardpoint corner support frame
+Size
+144×84×84 cm
+Mass
+1,305.1 kg
+Volume
+131.17 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Composition
+Bastium
+100%
+Material
+To learn more about materials, consult these wiki pages:
+Materials
+Ores
+Device Hardpoint (kv)
+Large Hardpoint (kv)
+Large Hardpoint Corner (kv)
+'
+Large Hardpoint Corner Support Frame (kv)
+Large Hardpoint Support Frame (kv)
+Weight (Kg)
+524.56
+4583.20
+9265.39
+1305.33
+1300.55
+Ajatite
+6.011
+41
+81
+Bastium
+18
+255
+509
+137
+134
+Tengium
+15
+123
+244
+Vokarium
+21
+92
+183

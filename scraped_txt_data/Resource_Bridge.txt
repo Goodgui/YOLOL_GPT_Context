@@ -1,0 +1,121 @@
+{{Otherlang2
+|de=Resource_Bridge:de
+|ru=Ресурсный мост
+|zh-cn=资源桥
+|ua=Ресурсний міст
+|jp=リソースブリッジ
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Resource_Port.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Resource Bridge
+	  |subtitle=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Cargo device
+	  |function=Accesses pipe networks
+	  
+	  |size=72 × 72 × 24 cm
+	  |mass=552.43
+	  |volume=59.02
+	  |corrosionResistance=420
+	  |primaryMaterial=Bastium
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=10,000 per second
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=50,000 per second
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=1
+	}}
+
+	|{{SB Infobox Device Construction
+	  |aegisium=
+	  |ajatite=10%
+	  |arkanium=
+	  |bastium=40%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=50%
+	  |xhalium=
+	}}
+}}<section begin=summary/>
+The resource port allows the player to connect to, and interact with, the inventory of [[Modular ore cargo crate|ore cargo crates]]. It can also be used to connect a ship to a [[refueling station]] or an [[Ore tower|ore tower]], or even to other ships to allow resource transfer between ships. Resource bridges can not only transfer materials, but also [[electricity]] and [[propellant]].<section end=summary/>
+
+Connection to a resource bridge is necessary to allow transfer of mined materials directly into [[Modular_ore_cargo_crate|cargo crates]].
+
+== Basic information ==
+
+Resource bridges provide access to cargo crates and propellant tanks when they are connected to a pipe network, and [[Battery|batteries]] when they are connected to an electrical network. Players connected to a resource bridge can move inventory to and from cargo crates, allowing them to drop material cubes into the world or transfer them to station storage. Picking up a material cube while connected to a resource bridge will place the material into storage, if possible. Connecting a ship to an ore tower also provides an interface for selling ores or refueling.
+
+== Interaction ==
+
+When interacted with, the resource bridge will show a connection as a glowing yellow strand. The connection will be severed if the player moves too far from the resource port (100 meters).
+
+The resource port allows access to the storage interface for ore cargo crates. Each cargo crate is represented as an inventory slot in the interface in which they are shown.
+
+== Ship-to-ship refueling ==
+
+Ship-to-ship refueling and recharging is possible if two ships are connected via a resource bridge, and both resource bridges are connected to the appropriate networks.
+* If the connection detects a propellant tank connected to the donor ship's resource bridge, only propellant transfer will be possible.
+* If there is no propellant tank connected to the donor ship's resource bridge, electricity transfer will be possible.
+
+The recipient ship can receive either propellant or power, but not at the same time. Thus, to transfer each resource, the donor ship must have two resource bridges: One with a cable <i>and</i> pipe connection, and one with only a cable connection. To transfer resources, the [[Device fields|device fields]] of the resource bridge(s) on the donor ship must be set as follows:
+* '''FlowIn''' is set to 0. '''FlowOut''' is set to 1.
+
+.. while the recipient ship's resource bridge's device fields are set as follows:
+* '''FlowIn''' is set to 1. '''FlowOut''' is set to 0.
+
+A single connection can transfer '''50,000''' propellant per second or '''10,000''' electricity per second.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''State'''
+| Dictates whether the resource bridge is on or off. 0 = off, any other value = on.
+| 0 - 1
+|-
+! '''FlowIn'''
+| Dictates whether the resource bridge can accept resources.
+| 0 - 1
+|-
+! '''FlowOut'''
+| Dictates whether the resource bridge can send resources.
+| 0 - 1
+|-
+|}
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines]]

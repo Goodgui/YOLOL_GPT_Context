@@ -1,0 +1,62 @@
+Turntable
+Type
+Utility machinery
+Function
+Rotating platform
+Size
+192×192×36 cm
+(large)
+96×96×24 cm
+(small)
+Mass
+4,450.11 kg
+(large)
+1190.76 kg
+(small)
+Volume
+447.18 kv
+(large)
+119.66 kv
+(small)
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Electric input
+~3 e/s
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Bastium
+100%
+Turntables are mounted platforms for devices. Machinery such as cannons and tractor beams can be mounted on top of the turntables, which allow the device to rotate around the Y-axis. The mounted machinery must be mounted to a cradle to enable rotation around the X-axis.
+Basic information
+A turntable's target rotation can be set with the universal tool, or by connecting it to a control device such as a lever or a button. The turntable's turret rotation device field will rotate the turntable to the specified number in degrees, and does not allow relative adjustments (eg: +5 or -5). Each turntable has a base that must be mounted to a device hardpoint, and a rotating piece which can accept a variety of other machinery, such as cradles or weapon mounts. The speed at which a turntable rotates is determined by the mass attached to its rotating surface, and they are too weak to withstand the stress of a thruster. There are also provisions for sockets across turntables, which disallows users from cabling to devices mounted to a turntable. It is important to note that the rotating piece can occasionally rotate 180° on its axis for no reason, so either have safeguard yolol or manually fix it every time. If the ship is powered off while the table is glitched, it will necessitate a complete replacement of the turntable. They cannot be repaired in the field, so it is recommended to either carry spare turntables or the materials to craft them.
+Device fields
+YOLOL field
+description
+range
+TurretRotation
+Target rotation of the turntable
+0
+TurretCurrentRotation
+Current rotation of the turntable
+0
+MaxRotation
+Value to use for maximum rotation (equiv to +180 deg, does not effect how far the turret can rotate)
+180
+MinRotation
+Value to use for minimum rotation (equiv to -180 deg, does not effect how far the turret can rotate)
+-180
+TargetVelocity
+Target velocity in which the turntable rotates
+3
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Repairing Tips
+When repairing turntables it can be tricky.  They are in two parts "turret base turntable" showing in inventories as 'blue beam icon' and another piece "turret turntable".  When repairing you can use the U tool and auto snap both these parts.  Initially when you place the "turret turntable" it will auto snaps into position, you will also need to auto snap the "turret base turntable" separately.  When the the two places are snapped in place you may need to log out to main menu then back again for the game to "rejoin" the two pieces into one.  If you do not do this the turret will not solidify and the item may just fall off.

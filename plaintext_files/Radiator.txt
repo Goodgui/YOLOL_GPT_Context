@@ -1,0 +1,102 @@
+Radiator
+Type
+Coolant device
+Function
+Remove heat
+Radiators are very effective options for sustained cooling, but often they require heatsinks to reach their full potential. Each section attached extends the radiator's maximum performance without requiring additional mounting slots. Radiators can be used in conjunction with cooling racks, but it is not required.
+Types
+Radiator base
+Size
+72×72×48 cm
+Mass
+1,404.8 kg
+Volume
+141.19 kv
+Corrosion resistance
+310
+Primary material
+Bastium
+Input / Output
+Heat capacity
+1,500
+Heat dissipation
+1,500 per second
+Modular interfaces
+2
+Device interfaces
+1
+Composition
+Bastium
+20%
+Charodium
+50%
+Vokarium
+30%
+Radiator extension
+Size
+72×72×24 cm
+Mass
+533.3 kg
+Volume
+53.60 kv
+Corrosion resistance
+310
+Primary material
+Bastium
+Input / Output
+Heat capacity
+1,500
+Heat dissipation
+750 per second
+Modular interfaces
+2
+Composition
+Bastium
+20%
+Charodium
+50%
+Vokarium
+30%
+Basic usage
+Radiator Bases can be mounted on hardpoints and Radiator Extensions can be mounted to Radiator Bases or other Extensions.
+Radiator Bases have one device interface and two modular output interfaces (where you can connect Radiator Extensions' input interface).
+Radiator Extensions have one input (side with colored bolting spots) and one output interface.
+Both Bases and Extensions can also be mounted on generators, fuelchambers or heatsinks, but that might be unintended behaviour.
+Radiators remove heat transferred to them by heat producers and heatsinks.
+Heat is transferred through pipes or connected devices.
+Note:
+Devices have a limit to how much of their heat they can transfer to radiators (default 75, heatsinks 750 - can be added together). See heat mechanics for in depth info.
+Device fields
+Radiator Base
+YOLOL field
+Description
+Range
+RadiatorHeatDissipation
+Current radiation rate for this radiator base
+0 - 1500
+RadiatorStoredHeat
+Current amount of heat in this radiator base
+0 - RadiatorMaxStoredHeat
+RadiatorMaxStoredHeat
+Maximum amount of heat that can be stored in the radiator base
+1500
+Radiator Extension
+YOLOL field
+Description
+Range
+RadiatorHeatDissipation
+Current radiation rate for this radiator extension
+0 - 750
+RadiatorStoredHeat
+Current amount of heat in this radiator  extension
+0 - RadiatorMaxStoredHeat
+RadiatorMaxStoredHeat
+Maximum amount of heat that can be stored in the radiator extension
+1500
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Generator (Assembly)
+Cooling rack

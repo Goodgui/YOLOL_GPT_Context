@@ -1,0 +1,77 @@
+Box thruster
+Type
+Thrusters
+Function
+Generates propulsion
+Size
+360×96×144 cm
+Mass
+18,878.53 kg
+(approx.)
+Volume
+1,897.34 kv
+Corrosion resistance
+350
+Input / Output
+Electric input
+210 e/s
+(all T1)
+183.6 e/s
+(all T2)
+297 e/s
+(all T3)
+Propellant input
+30.96 p/s
+(all T1)
+26.966 p/s
+(all T2)
+39.154 p/s
+(all T3)
+Thrust power
+500,000
+(all T1)
+550,000
+(all T2)
+650,000
+(all T3)
+Device interfaces
+2
+Sub-components
+Box thrusters are a type of thruster that produce significantly more thrust than triangle thrusters, at the expense of nearly double the electricity intake. They are most commonly found working as the main thrusters of civilian ships.
+Basic information
+Box thrusters are composed of five distinct components:
+The body, which houses the other components and provides convenient mounting surfaces. Any tier of body is compatible with any tier of the other components (For example, tier 2 bodies with tier 2 converters and a tier 3 nozzle are common in high efficiency ships)
+The chamber, which burns propellant to produce thrust.
+The nozzle, which channels the exhaust out of the chamber (thus producing thrust). Any tier of nozzle is compatible with any tier of Box Thruster.
+The electricity converter, which converts power from generators and batteries into power usable by the thruster. Any tier of electricity converter is compatible with any tier of Box Thruster.
+The propellant converter, which prepares propellant to be burnt. Any tier of propellant converter is compatible with any tier of Box Thruster.
+Unlike triangle thrusters, box thrusters do not have a resource-sharing port, and cannot be placed adjacent to one another in order to share power or propellant. Each box thruster must have its own device hardpoint with its own connection to the power and propellant networks in order to function. Despite this, and though they require significantly more space, box thrusters remain a popular choice as they produce considerable thrust per unit and do not drain as much propellant compared to triangle thrusters.
+Thrust Values
+Tier
+Body
+Nozzle
+1
+400000
+100000
+2
+440000
+110000
+3
+520000
+130000
+Device fields
+Box thruster body
+YOLOL field
+description
+range
+ThrusterState
+Requested output of the thruster
+0 - 10 000
+ThrusterCurrentThrust
+Current output of the thruster
+0 - 10 000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related content

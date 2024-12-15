@@ -1,0 +1,25 @@
+Exorium processing unit radiation shield
+Size
+576×288×72cm
+Mass
+28,834.84 kg
+Volume
+3,284.15 kv
+Corrosion resistance
+480
+Primary material
+Ymrium
+Composition
+Aegisium
+15%
+Charodium
+20%
+Kutonium
+15%
+Lukium
+45%
+Ymrium
+5%
+Radiation shield for exorium processing unit. Forms the outer shell for the unit together with 2 end covers, 2 side structures and 2 top/bottom structures.
+Related Pages
+Exorium processing unit (Assembly)

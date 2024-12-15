@@ -1,0 +1,26 @@
+Small turntable mount 2
+Type
+Utility device
+Function
+Utility mount with yawing ability
+Size
+96×96×84  cm
+Mass
+1,197.8 kg
+Volume
+120.38 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Bastium
+100%
+A fixed mount for a small turntable. While not as mobile as a turntable and a cradle, these devices allow a full range of motion about the Y-axis when mounted to a turntable, and can fit two devices onto them.
+Related pages
+Fixed mount

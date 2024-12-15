@@ -1,0 +1,205 @@
+{{Otherlang2 
+|fr=Propellant/fr
+|de=Propellant:de
+|zh-cn=推进剂
+|ru=Бак с пропеллентом
+|ua=Ракетне Паливо
+|jp=推進剤タンク
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_large_gas_container.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster machinery
+	  |function=Stores thruster propellant
+	  
+	}}
+}}<section begin=summary/>Propellant tanks are the vessels used to store [[Propellant tank|propellant]], which [[Thrusters|thrusters]] use to produce force. They come in a variety of sizes, and are constructed of the propellant tank and two structural supports, which also provide socket access to the propellant tank itself. These support pieces also have one modular device interface per piece, and the propellant tank can also convey other resources if the tank is placed in-line with a [[Pipe networks|pipe network]].
+* '''Note!''' Multiple propellant tanks will automatically balance the propellant in the network between tanks, and as such in-space refueling by taking out the propellant tank is not recommended. Rather a portable custom propellant tank item (resource bridge, hardpoint piped to one support frame, and a propellant tank) is often used to quickly refuel. <section end=summary/>
+
+== Basic information ==
+
+Propellant tanks do not usually require regular maintenance.<br>
+They are placed in a ship with either one or two support pieces, connected to the ship's thrusters with a [[Pipe tool|pipe tool]], and replaced when empty or refueled at a station.<br>
+The small, medium and large tanks hold 1, 4, and 9 million units of propellant respectively. To display data to the ship's data network, a cable must be attached as well.<br>
+Propellant tanks with propellant inside explode when damaged.<br>
+
+== Variants ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:H2 Propellant tank (sm).png]]
+		|name=Small Hydrogen Propellant Tank
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=96×96×144 cm
+		|mass=4,638
+		|volume=466.1
+		|corrosionResistance=<ul><li>360 ''(tank)''</li><li>380 ''(supports)''</li></ul>
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=2
+		|sockets=4
+		|propellantCapacity=1,000,000
+		|propellantIn=50,000 per second
+		|propellantOut=50,000 per second
+	  }}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (tank)
+	  |bastium=70%
+	  |vokarium=30%
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (supports)
+	  |ajatite=10%
+	  |bastium=60%
+	  |vokarium=30%
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (Refill)
+	  |ice=1,000KV
+	}}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:H2 Propellant tank (med).png]]
+		|name=Medium Hydrogen Propellant Tank
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=144×144×192 cm
+		|mass=11,090
+		|volume=1,125.7
+		|corrosionResistance=<ul><li>710 ''(tank)''</li><li>380 ''(supports)''</li></ul>
+		|primaryMaterial=Aegisium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=2
+		|sockets=4
+		|propellantCapacity=4,000,000
+		|propellantIn=50,000 per second
+		|propellantOut=50,000 per second
+	  }}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (tank)
+	  |aegisium=70%
+	  |vokarium=30%
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (supports)
+	  |ajatite=10%
+	  |bastium=60%
+	  |vokarium=30%
+	}}
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (Refill)
+	  |ice=4,000KV
+	}}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:H2 Propellant tank (large).png]]
+		|name=Large Hydrogen Propellant Tank
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=192×192×288 cm
+		|mass=24,413
+		|volume=2,502
+		|corrosionResistance=<ul><li>710 ''(tank)''</li><li>380 ''(supports)''</li></ul>
+		|primaryMaterial=Aegisium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=2
+		|sockets=4
+		|propellantCapacity=12,000,000
+		|propellantIn=50,000 per second
+		|propellantOut=50,000 per second
+	  }}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (tank)
+	  |aegisium=70%
+	  |vokarium=30%
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (supports)
+	  |ajatite=10%
+	  |bastium=60%
+	  |vokarium=30%
+	}}
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (Refill)
+	  |ice=12,000KV
+	}}
+	}}
+
+
+}}
+
+== Device fields ==
+
+=== Propellant tank support ===
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''IsOpenId'''
+| Input/output field for closing/opening connectors.
+| 0 - 1
+|-
+!'''FlowId'''
+| Output field for resource amounts flowing through the network.
+| 
+|-
+! '''GasNetworkStoredResource'''
+| Amount of propellant currently available in all conected containers.
+| 0 - GasNetworkMaxResource
+|-
+! '''GasNetworkMaxResource'''
+| Maximum amount of propellant that can be stored in all conected containers.
+|
+|-
+|}
+=== Propellant tank ===
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''GasContainerStoredResource'''
+| Amount of propellant currently available in this container.
+| 0 - GasContainerMaxResource
+|-
+! '''GasContainerMaxResource'''
+| Maximum amount of propellant that can be stored in this container.
+|
+|-
+|}
+
+To learn more about how to use the device fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Propellant]]

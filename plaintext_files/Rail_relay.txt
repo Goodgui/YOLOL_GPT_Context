@@ -1,0 +1,38 @@
+!
+This page contains information that pertains only to the
+closed alpha
+version of the game, which was discontinued on July 26th, 2021. It has been kept up for posterity only, but you may still
+edit it.
+Rail relay
+Type
+Rail device
+Function
+Creates rail sub-networks
+Size
+24×24×96 cm
+Mass
+412.72 kg
+Volume
+41.58 kv
+Corrosion resistance
+400
+Composition
+Bastium
+100%
+A rail relay is used to divide a rail network into separate sections with separate sub-networks to enable the creation of modular rail systems. They function similarly to network relays
+Basic information
+Rail relays connect to a rail network like any other rail piece, but only transmits data in one direction
+One end of the relay acts as the "input" connection
+The other end acts as the "output" connection
+When the relay is powered, changes made to device fields connected to the input propagate will apply to all similarly named device fields that are connected to relay output.
+Device fields
+YOLOL field
+description
+range
+IsEnabled
+On/Off
+0/1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

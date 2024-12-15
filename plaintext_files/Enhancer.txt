@@ -1,0 +1,117 @@
+Tier 1, tier 2, and tier 3 enhancers
+Enhancer
+Type
+Utility device
+Function
+Overclocks device performance
+Enhancers are devices that can attach to a generator and provide boosts to the generation of power. Currently, only generator units are affected by enhancers.
+Types
+Tier 1 enhancer
+Size
+96×96×48 cm
+Mass
+781.7 kg
+Volume
+80.84 kv
+Corrosion resistance
+615
+Primary material
+Aegisium
+Input / Output
+Modular interfaces
+1
+Composition
+Bastium
+20%
+Charodium
+25%
+Exorium
+25%
+Karnite
+15%
+Vokarium
+15%
+Tier 2 enhancer
+Size
+96×96×48 cm
+Mass
+1,135.7 kg
+Volume
+129.35 kv
+Corrosion resistance
+380
+Primary material
+Ymrium
+Input / Output
+Modular interfaces
+1
+Composition
+Aegisium
+20%
+Arkanium
+18%
+Corazium
+12%
+Exorium
+22%
+Karnite
+10%
+Kutonium
+18%
+Tier 3 enhancer
+Size
+96×96×48 cm
+Mass
+1,709.8 kg
+Volume
+194.74 kv
+Corrosion resistance
+445
+Primary material
+Ymrium
+Input / Output
+Modular interfaces
+1
+Composition
+Arkanium
+16%
+Exorium
+16%
+Karnite
+10%
+Kutonium
+14%
+Lukium
+18%
+Ukonium
+14%
+Ymrium
+12%
+Basic Information
+Enhancers are used to quickly boost the rate of production of electricity in a generator unit by increasing the efficiency with which they utilize fuel, and can be easily turned on and off with YOLOL. However, while a generator unit with an attached and activated enhancer unit will produce significantly more electricity, it will also suffer an exponential increase in heat output. While an enhancer can be used to maximize power output (for as long as the cooling performance can keep up), it can also be used to boost efficiency at lower generation states, allowing the production of power at a comparatively lower fuel cost -- though, this will still generate extra heat. Enhancers affect the generation of heat by adding to the quantity of heat tokens held by the device to which they are attached.
+It should be noted that, though enhancers increase the heat potential of a generator system, enhancers themselves are unaffected by heat.
+Enhancer Effects
+Enhancer Tier
+Heat Tokens
+Electricity Production Tokens
+Tier 1
++3
++1
+Tier 2
++4
++2
+Tier 3
++5
++3
+The number of electricity production tokens a generator unit has directly affects the boost applied to its output, as shown below:
+Electricity Production Tokens
+Electricity Production Tokens
+Electrical Output
+1
++500
+2
++750
+3
++1,000
+Related Articles
+Generator (Assembly)

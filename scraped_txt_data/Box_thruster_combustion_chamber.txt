@@ -1,0 +1,55 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Box thruster combustion chamber, tier 1.png]]
+	  |factionLogo=
+	  |caption=A tier 1 box thruster combustion chamber
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Converts [[Propellant tank|propellant]] to thrust force
+	  
+	}}
+}}<section begin=summary/>The [[Box thruster|box thruster]] combustion chamber is a device that burns propellant to produce thrust force. Propellant and Electricity converters are attached to the combustion chamber and not the thruster body, allowing for complete backwards and forwards compatibility (e.g. tier 2 converters on a tier 3 box thruster). <section end=summary/>
+
+== Types ==
+
+The box thruster combustion chamber is currently available in the following styles:
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Box thruster combustion chamber, tier 1.png]]
+		|name=Tier 1 combustion chamber
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=288×96×132 cm
+		|mass=5,972
+		|volume=600.2
+		|corrosionResistance=295
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|propellantIn=41.28 p/s
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=35%
+		|vokarium=20%
+		|charodium=45%
+	  }}
+	}}
+}}
+
+== Related pages ==
+
+* [[Box thruster]]
+* [[Triangle thruster]]
+* [[Maneuver thruster]]
+
+[[Category:Devices and machines]]

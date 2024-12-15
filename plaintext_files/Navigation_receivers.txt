@@ -1,0 +1,85 @@
+Navigation receivers
+Type
+Navigation device
+Function
+Receives signals
+Size
+156×156×180 cm
+(large)
+120×120×120 cm
+(small)
+Mass
+18,492.47 kg
+(large)
+5,094 kg
+(small)
+Volume
+1,858.54 kv
+(large)
+511.96 kv
+(small)
+Corrosion resistance
+380
+Primary material
+Charodium
+Input / Output
+Electric input
+Passive
+Device interfaces
+1
+Composition
+Ajatite
+10%
+Bastium
+10%
+Charodium
+10%
+Vokarium
+70%
+A navigation receiver is a device that can receive signals sent out by Radio transmitters.
+Basic information
+Have to be pointed to the direction of a transmitter.
+They only look for signals in the area they're pointed at. This means that receivers may have to scan areas section by section to find transmitter messages.
+If a receiver is in the range of a transmitter and is pointed towards the transmitter, the transmitter's message is set to the receiver's "Message"-field.
+Both large and small receivers currently have the same properties.
+Device fields
+YOLOL field
+description
+range
+Message
+Found message
+0
+SignalStrength
+Strength of the found signal, measured in meters
+0
+ListenAngle
+An angle of 180 coresponds to an omnidirectional receiver.
+0-180
+TargetMessage
+The message the receiver will exclusively listen to, 0 means listens to all
+0
+TargetFrequency
+The frequency the receiver will exclusively listen to, 0 means listens to all
+0
+Frequency
+The frequency of the transmitter currently listened to, 0 if no signal found.
+0
+ReceiverPitch
+Target pitch of the device
+0
+ReceiverCurrentPitch
+Current pitch of the device
+0
+MaxRotation
+Maximum limit for rotation
+180
+MinRotation
+Minimum limit for rotation
+-180
+TargetVelocity
+Target velocity in which the device rotates
+0-3
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

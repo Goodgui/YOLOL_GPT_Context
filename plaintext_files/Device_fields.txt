@@ -1,0 +1,817 @@
+Device fields are used to control and read the status of devices connected to a data network. They can be read or set by the Universal tool, YOLOL Chip, or by other devices on the same network.
+List of Device Fields
+Base mounted devices
+Battery
+YOLOL field
+description
+range
+BatteryPriority
+Batteries with a lower priority get used first
+StoredBatteryPower
+Current charge level of the battery
+0 - 10 000
+MaxBatteryPower
+Maximum charge level of the battery
+10 000
+To learn more about the usage of fields, consult these wiki pages:
+Universal tool
+Data networks
+YOLOL
+Cargo beam
+YOLOL field
+description
+range
+CargoBeamOnState
+Dictates whether the beam is on or off. 0 = off, any other value = on.
+CargoBeamSearchLength
+The maximum distance from where the beam can lock onto objects. Measured in meters.
+0 - 1000
+CargoBeamStatus
+The current status of the beam, 0 = off or unlocked, 1 = touching object but unlocked, 2 = locked
+0 - 2
+To learn more about the usage of fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Fixed mount
+Generator
+Fuel Rod
+YOLOL field
+Description
+Range
+StoredRawFuel
+The amount of fuel currently in this rod
+0 - 300000
+MaxRawFuel
+The maximum amount of fuel that can be stored in a fuel rod
+300000
+Fuel Chamber
+YOLOL field
+Description
+Range
+HeatProduction
+Amount of heat the fuel chamber is currently producing per second
+0 -
+FuelChamberFuel
+Amount of fuel currently available in this chamber's fuel rod
+0 - 300000
+FuelChamberMaxFuel
+Maximum amount of fuel that can be stored in this chamber's rod, zero if no rod
+0 - 300000
+FuelChamberStoredHeat
+Amount of heat currently stored in the fuel chamber
+0 - 1500
+FuelChamberMaxStoredHeat
+Maximum amount of heat that can be stored in the fuel chamber
+1500
+FuelChamberUnitRateLimit
+Upper limit for conversion rate for this fuel chamber, as a percentage.
+0 - 100
+FuelChamberUnitRate
+Current conversion rate for this fuel chamber, expressed as a percentage.
+0 - 100
+Generator Unit
+YOLOL field
+Description
+Range
+ElectricityProduction
+Amount of electricity the generator unit is currently producing per second
+0 -
+HeatProduction
+Amount of heat the generator unit is currently producing per second
+0 -
+GeneratorUnitRateLimit
+Upper limit for conversion rate for this generator unit
+0 - 100
+GeneratorUnitRate
+Current conversion rate for this generator unit, expressed as a percentage.
+0 - 100
+GeneratorUnitStoredHeat
+Amount of heat currently stored in the generator unit
+0 - 1500
+GeneratorUnitMaxStoredHeat
+Maximum amount of heat that can be stored in the generator unit
+1500
+Cooling Rack
+YOLOL field
+Description
+Range
+CoolerUnitRateLimit
+Upper limit for conversion rate for this cooler
+0 - 100
+CoolerUnitRate
+Current conversion rate for this cooler. Conversion is being performed at 1 conversion * this percentage per second.
+0 - 100
+Small Cooling Cell
+YOLOL field
+Description
+Range
+CoolantPriority
+Cells with a higher priority get used up first and refilled last
+integer
+StoredCoolant
+Current amount of coolant in this cooling cell
+0 - MaxCoolant
+MaxCoolant
+Maximum amount of coolant that can be stored in the cooling cell
+10000
+Radiator Base
+YOLOL field
+Description
+Range
+RadiatorHeatDissipation
+Current radiation rate for this radiator base
+0 - 1500
+RadiatorStoredHeat
+Current amount of heat in this radiator base
+0 - RadiatorMaxStoredHeat
+RadiatorMaxStoredHeat
+Maximum amount of heat that can be stored in the radiator base
+1500
+Radiator Extension
+YOLOL field
+Description
+Range
+RadiatorHeatDissipation
+Current radiation rate for this radiator extension
+0 - 750
+RadiatorStoredHeat
+Current amount of heat in this radiator  extension
+0 - RadiatorMaxStoredHeat
+RadiatorMaxStoredHeat
+Maximum amount of heat that can be stored in the radiator extension
+1500
+Heatsink
+YOLOL field
+Description
+Range
+HeatTransferRateLimit
+Maximum heat transfer to radiators, expressed as a percentage
+0 - 100
+HeatTransferRate
+Current heat transfer to radiators, expressed as a percentage
+0 - 100
+HeatsinkStoredHeat
+Amount of heat stored inside the heatsink
+0 - 15,000
+HeatsinkMaxStoredHeat
+Maximum value for heat storage
+0 - 15,000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Hinges
+YOLOL field
+Description
+Range
+DoorOpenState
+Input field for requested door state. 0 is closed, 1 is fully open.
+[0,1]
+DoorCurrentState
+Reports the current position of the door, on the same scale as
+DoorOpenState
+[0,1]
+EndAngle / EndPosition
+The rotation/position the joint should be at when
+DoorOpenState
+is 1. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+StartAngle / StartPosition
+The rotation/position the joint should be at when
+DoorOpenState
+is 0. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+TargetVelocity
+The maximum velocity the joint will reach. Different joint devices have different velocity limits, and might not be able to reach the configured velocity.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Mounted weapons
+Radio transmitters
+YOLOL field
+description
+range
+TransmitMessage
+Message being sent
+TransmitRange
+Range where the message can be received
+1000000
+Frequency
+The frequency channel the transmitter will send signals to.
+1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Range finder
+YOLOL field
+description
+range
+RangeFinderOnState
+Whether the range finder should try to be on. 0 is off, everything else is on.
+RangeFinderSearchLength
+The maximum distance to check for hits, up to the device's maximum. Measured in meters.
+0 - 1000
+RangeFinderDistance
+The output field which reports the distance the laser goes. Measured in meters. Accuracy is 1mm.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Robot arms
+YOLOL field
+description
+range
+TargetArmLength
+Telescoping arm target length
+[0,100]: percent of maximum extension
+CurrentArmLength
+Current arm length updated during arm movement
+[0,100]: percent of maximum extension
+EndPosition
+Extension at maximum arm length
+StartPosition
+Extension at minimim arm length
+TargetVelocity
+Target velocity of telescoping movement
+YOLOL field
+description
+range
+TargetArmAngle
+Rotating joint target angle
+[-180,180]: degrees
+CurrentArmAngle
+Rotating joint current angle updated during arm rotation
+[-180,180]: degrees
+MaxRotation
+Maximum rotation
+MinRotation
+Minimum rotation
+TargetVelocity
+Target velocity of rotation
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Thrusters
+Each of the four thrusters share a set of common device fields (below), but the plasma thruster has additional device fields owing to its unique characteristics.
+YOLOL field
+description
+range
+ThrusterState
+Requested output of the thruster
+0 - 10 000
+ThrusterCurrentThrust
+Current output of the thruster
+0 - 10 000
+In addition to these, the plasma thruster has two extra fields.
+YOLOL field
+description
+range
+isactive
+1 = charge ; 0 = discharge
+/
+chargelevel
+the current charge level of the plasma thruster, must be 1 to produce thrust
+0 - 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Turntable
+YOLOL field
+description
+range
+TurretRotation
+Target rotation of the turntable
+0
+TurretCurrentRotation
+Current rotation of the turntable
+0
+MaxRotation
+Value to use for maximum rotation (equiv to +180 deg, does not effect how far the turret can rotate)
+180
+MinRotation
+Value to use for minimum rotation (equiv to -180 deg, does not effect how far the turret can rotate)
+-180
+TargetVelocity
+Target velocity in which the turntable rotates
+3
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Interactables
+Buttons
+Small button, Hybrid button & Twist handle
+YOLOL field
+description
+range
+ButtonState
+The name of the field of which value the button modifies.
+ButtonOnStateValue / ButtonOffStateValue
+ButtonOnStateValue
+Controls the value when pressed
+ButtonOffStateValue
+Controls the value when released
+ButtonStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Basic Toggle (in-game button remains down while it is "on")
+2:
+4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+Warning light button
+YOLOL field
+description
+range
+ButtonState
+The name of the field of which value the button modifies.
+0/1
+ButtonStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Basic Toggle (in-game button remains down while it is "on")
+2:
+4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+ButtonColor
+Sets the color of the button.
+0
+= Red,
+1
+= Orange,
+2
+= Green,
+3
+= Blue, Anything else = Red
+ButtonEnableBlink
+When enabled the button will light up periodically.
+0
+= No blinking,
+1
+= Blinking (Number sets the interval)
+Simple buttons
+YOLOL field
+description
+range
+ButtonState
+The name of the field of which value the button modifies.
+0/1
+ButtonStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Basic Toggle (in-game button remains down while it is "on")
+2:
+4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+ButtonColor
+Sets the color of the button.
+0
+= Blue,
+1
+= Red,
+2
+= Green,
+3
+= White, Anything else = Blue
+Switch
+YOLOL field
+description
+range
+SwitchState
+The name of the field of which value the button modifies.
+-1/0/1
+SwitchStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Toggle (-1/0/1)
+2:
+Toggle (-1/1)
+SwitchColor
+Sets the color of the button.
+0
+= Black,
+1
+= Red,
+2
+= Orange,
+3
+= Green,
+4
+= Blue, Anything else = Black
+Safety lid buttons
+YOLOL field
+description
+range
+ButtonState
+The name of the field of which value the button modifies.
+ButtonOnStateValue / ButtonOffStateValue
+ButtonOnStateValue
+Controls the value when pressed
+ButtonOffStateValue
+Controls the value when released
+ButtonStyle
+Controls the interaction type of the button
+0:
+Hold down and release
+1:
+Basic Toggle (in-game button remains down while it is "on")
+2:
+4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+ButtonColor
+Sets the color of the button.
+0
+= Red,
+1
+= Orange,
+2
+= Green,
+3
+= Blue, Anything else = Red
+ButtonEnableBlink
+When enabled the button will light up periodically.
+0
+= No blinking,
+1
+= Blinking (Number sets the interval)
+To learn more about the usage of fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Lamps
+YOLOL field
+description
+range
+LampOn
+Determines whether the light is on. 0 is off, everything else is on.
+0 - 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Levers
+YOLOL field
+description
+range
+LeverState
+Lever's current state between LeverMinOutput and LeverMaxOutput
+LeverMinOutput - LeverMaxOutput
+LeverMinOutput
+Unidirectional - Output in low end, Bidirectional - Output in left end
+LeverMaxOutput
+Unidirectional - Output in high end, Bidirectional - Output in right end
+LeverCenterOutput
+Output value when the lever is in the center
+LeverCenterDeadZone
+How large is the dead zone in the center of an unidirectional lever
+LeverCenteringSpeed
+How fast does (unidirectional lever reset to low end)(bidirectional lever reset to center) once released
+LeverBindsMoveSpeed
+How fast does the lever move with binds
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Propellant
+Propellant tank support
+YOLOL field
+description
+range
+IsOpenId
+Input/output field for closing/opening connectors.
+0 - 1
+FlowId
+Output field for resource amounts flowing through the network.
+GasNetworkStoredResource
+Amount of propellant currently available in all conected containers.
+0 - GasNetworkMaxResource
+GasNetworkMaxResource
+Maximum amount of propellant that can be stored in all conected containers.
+Propellant tank
+YOLOL field
+description
+range
+GasContainerStoredResource
+Amount of propellant currently available in this container.
+0 - GasContainerMaxResource
+GasContainerMaxResource
+Maximum amount of propellant that can be stored in this container.
+To learn more about how to use the device fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Rail devices
+Mover
+YOLOL field
+description
+range
+speed
+Target velocity of the rail mover in m/s
+RailMoverTriggerValue
+If we cross a rail trigger that is configured to emit values read from the mover, it reads from this field.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Relay
+YOLOL field
+description
+range
+IsEnabled
+On/Off
+0/1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Sensor strip
+YOLOL field
+description
+range
+RailSensorOutput
+The output field the sensor strip writes to. Decimal metres.
+Without delta: [0,0.960], with delta: any numeric
+RailSensorDelta
+Value added to the detected range before writing the result to
+RailSensorOutput
+Numeric, any
+RailSensorMoverFilter
+If non-zero, the strip only detects movers with
+RailMoverTriggerValue
+equal to this.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Trigger
+YOLOL field
+description
+range
+RailTriggerOutput
+The output field the trigger writes to.
+None
+RailTriggerValue
+Value written to
+RailTriggerOutput
+when a rail mover passes over.
+RailTriggerReadMover
+If non-zero, will read the rail mover's
+RailMoverTriggerValue
+field and emit that instead of the trigger's
+RailTriggerValue
+.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Screens
+Information screen
+YOLOL field
+description
+range
+InfoScreenContent
+Input string which will be displayed on the screen
+364 mark string
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Modular displays
+Progress bars
+YOLOL field
+description
+default
+PanelValue
+The value to display on the progress bar
+PanelMinValue
+The value at or below which the progress bar will appear empty
+0
+PaneMaxValue
+The range at or over which the progress bar will appear full(PanelMaxValue-PanelMinValue=TrueMaxValue)
+100
+PanelVariableResolution
+The smallest increment the number and progress bar will reflect, written out as a power of 10 (i.e. 0.01 will display two decimal places)
+1
+Text Panel
+YOLOL field
+description
+default
+PanelValue
+The value to display on the text panel
+PanelVariableResolution
+The smallest increment the number and text panel will reflect, written out as a power of 10 (i.e. 0.01 will display two decimal places)
+1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Utility Devices
+Cargo lock frame (Assembly)
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+YOLOL field
+description
+range
+CargoFrameState
+Is the force field on or off
+0 - 1
+Flight control unit
+YOLOL field
+description
+default range
+availability
+FcuMfcIO
+For connecting the Main flight computer
+All
+FcuInputRange
+Scales the accepted input range
+100
+All
+FcuGeneralMultiplier
+A "soft power switch", scales all output
+100
+All
+FcuForward
+Moves the ship straight forward or combines FcuFwdBwd rotations with the forward movement
+0 to 100
+All
+FcuBackward
+Moves the ship straight backward or combines FcuFwdBwd rotations with the backward movement
+0 to 100
+All
+FcuRotationalPitch
+In-place pitch rotation
+-100 to 100
+All
+FcuRotationalYaw
+In-place yaw rotation
+-100 to 100
+All
+FcuRotationalRoll
+In-place roll rotation
+-100 to 100
+All
+FcuUpDown
+Moves the ship straight up or down
+-100 to 100
+Advanced, Premium
+FcuRightLeft
+Moves the ship straight right or left
+-100 to 100
+Advanced, Premium
+FcuFwdBwdPitch
+Rotation combined to forward/backward movement
+-100 to 100
+Premium
+FcuFwdBwdYaw
+Rotation combined to forward/backward movement
+-100 to 100
+Premium
+FcuFwdBwdRoll
+Rotation combined to forward/backward movement
+-100 to 100
+Premium
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Main flight computer
+YOLOL field
+description
+range
+FcuMfcIO1
+For connecting an FCU to the MFC
+-
+FcuMfcIO2
+-
+ThrusterPowerLevel01 - 50
+50 fields for connecting thrusters to the MFC. These field names are set for the ships thrusters.
+-
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Mining laser
+YOLOL field
+description
+range
+MiningLaserOn
+Mining laser turns off when this is set to 0 and on when set to anything else
+0 - 1
+MiningLaserBeamLength
+The length of the beam. Measured in meters.
+0 - 20
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Network relay
+YOLOL field
+description
+range
+IsMasterEnabled
+On / Off (Input side)
+0 / 1
+IsEnabled
+On / Off (Output side)
+0 / 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Tractor beam
+YOLOL field
+Description
+Range
+tractorBeamOnState
+Beam on/off
+1 or 0
+tractorBeamSoftRelease
+When set to 1, brings the object grabbed by the beam to a stop, then turns off the beam
+1 or 0
+tractorBeamSnapToObjects
+When set to 1, tractor beam tries to snap held object to nearby objects
+1 or 0
+tractorBeamSearchLength
+Length (meters) of the beam when the beam is not attached to anything. Max range of the beam.
+0-100
+tractorBeamForce
+Maximum amount of force the beam will try to apply to grabbed object.
+0-50,000
+tractorBeamTorque
+Maximum amount of torque the beam will try to apply to grabbed object.
+0-50,000
+tractorBeamPosition
+The distance (meters) the beam tries to move a held object to. Resets on grab, but does not message network / other devices.
+0-100
+tractorBeamYaw
+The yaw (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+-
+tractorBeamPitch
+The pitch (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+-
+tractorBeamRoll
+The roll (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+-
+tractorBeamObjectInBeam
+Indicates whether an object is grabbed by the beam.
+1 or 0
+tractorBeamForceApplied
+Indicates the force currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target position.
+-
+tractorBeamTorqueApplied
+Indicates the torque currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target rotation.
+-
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+YOLOL devices
+YOLOL Chip
+YOLOL field
+description
+range
+ChipWait
+Controls script execution. Negative values mean execution is paused, zero means script is being executed, and positive values mean execution will continue after the amount of line runs have passed that are equal to the value.
+Numeric, any
+Universal Tool
+Data networks
+YOLOL
+Chip socket
+Memory chip
+YOLOL field
+description
+range
+ChipField1
+ChipField2
+ChipField3
+ChipField4
+ChipField5
+ChipField6
+ChipField7
+ChipField8
+ChipField9
+ChipField10
+Universal Tool
+Data networks
+YOLOL
+Modular device rack
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+YOLOL field
+description
+range
+CurrentState
+OnState
+OffState
+ButtonStyle

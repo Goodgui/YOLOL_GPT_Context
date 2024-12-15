@@ -1,0 +1,201 @@
+The laser cannon, plasma thrower, rail cannon, auto cannon, and flak cannon
+Mounted weapons
+Mounted weapons are attached to spaceships or space stations via a hardpoint and a fixed or turntable mount. They typically receive power from the network via their mount, which is converted into local energy within the weapon's body, though missiles and torpedoes do not actively draw electricity to fire their payloads. The available weapons are the autocannon, laser cannon, plasma thrower, rail cannon, missile, and torpedo.
+Use
+Mounted weapons such as the autocannon, laser cannon, plasma thrower, or rail cannon are constructed of many different modules, each of which is required for the weapon to fire. These parts include:
+A hardpoint, which connects weapon mounts to the ship or station
+A weapon mount, which connects the weapon body and supplies power
+A mounted weapon body, which converts power into
+local power
+and supports all other parts of the weapon
+A weapon-specific
+struct
+, which converts ammunition stored in the magazine into active ammunition
+A magazine, which contains inactive ammo held in reserve
+The rail cannon also requires four capacitors
+A barrel, which fires projectiles
+Some weapons are small enough that several can be mounted to the same weapon mount; these weapons include the autocannon, laser cannon, and plasma thrower.
+Missiles and torpedoes are fired from their respective launchers, which are assembled in a way similar to the aforementioned mounted weapons. However, these launchers do not have magazines to feed ammo, and must be reloaded by hand.
+This article is about spaceship and space station weapons, for articles about infantry weapons, see the weapons collection page.
+Weapon types
+Cannons
+The autocannon, expanded and assembled
+Autocannon
+Type
+Weaponry
+Function
+Anti-armor
+Size
+384×108×108 cm
+Mass
+5.877.45 kg
+Volume
+618.87 kv
+Corrosion resistance
+275
+Primary material
+Bastium
+Input / Output
+Electric input
+250 e/s upkeep
+130 electricity per shot
+Heat generation
+125 per shot
+Heat dissipation
+10 per second
+Specifications
+Muzzle velocity
+800 m/s
+Rate of fire
+400 RPM
+Magazine capacity
+500
+Projectile mass
+11  voxels
+Projectile energy
+352
+Projectile lifetime
+3.5 seconds
+A laser cannon, expanded and assembled
+Laser cannon
+Type
+Weaponry
+Function
+Anti-armor
+Size
+396×72×84 cm
+Mass
+4,911.32 kg
+Volume
+515.65 kv
+Corrosion resistance
+305
+Primary material
+Bastium
+Input / Output
+Electric input
+250 e/s upkeep
+470 electricity per shot
+Heat generation
+80 per shot
+Heat dissipation
+10 per second
+Specifications
+Muzzle velocity
+1,000 m/s
+Rate of fire
+375 RPM
+Magazine capacity
+600
+Projectile mass
+7  voxels
+Projectile energy
+350
+Projectile lifetime
+3 seconds
+A plasma thrower, expanded and assembled
+Plasma cannon
+Type
+Weaponry
+Function
+Anti-armor
+Size
+348×48×84 cm
+Mass
+5,375.48 kg
+Volume
+565.24 kv
+Corrosion resistance
+287
+Primary material
+Kutonium
+Input / Output
+Electric input
+250 e/s upkeep
+2,205 electricity per shot
+Heat generation
+800 per shot
+Heat dissipation
+10 per second
+Specifications
+Muzzle velocity
+800 m/s
+Rate of fire
+70 RPM
+Magazine capacity
+150 per charge
+Projectile mass
+65  voxels
+Projectile energy
+1,170
+Projectile lifetime
+7 seconds
+A rail cannon, expanded and assembled
+Rail cannon
+Type
+Weaponry
+Function
+Anti-armor
+Size
+504×144×84 cm
+Mass
+11,678.96 kg
+Volume
+1,238.67 kv
+Corrosion resistance
+380
+Input / Output
+Electric input
+1,500 e/s upkeep
+35,000 electricity per shot
+Heat generation
+600 per shot
+Heat dissipation
+10 per second
+Specifications
+Muzzle velocity
+1,400 m/s
+Rate of fire
+33 RPM
+Magazine capacity
+100
+Projectile mass
+125  voxels
+Projectile energy
+12,250
+Projectile lifetime
+6 seconds
+Ordnance
+A missile is a multi-component weapon
+Missile
+Type
+Mounted weapon
+Function
+Anti-armor
+Size
+120×18×18 cm
+Specifications
+Muzzle velocity
+360-460 m/s
+Projectile mass
+29.33 kilo  voxels
+Projectile lifetime
+∞
+Sub-components
+Torpedoes are multi-component armaments
+Torpedo
+Type
+Ship weapons
+Function
+Guided explosive projectile
+Size
+252×60×48 cm
+Mass
+4,967 kg
+(minimum)
+Volume
+499 kv
+(minimum)
+Primary material
+Ymrium
+Sub-components

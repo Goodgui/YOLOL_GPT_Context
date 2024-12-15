@@ -1,0 +1,91 @@
+{{Otherlang2
+|de=Radio_transmitters:de
+|fr=Radio_transmitters/fr
+|zh-cn=无线电发射机
+|ru=Радиопередатчики
+|ua=Радіопередавач
+|jp=無線トランスミッター
+}}
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Radio Transmitter.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Transmitter device
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Navigation device
+	  |function=Signal broadcasting
+	  |availability=
+	  |size=
+	  |mass=
+	  |volume=
+	  |corrosionResistance=
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+}}
+|{{#invoke:Transcluder|main|Transmitter Stations|only=templates|templates=SB Infobox|makeLink=true}}
+
+A radio transmitter is device that exists only on developer stations, it's signals are detectable using [[navigation receivers]]. They are used in [[community navigation systems]]. Radio transmitters can currently not be built by players, all 4 existing ones are developer provided.
+
+== Basic information ==
+
+* Transmitters:
+* Have limited range, station transmitters have a maximum range of 1000000, or 1000km
+* Sends a message to any receiver, which is in the correct range.
+* Does not transmit power, which means receivers must have their own power sources.
+
+== Known station transmitters ==
+
+* All [[Transmitter_Stations|Station transmitters]] broadcast on frequency 1.
+* Coordinates for transmitters for the ISAN system can be found [[ISAN#Coordinates|on the ISAN page]].
+
+{|class="wikitable"
+! Station name
+! Message
+|-
+! North Transmitter Station
+| origin_north
+|-
+! East Transmitter Station
+| origin_east
+|-
+! South Transmitter Station
+| origin_south
+|-
+! West Transmitter Station
+| origin_west
+|-
+! Gate Transmitter Station
+| origin_gate
+|}
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''TransmitMessage'''
+| Message being sent
+| 
+|-
+! '''TransmitRange'''
+| Range where the message can be received
+| 1000000
+|-
+! '''Frequency'''
+| The frequency channel the transmitter will send signals to.
+| 1
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Radio transmitters]]

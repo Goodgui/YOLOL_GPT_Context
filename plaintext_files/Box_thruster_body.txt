@@ -1,0 +1,96 @@
+An empty box thruster body
+Box thruster body
+Type
+Thruster device
+Function
+Houses thruster components
+The box thruster body is a device designed to house other components required for the box thruster to function, and to provide convenient mounting points along its hull. Unlike triangle thrusters, the box thruster body has no interfaces to share propellant and power with adjacent thrusters, and each requires its own hardpoint to function.
+Types
+The box thruster body is currently available in the following styles:
+Tier 1 body
+Size
+336×96×144 cm
+Mass
+8,358.3 kg
+Volume
+840.03 kv
+Corrosion resistance
+280
+Primary material
+Bastium
+Input / Output
+Device interfaces
+2
+Composition
+Bastium
+35%
+Charodium
+50%
+Vokarium
+15%
+Tier 2 body
+Size
+336×96×144 cm
+Mass
+8,123.1 kg
+Volume
+840.03 kv
+Corrosion resistance
+425
+Primary material
+Aegisium
+Input / Output
+Device interfaces
+2
+Composition
+Aegisium
+30%
+Bastium
+15%
+Charodium
+45%
+Vokarium
+10%
+Tier 3 body
+Size
+336×96×144 cm
+Mass
+7,375.5 kg
+Volume
+840.03 kv
+Corrosion resistance
+411
+Primary material
+Ymrium
+Input / Output
+Device interfaces
+2
+Composition
+Aegisium
+20%
+Charodium
+23%
+Kutonium
+15%
+Vokarium
+7%
+Ymrium
+35%
+Device fields
+YOLOL field
+description
+range
+ThrusterState
+Requested output of the thruster
+0 - 10 000
+ThrusterCurrentThrust
+Current output of the thruster
+0 - 10 000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related pages
+Box thruster
+Triangle thruster
+Maneuver thruster

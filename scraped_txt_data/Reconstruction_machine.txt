@@ -1,0 +1,176 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Reconstruction_machine.png]]
+	  |factionLogo=
+	  |caption=An assembled reconstruction machine
+	  |name=Reconstruction machine
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Respawn device
+	  |function=[[Endoskeleton]] reconstruction
+	  |availability=[[X-Constructs]]
+	  |size=288×288×216 cm
+	  |mass=87,932.25
+	  |volume=10,224.68
+	  |corrosionResistance=320
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=1 e/s
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (cradle)
+	  |aegisium=25.59%
+	  |ajatite=
+	  |arkanium=15.35%
+	  |bastium=1.49%
+	  |charodium=19.19%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=25.59%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=38.38%
+	  |xhalium=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (fabricator)
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=39.02%
+	  |bastium=5.23%
+	  |charodium=
+	  |corazium=
+	  |exorium=31.22%
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=24.53%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (generator)
+	  |aegisium=25%
+	  |ajatite=
+	  |arkanium=
+	  |bastium=15%
+	  |charodium=22%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=38%
+	  |xhalium=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (terminal)
+	  |aegisium=20.56%
+	  |ajatite=12.85%
+	  |arkanium=30.83%
+	  |bastium=10.07%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=25.7%
+	  |xhalium=
+	}}
+
+}}<section begin=summary/>The reconstruction machine is a device capable of rebuilding [[Endoskeleton|endoskeletons]] should they come to an untimely end. It consumes an [[Endoskeleton replacement kit|replacement kit]] for each reconstruction it performs, and the endoskeleton must be linked to the machine prior to destruction in order to reactivate at the machine. Owing to their significant expense, reconstruction machines are rarely mounted on personal craft or fighters.
+
+Reconstruction machine also heals damaged endoskeletons close to it, one at a time.
+*'''Note!''' Reconstruction machines have a 100km range. If you die outside of the range, you cannot respawn at the machine.<section end=summary/>
+
+== Basic information ==
+
+The reconstruction machine is assembled from four distinct modules:
+* The cradle, which performs the physical assembly
+* The fabricator, which prepares resources for the reconstruction
+* The generator, which consumes and converts network power
+* The terminal, which provides a user interface for operating the machine
+
+Though the reconstruction machine does have an internal battery and a generator, it requires external power to recharge after usage.
+
+==Station Version==
+
+Station version of the Reconstruction Machine can be crafted as a single module and be placed on Space Stations, Moon Bases or Capital Ships. It functions similarly to the ship version, except:
+*Station version does not have limitation of being linked to one machine at a time
+*Station version must be powered up by station machinery setup with electricity running, linking to the supply conduit network with the supply conduit nexus module
+** The setup requires Exorium Tank, Exorium Processing Unit and Generator installed. Supply conduit terminal can then be used to turn on electricity production. If the Reconstruction Machine is connected to the network by Supply Conduit Nexus, it will now begin charging
+*A station can only have a set amount of Reconstruction Machines, and machines beyond this limit won't activate. The limit is 2 machines + 1 more per 4 station class
+*Station version has use range of 5000 KM
+
+[[File:StationReconMachineSetup.png|800px|Complete setup for a station reconstruction machine]]
+
+[[Category:Devices and machines]]

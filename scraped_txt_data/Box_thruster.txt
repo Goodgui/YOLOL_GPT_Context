@@ -1,0 +1,94 @@
+{{Otherlang2
+|jp=ボックススラスター
+|es=Box_thruster:es
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_devices_thrusters_box.png]]
+	  |previewImage=[[Image:Box thruster stacks preview.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thrusters
+	  |function=Generates propulsion
+	  
+	  |size=360×96×144 cm
+	  |mass=18,878.53 kg ''(approx.)''
+	  |volume=1,897.34
+	  |corrosionResistance=350
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=<ul><li>210 e/s ''(all T1)''</li>
+<li>183.6 e/s ''(all T2)''</li>
+<li>297 e/s ''(all T3)''</li></ul>
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=<ul><li>30.96 p/s ''(all T1)''</li>
+<li>26.966 p/s ''(all T2)''</li>
+<li>39.154 p/s ''(all T3)''</li></ul>
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |thrust=<ul><li>500,000 ''(all T1)''</li>
+<li>550,000 ''(all T2)''</li>
+<li>650,000 ''(all T3)''</li></ul>
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=2
+	}}
+
+	|{{SB Infobox Component Section
+	  |Box thruster body
+	  |Box thruster combustion chamber
+	  |Box thruster nozzle
+	  |Thruster electricity converter
+	  |Thruster gas converter
+	}}
+}}<section begin=summary/>Box thrusters are a type of [[Thrusters|thruster]] that produce significantly more thrust than [[Triangle_thruster|triangle thrusters]], at the expense of nearly double the electricity intake. They are most commonly found working as the main thrusters of civilian ships.<section end=summary/>
+
+== Basic information ==
+
+Box thrusters are composed of five distinct components:
+* The body, which houses the other components and provides convenient mounting surfaces. Any tier of body is compatible with any tier of the other components (For example, tier 2 bodies with tier 2 converters and a tier 3 nozzle are common in high efficiency ships)
+* The chamber, which burns [[Propellant tank|propellant]] to produce thrust.
+* The nozzle, which channels the exhaust out of the chamber (thus producing thrust). Any tier of nozzle is compatible with any tier of Box Thruster.
+* The electricity converter, which converts power from [[Generator (Assembly)|generators]] and [[Battery|batteries]] into power usable by the thruster. Any tier of electricity converter is compatible with any tier of Box Thruster.
+* The propellant converter, which prepares propellant to be burnt. Any tier of propellant converter is compatible with any tier of Box Thruster.
+
+
+Unlike triangle thrusters, box thrusters do not have a resource-sharing port, and cannot be placed adjacent to one another in order to share power or propellant. Each box thruster must have its own device hardpoint with its own connection to the power and propellant networks in order to function. Despite this, and though they require significantly more space, box thrusters remain a popular choice as they produce considerable thrust per unit and do not drain as much propellant compared to triangle thrusters.
+{| class="wikitable"
+|+ Thrust Values
+|-
+! Tier !! Body !! Nozzle
+|-
+| 1 || 400000 || 100000
+|-
+| 2 || 440000 || 110000
+|-
+| 3 || 520000|| 130000
+|}
+
+== Device fields ==
+
+===[[Box_thruster_body|Box thruster body]]===
+{{#lst:Box_thruster_body|deviceFields}}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related content ==
+
+[[File:Box_thruster_resource_usage_(dark).png|400px]]
+
+[[Category:Devices and machines]]

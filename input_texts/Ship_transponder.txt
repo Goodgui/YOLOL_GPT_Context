@@ -1,0 +1,130 @@
+{{Otherlang2
+|en=Ship transponder
+|jp=シップトランスポンダー
+|zh-cn=舰船应答器
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Ship transponder.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Navigation device
+	  |function=Broadcasts ship location
+	  |availability=
+	  |size=48×48×24  cm
+	  |mass=768.45
+	  |volume=51.23
+	  |corrosionResistance=380
+	  |primaryMaterial=Charodium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=15%
+	  |arkanium=
+	  |bastium=
+	  |charodium=40%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=45%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Ship transponders broadcast a location tag on the heads-up display of [[Endoskeleton|endoskeletons]] in their proximity. They are used to locate ships from up to 100 kilometers away, though it is worth noting that ''all'' users can see these signals, be they friend or foe. Only one transponder can be placed on a ship at any given time.<section end=summary/>
+
+== Basic Info ==
+
+* You can place the Ship Transponder to your spaceship in the Spaceship Designer; note that you can only attach one transponder per spaceship.
+* When you buy your ship from the Spaceship Designer, the ownership information will be saved to the Ship Transponder.
+** The Ship Transponder will always broadcast this ownership information, regardless of which ship the transponder is attached to.
+* The Ship Transponders will only broadcast their signal if they are attached to a spaceship.
+** If you attach multiple transponders to a spaceship, only one of them works and will cause the ship to completely shut down until the extra transponder(s) are removed. This opens up some potentially ''useful'' strategies to gain an edge in PvP. 
+* You can use the [[Universal_tool|Universal Tool]] to set the transponder broadcasting on and off.
+* The transponder broadcast range is 100 km, however, you can adjust your reception range from Settings.
+* From the Settings, you can choose which transponder signals you are receiving, and how many.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''transponderActive'''
+| On/off
+| 0 - 1
+|-
+! '''transponderOwner'''
+| Owner of transponder/ship. Filled at creation
+| string
+|-
+! '''transponderShipName'''
+| Name of ship that transponder is tied to. Filled at creation
+| string
+|-
+! '''insideSafezone'''
+| Is the transponder inside a safezone?
+| 0 - 1
+|-
+! '''playerDamage'''
+| Can this ship currently be damaged by players?
+| 0 - 1
+|-
+! '''shipDamage'''
+| Can this ship currently be damaged by other ships?
+| 0 - 1
+|-
+! '''collisionDamage'''
+| Can this ship currently be damaged by collisions?
+| 0 - 1
+|-
+! '''stationsAllowed'''
+| Can a new station be constructed in the current area?
+| 0 - 1
+|-
+|}
+
+[[Category:Devices and machines]]

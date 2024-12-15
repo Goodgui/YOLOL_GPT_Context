@@ -1,0 +1,161 @@
+{{Otherlang2
+|zh-cn=增幅器
+|ua=Підсилювачі
+|jp=エンハンサー
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_generator_enhancers.png]]
+	  |factionLogo=
+	  |caption=Tier 1, tier 2, and tier 3 enhancers
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Overclocks device performance
+	  
+	}}
+
+}}<section begin=summary/>Enhancers are devices that can attach to a [[Generator_(Assembly)|generator]] and provide boosts to the generation of power. Currently, only [[Generator unit|generator units]] are affected by enhancers.<section end=summary/>
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Enhancer tier 1.png|250px]]
+		|name=Tier 1 enhancer
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=96×96×48 cm
+		|mass=781.7
+		|volume=80.84
+		|corrosionResistance=615
+		|primaryMaterial=Aegisium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|charodium=25%
+		|exorium=25%
+		|bastium=20%
+		|vokarium=15%
+		|karnite=15%
+		
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Enhancer tier 2.png|250px]]
+		|name=Tier 2 enhancer
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=96×96×48 cm
+		|mass=1,135.7
+		|volume=129.35
+		|corrosionResistance=380
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|exorium=22%
+		|aegisium=20%
+		|arkanium=18%
+		|kutonium=18%
+		|corazium=12%
+		|karnite=10%
+	  }}
+	}}
+
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Enhancer tier 3.png|250px]]
+		|name=Tier 3 enhancer
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=96×96×48 cm
+		|mass=1,709.8
+		|volume=194.74
+		|corrosionResistance=445
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ymrium=12%
+		|kutonium=14%
+		|arkanium=16%
+		|exorium=16%
+		|karnite=10%
+		|lukium=18%
+		|ukonium=14%
+	  }}
+	}}
+}}
+
+== Basic Information ==
+
+Enhancers are used to quickly boost the rate of production of electricity in a generator unit by increasing the efficiency with which they utilize fuel, and can be easily turned on and off with [[YOLOL]]. However, while a generator unit with an attached and activated enhancer unit will produce significantly more electricity, it will also suffer an exponential increase in [[Heat mechanics|heat output]]. While an enhancer can be used to maximize power output (for as long as the cooling performance can keep up), it can also be used to boost efficiency at lower generation states, allowing the production of power at a comparatively lower fuel cost -- though, this will still generate extra heat. Enhancers affect the generation of heat by adding to the quantity of heat tokens held by the device to which they are attached.
+
+It should be noted that, though enhancers increase the heat potential of a generator system, enhancers themselves are unaffected by heat.
+
+{|class="wikitable mw-collapsible" align="center" style="text-align:center;"
+! colspan=3 | Enhancer Effects 
+|-
+!Enhancer Tier
+!Heat Tokens
+!Electricity Production Tokens
+|-
+|Tier 1
+| +3
+| +1
+|-
+|Tier 2
+| +4
+| +2
+|-
+|Tier 3
+| +5
+| +3
+|}
+
+
+The number of electricity production tokens a generator unit has directly affects the boost applied to its output, as shown below:
+
+{|class="wikitable mw-collapsible" align="center" style="text-align:center;"
+! colspan=3 | Electricity Production Tokens 
+|-
+!Electricity Production Tokens
+!Electrical Output
+|-
+| 1
+| +500
+|-
+| 2
+| +750
+|-
+| 3
+| +1,000
+|}
+
+== Related Articles ==
+
+* [[Generator (Assembly)]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,30 @@
+Fixed launcher mount
+Type
+Utility device
+Function
+Mounts torpedo launchers
+Size
+96×96×36  cm
+Mass
+1,485.2 kg
+Volume
+149.27 kv
+Corrosion resistance
+390
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Ajatite
+20%
+Bastium
+55%
+Vokarium
+25%
+A fixed mount for a torpedo launcher that enables YOLOL operation of the torpedo launcher.
+Related pages
+Fixed mount

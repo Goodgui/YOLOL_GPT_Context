@@ -1,0 +1,150 @@
+{{Otherlang2
+|jp=マニューバスラスター
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_maneuver_thruster.png]]
+	  |previewImage=[[Image:Maneuver thruster preview.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thrusters
+	  |function=Generates propulsion
+	  
+	  |size=72×72×24 cm
+	  |mass=446 kg ''(approx.)''
+	  |volume=46.16
+	  |corrosionResistance=350
+	  |suppressUnitsKg=1
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=<ul><li>40 e/s ''(T1)''</li>
+<li>36 e/s ''(T2)''</li>
+<li>60 e/s (T3)</li></ul>
+	  |propellantIn=<ul><li>17.4 p/s ''(T1)''</li>
+<li>15.7 p/s ''(T2)''</li>
+<li>20.97 p/s ''(T3)''</li></ul>
+	  |thrust=<ul><li>40,000 ''(T1)''</li>
+<li>44,000 ''(T2)''</li>
+<li>52,000 ''(T3)''</li></ul>
+	  |deviceInterfaces=1
+	}}
+
+}}<section begin=summary/>Maneuver thrusters are a type of [[Thrusters|thruster]] used almost exclusively to provide attitude control to spaceships, allowing them to maneuver. Though they produce relatively little thrust, maneuver thrusters are simple devices with a low profile, which makes them attractive maneuvering options for smaller spacecraft.<section end=summary/>
+
+== Basic information ==
+
+Unlike other thrusters, maneuver thrusters are single-piece designs, which greatly simplifies their usage. Each maneuver thruster can be addressed individually or as part of a larger group via their [[Device fields|device fields]], though not as readily as [[Triangle thruster|triangle thrusters]] can. Being cold-gas thrusters, maneuver thrusters are unique in that they have horrible efficiency, produce very little in terms of thrust trails, and have zero light emission while doing so. This can make them a useful option for designers attempting to minimize the visibility of their spacecraft but are not intended as the main drive for larger ships.
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Maneuver thruster, tier 1 updated.png]]
+		|name=Tier 1 maneuver thruster
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=460.2
+		|volume=46.16
+		|size=72×72×24 cm
+		|primaryMaterial=Bastium
+		|corrosionResistance=305
+	  }}
+	  |{{SB Infobox Device IO
+		|electricIn=40 e/s
+		|propellantIn=17.4 p/s
+		|thrust=40,000
+		|deviceInterfaces=1
+	  }}
+	  |{{SB Infobox Device Construction
+		|bastium=30%
+		|charodium=45%
+		|vokarium=25%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Maneuver thruster, tier 2 updated.png]]
+		|name=Tier 2 maneuver thruster
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=446.4
+		|volume=46.16
+		|size=72×72×24 cm
+		|corrosionResistance=470
+		|primaryMaterial=Aegisium
+	  }}
+	  |{{SB Infobox Device IO
+		|electricIn=36 e/s
+		|propellantIn=15.7 p/s
+		|thrust=44,000
+		|deviceInterfaces=1
+	  }}
+	  |{{SB Infobox Device Construction
+		|aegisium=35%
+		|ajatite=8%
+		|charodium=45%
+		|vokarium=12%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Maneuver thruster, tier 3 updated.png]]
+		|name=Tier 3 maneuver thruster
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=405.3
+		|volume=46.16
+		|size=72×72×24 cm
+		|corrosionResistance=295
+		|primaryMaterial=Ymrium
+	  }}
+	  |{{SB Infobox Device IO
+		|electricIn=60 e/s
+		|propellantIn=20.97 p/s
+		|thrust=52,000
+		|deviceInterfaces=1
+	  }}
+	  |{{SB Infobox Device Construction
+		|chardoium=25%
+		|kutonium=35%
+		|vokarium=15%
+		|ymrium=25%
+	  }}
+	}}
+}}
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ThrusterState'''
+| Requested output of the thruster
+| 0 - 10 000
+|-
+! '''ThrusterCurrentThrust'''
+| Current output of the thruster
+| 0 - 10 000
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related content ==
+
+
+[[Category:Devices and machines]]

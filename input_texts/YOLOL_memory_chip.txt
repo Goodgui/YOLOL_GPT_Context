@@ -1,0 +1,139 @@
+{{Otherlang2
+|fr=Memory_chip/fr
+|de=Memory_chip:de
+|ru=Чип памяти
+|zh-cn=记忆芯片
+|ua=Чіп пам'яті
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Memory chip.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=YOLOL device
+	  |function=Stores data
+	  
+	  |size=42×28×3 cm
+	  |mass=21.16
+	  |volume=2.46
+	  |corrosionResistance=485
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Passive
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=60%
+	  |arkanium=
+	  |bastium=15%
+	  |charodium=
+	  |corazium=
+	  |exorium=15%
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=10%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Contains non-functional device fields that enable a user to share data between [[YOLOL Chip|YOLOL chips]]. They can also be used to translate device field names.<section end=summary/>
+
+== Basic information ==
+
+* Core part in any integrated system of multiple [[YOLOL Chip|YOLOL chips]]
+* Serves as a physically transportable data storage medium
+* Same size and connectivity as YOLOL Chip
+** While similar in size and shape, it is visually easy to differentiate from a full chip
+* Holds 10 device fields
+
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ChipField1'''
+|
+|
+|-
+! '''ChipField2'''
+|
+|
+|-
+! '''ChipField3'''
+|
+|
+|-
+!'''ChipField4'''
+|
+|
+|-
+!'''ChipField5'''
+|
+|
+|-
+!'''ChipField6'''
+|
+|
+|-
+!'''ChipField7'''
+|
+|
+|-
+!'''ChipField8'''
+|
+|
+|-
+!'''ChipField9'''
+|
+|
+|-
+!'''ChipField10'''
+|
+|
+|}
+
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Memory chip]]

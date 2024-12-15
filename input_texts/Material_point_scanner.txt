@@ -1,0 +1,122 @@
+{{Otherlang2
+|ru=Material point scanner:ru
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Material point scanner.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Determines object composition
+	  
+	  |size=108×48×48 cm
+	  |mass=1,569.6
+	  |volume=223.2
+	  |corrosionResistance=605
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=~300 e/s
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=35%
+	  |ajatite=
+	  |arkanium=22%
+	  |bastium=
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=22%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=21%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The material point scanner is a device that can output the composition of an object placed before it.<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''Active'''
+| The scanner turns off when this is set to 0 and on when set to anything else
+| 0 - 1
+|-
+! '''Index'''
+| The current material to provide information for. Starting at 0
+| 0 -
+|-
+! '''ScanResults'''
+| The number of diferent materials the object contains
+| 0 -
+|-
+! '''Material'''
+| The material of the current 'Index' i.e. "Ukonium"
+| String
+|-
+! '''Volume'''
+| The Volume of the current 'Index' i.e. 272
+| 0 -
+|-
+! '''Scan'''
+| Must be set to 1 to initiate a scan, auto-resets to 0 once scan is complete
+| 0 - 1
+|-
+! '''Reset'''
+| Resets the stored scan result
+| 0 - 1
+|-
+|}
+<section end=deviceFields/>
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Pages ==
+
+[[Material point scanner (Assembly)]]
+
+[[Category:Devices and machines]]

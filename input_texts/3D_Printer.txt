@@ -1,0 +1,232 @@
+{{ClosedAlphaContent}}
+
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:3D_Printer_Small.png]]
+	  |factionLogo=
+	  |caption=The small 3D printer
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Station device
+	  |function=Constructs station parts
+	  |availability=[[X Constructs]]
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+}}<section begin=summary/>Used with station or ship blueprint chips to automate the building of a blueprint.<section end=summary/>
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:3D Printer Small.png|250px]]
+		|name=Small printer
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=216×108×216 cm
+		|mass=32,128.85
+		|volume=3,229.03
+		|corrosionResistance=439
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=8x 24cm
+		|sockets=4
+		|electricIn=10,000 e/s
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|vokarium=18%
+		|arkanium=22%
+		|kutonium=20%
+		|charodium=15%
+		|ajatite=14%
+		|bastium=11%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:3D printer large.png|250px]]
+		|name=Large printer
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=864×432×324 cm
+		|mass=721,414.06
+		|volume=103,206.59
+		|corrosionResistance=474
+		|primaryMaterial=Arkanium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=15x 24cm
+		|sockets=12
+		|electricIn=10,000 e/s
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=15.68%
+		|charodium=16.8%
+		|vokarium=11.2%
+		|kutonium=22.4%
+		|arkanium=24.64%
+		|bastium=0.31%
+		|corazium=8.96%
+	  }}
+	}}
+
+
+}}
+===Small 3D Printer===
+
+The small 3D printer is a smaller, but slower version of the large printer. It has an integrated utility box and can accept it's own [[fuel rod]], or use power provided from other sources
+
+===3D Printer===
+
+The large 3D printer requires a Utility box to connect to a station's power grid and to access the station inventory for material and to output complete parts.
+
+== How to use ==
+
+=== Small 3D Printer ===
+# Insert fuel rod into the printer
+# Insert the blueprint chip
+#* You can buy these from the Marketplace.
+# Turn on the printer
+#* Change UtilityConnection field to 1, this is required to allow printer to put finished items into station storage.
+#* Change PrinterControl field to 1 and make sure PrinterOrderAmount is above 0 (should be 1 by default).
+#* Printer requires access to the building materials for each piece (through station storage or connected ore crates)
+
+=== 3D Printer ===
+# Prepare the printer
+#* Requires a lot of power, it's recommended to use a Utility box and to purchase electricity to the station storage.
+#* Radiators must be used to cool the printer, one printer needs approximately 17 radiators.
+#* Printer needs to be connected to a storage. Use pipe connection with a Utility box.
+
+# Insert a blueprint chip
+
+# Turn on the printer
+#* Change PrinterControl field to 1.
+#* Printer requires access to the building materials for each piece (through station storage or connected ore crates)
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL Field
+! Description
+! Range
+|-
+! '''PrintingRateLimit'''
+| 
+| [0, inf]
+|-
+! '''PrintingRate'''
+| 
+| [0, inf]
+|-
+! '''WorkingRateLimit'''
+| 
+| [0, inf]
+|-
+! '''WorkingRate'''
+| Shows the time for the CurrentItemWorkRemaining at the current moment, affected by the radiator efficiency. 
+| [0, inf]
+|-
+! '''CurrentItemWorkRemaining'''
+| Shows amount of work remaining for selected item, calculated every time CurrentItem changes and printer is on (-1 if printer is not on).
+| -1[0, inf]
+|-
+! '''UtilityConnection'''
+| Connects the printer's internal inventory to the station's/ship's inventory for material access and item output.
+| 0/1
+|-
+! '''PrinterControl'''
+| Used to control the printer. 0: off, 1: on, -1: manual cancel of ongoing operation.
+| -1/0/1
+|-
+! '''PrinterStatus'''
+| Current state of the printer. 0: idle, 1: waiting for materials, 2: printing, 3: waiting for output.
+| 0/1/2/3
+|-
+! '''PrinterOrderAmount'''
+| Used to select the number of times full blueprint is printed. Decrements by 1 every time the final item on the blueprint is completed unless already at or below 0, 
+printer repeats from the first piece of not 0. -1 repeats printing indefinitely.
+| -1[0, inf]
+|-
+! '''CurrentItem'''
+| Index of selected item within blueprint chip.
+| [0, inf]
+|-
+! '''BlueprintItemCount'''
+| Amount of items in currently inserted blueprint chip. Updated when blueprint chip is inserted or removed (0 if no chip). 
+| [0, inf]
+|}
+
+To learn more about the usage of fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Material ==
+
+{|class="wikitable"
+!
+! Small Printer
+! Large Printer
+|-
+! '''Weight (Kg)'''
+| 32 128
+| 1 027 070
+|-
+|
+|
+|
+|-
+! '''Material Required (Kv)'''
+|
+|
+|-
+! Ajatite
+| 1 173
+| 38 343
+|-
+! Bastium
+| 921
+| 767
+|-
+! Charodium
+| 1 256
+| 41 082
+|-
+! Merkerium
+| 1 675
+| 54 776
+|-
+! Tengium
+| 1 843
+| 60 254
+|-
+! Ukonium
+| 670
+| 21 910
+|-
+! Vokarium
+| 838
+| 27 388
+|-
+|}
+
+To learn more about materials, consult these wiki pages:
+
+* [[Materials]]
+* [[Ores]]
+
+[[Category:Devices and machines|3D Printer]]

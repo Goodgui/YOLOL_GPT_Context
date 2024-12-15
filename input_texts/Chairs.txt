@@ -1,0 +1,38 @@
+{{Otherlang2
+|fr=Chairs/fr
+|zh-cn=座椅
+|ru=Кресла
+|de=Chairs:de
+|ua=Крісла
+}}
+== Summary ==
+<br>
+<br>
+[[File:Starbase_pilot_chair.png|400px]]
+<br>
+<br>
+<br>
+[[File:Starbase_passenger_chair.png|400px]]
+<br>
+<br>
+Chairs are a type of seat, usually equipped with four legs.<br>
+The known universe has a variety of chairs with different functions and designs, such as pilot chairs of spaceships or benches that can usually be found at [[:Category:Stations|space stations]].
+
+== Basic information ==
+All chairs and benches can naturally be sit on as that is (usually) their main function.<br>
+Within the known universe, pilot chairs, however, also have some specific features. <br>
+All pilot chairs are interactable and from them the key binds of the nearby devices can also be customized. <br>
+
+* Pilot seats can be assembled from four pieces [[Bolt tool|bolted]] together, though the seat is functional as a single part:
+** Seat
+** Stand
+** Two sides (arm rests)
+
+== Device fields ==
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Chairs]]

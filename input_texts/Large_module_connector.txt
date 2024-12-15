@@ -1,0 +1,33 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Large Module Connector.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=2,591.33
+		|volume=295.14
+		|size=144×72×72 cm
+		|corrosionResistance=532
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device IO
+        |modInterfaces=2
+      }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=40%
+	|aegisium=20%
+	|lukium=12%
+	|vokarium=28%
+	  }}
+}}<section begin=summary/>Used to connect large generator modules together, enabling resource flow between devices without placing the units directly adjacent to each other. Attaches to the connection points on large generator, exorium tank and exorium processing unit end covers.<section end=summary/>
+
+== Related Articles ==
+
+* [[Large module connector collar]]
+
+[[Category:Devices and machines]]

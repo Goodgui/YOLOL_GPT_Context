@@ -1,0 +1,30 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Exorium Processing Unit, Top&Bottom Structure.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=16,948.74
+		|volume=1,930.38
+		|size=576×204×72 cm
+		|corrosionResistance=480
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=5%
+	|lukium=45%
+	|charodium=20%
+	|kutonium=15%
+	|aegisium=15%
+	  }}
+}}<section begin=summary/>Top/Bottom structure for exorium processing unit. 2 top/bottom structures, together with 2 end covers, 2 side structures and 4 side covers, are required to complete the outer shell of the processing unit.<section end=summary/>
+
+== Related Articles ==
+
+* [[Exorium processing unit (Assembly)]]
+
+[[Category:Devices and machines]]

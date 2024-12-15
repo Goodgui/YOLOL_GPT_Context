@@ -1,0 +1,42 @@
+Exorium tank core
+Size
+576×576×576 cm
+Mass
+23,896.88 kg
+Volume
+2,721.74 kv
+Corrosion resistance
+610
+Primary material
+Ymrium
+Input / Output
+Fuel capacity
+100,000,000
+Modular interfaces
+6
+Composition
+Aegisium
+50%
+Vokarium
+10%
+Ymrium
+40%
+Core of the exorium tank, positioned inside the outer shell. Required for tank to be able to function.
+Capacity: 100 000 000 units
+To refuel the tank: remove core, refuel the core with crafting.
+Device fields
+YOLOL field
+Description
+Range
+ContainerStoredResource
+Total volume of stored fuel
+0 - 100,000,000
+ContainerMaxResource
+Maximum capacity of stored fuel
+100,000,000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Exorium tank (Assembly)

@@ -1,0 +1,90 @@
+{{ClosedAlphaContent}}
+
+{{Otherlang2
+|de=Rail_trigger:de
+|fr=Rail_trigger/fr
+|zh-cn=轨道触发器
+|ru=Рельсовый датчик
+|ua=Рейковий датчик
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase rail trigger.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Rail devices
+	  |function=Detects [[Rail mover|rail movers]]
+	  
+	  |size=8×12×1.5 cm
+	  |mass=4.08
+	  |volume=0.41
+	  |corrosionResistance=350
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=60.54%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=9.8%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=9.8%
+	  |ukonium=
+	  |valkite=
+	  |vokarium=19.85%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Rail triggers are attached to rails and used to control rail network behavior, either through [[YOLOL|YOLOL]] or directly by changing [[Universal tool|configured values]].<br>
+Rail triggers detect [[Rail mover|rail movers]] passing by them.<section end=summary/>
+
+== Basic information ==
+
+* When bolted to a rail, rail triggers will detect rail movers passing by them.
+* When a mover passes, the rail trigger sets a single variable to either a predetermined value, or a value read from the triggering mover.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''RailTriggerOutput'''
+| The output field the trigger writes to.
+| None
+|-
+! '''RailTriggerValue'''
+| Value written to '''RailTriggerOutput''' when a rail mover passes over.
+|
+|-
+! '''RailTriggerReadMover'''
+| If non-zero, will read the rail mover's '''RailMoverTriggerValue''' field and emit that instead of the trigger's '''RailTriggerValue'''.
+|
+|}
+
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+
+[[Category:Devices and machines|Rail trigger]]

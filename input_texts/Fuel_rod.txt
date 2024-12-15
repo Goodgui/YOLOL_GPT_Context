@@ -1,0 +1,124 @@
+{{Otherlang2
+|zh-cn=燃料棒
+|ua=Паливний стрижень
+|jp=燃料ロッド
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_devices_generator_fuelrod.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Power device
+	  |function=Fuels [[Generator_(Assembly)|generators]]
+	  
+	  |size=
+	  |mass=
+	  |volume=
+	  |corrosionResistance=
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+}}<section begin=summary/>Fuel rods provide [[Generator (Assembly)|generators]] with the [[Exorium|exorium]] fuel that they require to produce power. They have a convenient meter on their face which indicates both the quantity of stored fuel as well as the active drain, if any. They must be snapped into place in a [[Fuel chamber|fuel chamber]] in order to function. Empty fuel rods can be refilled by placing them into inventory and crafting Generator Fuel Rod (Refill).
+
+Tier one (T1) fuel chambers require [[Nhurgite]] Fuel Rods, while tier two (T2) and tier three (T3) fuel chambers require [[Exorium]] Fuel Rods. <section end=summary/>
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Fuel rod, nhurgite.png]]
+		|name=Tier 1 Generator Fuel Rod
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=2,355.5
+		|volume=273.9
+		|size=192×84×84 cm
+		|corrosionResistance=475
+		|primaryMaterial=Bastium
+	  }}
+	  |{{SB Infobox Device IO
+		|fuelCapacity=300,000
+		|electricOut=10,000,000
+  }}
+	  |{{SB Infobox Device Construction
+		|ajatite=50%
+		|bastium=25%
+		|vokarium=25%
+	  }}
+	  |{{SB Infobox Device Construction
+		|headerOverride=Composition (Refill)
+		|nhurgite=83KV
+		
+	  }}
+	}}
+
+
+|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Fuel rod, exorium.png]]
+		|name=Tier 2 Generator Fuel Rod
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=2,648.6
+		|volume=273.9
+		|size=192×84×84 cm
+		|corrosionResistance=625
+		|primaryMaterial=Bastium
+	  }}
+	  |{{SB Infobox Device IO
+		|fuelCapacity=300,000
+	    |electricOut=15,000,000 (All T2)<br>18,750,000 (All T3)
+	  }}
+	  |{{SB Infobox Device Construction
+		|aegisium=50%
+		|bastium=25%
+		|vokarium=25%
+	  }}
+	  |{{SB Infobox Device Construction
+		|headerOverride=Composition (Refill)
+		|exorium=83KV
+		
+	  }}
+	}}
+
+
+}}
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''StoredRawFuel'''
+| The amount of fuel currently in this rod
+| 0 - 300000
+|-
+! '''MaxRawFuel'''
+| The maximum amount of fuel that can be stored in a fuel rod
+| 300000
+|-
+|}
+<section end=deviceFields/>
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+
+* [[Generator (Assembly)]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,91 @@
+{{Otherlang2
+|zh-cn=冷却管插槽
+|ua=Плата з роз'ємами для труб
+|jp=パイプソケットボード
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:CoolantSocketBoard.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Coolant device
+	  |function=Connects [[Generator_(Assembly)|generators]] to pipe network
+	  
+	  |size=96×96×48 cm
+	  |mass=731.23
+	  |volume=73.49
+	  |corrosionResistance=335
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=4
+	  |YOLOLchips=
+	  |modInterfaces=1
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=45%
+	  |charodium=25%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=30%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The pipe socket board provides a [[Generator_(Assembly)|generator]] with access to the pipe network. This is an important step in connecting a [[Radiator|radiator]] to the generator. It should be noted that cube [[heatsink]]s attached directly to the generator can also be used for pipe connection.<section end=summary/>
+
+== Basic Usage ==
+
+* Allows for transfer of heat between generator, [[heatsink]]s and [[radiator]]s.
+* Can distribute a maximum of 100,000 '''Heat''' per second.
+* Connects pipes.
+
+== Related Articles ==
+
+* [[Generator (Assembly)]]
+* [[Radiator]]
+* [[Heatsink]]
+* [[Heat mechanics]]
+
+[[Category:Devices and machines]]

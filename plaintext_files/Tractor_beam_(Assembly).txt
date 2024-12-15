@@ -1,0 +1,95 @@
+An exploded view of an assembled tractor beam
+Tractor beam (Assembly)
+Type
+Cargo device
+Function
+Non-contact cargo ferrying
+Size
+216×96×72 cm
+Mass
+5,645 kg
+Volume
+567.31 kv
+Corrosion resistance
+320
+Input / Output
+Electric input
+~25 e/s
+Sub-components
+Tractor beams grab objects that their beams hit. They are most commonly found in cargo spaceships as they enable the transportation of heavy cargo. The beam drags the attached object close to the tractor beam base, orientating the object according to the nozzle of the beam.
+Basic information
+The device requires power to work. The amount of power needed is determined by the beam length, device state, and force applied when moving objects.
+The further and the heavier the objects are, the more power the tractor beam needs to be able to move them.
+If power is cut out, the object will stop moving but it will be held in place.
+This is a safety feature to prevent objects from drifting away, causing possible damage in interiors, such as factories and ships.
+Tractor beams are commonly controlled with buttons and levers.
+Buttons toggle the power on and off.
+Levers control the beam length, rotation and such.
+In automated factories, the tractor beams are generally connected to a mover.
+Endoskeletons can be moved by a tractor beam, but can easily escape.
+Cargo lock beam locks object entirely if hits it from 3 sides and small. Tractor beam, meanwhile, will never lock an object entirely and used to transport something. Also, as stated above(but will serve as a reminder here), tractor beam can actually manipulate with it's target, unlike Cargo lock Beam.
+Assembly
+A tractor beam needs to be attached to several objects to function:
+Utility Tool Body which needs equipped with 2 Utility Tool & Rail Cannon Capacitors
+A weapon mount: Either a Turret Cradle, Small Turntable Mount 2, or Fixed Weapon Mount 2 will work
+Note that the small turntable mount will require a matching turntable
+Device Hardpoint
+The hardpoint needs connected to power via Cable or Duct.
+Device fields
+Tractor beam
+YOLOL field
+Description
+Range
+tractorBeamOnState
+Beam on/off
+1 or 0
+tractorBeamSoftRelease
+When set to 1, brings the object grabbed by the beam to a stop, then turns off the beam
+1 or 0
+tractorBeamSnapToObjects
+When set to 1, tractor beam tries to snap held object to nearby objects
+1 or 0
+tractorBeamSearchLength
+Length (meters) of the beam when the beam is not attached to anything. Max range of the beam.
+0-100
+tractorBeamForce
+Maximum amount of force the beam will try to apply to grabbed object.
+0-50,000
+tractorBeamTorque
+Maximum amount of torque the beam will try to apply to grabbed object.
+0-50,000
+tractorBeamPosition
+The distance (meters) the beam tries to move a held object to. Resets on grab, but does not message network / other devices.
+0-100
+tractorBeamYaw
+The yaw (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+-
+tractorBeamPitch
+The pitch (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+-
+tractorBeamRoll
+The roll (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+-
+tractorBeamObjectInBeam
+Indicates whether an object is grabbed by the beam.
+1 or 0
+tractorBeamForceApplied
+Indicates the force currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target position.
+-
+tractorBeamTorqueApplied
+Indicates the torque currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target rotation.
+-
+Utility tool capacitor
+YOLOL field
+description
+range
+StoredLocalPower
+How much power is stored in the capacitor
+0 - 4000
+MaxLocalPower
+Maximum amount of power that can be stored
+4000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

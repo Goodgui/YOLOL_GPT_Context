@@ -1,0 +1,92 @@
+{{Otherlang2
+|zh-cn=插座板
+|ua=Плата з роз'ємами для кабелю
+|jp=ソケットボード
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_generator_socketboard.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Power device
+	  |function=Allows [[Generator_(Assembly)|generators]] to export power to the network
+	  
+	  |size=96×96×48 cm
+	  |mass=750.93
+	  |volume=75.47
+	  |corrosionResistance=390
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=100,000
+	  |electricOut=100,000
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=4
+	  |YOLOLchips=
+	  |modInterfaces=1
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=15%
+	  |arkanium=
+	  |bastium=55%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=30%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The socket board provides an access panel to connect [[Generator_(Assembly)|generators]] to the electricity and data network (cables).
+
+Note that one socket board per 100 tier 1/2 [[generator unit]]s (or 80 tier 3 generator units) is required, if cables are connected via a cube heat sink a socket board is still required to export power.<section end=summary/>
+
+== Basic Usage ==
+
+* Transforms Local Power into '''Power'''.
+* Connects cables.
+* Distributes '''Power''' to a [[Data networks|data network]].
+* Can distribute a maximum of 100,000 '''Electricity''' per second. 
+* Doesn't get any benefits from enhancers.
+
+== Related Articles ==
+
+* [[Generator (Assembly)]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,44 @@
+The components of an assembled laser designator
+Laser designator (Assembly)
+Type
+Weapon device
+Function
+Guides torpedoes
+Size
+132×84×36 cm
+Mass
+2,538 kg
+Volume
+255 kv
+Corrosion resistance
+370
+Input / Output
+Electric input
+Passive
+Sub-components
+The Laser Designator is a device used primarily in combination with torpedos to guide them towards a target.
+Basic information
+Laser Designators need to hit a target in order for the torpedo laser sensor to update their fields.
+The Laser Designator fits into the utility tool body 2 only.
+Currently the Laser Designator functions without a power supply.
+Connecting the Laser Designator to a power source will randomly reset its active field to 0.
+A torpedo linked to a Laser Designator can use the acquired field information to guide itself towards the tip of the laser using YOLOL.
+Device fields
+YOLOL field
+description
+range
+Active
+Turns the laser designator on/off
+0 - 1
+LaserLength
+The maximum length of the beam. Measured in meters.
+0 - 1000
+IdentifierId
+What torpedo laser sensors connect to when IdentifierId is the same. Both strings and numbers can be used.
+TargetFound
+1 if the designator is hitting a surface, otherwise 0.
+0 - 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

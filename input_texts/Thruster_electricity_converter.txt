@@ -1,0 +1,93 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Thruster electricity converter, tier 2 updated.png]]
+	  |factionLogo=
+	  |caption=A tier 2 electricity converter
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Converts network power to local power
+	  
+	}}
+}}<section begin=summary/>The electricity converter is a device that takes power from a ship's power network and converts it into local power, which can be used by [[Thrusters|thrusters]].<section end=summary/>
+
+== Types ==
+
+The electricity converter is currently available in the following styles:
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Thruster electricity converter, tier 1 updated.png]]
+		|name=Tier 1 electricity converter
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|bonus=12.5%
+		|mass=181.5
+		|volume=18.24
+		|size=60×36×36 cm
+		|corrosionResistance=420
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=40%
+		|vokarium=60%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Thruster electricity converter, tier 2 updated.png]]
+		|name=Tier 2 electricity converter
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|bonus=15%
+		|mass=181.5
+		|volume=18.24
+		|size=60×36×36 cm
+		|corrosionResistance=500
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|arkanium=20%
+		|bastium=30%
+		|vokarium=50%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Thruster electricity converter, tier 3 updated.png]]
+		|name=Tier 3 electricity converter
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|bonus=17.5%
+		|mass=170.7
+		|volume=18.24
+		|size=60×36×36 cm
+		|corrosionResistance=330
+		|primaryMaterial=Kutonium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|kutonium=30%
+		|xhalium=20%
+		|vokarium=50%
+	  }}
+	}}
+}}
+
+== Related pages ==
+
+* [[Box thruster]]
+* [[Triangle thruster]]
+* [[Maneuver thruster]]
+
+[[Category:Devices and machines]]

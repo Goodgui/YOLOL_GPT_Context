@@ -1,0 +1,29 @@
+Plasma thruster core
+Type
+Thruster device
+Function
+Generates thrust force
+Size
+576×168×204 cm
+Mass
+36,958.4 kg
+Volume
+3,948.55 kv
+Corrosion resistance
+494
+Primary material
+Kutonium
+Composition
+Aegisium
+28%
+Arkanium
+12%
+Charodium
+32%
+Kutonium
+10%
+Vokarium
+18%
+The plasma thruster core is the device responsible for generating the thrust force of a plasma thruster, in conjunction with the engines. Just one is required for the proper assembly of a plasma thruster.
+Related pages
+Plasma thruster

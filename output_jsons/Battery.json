@@ -1,0 +1,38 @@
+{
+  "title": "Battery",
+  "summary": "A battery is a storage device for electrical energy, and currently is available in just one size. This battery holds up to 10,000 energy units and has two sockets on opposite sides for ease-of-use, but are also semi-modular and can share connections with batteries placed immediately adjacent to them. Small ships can run entirely on batteries, but most ships use them as a buffer to handle periods of higher energy drain while their generators are warming up. Batteries with energy stored tend to explode when damaged, so designers should be careful about how many batteries they place near one another. Power drain and recharge is automatically balanced between all batteries on the network if all batteries have the same priority. It is common to see ships with an emergency buffer using the priority field to keep vital systems running in the case of an unintended shutdown.",
+  "tiers": [
+    {
+      "name": "Battery",
+      "size": "96 x 48 x 72 cm",
+      "mass": 3236.64,
+      "volume": 325.29,
+      "corrosionResistance": 790,
+      "composition": {
+        "bastium": "15%",
+        "nhurgite": "80%",
+        "vokarium": "5%"
+      },
+      "materials": {},
+      "device_fields": [
+        {
+          "name": "BatteryPriority",
+          "description": "Batteries with a lower priority get used first",
+          "range": ""
+        },
+        {
+          "name": "StoredBatteryPower",
+          "description": "Current charge level of the battery",
+          "range": "0 - 10 000"
+        },
+        {
+          "name": "MaxBatteryPower",
+          "description": "Maximum charge level of the battery",
+          "range": "10 000"
+        }
+      ],
+      "other": {}
+    }
+  ],
+  "other": {}
+}

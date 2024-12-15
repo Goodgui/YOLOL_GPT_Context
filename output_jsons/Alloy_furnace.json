@@ -1,0 +1,83 @@
+{
+  "title": "Alloy Furnace",
+  "summary": "The Alloy furnace is a crafting device used to create alloys. There are two types of alloy furnaces, one for asteroid belts and one for atmospheres of moons. Each alloy has specific requirements for the type of belt or atmosphere they need to be crafted in. In order for the alloy furnace to work, it needs to accumulate crafting charges. Each charge costs 1,000,000 electricity and the furnace can store up to 100 charges. Each charge allows you to craft 1 stack of an alloy that is compatible with the current atmosphere.",
+  "tiers": [
+    {
+      "name": "Belt",
+      "size": "288 x 216 x 144 cm",
+      "mass": "42,421.74 kg",
+      "volume": "3,827.47 kv",
+      "corrosionResistance": 504,
+      "composition": {
+        "aegisium": "16%",
+        "bastium": "10%",
+        "lukium": "14%",
+        "vokarium": "22%",
+        "ymrium": "38%"
+      },
+      "materials": "Bastium",
+      "device_fields": [
+        {
+          "name": "FurnaceChargingLimit",
+          "description": "Percentage value of electricity charge of the furnace",
+          "range": "0 - 100"
+        },
+        {
+          "name": "FurnaceChargingRate",
+          "description": "Current rate in percent",
+          "range": "0 - 100"
+        },
+        {
+          "name": "StoredCharges",
+          "description": "How many alloy crafting orders you can currently queue",
+          "range": "0 - MaxCharges"
+        },
+        {
+          "name": "MaxCharges",
+          "description": "How many alloy crafting orders you can queue at full charge",
+          "range": "100"
+        }
+      ],
+      "other": ""
+    },
+    {
+      "name": "Moon",
+      "size": "288 x 216 x 144 cm",
+      "mass": "43,090.91 kg",
+      "volume": "3,888.86 kv",
+      "corrosionResistance": 504,
+      "composition": {
+        "aegisium": "16%",
+        "bastium": "10%",
+        "lukium": "14%",
+        "vokarium": "22%",
+        "ymrium": "38%"
+      },
+      "materials": {},
+      "device_fields": [
+        {
+          "name": "FurnaceChargingLimit",
+          "description": "Percentage value of electricity charge of the furnace",
+          "range": "0 - 100"
+        },
+        {
+          "name": "FurnaceChargingRate",
+          "description": "Current rate in percent",
+          "range": "0 - 100"
+        },
+        {
+          "name": "StoredCharges",
+          "description": "How many alloy crafting orders you can currently queue",
+          "range": "0 - MaxCharges"
+        },
+        {
+          "name": "MaxCharges",
+          "description": "How many alloy crafting orders you can queue at full charge",
+          "range": "100"
+        }
+      ],
+      "other": ""
+    }
+  ],
+  "other": "Charge accumulation speed can be adjusted from Furnace UI or device fields. Alloy furnace can be attached to resource network to boost the charge accumulation speed. The internal electricity plant of furnace produces 3,000 electricity per second when fuel rod is attached to it. Alloy furnace supports both Tier 1 and Tier 2 fuel rods."
+}

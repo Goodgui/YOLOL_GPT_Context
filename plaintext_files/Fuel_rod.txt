@@ -1,0 +1,76 @@
+Fuel rod
+Type
+Power device
+Function
+Fuels generators
+Fuel rods provide generators with the exorium fuel that they require to produce power. They have a convenient meter on their face which indicates both the quantity of stored fuel as well as the active drain, if any. They must be snapped into place in a fuel chamber in order to function. Empty fuel rods can be refilled by placing them into inventory and crafting Generator Fuel Rod (Refill).
+Tier one (T1) fuel chambers require Nhurgite Fuel Rods, while tier two (T2) and tier three (T3) fuel chambers require Exorium Fuel Rods.
+Types
+Tier 1 Generator Fuel Rod
+Size
+192×84×84 cm
+Mass
+2,355.5 kg
+Volume
+273.9 kv
+Corrosion resistance
+475
+Primary material
+Bastium
+Input / Output
+Electric output
+10,000,000
+Fuel capacity
+300,000
+Composition
+Ajatite
+50%
+Bastium
+25%
+Vokarium
+25%
+Composition (Refill)
+Nhurgite
+83KV
+Tier 2 Generator Fuel Rod
+Size
+192×84×84 cm
+Mass
+2,648.6 kg
+Volume
+273.9 kv
+Corrosion resistance
+625
+Primary material
+Bastium
+Input / Output
+Electric output
+15,000,000 (All T2)18,750,000 (All T3)
+Fuel capacity
+300,000
+Composition
+Aegisium
+50%
+Bastium
+25%
+Vokarium
+25%
+Composition (Refill)
+Exorium
+83KV
+Device fields
+YOLOL field
+Description
+Range
+StoredRawFuel
+The amount of fuel currently in this rod
+0 - 300000
+MaxRawFuel
+The maximum amount of fuel that can be stored in a fuel rod
+300000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Generator (Assembly)

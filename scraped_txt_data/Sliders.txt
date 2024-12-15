@@ -1,0 +1,166 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+  |setWidth=16vw
+	|{{SB Infobox Header
+	  |image=[[Image:Slider (basic).png]]
+	  |factionLogo=
+	  |caption=The basic version of the slider
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility machinery
+	  |function=Sliding motor
+	  
+	}}
+}}<section begin=summary/>Sliders are motors that produce lateral motion. They are functional siblings of [[Hinges|hinges]].<section end=summary/>
+
+== Basic information ==
+
+Sliders are most frequently interacted with via a [[Buttons|button]] or [[YOLOL]] script, but can also be interacted with directly via the [[Universal tool|universal tool]]. They are not especially strong, and cannot be used to mount [[Thrusters|thrusters]] to a ship; nor do any of them have provisions to transfer power or propellant beyond the joint itself.
+
+== Gallery ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Slider (basic).png]]
+		|name=Slider (basic)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×144×24 cm
+		|mass=1,454.9 kg
+		|volume=146.22 kv
+		|corrosionResistance=415
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=2
+		|modInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=10%
+		|bastium=70%
+		|kutonium=5%
+		|tengium=15%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Slider (c-profile).png]]
+		|name=Slider (C-profile)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×144×48 cm
+		|mass=1,984.9 kg
+		|volume=199.49 kv
+		|corrosionResistance=415
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=2
+		|modInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=10%
+		|bastium=70%
+		|kutonium=5%
+		|tengium=15%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Slider (l-profile).png]]
+		|name=Slider (L-profile)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=60×144×24 cm
+		|mass=1,403.3 kg
+		|volume=141.04 kv
+		|corrosionResistance=415
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=2
+		|modInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=10%
+		|bastium=70%
+		|kutonium=5%
+		|tengium=15%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Slider (t-profile).png]]
+		|name=Slider (T-profile)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=60×144×24 cm
+		|mass=1,317.7 kg
+		|volume=132.43 kv
+		|corrosionResistance=415
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=2
+		|modInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=10%
+		|bastium=70%
+		|kutonium=5%
+		|tengium=15%
+	  }}
+	}}
+}}
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''DoorOpenState'''
+| Input field for requested door state. 0 is closed, 1 is fully open.
+| [0,1]
+|-
+! '''DoorCurrentState'''
+| Reports the current position of the door, on the same scale as ''DoorOpenState''
+| [0,1]
+|-
+! '''EndPosition'''
+| The rotation/position the joint should be at when ''DoorOpenState'' is 1. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+| [-100,100]
+|-
+!'''StartPosition'''
+| The rotation/position the joint should be at when ''DoorOpenState'' is 0. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+| [-100,100]
+|-
+! '''TargetVelocity'''
+| The maximum velocity the joint will reach. Different joint devices have different velocity limits, and might not be able to reach the configured velocity.
+| 
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Hinges]]

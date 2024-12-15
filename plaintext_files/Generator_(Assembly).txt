@@ -1,0 +1,225 @@
+An assembled exorium generator
+Generators
+Type
+Power generation
+Function
+Converts exorium fuel to power
+Sub-components
+Generators are one of the most essential parts of any constructs that need generated power. Most spaceships for example need to have a properly assembled generator in order for the ships to function. Every machine or device that requires power must be connected to the generator's socket board via a cable, or otherwise to another source of power such as a battery. A generator is constructed from many modules, and these modules may be assembled in many different variations. The most basic form of a generator consists of a single generator unit, a fuel chamber, a socket board, and a cooling board with cooling cells.
+Basic information
+Modules can be combined to build a generator for different needs and purposes, with varying shapes, sizes, and efficiency. A generator can be built from the following modules:
+The
+fuel rod
+(This is the container for the the raw fuel that the fuel chamber will process to create energy)
+The
+fuel chamber
+(The fuel rod is placed inside the fuel chamber. The
+raw fuel
+is then processed into
+processed fuel
+in the fuel chamber)
+The
+generator unit
+(Within the generator unit
+processed fuel
+is processed into
+power
+)
+The
+cooling board
+(Cooling cells are placed here and
+coolant
+is processed to reduce
+heat
+)
+The
+socket board
+(For attaching cables, one per 100 000 power)
+Enhancers
+(For improving efficiency, in three different tiers)
+A generator creates its own resource network within it, which distributes and processes five different resources:
+Raw Fuel
+- Stored in the fuel rod.
+Processed Fuel
+- Processed in the fuel chamber from
+Raw Fuel
+.
+Power
+- Processed in the generator unit from
+Processed Fuel
+.
+Heat
+- Produced from the two latter processes, the processing of raw fuel and the processing of power.
+Coolant
+- Stored in the cooling cells. Processed in the cooling board to reduce
+Heat
+.
+Media
+An expanded generator assembly
+Generator Tiers
+Generate components come in three tiers with differing characteristics:
+Component
+Tier 1 - Basic
+Tier 2 - Efficient
+Tier 3 - Powerful
+Generator Accent Colour
+Blue
+Red
+Yellow
+Generator Fuel Chamber Rods Used
+Nhurgite
+Fuel Rods
+Exorium
+Fuel Rods
+Exorium
+Fuel Rods
+Generator Fuel Chamber Heat Generated
+95
+95
+80
+Generator Unit Electricity Generated per Second
+1000
+1000
+1250
+Generator Unit Heat Generated
+100
+90
+80
+(raw) Fuel:Energy Ratio
+1:33
+1:50
+1:62.5
+(refined) Fuel:Energy Ratio
+1:40
+1:40
+1:50
+Heat and cooling
+Generator units and fuel chambers produce heat while working, which can be cooled passively, by coolant cells or by radiators. The heat produced is directly related to the current unit rate, so at 50 rate the generator unit or fuel chamber produces 50% of the heat. If a generator overheats it will reset it's rate to 0.
+See heat mechanics for in depth info.
+Device fields
+Fuel Rod
+YOLOL field
+Description
+Range
+StoredRawFuel
+The amount of fuel currently in this rod
+0 - 300000
+MaxRawFuel
+The maximum amount of fuel that can be stored in a fuel rod
+300000
+Fuel Chamber
+YOLOL field
+Description
+Range
+HeatProduction
+Amount of heat the fuel chamber is currently producing per second
+0 -
+FuelChamberFuel
+Amount of fuel currently available in this chamber's fuel rod
+0 - 300000
+FuelChamberMaxFuel
+Maximum amount of fuel that can be stored in this chamber's rod, zero if no rod
+0 - 300000
+FuelChamberStoredHeat
+Amount of heat currently stored in the fuel chamber
+0 - 1500
+FuelChamberMaxStoredHeat
+Maximum amount of heat that can be stored in the fuel chamber
+1500
+FuelChamberUnitRateLimit
+Upper limit for conversion rate for this fuel chamber, as a percentage.
+0 - 100
+FuelChamberUnitRate
+Current conversion rate for this fuel chamber, expressed as a percentage.
+0 - 100
+Generator Unit
+YOLOL field
+Description
+Range
+ElectricityProduction
+Amount of electricity the generator unit is currently producing per second
+0 -
+HeatProduction
+Amount of heat the generator unit is currently producing per second
+0 -
+GeneratorUnitRateLimit
+Upper limit for conversion rate for this generator unit
+0 - 100
+GeneratorUnitRate
+Current conversion rate for this generator unit, expressed as a percentage.
+0 - 100
+GeneratorUnitStoredHeat
+Amount of heat currently stored in the generator unit
+0 - 1500
+GeneratorUnitMaxStoredHeat
+Maximum amount of heat that can be stored in the generator unit
+1500
+Cooling Rack
+YOLOL field
+Description
+Range
+CoolerUnitRateLimit
+Upper limit for conversion rate for this cooler
+0 - 100
+CoolerUnitRate
+Current conversion rate for this cooler. Conversion is being performed at 1 conversion * this percentage per second.
+0 - 100
+Small Cooling Cell
+YOLOL field
+Description
+Range
+CoolantPriority
+Cells with a higher priority get used up first and refilled last
+integer
+StoredCoolant
+Current amount of coolant in this cooling cell
+0 - MaxCoolant
+MaxCoolant
+Maximum amount of coolant that can be stored in the cooling cell
+10000
+Radiator Base
+YOLOL field
+Description
+Range
+RadiatorHeatDissipation
+Current radiation rate for this radiator base
+0 - 1500
+RadiatorStoredHeat
+Current amount of heat in this radiator base
+0 - RadiatorMaxStoredHeat
+RadiatorMaxStoredHeat
+Maximum amount of heat that can be stored in the radiator base
+1500
+Radiator Extension
+YOLOL field
+Description
+Range
+RadiatorHeatDissipation
+Current radiation rate for this radiator extension
+0 - 750
+RadiatorStoredHeat
+Current amount of heat in this radiator  extension
+0 - RadiatorMaxStoredHeat
+RadiatorMaxStoredHeat
+Maximum amount of heat that can be stored in the radiator extension
+1500
+Heatsink
+YOLOL field
+Description
+Range
+HeatTransferRateLimit
+Maximum heat transfer to radiators, expressed as a percentage
+0 - 100
+HeatTransferRate
+Current heat transfer to radiators, expressed as a percentage
+0 - 100
+HeatsinkStoredHeat
+Amount of heat stored inside the heatsink
+0 - 15,000
+HeatsinkMaxStoredHeat
+Maximum value for heat storage
+0 - 15,000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

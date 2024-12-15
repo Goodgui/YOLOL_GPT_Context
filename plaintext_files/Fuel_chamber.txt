@@ -1,0 +1,187 @@
+Fuel chamber
+Type
+Power device
+Function
+Provides fuel for generators
+Fuel chambers are an integral part of generators, as they convert raw fuel from fuel rods and deliver processed fuel to generator units.
+Basic Usage
+NOTE!
+tier 1 generator parts are not compatible with Tier 2 or 3.
+Tier 2 and tier 3 parts are compatible.
+Receives
+Raw Fuel
+from the fuel rod and converts it to
+Processed Fuel
+.
+This process also generates
+Heat
+.
+Distributes
+Processed Fuel
+to generator units.
+There are nine connectors, two on each long side and one on the "back" side of the chamber.
+Other modules can be attached to the connectors.
+Fuel chambers produce heat proportional to their unit rate.
+For every adjacent generator unit or fuel chamber, extra heat will be generated.
+See heat mechanics for more info.
+T1 fuel chambers require a nhurgite fuel rod, T2 and T3 fuel chambers require an exorium fuel rod.
+One fuel rod can support three generator units, or 3000 (3750 for T3) units of electricity per second.
+Enhancers have no effect on the fuel chamber.
+Types
+Tier 1 fuel chamber
+Size
+192×96×96 cm
+Mass
+7628.8 kg
+Volume
+765.83 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Heat generation
+95 per second
+Fuel input
+90 per second
+(raw)
+Fuel output
+75 per second
+(refined)
+Modular interfaces
+9
+Composition
+Bastium
+25%
+Charodium
+50%
+Vokarium
+25%
+Tier 2 fuel chamber
+Size
+192×96×96 cm
+Mass
+7411.4 kg
+Volume
+765.83 kv
+Corrosion resistance
+380
+Primary material
+Aegisium
+Input / Output
+Heat generation
+95 per second
+Fuel input
+60 per second
+(raw)
+Fuel output
+75 per second
+(processed)
+Modular interfaces
+9
+Composition
+Aegisium
+20%
+Ajatite
+10%
+Charodium
+60%
+Vokarium
+10%
+Tier 3 fuel chamber
+Size
+192×96×96 cm
+Mass
+6728.6 kg
+Volume
+765.83 kv
+Corrosion resistance
+485
+Primary material
+Ymrium
+Input / Output
+Heat generation
+80 per second
+Fuel input
+60 per second
+(raw)
+Fuel output
+75 per second
+(processed)
+Modular interfaces
+9
+Composition
+Aegisium
+10%
+Arkanium
+15%
+Bastium
+15%
+Charodium
+20%
+Lukium
+20%
+Ymrium
+20%
+Runtime
+Tier 1 Fuel Rod (Nhurgite)
+Generator amount
+Fuel usage
+Runtime
+1
+30/s
+10050
+2
+60/s
+5050
+3
+90/s
+3383.33s
+Tier 2 Fuel Rod (Exorium)
+Generator amount
+Fuel usage
+Runtime
+1
+20/s
+15050s
+2
+40/s
+7550s
+3
+60/s
+5050s
+The formula used for the above tables is 
+Fuel_usage = Fuel_Input_(raw) / 3 * Generator_amount
+Runtime = FuelChamberMaxFuel / Fuel_usage + GeneratorUnitRateLimit/2
+GeneratorUnitRateLimit/2 is due to the spool up of the generator, which at 1/s takes 100 seconds to reach the max of 100, during which the fuel usage is (in sum) halved.
+Device fields
+YOLOL field
+Description
+Range
+HeatProduction
+Amount of heat the fuel chamber is currently producing per second
+0 -
+FuelChamberFuel
+Amount of fuel currently available in this chamber's fuel rod
+0 - 300000
+FuelChamberMaxFuel
+Maximum amount of fuel that can be stored in this chamber's rod, zero if no rod
+0 - 300000
+FuelChamberStoredHeat
+Amount of heat currently stored in the fuel chamber
+0 - 1500
+FuelChamberMaxStoredHeat
+Maximum amount of heat that can be stored in the fuel chamber
+1500
+FuelChamberUnitRateLimit
+Upper limit for conversion rate for this fuel chamber, as a percentage.
+0 - 100
+FuelChamberUnitRate
+Current conversion rate for this fuel chamber, expressed as a percentage.
+0 - 100
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Generator (Assembly)

@@ -1,0 +1,116 @@
+{{Otherlang2
+|fr=Levers/fr
+|zh-cn=控制杆
+|ru=Рычаги
+|de=Levers:de
+|ua=Важелі
+|jp=レバー
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_devices_lever.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Levers
+	  |subtitle=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Control devices
+	  |function=Sliding input control
+	  
+	  |size=24 × 72 × 24 cm
+	  |mass=174.32
+	  |volume=17.52
+	  |corrosionResistance=400
+	  |primaryMaterial=Bastium
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Passive
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=1
+	  |YOLOLchips=
+	  |modInterfaces=2
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |aegisium=
+	  |ajatite=40%
+	  |arkanium=
+	  |bastium=50%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=10%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Levers are interactable devices used mainly for controlling [[Devices and machines|devices and machinery]]. They have many configurable options to allow them to be used in a plethora of ways, and come in two visually identical but functionally distinct forms: A regular lever, and a centering lever. A regular lever (typically) starts at its minimum value, and can be adjusted upwards, while a centering lever starts at a value between its minima and maxima.<section end=summary/>
+
+== Basic information ==
+
+* Uni-directional levers have "zero" in one end and maximum in the opposite end.
+** Lowering the maximum value lowers the given lever's maximum output to a device.
+* Bi-directional levers have minimum and maximum in the far ends and the middle/neutral value is 50. 
+** Minimum output has to be lower than the neutral value. Default is 0.
+** Maximum has to be higher than the neutral value. Default is 100.
+
+== Device fields ==
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''LeverState'''
+| Lever's current state between LeverMinOutput and LeverMaxOutput
+| LeverMinOutput - LeverMaxOutput
+|-
+! '''LeverMinOutput'''
+| Unidirectional - Output in low end, Bidirectional - Output in left end
+| 
+|-
+! '''LeverMaxOutput'''
+| Unidirectional - Output in high end, Bidirectional - Output in right end
+| 
+|-
+!'''LeverCenterOutput'''
+| Output value when the lever is in the center
+| 
+|-
+! '''LeverCenterDeadZone'''
+| How large is the dead zone in the center of an unidirectional lever
+| 
+|-
+! '''LeverCenteringSpeed'''
+| How fast does (unidirectional lever reset to low end)(bidirectional lever reset to center) once released
+| 
+|-
+! '''LeverBindsMoveSpeed'''
+| How fast does the lever move with binds
+| 
+|}
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+[[Category:Devices and machines|Levers]]

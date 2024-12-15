@@ -1,0 +1,2012 @@
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Device_fields rootpage-Device_fields skin-starbase action-view approvedRevs-approved"> <div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div class="mw-body-content" id="siteNotice"><div dir="ltr" id="localNotice" lang="en"><div class="globalSocialbuttons">
+<table class="wikitableTransparent" style="margin-left: auto">
+<tbody><tr>
+<td><a href="//forum.starbasegame.com/" rel="nofollow"><img alt="Sb forum speech.png" data-file-height="31" data-file-width="35" decoding="async" height="31" src="/images/4/41/Sb_forum_speech.png" width="35"/></a>
+</td>
+<td><a href="//discord.gg/starbase" rel="nofollow"><img alt="DiscordLink.png" data-file-height="29" data-file-width="29" decoding="async" height="29" src="/images/1/1e/DiscordLink.png" width="29"/></a>
+</td>
+<td><a href="//facebook.com/starbasegame" rel="nofollow"><img alt="FacebookLink.png" data-file-height="29" data-file-width="29" decoding="async" height="29" src="/images/6/66/FacebookLink.png" width="29"/></a>
+</td>
+<td><a href="//reddit.com/r/starbase" rel="nofollow"><img alt="RedditLink.png" data-file-height="29" data-file-width="29" decoding="async" height="29" src="/images/f/fc/RedditLink.png" width="29"/></a>
+</td>
+<td><a href="//store.steampowered.com/app/454120/Starbase/" rel="nofollow"><img alt="SteamLink.png" data-file-height="29" data-file-width="29" decoding="async" height="29" src="/images/3/3d/SteamLink.png" width="29"/></a>
+</td>
+<td><a href="//twitter.com/starbasegame" rel="nofollow"><img alt="TwitterLink.png" data-file-height="29" data-file-width="29" decoding="async" height="29" src="/images/6/63/TwitterLink.png" width="29"/></a>
+</td>
+<td><a href="//www.youtube.com/channel/UCj2hiSQeR13FeI3lIxCvbmA" rel="nofollow"><img alt="YoutubeLink.png" data-file-height="29" data-file-width="29" decoding="async" height="29" src="/images/3/37/YoutubeLink.png" width="29"/></a>
+</td></tr>
+</tbody></table>
+</div></div></div><div class="mw-indicators">
+</div>
+<h1 class="firstHeading" id="firstHeading" lang="en">Device fields</h1> <div class="mw-body-content" id="bodyContent">
+<div class="noprint" id="siteSub">From Starbase wiki</div> <div id="contentSub"></div>
+<div id="jump-to-nav"></div> <a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+<a class="mw-jump-link" href="#p-search">Jump to search</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="mw-parser-output"><div id="otherLang2" style="position:relative;top:-22px;margin: 0 10px -40px 0;float:right;clear:left;"><b><a href="/index.php?title=Device_fields" title="Device fields"><img alt="English" data-file-height="12" data-file-width="24" decoding="async" height="12" src="/images/3/3b/En.png" width="24"/></a></b> <a href="/index.php?title=Device_fields:de" title="Device fields:de"><img alt="Deutsch" data-file-height="12" data-file-width="20" decoding="async" height="12" src="/images/8/8f/De.png" width="20"/></a> <a href="/index.php?title=Device_fields:fr" title="Device fields:fr"><img alt="Français" data-file-height="12" data-file-width="18" decoding="async" height="12" src="/images/4/4b/Fr.png" width="18"/></a> <a href="/index.php?title=%E8%AE%BE%E5%A4%87%E5%8F%82%E6%95%B0" title="设备参数"><img alt="简体中文" data-file-height="12" data-file-width="18" decoding="async" height="12" src="/images/c/cd/Cn.png" width="18"/></a> </div>
+<p>Device fields are used to control and read the status of <a class="mw-redirect" href="/index.php?title=Devices_and_machines" title="Devices and machines">devices</a> connected to a <a href="/index.php?title=Data_networks" title="Data networks">data network</a>. They can be read or set by the <a href="/index.php?title=Universal_tool" title="Universal tool">Universal tool</a>, <a href="/index.php?title=YOLOL_Chip" title="YOLOL Chip">YOLOL Chip</a>, or by other devices on the same network.
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="en"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#List_of_Device_Fields"><span class="tocnumber">1</span> <span class="toctext">List of Device Fields</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Base_mounted_devices"><span class="tocnumber">1.1</span> <span class="toctext">Base mounted devices</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#Battery"><span class="tocnumber">1.1.1</span> <span class="toctext">Battery</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#Cargo_beam"><span class="tocnumber">1.1.2</span> <span class="toctext">Cargo beam</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Fixed_mount"><span class="tocnumber">1.1.3</span> <span class="toctext">Fixed mount</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Generator"><span class="tocnumber">1.1.4</span> <span class="toctext">Generator</span></a></li>
+<li class="toclevel-3"><a href="#Fuel_Rod"><span class="tocnumber">1.1.5</span> <span class="toctext">Fuel Rod</span></a></li>
+<li class="toclevel-3"><a href="#Fuel_Chamber"><span class="tocnumber">1.1.6</span> <span class="toctext">Fuel Chamber</span></a></li>
+<li class="toclevel-3"><a href="#Generator_Unit"><span class="tocnumber">1.1.7</span> <span class="toctext">Generator Unit</span></a></li>
+<li class="toclevel-3"><a href="#Cooling_Rack"><span class="tocnumber">1.1.8</span> <span class="toctext">Cooling Rack</span></a></li>
+<li class="toclevel-3"><a href="#Small_Cooling_Cell"><span class="tocnumber">1.1.9</span> <span class="toctext">Small Cooling Cell</span></a></li>
+<li class="toclevel-3"><a href="#Radiator_Base"><span class="tocnumber">1.1.10</span> <span class="toctext">Radiator Base</span></a></li>
+<li class="toclevel-3"><a href="#Radiator_Extension"><span class="tocnumber">1.1.11</span> <span class="toctext">Radiator Extension</span></a></li>
+<li class="toclevel-3"><a href="#Heatsink"><span class="tocnumber">1.1.12</span> <span class="toctext">Heatsink</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Hinges"><span class="tocnumber">1.1.13</span> <span class="toctext">Hinges</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#Mounted_weapons"><span class="tocnumber">1.1.14</span> <span class="toctext">Mounted weapons</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="#Radio_transmitters"><span class="tocnumber">1.1.15</span> <span class="toctext">Radio transmitters</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="#Range_finder"><span class="tocnumber">1.1.16</span> <span class="toctext">Range finder</span></a></li>
+<li class="toclevel-3 tocsection-11"><a href="#Robot_arms"><span class="tocnumber">1.1.17</span> <span class="toctext">Robot arms</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#Thrusters"><span class="tocnumber">1.1.18</span> <span class="toctext">Thrusters</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#Turntable"><span class="tocnumber">1.1.19</span> <span class="toctext">Turntable</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-14"><a href="#Interactables"><span class="tocnumber">1.2</span> <span class="toctext">Interactables</span></a>
+<ul>
+<li class="toclevel-3 tocsection-15"><a href="#Buttons"><span class="tocnumber">1.2.1</span> <span class="toctext">Buttons</span></a></li>
+<li class="toclevel-3"><a href="#Small_button,_Hybrid_button_&amp;_Twist_handle"><span class="tocnumber">1.2.2</span> <span class="toctext">Small button, Hybrid button &amp; Twist handle</span></a></li>
+<li class="toclevel-3"><a href="#Warning_light_button"><span class="tocnumber">1.2.3</span> <span class="toctext">Warning light button</span></a></li>
+<li class="toclevel-3"><a href="#Simple_buttons"><span class="tocnumber">1.2.4</span> <span class="toctext">Simple buttons</span></a></li>
+<li class="toclevel-3"><a href="#Switch"><span class="tocnumber">1.2.5</span> <span class="toctext">Switch</span></a></li>
+<li class="toclevel-3"><a href="#Safety_lid_buttons"><span class="tocnumber">1.2.6</span> <span class="toctext">Safety lid buttons</span></a></li>
+<li class="toclevel-3 tocsection-16"><a href="#Lamps"><span class="tocnumber">1.2.7</span> <span class="toctext">Lamps</span></a></li>
+<li class="toclevel-3 tocsection-17"><a href="#Levers"><span class="tocnumber">1.2.8</span> <span class="toctext">Levers</span></a></li>
+<li class="toclevel-3 tocsection-18"><a href="#Propellant"><span class="tocnumber">1.2.9</span> <span class="toctext">Propellant</span></a></li>
+<li class="toclevel-3"><a href="#Propellant_tank_support"><span class="tocnumber">1.2.10</span> <span class="toctext">Propellant tank support</span></a></li>
+<li class="toclevel-3"><a href="#Propellant_tank"><span class="tocnumber">1.2.11</span> <span class="toctext">Propellant tank</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-19"><a href="#Rail_devices"><span class="tocnumber">1.3</span> <span class="toctext">Rail devices</span></a>
+<ul>
+<li class="toclevel-3 tocsection-20"><a href="#Mover"><span class="tocnumber">1.3.1</span> <span class="toctext">Mover</span></a></li>
+<li class="toclevel-3 tocsection-21"><a href="#Relay"><span class="tocnumber">1.3.2</span> <span class="toctext">Relay</span></a></li>
+<li class="toclevel-3 tocsection-22"><a href="#Sensor_strip"><span class="tocnumber">1.3.3</span> <span class="toctext">Sensor strip</span></a></li>
+<li class="toclevel-3 tocsection-23"><a href="#Trigger"><span class="tocnumber">1.3.4</span> <span class="toctext">Trigger</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-24"><a href="#Screens"><span class="tocnumber">1.4</span> <span class="toctext">Screens</span></a>
+<ul>
+<li class="toclevel-3 tocsection-25"><a href="#Information_screen"><span class="tocnumber">1.4.1</span> <span class="toctext">Information screen</span></a></li>
+<li class="toclevel-3 tocsection-26"><a href="#Modular_displays"><span class="tocnumber">1.4.2</span> <span class="toctext">Modular displays</span></a></li>
+<li class="toclevel-3"><a href="#Progress_bars"><span class="tocnumber">1.4.3</span> <span class="toctext">Progress bars</span></a></li>
+<li class="toclevel-3"><a href="#Text_Panel"><span class="tocnumber">1.4.4</span> <span class="toctext">Text Panel</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-27"><a href="#Utility_Devices"><span class="tocnumber">1.5</span> <span class="toctext">Utility Devices</span></a>
+<ul>
+<li class="toclevel-3 tocsection-28"><a href="#Cargo_lock_frame_(Assembly)"><span class="tocnumber">1.5.1</span> <span class="toctext">Cargo lock frame (Assembly)</span></a></li>
+<li class="toclevel-3 tocsection-29"><a href="#Flight_control_unit"><span class="tocnumber">1.5.2</span> <span class="toctext">Flight control unit</span></a></li>
+<li class="toclevel-3 tocsection-30"><a href="#Main_flight_computer"><span class="tocnumber">1.5.3</span> <span class="toctext">Main flight computer</span></a></li>
+<li class="toclevel-3 tocsection-31"><a href="#Mining_laser"><span class="tocnumber">1.5.4</span> <span class="toctext">Mining laser</span></a></li>
+<li class="toclevel-3 tocsection-32"><a href="#Network_relay"><span class="tocnumber">1.5.5</span> <span class="toctext">Network relay</span></a></li>
+<li class="toclevel-3 tocsection-33"><a href="#Tractor_beam"><span class="tocnumber">1.5.6</span> <span class="toctext">Tractor beam</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-34"><a href="#YOLOL_devices"><span class="tocnumber">1.6</span> <span class="toctext">YOLOL devices</span></a>
+<ul>
+<li class="toclevel-3 tocsection-35"><a href="#YOLOL_Chip"><span class="tocnumber">1.6.1</span> <span class="toctext">YOLOL Chip</span></a></li>
+<li class="toclevel-3 tocsection-36"><a href="#Chip_socket"><span class="tocnumber">1.6.2</span> <span class="toctext">Chip socket</span></a></li>
+<li class="toclevel-3 tocsection-37"><a href="#Memory_chip"><span class="tocnumber">1.6.3</span> <span class="toctext">Memory chip</span></a></li>
+<li class="toclevel-3 tocsection-38"><a href="#Modular_device_rack"><span class="tocnumber">1.6.4</span> <span class="toctext">Modular device rack</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h1><span class="mw-headline" id="List_of_Device_Fields">List of Device Fields</span></h1>
+<h2><span class="mw-headline" id="Base_mounted_devices">Base mounted devices</span></h2>
+<h3><span class="mw-headline" id="Battery"><a href="/index.php?title=Battery" title="Battery">Battery</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>BatteryPriority</b>
+</th>
+<td>Batteries with a lower priority get used first
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>StoredBatteryPower</b>
+</th>
+<td>Current charge level of the battery
+</td>
+<td>0 - 10 000
+</td></tr>
+<tr>
+<th><b>MaxBatteryPower</b>
+</th>
+<td>Maximum charge level of the battery
+</td>
+<td>10 000
+</td></tr></tbody></table>
+<p>To learn more about the usage of fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Cargo_beam"><a class="mw-redirect" href="/index.php?title=Cargo_beam" title="Cargo beam">Cargo beam</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>CargoBeamOnState</b>
+</th>
+<td>Dictates whether the beam is on or off. 0 = off, any other value = on.
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>CargoBeamSearchLength</b>
+</th>
+<td>The maximum distance from where the beam can lock onto objects. Measured in meters.
+</td>
+<td>0 - 1000
+</td></tr>
+<tr>
+<th><b>CargoBeamStatus</b>
+</th>
+<td>The current status of the beam, 0 = off or unlocked, 1 = touching object but unlocked, 2 = locked
+</td>
+<td>0 - 2
+</td></tr></tbody></table>
+<p>To learn more about the usage of fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Fixed_mount"><a href="/index.php?title=Fixed_mount" title="Fixed mount">Fixed mount</a></span></h3>
+<h3><span class="mw-headline" id="Generator"><a href="/index.php?title=Generator_(Assembly)" title="Generator (Assembly)">Generator</a></span></h3>
+<h3><span class="mw-headline" id="Fuel_Rod"><a href="/index.php?title=Fuel_rod" title="Fuel rod">Fuel Rod</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>StoredRawFuel</b>
+</th>
+<td>The amount of fuel currently in this rod
+</td>
+<td>0 - 300000
+</td></tr>
+<tr>
+<th><b>MaxRawFuel</b>
+</th>
+<td>The maximum amount of fuel that can be stored in a fuel rod
+</td>
+<td>300000
+</td></tr>
+</tbody></table>
+<h3><span class="mw-headline" id="Fuel_Chamber"><a href="/index.php?title=Fuel_chamber" title="Fuel chamber">Fuel Chamber</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>HeatProduction</b>
+</th>
+<td>Amount of heat the fuel chamber is currently producing per second
+</td>
+<td>0 -
+</td></tr>
+<tr>
+<th><b>FuelChamberFuel</b>
+</th>
+<td>Amount of fuel currently available in this chamber's fuel rod
+</td>
+<td>0 - 300000
+</td></tr>
+<tr>
+<th><b>FuelChamberMaxFuel</b>
+</th>
+<td>Maximum amount of fuel that can be stored in this chamber's rod, zero if no rod
+</td>
+<td>0 - 300000
+</td></tr>
+<tr>
+<th><b>FuelChamberStoredHeat</b>
+</th>
+<td>Amount of heat currently stored in the fuel chamber
+</td>
+<td>0 - 1500
+</td></tr>
+<tr>
+<th><b>FuelChamberMaxStoredHeat</b>
+</th>
+<td>Maximum amount of heat that can be stored in the fuel chamber
+</td>
+<td>1500
+</td></tr>
+<tr>
+<th><b>FuelChamberUnitRateLimit</b>
+</th>
+<td>Upper limit for conversion rate for this fuel chamber, as a percentage.
+</td>
+<td>0 - 100
+</td></tr>
+<tr>
+<th><b>FuelChamberUnitRate</b>
+</th>
+<td>Current conversion rate for this fuel chamber, expressed as a percentage.
+</td>
+<td>0 - 100
+</td></tr>
+</tbody></table>
+<h3><span class="mw-headline" id="Generator_Unit"><a href="/index.php?title=Generator_unit" title="Generator unit">Generator Unit</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>ElectricityProduction</b>
+</th>
+<td>Amount of electricity the generator unit is currently producing per second
+</td>
+<td>0 -
+</td></tr>
+<tr>
+<th><b>HeatProduction</b>
+</th>
+<td>Amount of heat the generator unit is currently producing per second
+</td>
+<td>0 -
+</td></tr>
+<tr>
+<th><b>GeneratorUnitRateLimit</b>
+</th>
+<td>Upper limit for conversion rate for this generator unit
+</td>
+<td>0 - 100
+</td></tr>
+<tr>
+<th><b>GeneratorUnitRate</b>
+</th>
+<td>Current conversion rate for this generator unit, expressed as a percentage.
+</td>
+<td>0 - 100
+</td></tr>
+<tr>
+<th><b>GeneratorUnitStoredHeat</b>
+</th>
+<td>Amount of heat currently stored in the generator unit
+</td>
+<td>0 - 1500
+</td></tr>
+<tr>
+<th><b>GeneratorUnitMaxStoredHeat</b>
+</th>
+<td>Maximum amount of heat that can be stored in the generator unit
+</td>
+<td>1500
+</td></tr>
+</tbody></table>
+<h3><span class="mw-headline" id="Cooling_Rack"><a href="/index.php?title=Cooling_rack" title="Cooling rack">Cooling Rack</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>CoolerUnitRateLimit</b>
+</th>
+<td>Upper limit for conversion rate for this cooler
+</td>
+<td>0 - 100
+</td></tr>
+<tr>
+<th><b>CoolerUnitRate</b>
+</th>
+<td>Current conversion rate for this cooler. Conversion is being performed at 1 conversion * this percentage per second.
+</td>
+<td>0 - 100
+</td></tr>
+</tbody></table>
+<h3><span class="mw-headline" id="Small_Cooling_Cell"><a href="/index.php?title=Small_cooling_cell" title="Small cooling cell">Small Cooling Cell</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>CoolantPriority</b>
+</th>
+<td>Cells with a higher priority get used up first and refilled last
+</td>
+<td>integer
+</td></tr>
+<tr>
+<th><b>StoredCoolant</b>
+</th>
+<td>Current amount of coolant in this cooling cell
+</td>
+<td>0 - MaxCoolant
+</td></tr>
+<tr>
+<th><b>MaxCoolant</b>
+</th>
+<td>Maximum amount of coolant that can be stored in the cooling cell
+</td>
+<td>10000
+</td></tr>
+</tbody></table>
+<p><br/>
+</p>
+<h3><span class="mw-headline" id="Radiator_Base"><a href="/index.php?title=Radiator" title="Radiator">Radiator Base</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>RadiatorHeatDissipation</b>
+</th>
+<td>Current radiation rate for this radiator base
+</td>
+<td>0 - 1500
+</td></tr>
+<tr>
+<th><b>RadiatorStoredHeat</b>
+</th>
+<td>Current amount of heat in this radiator base
+</td>
+<td>0 - RadiatorMaxStoredHeat
+</td></tr>
+<tr>
+<th><b>RadiatorMaxStoredHeat</b>
+</th>
+<td>Maximum amount of heat that can be stored in the radiator base
+</td>
+<td>1500
+</td></tr>
+</tbody></table>
+<h3><span class="mw-headline" id="Radiator_Extension"><a href="/index.php?title=Radiator" title="Radiator">Radiator Extension</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>RadiatorHeatDissipation</b>
+</th>
+<td>Current radiation rate for this radiator extension
+</td>
+<td>0 - 750
+</td></tr>
+<tr>
+<th><b>RadiatorStoredHeat</b>
+</th>
+<td>Current amount of heat in this radiator  extension
+</td>
+<td>0 - RadiatorMaxStoredHeat
+</td></tr>
+<tr>
+<th><b>RadiatorMaxStoredHeat</b>
+</th>
+<td>Maximum amount of heat that can be stored in the radiator extension
+</td>
+<td>1500
+</td></tr>
+</tbody></table>
+<h3><span class="mw-headline" id="Heatsink"><a href="/index.php?title=Heatsink" title="Heatsink">Heatsink</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>HeatTransferRateLimit</b>
+</th>
+<td>Maximum heat transfer to radiators, expressed as a percentage
+</td>
+<td>0 - 100
+</td></tr>
+<tr>
+<th><b>HeatTransferRate</b>
+</th>
+<td>Current heat transfer to radiators, expressed as a percentage
+</td>
+<td>0 - 100
+</td></tr>
+<tr>
+<th><b>HeatsinkStoredHeat</b>
+</th>
+<td>Amount of heat stored inside the heatsink
+</td>
+<td>0 - 15,000
+</td></tr>
+<tr>
+<th><b>HeatsinkMaxStoredHeat</b>
+</th>
+<td>Maximum value for heat storage
+</td>
+<td>0 - 15,000
+</td></tr>
+</tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Hinges"><a href="/index.php?title=Hinges" title="Hinges">Hinges</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>DoorOpenState</b>
+</th>
+<td>Input field for requested door state. 0 is closed, 1 is fully open.
+</td>
+<td>[0,1]
+</td></tr>
+<tr>
+<th><b>DoorCurrentState</b>
+</th>
+<td>Reports the current position of the door, on the same scale as <i>DoorOpenState</i>
+</td>
+<td>[0,1]
+</td></tr>
+<tr>
+<th><b>EndAngle / EndPosition</b>
+</th>
+<td>The rotation/position the joint should be at when <i>DoorOpenState</i> is 1. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>StartAngle / StartPosition</b>
+</th>
+<td>The rotation/position the joint should be at when <i>DoorOpenState</i> is 0. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>TargetVelocity</b>
+</th>
+<td>The maximum velocity the joint will reach. Different joint devices have different velocity limits, and might not be able to reach the configured velocity.
+</td>
+<td>
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Mounted_weapons"><a href="/index.php?title=Mounted_weapons" title="Mounted weapons">Mounted weapons</a></span></h3>
+<h3><span class="mw-headline" id="Radio_transmitters"><a href="/index.php?title=Radio_transmitters" title="Radio transmitters">Radio transmitters</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>TransmitMessage</b>
+</th>
+<td>Message being sent
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>TransmitRange</b>
+</th>
+<td>Range where the message can be received
+</td>
+<td>1000000
+</td></tr>
+<tr>
+<th><b>Frequency</b>
+</th>
+<td>The frequency channel the transmitter will send signals to.
+</td>
+<td>1
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Range_finder"><a class="mw-redirect" href="/index.php?title=Range_finder" title="Range finder">Range finder</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th>RangeFinderOnState
+</th>
+<td>Whether the range finder should try to be on. 0 is off, everything else is on.
+</td>
+<td>
+</td></tr>
+<tr>
+<th>RangeFinderSearchLength
+</th>
+<td>The maximum distance to check for hits, up to the device's maximum. Measured in meters.
+</td>
+<td>0 - 1000
+</td></tr>
+<tr>
+<th>RangeFinderDistance
+</th>
+<td>The output field which reports the distance the laser goes. Measured in meters. Accuracy is 1mm.
+</td>
+<td>
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Robot_arms"><a class="mw-redirect" href="/index.php?title=Robot_arms" title="Robot arms">Robot arms</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>TargetArmLength</b>
+</th>
+<td>Telescoping arm target length
+</td>
+<td>[0,100]: percent of maximum extension
+</td></tr>
+<tr>
+<th><b>CurrentArmLength</b>
+</th>
+<td>Current arm length updated during arm movement
+</td>
+<td>[0,100]: percent of maximum extension
+</td></tr>
+<tr>
+<th><b>EndPosition</b>
+</th>
+<td>Extension at maximum arm length
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>StartPosition</b>
+</th>
+<td>Extension at minimim arm length
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>TargetVelocity</b>
+</th>
+<td>Target velocity of telescoping movement
+</td>
+<td>
+</td></tr></tbody></table>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>TargetArmAngle</b>
+</th>
+<td>Rotating joint target angle
+</td>
+<td>[-180,180]: degrees
+</td></tr>
+<tr>
+<th><b>CurrentArmAngle</b>
+</th>
+<td>Rotating joint current angle updated during arm rotation
+</td>
+<td>[-180,180]: degrees
+</td></tr>
+<tr>
+<th><b>MaxRotation</b>
+</th>
+<td>Maximum rotation
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>MinRotation</b>
+</th>
+<td>Minimum rotation
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>TargetVelocity</b>
+</th>
+<td>Target velocity of rotation
+</td>
+<td>
+</td></tr></tbody></table>
+<p><br/>
+To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<p><br/>
+</p>
+<h3><span class="mw-headline" id="Thrusters"><a href="/index.php?title=Thrusters" title="Thrusters">Thrusters</a></span></h3>
+<p>Each of the four thrusters share a set of common device fields (below), but the plasma thruster has additional device fields owing to its unique characteristics.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>ThrusterState</b>
+</th>
+<td>Requested output of the thruster
+</td>
+<td>0 - 10 000
+</td></tr>
+<tr>
+<th><b>ThrusterCurrentThrust</b>
+</th>
+<td>Current output of the thruster
+</td>
+<td>0 - 10 000
+</td></tr></tbody></table>
+<p>In addition to these, the plasma thruster has two extra fields. 
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>isactive</b>
+</th>
+<td>1 = charge ; 0 = discharge
+</td>
+<td>/
+</td></tr>
+<tr>
+<th><b>chargelevel</b>
+</th>
+<td>the current charge level of the plasma thruster, must be 1 to produce thrust
+</td>
+<td>0 - 1
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<p><br/>
+</p>
+<h3><span class="mw-headline" id="Turntable"><a href="/index.php?title=Turntable" title="Turntable">Turntable</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>TurretRotation</b>
+</th>
+<td>Target rotation of the turntable
+</td>
+<td>0
+</td></tr>
+<tr>
+<th><b>TurretCurrentRotation</b>
+</th>
+<td>Current rotation of the turntable
+</td>
+<td>0
+</td></tr>
+<tr>
+<th><b>MaxRotation</b>
+</th>
+<td>Value to use for maximum rotation (equiv to +180 deg, does not effect how far the turret can rotate)
+</td>
+<td>180
+</td></tr>
+<tr>
+<th><b>MinRotation</b>
+</th>
+<td>Value to use for minimum rotation (equiv to -180 deg, does not effect how far the turret can rotate)
+</td>
+<td>-180
+</td></tr>
+<tr>
+<th><b>TargetVelocity</b>
+</th>
+<td>Target velocity in which the turntable rotates
+</td>
+<td>3
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<p><br/>
+</p>
+<h2><span class="mw-headline" id="Interactables">Interactables</span></h2>
+<h3><span class="mw-headline" id="Buttons"><a href="/index.php?title=Buttons" title="Buttons">Buttons</a></span></h3>
+<h3><span id="Small_button.2C_Hybrid_button_.26_Twist_handle"></span><span class="mw-headline" id="Small_button,_Hybrid_button_&amp;_Twist_handle"> Small button, Hybrid button &amp; Twist handle</span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>ButtonState</b>
+</th>
+<td>The name of the field of which value the button modifies.
+</td>
+<td>ButtonOnStateValue / ButtonOffStateValue
+</td></tr>
+<tr>
+<th><b>ButtonOnStateValue</b>
+</th>
+<td>Controls the value when pressed
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ButtonOffStateValue</b>
+</th>
+<td>Controls the value when released
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ButtonStyle</b>
+</th>
+<td>Controls the interaction type of the button
+</td>
+<td><b>0:</b> Hold down and release <b>1:</b> Basic Toggle (in-game button remains down while it is "on") <b>2:</b> 4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Warning_light_button"> Warning light button</span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>ButtonState</b>
+</th>
+<td>The name of the field of which value the button modifies.
+</td>
+<td>0/1
+</td></tr>
+<tr>
+<th><b>ButtonStyle</b>
+</th>
+<td>Controls the interaction type of the button
+</td>
+<td><b>0:</b> Hold down and release <b>1:</b> Basic Toggle (in-game button remains down while it is "on") <b>2:</b> 4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+</td></tr>
+<tr>
+<th><b>ButtonColor</b>
+</th>
+<td>Sets the color of the button.
+</td>
+<td><b>0</b> = Red, <b>1</b> = Orange, <b>2</b> = Green, <b>3</b> = Blue, Anything else = Red
+</td></tr>
+<tr>
+<th><b>ButtonEnableBlink</b>
+</th>
+<td>When enabled the button will light up periodically.
+</td>
+<td><b>0</b> = No blinking, <b>1</b> = Blinking (Number sets the interval)
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Simple_buttons"> Simple buttons</span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>ButtonState</b>
+</th>
+<td>The name of the field of which value the button modifies.
+</td>
+<td>0/1
+</td></tr>
+<tr>
+<th><b>ButtonStyle</b>
+</th>
+<td>Controls the interaction type of the button
+</td>
+<td><b>0:</b> Hold down and release <b>1:</b> Basic Toggle (in-game button remains down while it is "on") <b>2:</b> 4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+</td></tr>
+<tr>
+<th><b>ButtonColor</b>
+</th>
+<td>Sets the color of the button.
+</td>
+<td><b>0</b> = Blue, <b>1</b> = Red, <b>2</b> = Green, <b>3</b> = White, Anything else = Blue
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Switch"> Switch</span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>SwitchState</b>
+</th>
+<td>The name of the field of which value the button modifies.
+</td>
+<td>-1/0/1
+</td></tr>
+<tr>
+<th><b>SwitchStyle</b>
+</th>
+<td>Controls the interaction type of the button
+</td>
+<td><b>0:</b> Hold down and release <b>1:</b> Toggle (-1/0/1) <b>2:</b> Toggle (-1/1)
+</td></tr>
+<tr>
+<th><b>SwitchColor</b>
+</th>
+<td>Sets the color of the button.
+</td>
+<td><b>0</b> = Black, <b>1</b> = Red, <b>2</b> = Orange, <b>3</b> = Green, <b>4</b> = Blue, Anything else = Black
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Safety_lid_buttons"> Safety lid buttons</span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>ButtonState</b>
+</th>
+<td>The name of the field of which value the button modifies.
+</td>
+<td>ButtonOnStateValue / ButtonOffStateValue
+</td></tr>
+<tr>
+<th><b>ButtonOnStateValue</b>
+</th>
+<td>Controls the value when pressed
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ButtonOffStateValue</b>
+</th>
+<td>Controls the value when released
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ButtonStyle</b>
+</th>
+<td>Controls the interaction type of the button
+</td>
+<td><b>0:</b> Hold down and release <b>1:</b> Basic Toggle (in-game button remains down while it is "on") <b>2:</b> 4-state switch (in-game button returns to the unpressed position whether it is "on" or "off")
+</td></tr>
+<tr>
+<th><b>ButtonColor</b>
+</th>
+<td>Sets the color of the button.
+</td>
+<td><b>0</b> = Red, <b>1</b> = Orange, <b>2</b> = Green, <b>3</b> = Blue, Anything else = Red
+</td></tr>
+<tr>
+<th><b>ButtonEnableBlink</b>
+</th>
+<td>When enabled the button will light up periodically.
+</td>
+<td><b>0</b> = No blinking, <b>1</b> = Blinking (Number sets the interval)
+</td></tr></tbody></table>
+<p><br/>
+To learn more about the usage of fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Lamps"><a href="/index.php?title=Lamps" title="Lamps">Lamps</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>LampOn</b>
+</th>
+<td>Determines whether the light is on. 0 is off, everything else is on.
+</td>
+<td>0 - 1
+</td></tr>
+</tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Levers"><a href="/index.php?title=Levers" title="Levers">Levers</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>LeverState</b>
+</th>
+<td>Lever's current state between LeverMinOutput and LeverMaxOutput
+</td>
+<td>LeverMinOutput - LeverMaxOutput
+</td></tr>
+<tr>
+<th><b>LeverMinOutput</b>
+</th>
+<td>Unidirectional - Output in low end, Bidirectional - Output in left end
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>LeverMaxOutput</b>
+</th>
+<td>Unidirectional - Output in high end, Bidirectional - Output in right end
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>LeverCenterOutput</b>
+</th>
+<td>Output value when the lever is in the center
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>LeverCenterDeadZone</b>
+</th>
+<td>How large is the dead zone in the center of an unidirectional lever
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>LeverCenteringSpeed</b>
+</th>
+<td>How fast does (unidirectional lever reset to low end)(bidirectional lever reset to center) once released
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>LeverBindsMoveSpeed</b>
+</th>
+<td>How fast does the lever move with binds
+</td>
+<td>
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Propellant"><a href="/index.php?title=Propellant_tank" title="Propellant tank">Propellant</a></span></h3>
+<h3><span class="mw-headline" id="Propellant_tank_support"> Propellant tank support</span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>IsOpenId</b>
+</th>
+<td>Input/output field for closing/opening connectors.
+</td>
+<td>0 - 1
+</td></tr>
+<tr>
+<th><b>FlowId</b>
+</th>
+<td>Output field for resource amounts flowing through the network.
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>GasNetworkStoredResource</b>
+</th>
+<td>Amount of propellant currently available in all conected containers.
+</td>
+<td>0 - GasNetworkMaxResource
+</td></tr>
+<tr>
+<th><b>GasNetworkMaxResource</b>
+</th>
+<td>Maximum amount of propellant that can be stored in all conected containers.
+</td>
+<td>
+</td></tr>
+</tbody></table>
+<h3><span class="mw-headline" id="Propellant_tank"> Propellant tank</span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>GasContainerStoredResource</b>
+</th>
+<td>Amount of propellant currently available in this container.
+</td>
+<td>0 - GasContainerMaxResource
+</td></tr>
+<tr>
+<th><b>GasContainerMaxResource</b>
+</th>
+<td>Maximum amount of propellant that can be stored in this container.
+</td>
+<td>
+</td></tr>
+</tbody></table>
+<p>To learn more about how to use the device fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h2><span class="mw-headline" id="Rail_devices">Rail devices</span></h2>
+<h3><span class="mw-headline" id="Mover"><a href="/index.php?title=Rail_mover" title="Rail mover">Mover</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>speed</b>
+</th>
+<td>Target velocity of the rail mover in m/s
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>RailMoverTriggerValue</b>
+</th>
+<td>If we cross a <a href="/index.php?title=Rail_trigger" title="Rail trigger">rail trigger</a> that is configured to emit values read from the mover, it reads from this field.
+</td>
+<td>
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Relay"><a href="/index.php?title=Rail_relay" title="Rail relay">Relay</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>IsEnabled</b>
+</th>
+<td>On/Off
+</td>
+<td>0/1
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Sensor_strip"><a href="/index.php?title=Rail_sensor_strip" title="Rail sensor strip">Sensor strip</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>RailSensorOutput</b>
+</th>
+<td>The output field the sensor strip writes to. Decimal metres.
+</td>
+<td>Without delta: [0,0.960], with delta: any numeric
+</td></tr>
+<tr>
+<th><b>RailSensorDelta</b>
+</th>
+<td>Value added to the detected range before writing the result to <b>RailSensorOutput</b>
+</td>
+<td>Numeric, any
+</td></tr>
+<tr>
+<th><b>RailSensorMoverFilter</b>
+</th>
+<td>If non-zero, the strip only detects movers with <b>RailMoverTriggerValue</b> equal to this.
+</td>
+<td>
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<p><br/>
+</p>
+<h3><span class="mw-headline" id="Trigger"><a href="/index.php?title=Rail_trigger" title="Rail trigger">Trigger</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>RailTriggerOutput</b>
+</th>
+<td>The output field the trigger writes to.
+</td>
+<td>None
+</td></tr>
+<tr>
+<th><b>RailTriggerValue</b>
+</th>
+<td>Value written to <b>RailTriggerOutput</b> when a rail mover passes over.
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>RailTriggerReadMover</b>
+</th>
+<td>If non-zero, will read the rail mover's <b>RailMoverTriggerValue</b> field and emit that instead of the trigger's <b>RailTriggerValue</b>.
+</td>
+<td>
+</td></tr></tbody></table>
+<p><br/>
+To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h2><span class="mw-headline" id="Screens">Screens</span></h2>
+<h3><span class="mw-headline" id="Information_screen"><a href="/index.php?title=Information_screen" title="Information screen">Information screen</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>InfoScreenContent</b>
+</th>
+<td>Input string which will be displayed on the screen
+</td>
+<td>364 mark string
+</td></tr>
+</tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Modular_displays"><a href="/index.php?title=Modular_displays" title="Modular displays">Modular displays</a></span></h3>
+<h3><span class="mw-headline" id="Progress_bars">Progress bars</span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>default
+</th></tr>
+<tr>
+<th><b>PanelValue</b>
+</th>
+<td>The value to display on the progress bar
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>PanelMinValue</b>
+</th>
+<td>The value at or below which the progress bar will appear empty
+</td>
+<td>0
+</td></tr>
+<tr>
+<th><b>PaneMaxValue</b>
+</th>
+<td>The range at or over which the progress bar will appear full(PanelMaxValue-PanelMinValue=TrueMaxValue)
+</td>
+<td>100
+</td></tr>
+<tr>
+<th><b>PanelVariableResolution</b>
+</th>
+<td>The smallest increment the number and progress bar will reflect, written out as a power of 10 (i.e. 0.01 will display two decimal places)
+</td>
+<td>1
+</td></tr></tbody></table>
+<h3><span class="mw-headline" id="Text_Panel">Text Panel</span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>default
+</th></tr>
+<tr>
+<th><b>PanelValue</b>
+</th>
+<td>The value to display on the text panel
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>PanelVariableResolution</b>
+</th>
+<td>The smallest increment the number and text panel will reflect, written out as a power of 10 (i.e. 0.01 will display two decimal places)
+</td>
+<td>1
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h2><span class="mw-headline" id="Utility_Devices">Utility Devices</span></h2>
+<h3><span id="Cargo_lock_frame_.28Assembly.29"></span><span class="mw-headline" id="Cargo_lock_frame_(Assembly)"><a href="/index.php?title=Cargo_lock_frame_(Assembly)" title="Cargo lock frame (Assembly)">Cargo lock frame (Assembly)</a></span></h3>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>CargoFrameState</b>
+</th>
+<td>Is the force field on or off
+</td>
+<td>0 - 1
+</td></tr></tbody></table>
+<p><br/>
+</p>
+<h3><span class="mw-headline" id="Flight_control_unit"><a href="/index.php?title=Flight_control_unit" title="Flight control unit">Flight control unit</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>default range
+</th>
+<th>availability
+</th></tr>
+<tr>
+<th><b>FcuMfcIO</b>
+</th>
+<td>For connecting the Main flight computer
+</td>
+<td>
+</td>
+<td>All
+</td></tr>
+<tr>
+<th><b>FcuInputRange</b>
+</th>
+<td>Scales the accepted input range
+</td>
+<td>100
+</td>
+<td>All
+</td></tr>
+<tr>
+<th><b>FcuGeneralMultiplier</b>
+</th>
+<td>A "soft power switch", scales all output
+</td>
+<td>100
+</td>
+<td>All
+</td></tr>
+<tr>
+<th><b>FcuForward</b>
+</th>
+<td>Moves the ship straight forward or combines FcuFwdBwd rotations with the forward movement
+</td>
+<td>0 to 100
+</td>
+<td>All
+</td></tr>
+<tr>
+<th><b>FcuBackward</b>
+</th>
+<td>Moves the ship straight backward or combines FcuFwdBwd rotations with the backward movement
+</td>
+<td>0 to 100
+</td>
+<td>All
+</td></tr>
+<tr>
+<th><b>FcuRotationalPitch</b>
+</th>
+<td>In-place pitch rotation
+</td>
+<td>-100 to 100
+</td>
+<td>All
+</td></tr>
+<tr>
+<th><b>FcuRotationalYaw</b>
+</th>
+<td>In-place yaw rotation
+</td>
+<td>-100 to 100
+</td>
+<td>All
+</td></tr>
+<tr>
+<th><b>FcuRotationalRoll</b>
+</th>
+<td>In-place roll rotation
+</td>
+<td>-100 to 100
+</td>
+<td>All
+</td></tr>
+<tr>
+<th><b>FcuUpDown</b>
+</th>
+<td>Moves the ship straight up or down
+</td>
+<td>-100 to 100
+</td>
+<td>Advanced, Premium
+</td></tr>
+<tr>
+<th><b>FcuRightLeft</b>
+</th>
+<td>Moves the ship straight right or left
+</td>
+<td>-100 to 100
+</td>
+<td>Advanced, Premium
+</td></tr>
+<tr>
+<th><b>FcuFwdBwdPitch</b>
+</th>
+<td>Rotation combined to forward/backward movement
+</td>
+<td>-100 to 100
+</td>
+<td>Premium
+</td></tr>
+<tr>
+<th><b>FcuFwdBwdYaw</b>
+</th>
+<td>Rotation combined to forward/backward movement
+</td>
+<td>-100 to 100
+</td>
+<td>Premium
+</td></tr>
+<tr>
+<th><b>FcuFwdBwdRoll</b>
+</th>
+<td>Rotation combined to forward/backward movement
+</td>
+<td>-100 to 100
+</td>
+<td>Premium
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Main_flight_computer"><a href="/index.php?title=Main_flight_computer" title="Main flight computer">Main flight computer</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>FcuMfcIO1</b>
+</th>
+<td>For connecting an FCU to the MFC
+</td>
+<td>-
+</td></tr>
+<tr>
+<th><b>FcuMfcIO2</b>
+</th>
+<td>
+</td>
+<td>-
+</td></tr>
+<tr>
+<th><b>ThrusterPowerLevel01 - 50</b>
+</th>
+<td>50 fields for connecting thrusters to the MFC. These field names are set for the ships thrusters.
+</td>
+<td>-
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Mining_laser"><a href="/index.php?title=Mining_laser_(Assembly)" title="Mining laser (Assembly)">Mining laser</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>MiningLaserOn</b>
+</th>
+<td>Mining laser turns off when this is set to 0 and on when set to anything else
+</td>
+<td>0 - 1
+</td></tr>
+<tr>
+<th><b>MiningLaserBeamLength</b>
+</th>
+<td>The length of the beam. Measured in meters.
+</td>
+<td>0 - 20
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<p><br/>
+</p>
+<h3><span class="mw-headline" id="Network_relay"><a href="/index.php?title=Network_relay" title="Network relay">Network relay</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>IsMasterEnabled</b>
+</th>
+<td>On / Off (Input side)
+</td>
+<td>0 / 1
+</td></tr>
+<tr>
+<th><b>IsEnabled</b>
+</th>
+<td>On / Off (Output side)
+</td>
+<td>0 / 1
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Tractor_beam"><a href="/index.php?title=Tractor_beam_(Assembly)" title="Tractor beam (Assembly)">Tractor beam</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>Description
+</th>
+<th>Range
+</th></tr>
+<tr>
+<th><b>tractorBeamOnState</b>
+</th>
+<td>Beam on/off
+</td>
+<td>1 or 0
+</td></tr>
+<tr>
+<th><b>tractorBeamSoftRelease</b>
+</th>
+<td>When set to 1, brings the object grabbed by the beam to a stop, then turns off the beam
+</td>
+<td>1 or 0
+</td></tr>
+<tr>
+<th><b>tractorBeamSnapToObjects</b>
+</th>
+<td>When set to 1, tractor beam tries to snap held object to nearby objects
+</td>
+<td>1 or 0
+</td></tr>
+<tr>
+<th><b>tractorBeamSearchLength</b>
+</th>
+<td>Length (meters) of the beam when the beam is not attached to anything. Max range of the beam.
+</td>
+<td>0-100
+</td></tr>
+<tr>
+<th><b>tractorBeamForce</b>
+</th>
+<td>Maximum amount of force the beam will try to apply to grabbed object.
+</td>
+<td>0-50,000
+</td></tr>
+<tr>
+<th><b>tractorBeamTorque</b>
+</th>
+<td>Maximum amount of torque the beam will try to apply to grabbed object.
+</td>
+<td>0-50,000
+</td></tr>
+<tr>
+<th><b>tractorBeamPosition</b>
+</th>
+<td>The distance (meters) the beam tries to move a held object to. Resets on grab, but does not message network / other devices.
+</td>
+<td>0-100
+</td></tr>
+<tr>
+<th><b>tractorBeamYaw</b>
+</th>
+<td>The yaw (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+</td>
+<td>-
+</td></tr>
+<tr>
+<th><b>tractorBeamPitch</b>
+</th>
+<td>The pitch (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+</td>
+<td>-
+</td></tr>
+<tr>
+<th><b>tractorBeamRoll</b>
+</th>
+<td>The roll (degrees) the beam tries to move a held object to, relative to the base. Resets on grab, but does not message network / other devices.
+</td>
+<td>-
+</td></tr>
+<tr>
+<th><b>tractorBeamObjectInBeam</b>
+</th>
+<td>Indicates whether an object is grabbed by the beam.
+</td>
+<td>1 or 0
+</td></tr>
+<tr>
+<th><b>tractorBeamForceApplied</b>
+</th>
+<td>Indicates the force currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target position.
+</td>
+<td>-
+</td></tr>
+<tr>
+<th><b>tractorBeamTorqueApplied</b>
+</th>
+<td>Indicates the torque currently being applied to the grabbed object. Can be used to detect when the grabbed object has been set to the target rotation.
+</td>
+<td>-
+</td></tr></tbody></table>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<p><br/>
+</p>
+<h2><span class="mw-headline" id="YOLOL_devices">YOLOL devices</span></h2>
+<h3><span class="mw-headline" id="YOLOL_Chip"><a href="/index.php?title=YOLOL_Chip" title="YOLOL Chip">YOLOL Chip</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>ChipWait</b>
+</th>
+<td>Controls script execution. Negative values mean execution is paused, zero means script is being executed, and positive values mean execution will continue after the amount of line runs have passed that are equal to the value.
+</td>
+<td>Numeric, any
+</td></tr></tbody></table>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Chip_socket"><a class="mw-redirect" href="/index.php?title=Chip_socket" title="Chip socket">Chip socket</a></span></h3>
+<h3><span class="mw-headline" id="Memory_chip"><a class="mw-redirect" href="/index.php?title=Memory_chip" title="Memory chip">Memory chip</a></span></h3>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>ChipField1</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ChipField2</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ChipField3</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ChipField4</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ChipField5</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ChipField6</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ChipField7</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ChipField8</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ChipField9</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ChipField10</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr></tbody></table>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<h3><span class="mw-headline" id="Modular_device_rack"><a href="/index.php?title=Modular_device_rack" title="Modular device rack">Modular device rack</a></span></h3>
+<p>To learn more about how to use fields, consult these wiki pages:
+</p>
+<ul><li><a href="/index.php?title=Universal_tool" title="Universal tool">Universal Tool</a></li>
+<li><a href="/index.php?title=Data_networks" title="Data networks">Data networks</a></li>
+<li><a href="/index.php?title=YOLOL" title="YOLOL">YOLOL</a></li></ul>
+<table class="wikitable">
+<tbody><tr>
+<th>YOLOL field
+</th>
+<th>description
+</th>
+<th>range
+</th></tr>
+<tr>
+<th><b>CurrentState</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>OnState</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>OffState</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr>
+<tr>
+<th><b>ButtonStyle</b>
+</th>
+<td>
+</td>
+<td>
+</td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Cached time: 20241202210933
+Cache expiry: 86400
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.226 seconds
+Real time usage: 0.292 seconds
+Preprocessor visited node count: 505/1000000
+Post‐expand include size: 31125/2097152 bytes
+Template argument size: 114/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    4.397      1 Template:Otherlang2
+100.00%    4.397      1 -total
+-->
+<!-- Saved in parser cache with key wikidb:pcache:idhash:1008-0!canonical and timestamp 20241202210932 and revision id 32421. Serialized with JSON.
+ -->
+</div></div> <div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://wiki.starbasegame.com/index.php?title=Device_fields&amp;oldid=32421">https://wiki.starbasegame.com/index.php?title=Device_fields&amp;oldid=32421</a>"					</div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/index.php?title=Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/index.php?title=Category:Devices_and_machines" title="Category:Devices and machines">Devices and machines</a></li></ul></div></div><div id="mw-data-after-content">
+<div class="mw-cookiewarning-container"><div class="mw-cookiewarning-text"><span>Cookies help us deliver our services. By using our services, you agree to our use of cookies.</span></div><form method="POST"><div class="oo-ui-layout oo-ui-horizontalLayout"><span aria-disabled="false" class="oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-labelElement oo-ui-flaggedElement-primary oo-ui-flaggedElement-progressive oo-ui-buttonInputWidget"><button aria-disabled="false" class="oo-ui-inputWidget-input oo-ui-buttonElement-button" name="disablecookiewarning" tabindex="0" type="submit" value="OK"><span class="oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert"></span><span class="oo-ui-labelElement-label">OK</span><span class="oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert"></span></button></span></div></form></div>
+</div>
+<div class="visualClear"></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<div aria-labelledby="p-personal-label" class="" id="p-personal" role="navigation">
+<h3 id="p-personal-label">Personal tools</h3>
+<ul>
+<li class="mw-list-item" id="pt-createaccount"><a href="/index.php?title=Special:CreateAccount&amp;returnto=Device+fields" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/index.php?title=Special:UserLogin&amp;returnto=Device+fields" title="You are encouraged to log in; however, it is not mandatory [o]">Log in</a></li> </ul>
+</div>
+<div id="left-navigation">
+<div aria-labelledby="p-namespaces-label" class="starbaseTabs" id="p-namespaces" role="navigation">
+<h3 id="p-namespaces-label">Namespaces</h3>
+<ul>
+<li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/index.php?title=Device_fields" title="View the content page [c]">Page</a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/index.php?title=Talk:Device_fields" rel="discussion" title="Discussion about the content page [t]">Discussion</a></li> </ul>
+</div>
+<div aria-labelledby="p-variants-label" class="starbaseMenu emptyPortlet" id="p-variants" role="navigation">
+<input aria-labelledby="p-variants-label" class="starbaseMenuCheckbox" type="checkbox"/>
+<h3 id="p-variants-label">
+<span>Variants</span>
+</h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div id="right-navigation">
+<div aria-labelledby="p-views-label" class="starbaseTabs" id="p-views" role="navigation">
+<h3 id="p-views-label">Views</h3>
+<ul>
+<li class="collapsible selected mw-list-item" id="ca-view"><a href="/index.php?title=Device_fields">Read</a></li><li class="collapsible mw-list-item" id="ca-viewsource"><a accesskey="e" href="/index.php?title=Device_fields&amp;action=edit" title="This page is protected.
+You can view its source [e]">View source</a></li><li class="collapsible mw-list-item" id="ca-history"><a accesskey="h" href="/index.php?title=Device_fields&amp;action=history" title="Past revisions of this page [h]">View history</a></li> </ul>
+</div>
+<div aria-labelledby="p-cactions-label" class="starbaseMenu emptyPortlet" id="p-cactions" role="navigation">
+<input aria-labelledby="p-cactions-label" class="starbaseMenuCheckbox" type="checkbox"/>
+<h3 id="p-cactions-label"><span>More</span></h3>
+<div class="menu">
+<ul>
+</ul>
+</div>
+</div>
+<div id="p-search" role="search">
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/index.php" id="searchform">
+<div id="simpleSearch">
+<input accesskey="f" autocapitalize="sentences" id="searchInput" name="search" placeholder="Search Starbase wiki" title="Search Starbase wiki [f]" type="search"/><input name="title" type="hidden" value="Special:Search"/><input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search the pages for this text" type="submit" value="Search"/><input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/> </div>
+</form>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/index.php?title=Main_Page" title="Visit the main page"></a></div>
+<div aria-labelledby="p-navigation-label" class="portal" id="p-navigation" role="navigation">
+<h3 id="p-navigation-label">Navigation</h3>
+<div class="body">
+<ul>
+<li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/index.php?title=Main_Page" title="Visit the main page [z]">Main Page</a></li><li class="mw-list-item" id="n-rules-page-description"><a href="/index.php?title=Wiki_rules">Wiki Editing &amp; Rules</a></li><li class="mw-list-item" id="n-recentchanges-page-description"><a href="/index.php?title=Special:RecentChanges">Recent Changes</a></li><li class="mw-list-item" id="n-about-page-description"><a href="/index.php?title=Starbase_wiki:About">About &amp; Contact</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-starbase-sidebar-category-label" class="portal" id="p-starbase-sidebar-category" role="navigation">
+<h3 id="p-starbase-sidebar-category-label">Starbase</h3>
+<div class="body">
+<ul>
+<li class="mw-list-item" id="n-earlyaccess-page-description"><a href="/index.php?title=Early_Access">Early Access</a></li><li class="mw-list-item" id="n-roadmap-page-description"><a href="/index.php?title=Roadmap">Roadmap</a></li><li class="mw-list-item" id="n-sysreq-page-description"><a href="/index.php?title=System_requirements">System Requirements</a></li><li class="mw-list-item" id="n-technicalhelp-page-description"><a href="/index.php?title=Technical_help">Technical Help</a></li><li class="mw-list-item" id="n-bugs-page-description"><a href="/index.php?title=Technical_help">Bugs &amp; Known Issues</a></li><li class="mw-list-item" id="n-support-page-description"><a href="/index.php?title=Support">Support</a></li><li class="mw-list-item" id="n-feedback-page-description"><a href="/index.php?title=Feedback">Feedback</a></li><li class="mw-list-item" id="n-general-rules-page-description"><a href="/index.php?title=Rules">Rules</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-collections-sidebar-category-label" class="portal" id="p-collections-sidebar-category" role="navigation">
+<h3 id="p-collections-sidebar-category-label">Collections</h3>
+<div class="body">
+<ul>
+<li class="mw-list-item" id="n-devicesandmachines-page-description"><a href="/index.php?title=Category:Devices_and_machines">Devices and Machines</a></li><li class="mw-list-item" id="n-jobs-page-description"><a href="/index.php?title=Jobs">Jobs</a></li><li class="mw-list-item" id="n-building-page-description"><a href="/index.php?title=Building">Building</a></li><li class="mw-list-item" id="n-politics-page-description"><a href="/index.php?title=Factions">Politics</a></li><li class="mw-list-item" id="n-spaceships-page-description"><a href="/index.php?title=Spaceships">Spaceships</a></li><li class="mw-list-item" id="n-stations-page-description"><a href="/index.php?title=Stations">Stations</a></li><li class="mw-list-item" id="n-tools-page-description"><a href="/index.php?title=Tools">Tools</a></li><li class="mw-list-item" id="n-weapons-page-description"><a href="/index.php?title=Weapons">Weapons</a></li><li class="mw-list-item" id="n-broadcasts-page-description"><a href="/index.php?title=News_Broadcasts">News Broadcasts</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-endoskeleton-sidebar-category-label" class="portal" id="p-endoskeleton-sidebar-category" role="navigation">
+<h3 id="p-endoskeleton-sidebar-category-label">Endoskeleton</h3>
+<div class="body">
+<ul>
+<li class="mw-list-item" id="n-cv-page-description"><a href="/index.php?title=Endoskeleton_CV">C.V.</a></li><li class="mw-list-item" id="n-emotes-page-description"><a href="/index.php?title=Emotes">Emotes</a></li><li class="mw-list-item" id="n-endoskeleton-page-description"><a href="/index.php?title=Endoskeleton">Endoskeleton</a></li><li class="mw-list-item" id="n-insurance-page-description"><a href="/index.php?title=Insurance">Insurance</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-networks-sidebar-category-label" class="portal" id="p-networks-sidebar-category" role="navigation">
+<h3 id="p-networks-sidebar-category-label">Networks</h3>
+<div class="body">
+<ul>
+<li class="mw-list-item" id="n-datanetworks-page-description"><a href="/index.php?title=Data_networks">Data Networks</a></li><li class="mw-list-item" id="n-pipenetworks-page-description"><a href="/index.php?title=Pipe_networks">Pipe Networks</a></li><li class="mw-list-item" id="n-resourcenetworks-page-description"><a href="/index.php?title=Resource_networks">Resource Networks</a></li><li class="mw-list-item" id="n-yolol-page-description"><a href="/index.php?title=YOLOL">YOLOL</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-guides-sidebar-category-label" class="portal" id="p-guides-sidebar-category" role="navigation">
+<h3 id="p-guides-sidebar-category-label">Guides and Tutorial</h3>
+<div class="body">
+<ul>
+<li class="mw-list-item" id="n-spaceshipdesigner-page-description"><a href="/index.php?title=Spaceship_Designer_Guide">Spaceship Designer</a></li><li class="mw-list-item" id="n-spaceshipassembly-page-description"><a href="/index.php?title=Spaceship_Assembly_Guide">Spaceship Assembly</a></li><li class="mw-list-item" id="n-lotdesigner-page-description"><a href="/index.php?title=Lot_Designer_Guide">Lot Designer</a></li><li class="mw-list-item" id="n-stationbuilding-page-description"><a href="/index.php?title=Station_Building_Guide">Station Building</a></li><li class="mw-list-item" id="n-devices-page-description"><a href="/index.php?title=Device_Guide">Devices</a></li><li class="mw-list-item" id="n-guides-page-description"><a href="/index.php?title=Category:Guides">Other Guides</a></li> </ul>
+</div>
+</div>
+<div aria-labelledby="p-wikitools-sidebar-category-label" class="portal" id="p-wikitools-sidebar-category" role="navigation">
+<h3 id="p-wikitools-sidebar-category-label">Wiki Tools</h3>
+<div class="body">
+<ul>
+<li class="mw-list-item" id="n-allpages-page-description"><a href="/index.php?title=Special:AllPages">All Pages</a></li><li class="mw-list-item" id="n-specialpages-page-description"><a href="/index.php?title=Special:SpecialPages">Special Pages</a></li><li class="mw-list-item" id="n-randompage-page-description"><a href="/index.php?title=Special:Random">Random Page</a></li><li class="mw-list-item" id="n-uploadfile-page-description"><a href="/index.php?title=Special:Upload">Upload a File</a></li><li class="mw-list-item" id="n-linkback-page-description"><a href="/index.php?title=Special:WhatLinksHere">What Links Here?</a></li> </ul>
+</div>
+</div>
+</div>
+</div>
+<div id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last edited on 4 July 2024, at 06:08.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="/index.php?title=Starbase_wiki:Privacy_policy" title="Starbase wiki:Privacy policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/index.php?title=Starbase_wiki:About" title="Starbase wiki:About">About Starbase wiki</a></li>
+<li id="footer-places-disclaimer"><a href="/index.php?title=Starbase_wiki:General_disclaimer" title="Starbase wiki:General disclaimer">Disclaimers</a></li>
+</ul>
+<div style="clear: both;"></div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.226","walltime":"0.292","ppvisitednodes":{"value":505,"limit":1000000},"postexpandincludesize":{"value":31125,"limit":2097152},"templateargumentsize":{"value":114,"limit":2097152},"expansiondepth":{"value":4,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%    4.397      1 Template:Otherlang2","100.00%    4.397      1 -total"]},"cachereport":{"timestamp":"20241202210933","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":92});});</script>
+</body>

@@ -1,0 +1,81 @@
+{{Otherlang2
+|ua=Фіксоване кріплення пускової установки
+}}
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Fixed launcher mount.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Mounts [[Torpedo launcher|torpedo launchers]]
+	  
+	  |size=96×96×36  cm
+	  |mass=1,485.2
+	  |volume=149.27
+	  |corrosionResistance=390
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=1
+	  |deviceInterfaces=1
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=20%
+	  |arkanium=
+	  |bastium=55%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=25%
+	  |xhalium=
+	}}
+}}<section begin=summary/>A fixed mount for a [[Torpedo launcher|torpedo launcher]] that enables [[YOLOL|YOLOL]] operation of the torpedo launcher.<section end=summary/>
+
+== Related pages ==
+
+*[[Fixed mount]]
+
+[[Category:Devices and machines]]

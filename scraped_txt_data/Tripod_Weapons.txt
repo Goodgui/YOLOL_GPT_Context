@@ -1,0 +1,63 @@
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:tripod_2.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Tripod
+	  |border=none
+	  |edgeless=true
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Weapon device
+	  |function=Stationary heavy weapon platform	  
+	  |size=
+	  |mass=
+	  |volume=
+	  |corrosionResistance=
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+|{{SB Infobox Device Construction
+  |headerOverride=
+  |aegisium=
+  |ajatite=517.00
+  |arkanium=
+  |bastium=827.30
+  |charodium=723.80
+  |corazium=
+  |daltium=
+  |eosofon=
+  |exorium=
+  |haderite=
+  |ice=
+  |ilmatrium=
+  |karnite=
+  |kutonium=
+  |lukium=
+  |merkerium=
+  |naflite=
+  |nhurgite=
+  |oninum=
+  |surtrite=
+  |talkite=
+  |targium=
+  |tengium=
+  |ukonium=
+  |valkite=
+  |vokarium=
+  |xhalium=
+  |ymrium=
+}}
+}}<section begin=summary/>Tripod weapons are heavy infantry weaponry platforms that can hold different types of tripod weapons. While setting up a tripod takes a moment, tripod weapons can be easily taken off and swapped for another. Tripod weapons operate at a lowered fire rate when not attached to electricity. To attach a tripod weapon to electricity the operating endoskeleton needs to be connected to a resource bridge.<section end=summary/>
+
+== Tripod Weapon types ==
+
+{{SB Infobox Compact
+|{{#invoke:Transcluder|main|Tripod_Autocannon|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Tripod_Laser|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Tripod_Plasma|only=templates|templates=SB Infobox|makeLink=true}}
+|{{#invoke:Transcluder|main|Tripod_Railgun|only=templates|templates=SB Infobox|makeLink=true}}
+}}
+
+[[Category:Devices and machines]]

@@ -1,0 +1,35 @@
+Skipping if statements in YOLOL involves replacing conditional logic with mathematical operations to reduce code size and improve efficiency. 
+This method is particularly effective when dealing with binary values (0 and 1) and simplifies code by avoiding the need for "if", "then", and "end" keywords.
+
+Rules:
+1. Use multiplication (*) to replace AND logic.
+   - If both values are 1, the result is 1; otherwise, the result is 0.
+2. Use addition (+) to replace OR logic.
+   - If either value is 1, the result is 1; otherwise, the result is 0.
+3. Combine logical expressions directly into assignments for compact code.
+
+AND replacement:
+if :ButtonState == 1 and :DoorState == 1 then :LampOn = 1 end
+Replaced with:
+:LampOn = :ButtonState * :DoorState
+
+OR replacement:
+if :ButtonState == 1 or :DoorState == 1 then :LampOn = 1 end
+Replaced with:
+:LampOn = :ButtonState + :DoorState
+
+Complex logic:
+if :One and :Two then :LampOn = 1 goto 2 end
+if :One < 1 and :Three then :LampOn = 1 end
+Replaced with:
+:LampOn = (:One * :Two) + ((1 - :One) * :Three)
+
+Dynamic goto:
+if :Button != 1 then goto 1 end a = 123 b = 456 c = 789
+Replaced with:
+a = 123 b = 456 c = 789 goto 1 + :Button
+
+Notes:
+1. This approach reduces character usage, fitting more logic per line.
+2. It works best with binary values (0 and 1).
+3. Ensure clarity when combining multiple operations.

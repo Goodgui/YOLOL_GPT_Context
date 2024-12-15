@@ -1,0 +1,48 @@
+Coolant recharge rack
+Type
+Coolant device
+Function
+Recycles coolant
+Size
+72×72×36 cm
+Mass
+823.67 kg
+Volume
+85.44 kv
+Corrosion resistance
+630
+Input / Output
+Electric input
+100 per second
+Coolant recycle rate
+15 per second
+Device interfaces
+1
+Composition
+Aegisium
+60%
+Bastium
+25%
+Vokarium
+15%
+Coolant recharge racks are used to recharge expired coolant cells.
+Basic Usage
+Recycles used (hot) coolant from coolant cells that are placed inside it back into usable (cold) coolant.
+Mounted on a hardpoint, not the generator.
+Device fields
+YOLOL field
+Description
+Range
+CoolantRechargeRateLimit
+Upper limit for conversion rate for this recharge rack
+0 - 100
+CoolantRechargeRate
+Current conversion rate for this recharge rack.
+0 - 100
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Generator (Assembly)
+Small cooling cell

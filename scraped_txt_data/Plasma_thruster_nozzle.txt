@@ -1,0 +1,58 @@
+{{Otherlang2
+|jp=プラズマスラスターノズル
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Plasma thruster, nozzle.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Mounts the nozzle collar of a plasma thruster
+	  
+	  |size=540×270×144 cm
+	  |mass=26,115.6
+	  |volume=2,790.13
+	  |corrosionResistance=450
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+	
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=30%
+	  |ajatite=
+	  |arkanium=
+	  |bastium=
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=35%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |ymrium=35%
+	  |vokarium=
+	  |xhalium=
+	}}
+}}<section begin=summary/>The plasma thruster nozzle is a component of the [[Plasma thruster|plasma thruster]] that is mounted at the very end of the [[Plasma thruster superconductor|superconductor tunnel]]. They serve to direct the force of a plasma thruster, and two of these are needed for a properly assembled plasma thruster.<section end=summary/>
+
+== Related pages ==
+
+*[[Plasma thruster]]
+
+[[Category:Devices and machines]]

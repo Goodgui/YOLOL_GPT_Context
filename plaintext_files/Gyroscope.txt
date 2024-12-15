@@ -1,0 +1,47 @@
+Gyroscope
+Type
+Controls
+Function
+Tracks device rotation
+Size
+48x48x24 cm
+Mass
+338.0 kg
+Volume
+38.951 kv
+Primary material
+Bastium
+Composition
+Arkanium
+15%
+Bastium
+30%
+Bastonium
+35%
+Vokarium
+20%
+Gyroscope devices are used to track device rotation over yaw, pitch and roll axes relative to a calibrated 0-pose. Calibrate 0-pose by setting GyroCalibrateId to 1, it will automatically return to 0 after calibration is complete.
+Due to the device's construction, roll delta values are limited to a range of [-90,90] and rolling further than that will cause the yaw and pitch values to change.
+Basic information
+Gyroscope resets after each ship reloading/rehosting
+Gyroscope can work without electricity
+Device fields
+YOLOL field
+description
+range
+GyroCalibrate
+Reset gyroscope and set a 0-position
+0 - 1
+GyroPitch
+Pitch offset
+-180 to 180
+GyroYaw
+Yaw offset
+-180 to 180
+GyroRoll
+Roll offset
+-90 to 90
+To learn more about the usage of fields, consult these wiki pages:
+Universal tool
+Data networks
+YOLOL

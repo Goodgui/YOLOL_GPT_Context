@@ -1,0 +1,90 @@
+{{Otherlang2}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_passenger_chair.png]]
+	  |factionLogo=
+	  |caption=Passenger chairs, with and without stands
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Control device
+	  |function=Furniture
+	  
+	  |size=156×50×90 cm (assembled)
+	  |mass=1,494.78 kg (assembled)
+	  |volume=150.23 kv (assembled)
+	  |corrosionResistance=300 (lowest)
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (chair)
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=75%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=25%
+	  |xhalium=
+	}}
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (stand)
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}
+
+Unlike [[Pilot_chair|pilot chairs]], passenger chairs serve only a singular purpose: To provide a place for an endoskeleton to relax after a long day in the belt. Passenger chairs have no key-binding functionality, and no electrical sockets on their stands.
+
+== Basic information ==
+
+Passenger seats can be assembled from two pieces [[Bolt tool|bolted]] together, though the seat is functional as a single part:
+* Seat
+* Stand
+
+== Gallery ==
+
+<gallery mode="packed" heights="160px">
+Image:Passenger chair.png|''Passenger chair''
+Image:Passenger chair stand.png|''Passenger chair stand''
+</gallery>
+
+
+[[Category:Devices and machines|Chairs]]

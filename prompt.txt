@@ -1,0 +1,43 @@
+Extract all of the data from this text into JSON. DO NO TRUNCATE. You are producing and end result product that needs to be precise and complete. Abide by the following instructions:
+- Ignore image, description, type, function, primary material, related pages/info, learn more, etc
+- Top object should have title, summary, tiers, and other for data like instructions/descriptions that do not fit into those fields and are identical for all tiers.
+- Each tier should contain name, size, mass, volume, corrosionResistance, composition, materials, device_fields, and other.
+- if there are multiple types of items that are not direct tiers of one another (They will state tier1,2,3) they should be separated into multiple different items with different JSON files. For example different types of hinges or buttons.
+- Change "#×#×#" to use normal x's "# x # x #"
+- "device_fields" should contain 3 fields each. name, description, and range. Device fields are under "== Device fields ==" and each fields starts with '''
+- "device construction" always contains percentages and should be put into the composition field. "material required" is a separate non-interchangeable value to composition.
+- If composition and material are identical for all tiers they should still be included within each tier.
+- Do NOT include any reference to the wiki, other pages, learning more, or any other references to outside data
+- If only "primary material" is present and not "material required" leave materials empty.
+
+Basic Template:
+{
+    "title": "title",
+    "summary": "summary",
+    "tiers": [
+      {
+        "name": "name",
+        "size": "# x # x # cm",
+        "mass": #,
+        "volume": #,
+        "corrosionResistance": #,
+        "composition": {
+          "material a": "#%",
+          "material b": "#%"
+        },
+        "materials": {
+          "material 1": #,
+          "material 2": #
+        },
+        "device_fields": [
+          {
+            "name": "",
+            "description": "",
+            "range": ""
+          }
+        ],
+        "other": {}
+      }
+    ],
+    "other": {}
+  }

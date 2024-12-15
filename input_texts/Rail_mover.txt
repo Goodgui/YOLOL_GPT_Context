@@ -1,0 +1,125 @@
+{{ClosedAlphaContent}}
+
+{{Otherlang2
+|de=Rail_mover:de
+|fr=Rail_mover/fr
+|zh-cn=轨道车
+|ru=Рельсовый двигатель
+|ua=Рейковий Двигун
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase rail mover.png]]
+	  |factionLogo=
+	  |caption=Rail movers in a variety of configurations
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Factory machinery
+	  |function=Linear motor
+	  
+	  |size=<ul><li>72×72×36 cm ''(base)''</li><li>72×72×36 cm ''(turntable)''</li></ul>
+	  |mass=<ul><li>344 kg ''(base)''</li><li>392 kg ''(turntable)''</li></ul>
+	  |volume=<ul><li>34.57 kv ''(base)''</li><li>39.42 kv ''(turntable)''</li></ul>
+	  |corrosionResistance=400
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=5 e/s
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=1
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}<section begin=summary/>Three different rail mover entities exist: basic, turntable, and jointed for machinery.<br>
+Rails can be used to create anything that moves on rails, like elevators, [[Mounted weapons|gun turrets]], and [[Capital Mega Station#Factory|factory]] lines.<br>
+The primary use for rails however is automation.<section end=summary/>
+
+== Basic information ==
+
+The mover is the device which is located on the rail and performs the actual locomotion of other devices on top of it.<br>
+Rail movers are controlled by using a '''[[YOLOL|YOLOL]]''' variable; by default, the "'''speed'''" variable.<br>
+A mover will automatically connect to any rail it is on, and can only move along the rails.
+
+Anything connected to the sockets or plugs of a mover will also be on the same network as the mover.<br>
+This means that devices properly connected through a mover can be YOLOL-controlled from the same network as the mover.
+
+Rail movers will move in the direction of the arrow on the mover.<br>
+In the case of a negative speed, rail movers will move in the opposite direction of the arrow.
+
+== Videos ==
+{{#evt:
+service=youtube
+|id=https://www.youtube.com/watch?v=Jx4cpT5Ec5g
+}}
+
+{{#evt:
+service=youtube
+|id=https://www.youtube.com/watch?v=ywzBtwBAx5s
+}}
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''speed'''
+| Target velocity of the rail mover in m/s
+|
+|-
+! '''RailMoverTriggerValue'''
+| If we cross a [[Rail trigger|rail trigger]] that is configured to emit values read from the mover, it reads from this field.
+|
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Rail mover]]

@@ -1,0 +1,16 @@
+Summary
+Chairs are a type of seat, usually equipped with four legs.
+The known universe has a variety of chairs with different functions and designs, such as pilot chairs of spaceships or benches that can usually be found at space stations.
+Basic information
+All chairs and benches can naturally be sit on as that is (usually) their main function.
+Within the known universe, pilot chairs, however, also have some specific features. 
+All pilot chairs are interactable and from them the key binds of the nearby devices can also be customized.
+Pilot seats can be assembled from four pieces bolted together, though the seat is functional as a single part:
+Seat
+Stand
+Two sides (arm rests)
+Device fields
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

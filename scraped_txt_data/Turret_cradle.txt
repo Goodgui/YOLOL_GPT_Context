@@ -1,0 +1,110 @@
+{{Otherlang2
+|ua=Колиска
+|ru=Люлька
+}}
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Cradles.png]]
+	  |factionLogo=
+	  |caption=An advanced cradle and a basic cradle
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility machinery
+	  |function=Turret mobility
+	  
+	  |size=<ul><li>144×144×108 cm ''(basic)''</li><li>204×204×204 cm ''(adv.)''</li></ul>
+	  |mass=<ul><li>6,603.91 kg ''(basic)''</li><li>7,937.51 kg ''(adv.)''</li></ul>
+	  |volume=<ul><li>663.71 kv ''(basic)''</li><li>797.74 kv ''(adv.)''</li></ul>
+	  |corrosionResistance=340
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=~3 e/s
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=2
+	  |deviceInterfaces=2 ''(adv.)''
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=80%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=20%
+	  |xhalium=
+	}}
+}}
+<section begin=summary/>Cradles are device platforms that enable devices mounted to turntables to pitch forward and backwards. They are a pivotal part of any turret system, and can mount many devices such as [[Mounted weapons|weapons]] or tools like the [[Mining laser (Assembly)|mining laser]].
+<section end=summary/>
+== Basic information ==
+
+A cradle's target rotation can be set with the [[Universal tool|universal tool]], or by connecting it to a control device such as a [[Levers|lever]] or a [[Buttons|button]]. The cradle's turret rotation [[Device fields|device field]] will rotate the cradle to the specified number in degrees, and does not allow relative adjustments (eg: +5 or -5). Cradles must be mounted to [[Turntable|turntables]] in order to function, as they do not have other interfaces like a [[Hardpoints|hardpoint]]. The speed at which a cradle rotates is determined by the mass attached to it, and adding too many devices to a cradle will slow it severely. Cradles like the advanced cradle also have provisions for mounting devices to the bases on their outward-facing 'ears'.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''TurretPitch'''
+| Target pitch of the cradle
+| 0
+|-
+! '''TurretCurrentPitch'''
+| Current rotation of the cradle
+| 0
+|-
+! '''MaxRotation'''
+| High limit of the rotation
+| 180 / 160 on basic cradle
+|-
+!'''MinRotation'''
+| Low limit of the rotation
+| -180 / -20 on basic cradle
+|-
+!'''TargetVelocity'''
+| Target velocity with which the cradle rotates
+| 3
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Cradle]]

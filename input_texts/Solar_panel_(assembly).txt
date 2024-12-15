@@ -1,0 +1,41 @@
+{{Otherlang2
+|ru=Солнечная панель (Собранная)
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Solar panel (assembly).png]]
+	  |factionLogo=
+	  |caption=An assembled solar panel array, with optional turntable
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Power device
+	  |function=Converts solar power to network power
+	  |availability=
+	}}
+
+	|{{SB Infobox Component Section
+	  |Solar panel
+	  |Solar panel light sensor
+	  |Solar power converter
+	  |Solar panel support
+	}}
+
+}}<section begin=summary/>Solar panels are complex devices used to generate electricity via the conversion of solar power. They can be assembled in a variety of ways to suit the requirements of the operator, and made to automatically track the sun to maximize their generation potential. Adjacent [[Solar panel|solar panels]] and [[Solar panel light sensor|solar panel light sensors]] are automatically added to the same device network, and do not require individual [[Hardpoints|hardpoints]] to provide power.<section end=summary/>
+
+== Device fields ==
+
+===[[Solar panel light sensor]]===
+{{#lst:Solar panel light sensor|deviceFields}}
+
+===[[Solar power converter]]===
+{{#lst:Solar power converter|deviceFields}}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+
+[[Category:Devices and machines]]

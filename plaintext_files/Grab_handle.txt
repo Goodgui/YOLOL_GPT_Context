@@ -1,0 +1,19 @@
+Grab handle
+Type
+Control device
+Function
+Physical interaction with hinges and turntables
+Size
+24×12×12 cm
+Mass
+21.4
+Volume
+2.15
+Corrosion resistance
+360
+Primary material
+Bastium
+Composition
+Bastium
+100%
+The grab handle is a device that allows a player to interact with and manipulate an object that is mounted to a hinge or turntable, and physically rotate the joint without using YOLOL. Grab handles work only if a hinge/turntable is unpowered. Sliders cannot be moved with grab handles.

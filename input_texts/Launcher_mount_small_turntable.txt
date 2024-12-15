@@ -1,0 +1,81 @@
+{{Otherlang2
+|ua=Поворотне кріплення пускової установки
+}}
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Fixed mount, turntable launcher.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Utility mount with yawing ability
+	  
+	  |size=96×96×36  cm
+	  |mass=1,232.6
+	  |volume=123.88
+	  |corrosionResistance=390
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=1
+	  |deviceInterfaces=1
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=20%
+	  |arkanium=
+	  |bastium=55%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=25%
+	  |xhalium=
+	}}
+}}<section begin=summary/>A fixed mount for a [[Turntable|small turntable]]. While not as mobile as a turntable and a [[Cradle|cradle]], these devices allow a full range of motion about the Y-axis when mounted to a turntable, and can fit a single [[Torpedo launcher|torpedo launcher]] or [[Missile launcher|missile launcher]].<section end=summary/>
+
+== Related pages ==
+
+*[[Fixed mount]]
+
+[[Category:Devices and machines]]

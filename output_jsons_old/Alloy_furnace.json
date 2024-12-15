@@ -1,0 +1,56 @@
+{
+    "type": "Crafting device",
+    "function": "Alloy crafting",
+    "size": "288 x 216 x 144 cm",
+    "mass": {
+        "belt": "42,421.74 kg",
+        "moon": "43,090.91 kg"
+    },
+    "volume": {
+        "belt": "3,827.47 kv",
+        "moon": "3,888.86 kv"
+    },
+    "corrosion_resistance": 504,
+    "primary_material": "Bastium",
+    "electric_input": "Up to 1,000,000",
+    "sockets": 4,
+    "composition": {
+        "Aegisium": 16,
+        "Bastium": 10,
+        "Lukium": 14,
+        "Vokarium": 22,
+        "Ymrium": 38
+    },
+    "description": "OUTDATED The Alloy furnace is a crafting device that is used to create alloys. There are two types of alloy furnaces, one for asteroid belts and one for atmospheres of moons. Each alloy has a specific requirement for the type of belt or atmosphere they need to be crafted in. For the alloy furnace to work, it needs to accumulate crafting charges. Each charge costs 1,000,000 electricity and the furnace can store up to 100 charges. Each charge allows you to craft 1 stack of an alloy that is compatible with the current atmosphere.",
+    "basic_information": {
+        "charge_accumulation_speed": "Can be adjusted from Furnace UI or device fields",
+        "resource_network": "Can be attached to boost the charge accumulation speed",
+        "internal_electricity_plant": {
+            "electricity_production": "3,000 electricity per second when fuel rod is attached",
+            "supported_fuel_rods": [
+                "Tier 1",
+                "Tier 2"
+            ]
+        }
+    },
+    "device_fields": {
+        "YOLOL_field": {
+            "FurnaceChargingLimit": {
+                "description": "Percentage value of electricity charge of the furnace",
+                "range": "0 - 100"
+            },
+            "FurnaceChargingRate": {
+                "description": "Current rate in percent",
+                "range": "0 - 100"
+            },
+            "StoredCharges": {
+                "description": "How many alloy crafting orders you can currently queue",
+                "range": "0 - MaxCharges"
+            },
+            "MaxCharges": {
+                "description": "How many alloy crafting orders you can queue at full charge",
+                "value": 100
+            }
+        }
+    }
+}

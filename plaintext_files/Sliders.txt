@@ -1,0 +1,137 @@
+The basic version of the slider
+Sliders
+Type
+Utility machinery
+Function
+Sliding motor
+Sliders are motors that produce lateral motion. They are functional siblings of hinges.
+Basic information
+Sliders are most frequently interacted with via a button or YOLOL script, but can also be interacted with directly via the universal tool. They are not especially strong, and cannot be used to mount thrusters to a ship; nor do any of them have provisions to transfer power or propellant beyond the joint itself.
+Gallery
+Slider (basic)
+Size
+72×144×24 cm
+Mass
+1,454.9 kg kg
+Volume
+146.22 kv kv
+Corrosion resistance
+415
+Input / Output
+Electric input
+5 e/s
+Sockets
+2
+Modular interfaces
+2
+Composition
+Ajatite
+10%
+Bastium
+70%
+Kutonium
+5%
+Tengium
+15%
+Slider (C-profile)
+Size
+72×144×48 cm
+Mass
+1,984.9 kg kg
+Volume
+199.49 kv kv
+Corrosion resistance
+415
+Input / Output
+Electric input
+5 e/s
+Sockets
+2
+Modular interfaces
+2
+Composition
+Ajatite
+10%
+Bastium
+70%
+Kutonium
+5%
+Tengium
+15%
+Slider (L-profile)
+Size
+60×144×24 cm
+Mass
+1,403.3 kg kg
+Volume
+141.04 kv kv
+Corrosion resistance
+415
+Input / Output
+Electric input
+5 e/s
+Sockets
+2
+Modular interfaces
+2
+Composition
+Ajatite
+10%
+Bastium
+70%
+Kutonium
+5%
+Tengium
+15%
+Slider (T-profile)
+Size
+60×144×24 cm
+Mass
+1,317.7 kg kg
+Volume
+132.43 kv kv
+Corrosion resistance
+415
+Input / Output
+Electric input
+5 e/s
+Sockets
+2
+Modular interfaces
+2
+Composition
+Ajatite
+10%
+Bastium
+70%
+Kutonium
+5%
+Tengium
+15%
+Device fields
+YOLOL field
+Description
+Range
+DoorOpenState
+Input field for requested door state. 0 is closed, 1 is fully open.
+[0,1]
+DoorCurrentState
+Reports the current position of the door, on the same scale as
+DoorOpenState
+[0,1]
+EndPosition
+The rotation/position the joint should be at when
+DoorOpenState
+is 1. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+[-100,100]
+StartPosition
+The rotation/position the joint should be at when
+DoorOpenState
+is 0. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+[-100,100]
+TargetVelocity
+The maximum velocity the joint will reach. Different joint devices have different velocity limits, and might not be able to reach the configured velocity.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

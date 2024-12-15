@@ -1,0 +1,53 @@
+!
+This page contains information that pertains only to the
+closed alpha
+version of the game, which was discontinued on July 26th, 2021. It has been kept up for posterity only, but you may still
+edit it.
+Rail trigger
+Type
+Rail devices
+Function
+Detects rail movers
+Size
+8×12×1.5 cm
+Mass
+4.08 kg
+Volume
+0.41 kv
+Corrosion resistance
+350
+Composition
+Bastium
+60.54%
+Kutonium
+9.8%
+Tengium
+9.8%
+Vokarium
+19.85%
+Rail triggers are attached to rails and used to control rail network behavior, either through YOLOL or directly by changing configured values.
+Rail triggers detect rail movers passing by them.
+Basic information
+When bolted to a rail, rail triggers will detect rail movers passing by them.
+When a mover passes, the rail trigger sets a single variable to either a predetermined value, or a value read from the triggering mover.
+Device fields
+YOLOL field
+description
+range
+RailTriggerOutput
+The output field the trigger writes to.
+None
+RailTriggerValue
+Value written to
+RailTriggerOutput
+when a rail mover passes over.
+RailTriggerReadMover
+If non-zero, will read the rail mover's
+RailMoverTriggerValue
+field and emit that instead of the trigger's
+RailTriggerValue
+.
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

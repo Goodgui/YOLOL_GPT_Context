@@ -1,0 +1,119 @@
+Modular Displays
+Type
+Display devices
+Function
+Data display
+Modular displays are most commonly used in spaceship cockpits as information screens and they are considered vital for easy ship management.
+Progress bars are generally configured to show progress from 0 to 100, whereas text panels are generally used to show text.
+They can however be used to display whatever information needed.
+Basic information
+All modular displays need to be connected to a data network and a power source in order for them to work.
+Modular displays are designed for displaying information.
+The displayable content is set to the
+PanelValue
+field.
+They can be connected to the panel base directly or via another modular device by snapping them together.
+Modular devices are: Displays, hybrid buttons and the audio signal device mark 1.
+YOLOL can be used to display information, but it is not necessary.
+Types
+Progress bar 12×24
+Size
+24×12×3 cm
+Mass
+5.77 kg
+Volume
+0.58 kv
+Corrosion resistance
+509
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+12×24 cm
+Composition
+Ajatite
+14.94%
+Bastium
+15.29%
+Nhurgite
+9.87%
+Vokarium
+59.9%
+Progress bar 24×48
+Size
+48×24×3 cm
+Mass
+30.25 kg
+Volume
+3.04 kv
+Corrosion resistance
+510
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+24×48 cm
+Composition
+Ajatite
+14.98%
+Bastium
+15.05%
+Nhurgite
+9.99%
+Vokarium
+59.99%
+Text panel 24×24
+Size
+24×24×3 cm
+Mass
+14.5 kg
+Volume
+1.46 kv
+Corrosion resistance
+540
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+24×24 cm
+Composition
+Ajatite
+65%
+Bastium
+10%
+Nhurgite
+14.99%
+Vokarium
+10%
+Extra
+Progress bar memory
+Many progress bars can be stacked inside a socket allowing for large amounts of data field storage in a small space. An example .fbe can be found here.
+Device fields
+Progress bars
+YOLOL field
+description
+default
+PanelValue
+The value to display on the progress bar
+PanelMinValue
+The value at or below which the progress bar will appear empty
+0
+PaneMaxValue
+The range at or over which the progress bar will appear full(PanelMaxValue-PanelMinValue=TrueMaxValue)
+100
+PanelVariableResolution
+The smallest increment the number and progress bar will reflect, written out as a power of 10 (i.e. 0.01 will display two decimal places)
+1
+Text Panel
+YOLOL field
+description
+default
+PanelValue
+The value to display on the text panel
+PanelVariableResolution
+The smallest increment the number and text panel will reflect, written out as a power of 10 (i.e. 0.01 will display two decimal places)
+1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

@@ -1,0 +1,217 @@
+Ducts
+Type
+Cargo device
+Function
+Forms resource networks
+Ducts form part of a resource network, and can be used to replace cables and pipes. The ducts connect with adjacent and stacked ducts, and with cables and pipes when in contact with them. The dimensions of the ducts are compatable with the grooved part of beams, but they can be used anywhere.
+Collections
+Corners
+Corner 15×15
+Size
+15×15 cm
+Mass
+8.38 kg
+Volume
+0.93 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersections
+Intersection 48×30
+Size
+48×30 cm
+Mass
+20.9 kg
+Volume
+2.32 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersection 48×48
+Size
+48×48 cm
+Mass
+26.5 kg
+Volume
+2.94 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersection 72×42
+Size
+72×42 cm
+Mass
+32.5 kg
+Volume
+3.61 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersection 72×72
+Size
+72×72 cm
+Mass
+42.1 kg
+Volume
+4.67 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Linear
+Straight 12×12
+Size
+12×12 cm
+Mass
+3.69 kg
+Volume
+0.41 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersection 12×36
+Size
+12×36 cm
+Mass
+11.4 kg
+Volume
+1.26 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersection 12×48
+Size
+12×48 cm
+Mass
+17.7 kg
+Volume
+1.96 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersection 12×72
+Size
+12×72 cm
+Mass
+23.0 kg
+Volume
+2.55 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersection 12×96
+Size
+12×96 cm
+Mass
+30.8 kg
+Volume
+3.42 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersection 12×144
+Size
+12×144 cm
+Mass
+46.3 kg
+Volume
+5.14 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Intersection 12×192
+Size
+12×192 cm
+Mass
+61.9 kg
+Volume
+6.87 kv
+Corrosion resistance
+500
+Primary material
+Vokarium
+Input / Output
+Modular interfaces
+Entire surface
+Composition
+Vokarium
+100%
+Related Pages
+Pipe networks
+Data networks

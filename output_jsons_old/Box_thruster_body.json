@@ -1,0 +1,72 @@
+{
+    "device": {
+        "name": "Box Thruster Body",
+        "type": "Thruster Device",
+        "function": "Houses thruster components",
+        "description": "OUTDATED The box thruster body is a device designed to house other components required for the box thruster to function, and to provide convenient mounting points along its hull. Unlike triangle thrusters, the box thruster body has no interfaces to share propellant and power with adjacent thrusters, and each requires its own hardpoint to function.",
+        "variants": [
+            {
+                "name": "Tier 1 Body",
+                "size": "336\u00d796\u00d7144 cm",
+                "mass": "8,358.3 kg",
+                "volume": "840.03 kv",
+                "corrosion_resistance": 280,
+                "primary_material": "Bastium",
+                "interfaces": 2,
+                "composition": {
+                    "Bastium": "35%",
+                    "Charodium": "50%",
+                    "Vokarium": "15%"
+                }
+            },
+            {
+                "name": "Tier 2 Body",
+                "size": "336\u00d796\u00d7144 cm",
+                "mass": "8,123.1 kg",
+                "volume": "840.03 kv",
+                "corrosion_resistance": 425,
+                "primary_material": "Aegisium",
+                "interfaces": 2,
+                "composition": {
+                    "Aegisium": "30%",
+                    "Bastium": "15%",
+                    "Charodium": "45%",
+                    "Vokarium": "10%"
+                }
+            },
+            {
+                "name": "Tier 3 Body",
+                "size": "336\u00d796\u00d7144 cm",
+                "mass": "7,375.5 kg",
+                "volume": "840.03 kv",
+                "corrosion_resistance": 411,
+                "primary_material": "Ymrium",
+                "interfaces": 2,
+                "composition": {
+                    "Aegisium": "20%",
+                    "Charodium": "23%",
+                    "Kutonium": "15%",
+                    "Vokarium": "7%",
+                    "Ymrium": "35%"
+                }
+            }
+        ],
+        "device_fields": [
+            {
+                "field": "ThrusterState",
+                "description": "Requested output of the thruster",
+                "range": "0 - 10 000"
+            },
+            {
+                "field": "ThrusterCurrentThrust",
+                "description": "Current output of the thruster",
+                "range": "0 - 10 000"
+            }
+        ],
+        "related_pages": [
+            "Box thruster",
+            "Triangle thruster",
+            "Maneuver thruster"
+        ]
+    }
+}

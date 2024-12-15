@@ -1,0 +1,63 @@
+A memory relay, and associated memory chip
+Memory Relay
+Type
+YOLOL device
+Function
+Storing YOLOL data
+Size
+48 × 24 × 48 cm
+Mass
+409.84 kg
+Volume
+41.19 kv
+Corrosion resistance
+410
+Primary material
+Bastium
+Input / Output
+Electric input
+Passive
+Sockets
+4
+Chip slots
+2
+Modular interfaces
+2
+Composition
+Ajatite
+20%
+Bastium
+45%
+Vokarium
+35%
+The memory relay is a device used to transfer data fields from one memory chip to another, allowing for device fields to be linked with different field names.
+Memory relays separate sub-networks allowing for one-way broadcasting of variable changes, enabling the creation of modular YOLOL systems.
+Basic information
+Memory Relays are connected to two separate data networks via cable sockets located at both ends of the device, or via a connection to a modular device rack. Facing the device's 'front' (where the memory chips are inserted):
+The left side of the relay acts as the "input" connection.
+The right side of the relay acts as the "output" connection.
+When the relay is powered, changes made to device fields on the input chip will propagate to the corresponding device field on the output chip. Data which occupies a device field on the left side of the relay will be propagated to the device field with a matching index on the right side of the relay. For example: The data in device field #3 on the input (left) chip will be automatically propagated to device field #3 on the output (right) chip. However, both sides of the relay must be enabled for the data to propagate: Disabling either side will prevent this transfer.
+Values between networks are not automatically synchronized.
+This means that connected networks may contain different values for similarly named device fields.
+Power and Data
+Power is not shared between the two sides of the Memory relay. 
+To connect power to both sides, you can
+if you e.g. only want to translate variables to a different name
+connect the two sockets by cable
+if you want to transmit data to isolated networks
+use with a network relay
+Device fields
+The memory relay has two distinct sub-components which have unique device fields, as the left and right side of the device. These device fields can only be accessed by interacting with the appropriate sub-component.
+YOLOL field
+Description
+Range
+IsMasterEnabled
+On / Off, left side
+0 / 1
+IsEnabled
+On / Off, right side
+0 / 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

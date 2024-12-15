@@ -1,0 +1,87 @@
+{{Otherlang2
+|de=Mining_laser:de
+|fr=Mining_laser/fr
+|zh-cn=采矿激光
+|ru=Шахтерский лазер
+|ua=Рудозбірник
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Ore collector (Assembly) (Exploded).png]]
+	  |factionLogo=
+	  |caption=An exploded view of an assembled ore collector
+	  |name=Ore collector
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Mining device
+	  |function=Collects ore
+	  
+	  |size=216×96×72 cm
+	  |mass=6,153
+	  |volume=618.4
+	  |corrosionResistance=370
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=3,500 e/s
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Component Section
+	  |Ore collector
+	  |Utility tool body type 1
+	  |Utility tool capacitor
+	}}
+}}<section begin=summary/>The ore collector functions as an industrial version of the backpack, vacuuming up small ore chunks, it is often used along with [[Mining laser (Assembly)|mining lasers]].<section end=summary/>
+
+== Basic information ==
+
+*The ore collector consumes energy while collecting [[ores|ore]] chunks, equal to the 'power' field.<br>
+**At 1000 '''power''' the ore collector collects ore at the rate of 1 mining laser, at 6000 '''power''' it can keep up with 3.5 mining lasers.<br>
+*The ore collector must be connected through a [[pipe networks|pipe network]] to [[modular ore cargo crate|modular ore cargo crates]] to function, collected ore is placed into the connected crates.<br>
+*The collection area is a 20x5x5m cuboid, extending 20m out in the direction the ore collector points.
+
+== Assembly ==
+
+A ore collector needs to be attached to several objects to function:
+
+* [[Utility tool body type 1|Utility Tool Body]] which needs equipped with 2 [[Utility_tool_capacitor|Utility Tool & Rail Cannon Capacitors]]
+* A weapon mount: Either a [[Turret_cradle|Turret Cradle]], [[Fixed_mount_small_turntable_2|Small Turntable Mount 2]], or [[Fixed_weapon_mount_2|Fixed Weapon Mount 2]] will work
+** Note that the small turntable mount will require a matching [[Turntable|turntable]]
+* [[Hardpoints|Device Hardpoint]]
+
+The hardpoint needs connected to power and your ships network via [[Cable_tool|Cable]] or [[Duct]] to supply power. The hardpoint also needs connection via [[Pipe tool|Pipe]] or [[Duct]] to unfilled [[modular ore cargo crate]]. If you can see your ships inventory while connected via a [[Resource Bridge]] you can right click and delete any ore to make room for the ore collector to collect more ore.
+
+== Device fields ==
+
+===[[Ore collector|Ore collector]]===
+{{#lst:Ore_collector|deviceFields}}
+===[[Utility tool capacitor|Utility tool capacitor]]===
+{{#lst:Utility_tool_capacitor|deviceFields}}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Ore collector]]

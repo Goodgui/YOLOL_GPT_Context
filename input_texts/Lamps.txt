@@ -1,0 +1,182 @@
+{{Otherlang2
+|fr=Lamps/fr
+|de=Lamps:de
+|zh-cn=灯
+|ru= Лампы
+|ua=Лампи
+|jp=ランプ
+}}{{SB Infobox Begin
+  |setWidth=16vw
+	|{{SB Infobox Header
+	  |image=[[Image:Lamp collection.png]]
+	  |factionLogo=
+	  |caption=Lamp type A, type B, and type C
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Light device
+	  |function=Provides light
+	  
+	}}
+
+}}<section begin=summary/>Lamps are light-emitting devices, used to illuminate stations, spaceships, and other installations as needed. They are more useful as general area lighting than as spotlights, as their range is particularly limited.<section end=summary/>
+
+== Basic information ==
+A lamp's color can be customized by replacing the bulb in the lamp with one of another color.<br>
+Lamps can also be used as a part of a network to signal [[Data networks|data transfers]] for example.<br>
+Power consumption when turned on: 0.125 electricity per second.
+Please note that visible light reach on the bulb is not accurate - the bulb glowing is visible from that distance, rather than the light being able to illuminate objects at that distance.
+For example, Lamp type A cannot ''illuminate'' objects at 10 metres, rather the glow will just be visible ''from'' 10 metres away. The visual effect of the bulb being on or off (it's just a brighter shade of the off bulb) can be viewed from any distance away, assuming that it's within render distance.
+
+== Gallery ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Lamp type A.png]]
+		|name=Lamp (Type A)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=144×24×12 cm
+		|mass=593 kg
+		|volume=59.62 kv
+		|corrosionResistance=410
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=0.125 e/s
+		|sockets=2
+	  }}
+
+	  |{{SB Infobox Colors
+		|white=1
+		|red=1
+		|orange=1
+		|lightOrange=1
+		|green=1
+		|blue=1
+		|lightBlue=1
+		|purple=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=90%
+		|ilmatrium=10%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Lamp type B.png]]
+		|name=Lamp (Type B)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=144×36×36 cm
+		|mass=889 kg
+		|volume=89.42 kv
+		|corrosionResistance=410
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=0.125 e/s
+		|sockets=2
+	  }}
+
+	  |{{SB Infobox Colors
+		|white=1
+		|red=1
+		|orange=1
+		|lightOrange=1
+		|green=1
+		|blue=1
+		|lightBlue=1
+		|purple=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=90%
+		|ilmatrium=10%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Lamp type C.png]]
+		|name=Lamp (Type C)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=144×48×36 cm
+		|mass=1,287 kg
+		|volume=129.35  kv
+		|corrosionResistance=410
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=0.125 e/s
+		|sockets=2
+	  }}
+
+	  |{{SB Infobox Colors
+		|white=1
+		|red=1
+		|orange=1
+		|lightOrange=1
+		|green=1
+		|blue=1
+		|lightBlue=1
+		|purple=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=90%
+		|ilmatrium=10%
+	  }}
+	}}
+}}
+== Special Properties ==
+Lamps light up in the designer when they have power and are turned on.
+
+The Lamp Base has a small [[Duct]] surface below.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''LampOn'''
+| Determines whether the light is on. 0 is off, everything else is on.
+| 0 - 1
+|-
+<!-- ! '''LampLumens'''
+| How bright the lamp is in lumens. 600 is a reasonable value for average lights.
+| 0 - 2800 usually 
+|-
+! '''LampColorHue'''
+| The HSV color hue value.
+| 0 - 360.0
+|-
+!'''LampColorSaturation'''
+| The HSV saturation value.
+| 0 - 1.0
+|-
+! '''LampColorValue'''
+| The HSV value value.
+| 0 - 1.0
+|-
+! '''LampRange'''
+| Range in meters where the light falls off to zero
+|
+|- -->
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Lamps]]

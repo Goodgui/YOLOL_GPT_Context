@@ -1,0 +1,92 @@
+Lamp type A, type B, and type C
+Lamps
+Type
+Light device
+Function
+Provides light
+Lamps are light-emitting devices, used to illuminate stations, spaceships, and other installations as needed. They are more useful as general area lighting than as spotlights, as their range is particularly limited.
+Basic information
+A lamp's color can be customized by replacing the bulb in the lamp with one of another color.
+Lamps can also be used as a part of a network to signal data transfers for example.
+Power consumption when turned on: 0.125 electricity per second.
+Please note that visible light reach on the bulb is not accurate - the bulb glowing is visible from that distance, rather than the light being able to illuminate objects at that distance.
+For example, Lamp type A cannot
+illuminate
+objects at 10 metres, rather the glow will just be visible
+from
+10 metres away. The visual effect of the bulb being on or off (it's just a brighter shade of the off bulb) can be viewed from any distance away, assuming that it's within render distance.
+Gallery
+Lamp (Type A)
+Size
+144×24×12 cm
+Mass
+593 kg kg
+Volume
+59.62 kv kv
+Corrosion resistance
+410
+Input / Output
+Electric input
+0.125 e/s
+Sockets
+2
+Colors
+Composition
+Bastium
+90%
+Ilmatrium
+10%
+Lamp (Type B)
+Size
+144×36×36 cm
+Mass
+889 kg kg
+Volume
+89.42 kv kv
+Corrosion resistance
+410
+Input / Output
+Electric input
+0.125 e/s
+Sockets
+2
+Colors
+Composition
+Bastium
+90%
+Ilmatrium
+10%
+Lamp (Type C)
+Size
+144×48×36 cm
+Mass
+1,287 kg kg
+Volume
+129.35  kv kv
+Corrosion resistance
+410
+Input / Output
+Electric input
+0.125 e/s
+Sockets
+2
+Colors
+Composition
+Bastium
+90%
+Ilmatrium
+10%
+Special Properties
+Lamps light up in the designer when they have power and are turned on.
+The Lamp Base has a small Duct surface below.
+Device fields
+YOLOL field
+description
+range
+LampOn
+Determines whether the light is on. 0 is off, everything else is on.
+0 - 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

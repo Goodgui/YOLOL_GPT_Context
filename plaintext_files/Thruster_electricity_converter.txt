@@ -1,0 +1,65 @@
+A tier 2 electricity converter
+Thruster electricity converter
+Type
+Thruster device
+Function
+Converts network power to local power
+The electricity converter is a device that takes power from a ship's power network and converts it into local power, which can be used by thrusters.
+Types
+The electricity converter is currently available in the following styles:
+Tier 1 electricity converter
+Size
+60×36×36 cm
+Mass
+181.5 kg
+Volume
+18.24 kv
+Corrosion resistance
+420
+Primary material
+Bastium
+Composition
+Bastium
+40%
+Vokarium
+60%
+Tier 2 electricity converter
+Size
+60×36×36 cm
+Mass
+181.5 kg
+Volume
+18.24 kv
+Corrosion resistance
+500
+Primary material
+Bastium
+Composition
+Arkanium
+20%
+Bastium
+30%
+Vokarium
+50%
+Tier 3 electricity converter
+Size
+60×36×36 cm
+Mass
+170.7 kg
+Volume
+18.24 kv
+Corrosion resistance
+330
+Primary material
+Kutonium
+Composition
+Kutonium
+30%
+Vokarium
+50%
+Xhalium
+20%
+Related pages
+Box thruster
+Triangle thruster
+Maneuver thruster

@@ -1,0 +1,58 @@
+{{Otherlang2
+|jp=プラズマスラスターエンジン
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Plasma thruster, engine.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Generates thrust force
+	  
+	  |size=288×288×156 cm
+	  |mass=36,730.1
+	  |volume=3,924.16
+	  |corrosionResistance=510          
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+	
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=17%
+	  |ajatite=
+	  |arkanium=23%
+	  |bastium=
+	  |charodium=25%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=5%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |ymrium=20%
+	  |vokarium=10%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The plasma thruster engine is one of the components of a [[Plasma thruster|plasma thruster]] that corroborate to produce thrust. A properly assembled plasma thruster requires four of these to function, and they are assembled in 2×2 pattern. The complete 2x2 assembly provides a 20% propellant conversion bonus.<section end=summary/>
+
+== Related pages ==
+
+*[[Plasma thruster]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,56 @@
+{{Otherlang2
+|ru = Большой генератор. Угловые структуры
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Large Generator, Corner Structure 1.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=26,485.05
+		|volume=3,016.52
+		|size=192×288×288 cm
+		|corrosionResistance=368
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=40%
+	|lukium=17%
+	|charodium=23%
+	|valkite=10%
+	|kutonium=10%
+	  }}
+}}<section begin=summary/>Corner structure for large generator. 4 each of corner 1 and 2 (8 corner structures in total), together with 2 end covers, 2 side structures and 4 corner structures, form the outer shell of a large generator unit.
+
+Resource details:
+Heat: Storage 1500 units, dissipation 5 units per second, radiator cooling 75 units per second<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''GeneratorUnitStoredHeat'''
+| Current value for stored heat
+| 0 - 1,500
+|-
+! '''GeneratorUnitMaxStoredHeat'''
+| Maximum value for stored heat
+| 0 - 1,500
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+
+* [[Large generator (Assembly)]]
+
+[[Category:Devices and machines]]

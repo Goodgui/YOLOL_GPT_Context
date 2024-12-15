@@ -1,0 +1,33 @@
+Utility tool body type 2
+Type
+Utility device
+Function
+Mounts utility devices
+Size
+108×48×84 cm
+Mass
+1,579.8 kg
+Volume
+168.78 kv
+Corrosion resistance
+410
+Primary material
+Kutonium
+Input / Output
+Device interfaces
+1
+Composition
+Aegisium
+30%
+Charodium
+50%
+Kutonium
+10%
+Vokarium
+10%
+The utility tool body is a device that can mount certain tools, and provides power and YOLOL access to them. The utility tool body type 2 also comes in a mirrored version. It is important to note that
+only
+the Laser Designator can be used with this tool body,as Mining Lasers, Tractor Beams, Material Point Scanners, and Ore Collectors will not fit.
+Related Pages
+Utility tool bodies
+Laser designator (Assembly)

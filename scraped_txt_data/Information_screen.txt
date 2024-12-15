@@ -1,0 +1,109 @@
+{{Otherlang2
+|de=Information_screen:de 
+|fr=Information_screen/fr
+|zh-cn=信息屏幕
+|ru=Информационный экран
+|ua=Інформаційний екран
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Information screen.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=
+	  |function=
+	  |availability=
+	  |size=
+	  |mass=
+	  |volume=
+	  |corrosionResistance=
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+	
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}<section begin=summary/>
+'''Currently unavailable in game'''<br>
+Programmable information screens are a way to leave a visible message for the universe.<br>
+Programmable information screens take a string variable, which is then displayed on the panels.<br>
+The displayed content can be set and modified by accessing the information screen's InfoScreenContent field with the [[Universal tool|universal tool]] or [[YOLOL]].<section end=summary/>
+
+== Basic information ==
+
+* Information screens require [[Generator (Assembly)|power]].
+* Information screens have a [[Cable tool|cable]] socket on the backside.
+* Content displayed on the information screens is automatically word wrapped.
+* The content is cut at the 364th character, as the character limit is reached.
+** Total characters in panel: 364
+** Lines per panel: 14
+** Characters per line: 26
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''InfoScreenContent'''
+| Input string which will be displayed on the screen
+| 364 mark string
+|-
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Information screen]]

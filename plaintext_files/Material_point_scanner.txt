@@ -1,0 +1,59 @@
+Material point scanner
+Type
+Utility device
+Function
+Determines object composition
+Size
+108×48×48 cm
+Mass
+1,569.6 kg
+Volume
+223.2 kv
+Corrosion resistance
+605
+Primary material
+Kutonium
+Input / Output
+Electric input
+~300 e/s
+Composition
+Aegisium
+35%
+Arkanium
+22%
+Kutonium
+22%
+Vokarium
+21%
+The material point scanner is a device that can output the composition of an object placed before it.
+Device fields
+YOLOL field
+description
+range
+Active
+The scanner turns off when this is set to 0 and on when set to anything else
+0 - 1
+Index
+The current material to provide information for. Starting at 0
+0 -
+ScanResults
+The number of diferent materials the object contains
+0 -
+Material
+The material of the current 'Index' i.e. "Ukonium"
+String
+Volume
+The Volume of the current 'Index' i.e. 272
+0 -
+Scan
+Must be set to 1 to initiate a scan, auto-resets to 0 once scan is complete
+0 - 1
+Reset
+Resets the stored scan result
+0 - 1
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Pages
+Material point scanner (Assembly)

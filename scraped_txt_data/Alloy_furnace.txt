@@ -1,0 +1,106 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:AtmoAlloyFurnace.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Alloy Furnace
+	  |subtitle=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Crafting device
+	  |function=Alloy crafting
+	  |size=288 x 216 x 144 cm
+	  |mass=42,421.74 kg ''(Belt)''<br>43,090.91 kg ''(Moon)''
+	  |volume=3,827.47 kv ''(Belt)''<br>3,888.86 kv ''(Moon)''
+	  |corrosionResistance=504
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg = TRUE
+	  |suppressUnitsKv	= TRUE
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=Up to 1,000,000
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=4
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	|overrideHeader=
+	|aegisium=16%
+	|ajatite=
+	|arkanium=
+	|bastium=10%
+	|charodium=
+	|corazium=
+	|daltium=
+	|eosofon=
+	|exorium=
+	|haderite=
+	|ice=
+	|ilmatrium=
+	|karnite=
+	|kutonium=
+	|lukium=14%
+	|merkerium=
+	|naflite=
+	|nhurgite=
+	|oninum=
+	|surtrite=
+	|talkite=
+	|targium=
+	|tengium=
+	|ukonium=
+	|valkite=
+	|vokarium=22%
+	|xhalium=
+	|ymrium=38%
+	}}
+}}
+
+
+The Alloy furnace is crafting device that is used to create alloys. There are two types of alloy furnaces, one for asteroid belts and one for atmospheres of moons. Each alloy has specific requirement for type of belt or atmosphere they need to be crafted in. In order to alloy furnace to work, it needs to accumulate crafting charges. Each charge costs 1,000,000 electricity and the furnace can store up to 100 charges. Each charge allows you to craft 1 stack of an alloy that is compatible with the current atmosphere.
+
+== Basic information ==
+
+Charge accumulation speed can be adjusted from Furnace UI or device fields. Alloy furnace can be attached to resource network to boost the charge accumulation speed. The internal electricity plant of furnace produces 3,000 electricity per second when fuel rod is attached to it. Alloy furnace supports both Tier 1 and Tier 2 fuel rods.
+
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''FurnaceChargingLimit'''
+| Percentage value of electricity charge of the furnace
+| 0 - 100
+|-
+! '''FurnaceChargingRate'''
+| Current rate in percent
+| 0 - 100
+|-
+! '''StoredCharges'''
+| How many alloy crafting orders you can currently queue
+| 0 - MaxCharges
+|-
+! '''MaxCharges'''
+| How many alloy crafting orders you can queue at full charge
+| 100
+|}
+
+
+
+[[Category:Devices and machines|Alloy Furnace]]

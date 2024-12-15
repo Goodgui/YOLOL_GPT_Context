@@ -1,0 +1,66 @@
+{{Otherlang2
+|ru=Буксировочный_луч_(Собранный)
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Towing beam (assembly).png]]
+	  |factionLogo=
+	  |caption=An assembled towing beam
+	  |name=Towing beam
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Towing other ships
+	  
+	  |size=300×96×72 cm
+	  |mass=7,883.98
+	  |volume=792.36
+	  |corrosionResistance=400
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=5 e/s per ton towed
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+
+	|{{SB Infobox Component Section
+	  |Towing beam
+	  |Utility tool body type 1
+	  |Utility tool capacitor
+	}}
+}}<section begin=summary/>{{#lst:Towing_beam|summary}}<section end=summary/>
+
+== Device fields ==
+===[[Towing_beam|Towing beam]]===
+{{#lst:Towing_beam|deviceFields}}
+===[[Utility_tool_capacitor|Utility tool capacitor]]===
+{{#lst:Utility_tool_capacitor|deviceFields}}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+
+[[Category:Devices and machines]]

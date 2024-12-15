@@ -1,0 +1,57 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Exorium Processing Unit, Core.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=24,302.25
+		|volume=2,767.91
+		|size=576×576×576 cm
+		|corrosionResistance=676
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|fuelConversionRate=4,200 per second
+		|modInterfaces=6
+	  }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=15%
+	|lukium=22%
+	|aegisium=28%
+	|corazium=20%
+	|arkanium=15%
+	  }}
+}}<section begin=summary/>Core of the exorium processing unit, positioned inside the outer shell. Turns liquid exorium into processed fuel usable by large generators.<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''ProcessingUnitRateLimit'''
+| Upper limit for conversion rate for this processor
+| 0 - 100
+|-
+! '''ProcessingUnitRate'''
+| Current conversion rate for this processor. Conversion is being performed at 1 conversion * this percentage per second.
+| 0 - 100
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+
+* [[Exorium processing unit (Assembly)]]
+
+[[Category:Devices and machines]]

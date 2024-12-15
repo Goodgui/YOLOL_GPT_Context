@@ -1,0 +1,116 @@
+{{Otherlang2
+|jp=プラズマスラスター
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_plasma_thruster.png]]
+	  |previewImage=[[Image:Plasma thruster preview.png]]
+	  |factionLogo=
+	  |caption=An assembled plasma thruster with two superconductor rings
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thrusters
+	  |function=Generates propulsion
+	  
+	  |size=972×576×576 cm ''(min.)''
+	  |mass=687,479.93 kg ''(min.)''
+	  |volume=73,448.71 kv ''(min.)''
+	  |corrosionResistance=230
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=913.3 + 880 per ring e/s
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=248 + 386 per ring p/s
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |thrust=4,000,000 + 7,000,000 per ring
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=3
+	}}
+
+	|{{SB Infobox Component Section
+	  |Plasma thruster capacitor
+	  |Plasma thruster capacitor struct
+	  |Plasma thruster core
+	  |Plasma thruster engine
+	  |Plasma thruster frame
+	  |Plasma thruster nozzle collar
+	  |Plasma thruster nozzle
+	  |Plasma thruster superconductor
+	}}
+}}<section begin=summary/>Plasma thrusters are a type of [[Thrusters|thruster]] that boast both the strongest thrust output and the highest price of all available thruster types. They are uniquely modular, allowing designers to place additional superconducting rings to increase the total thrust output.<section end=summary/> Though powerful, they are hindered by a slow warm-up sequence, leaving would-be pilots vulnerable until ready.
+
+== Basic information ==
+
+A properly constructed plasma thruster is comprised of 23 components:
+* 1 thruster core
+* 4 thruster engines
+* 4 thruster frames
+* 2 capacitor structs
+* 4 capacitors
+* 2 nozzle collars
+* 2 nozzles
+* At least 4 superconductor ring structs
+
+
+While plasma thrusters have relatively low thrust output for their mass in their base configuration, each addition superconducting ring adds an additional 7,000,000 thrust output with no upper limit. However, the output of a plasma thruster is effectively halved while the plasma thruster is 'cold', and can only reach maximum output by charging and undergoing a lengthy warm-up sequence:
+
+* Plasma thrusters charge when their 'IsActive' field is set to 1 and lose charge if it is set to 0.
+* A plasma thruster has to be fully charged in order to produce thrust. 
+* Once the plasma thruster is fully charged it will begin to warm up, which will take 60 seconds.
+** While warming up the thrust will increase slowly, until reaching double it's non warmed up thrust power.
+
+
+Plasma thrusters also consume significant resources even while just idling:
+* While charged, but not producing thrust the plasma thruster will use 913.3 eps.
+* At maximum thrust the plasma thruster will use 913.3 eps + 880 eps per superconductor ring.
+* At maximum thrust the plasma thruster will use 248 pps + 386 pps per superconductor ring
+
+This makes them ideal for very large ships such as cruisers, haulers, and miners, but less so for ships that frequently accelerate and decelerate.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ThrusterState'''
+| Requested output of the thruster
+| 0 - 10 000
+|-
+! '''ThrusterCurrentThrust'''
+| Current output of the thruster
+| 0 - 10 000
+|-
+! '''isActive'''
+| Active state of the thruster
+| 0 / 1
+|-
+! '''chargeLevel'''
+| Current charge level of the thruster
+| 0 - 1
+|}
+
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related content ==
+
+[[File:Plasma_thruster_resource_usage_(dark).png|400px]]
+
+[[Category:Devices and machines]]

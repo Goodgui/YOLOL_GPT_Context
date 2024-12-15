@@ -1,0 +1,27 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Exorium Processing Unit, Leg Structure.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=12,553.03
+		|volume=1,429.73
+		|size=576×204×48 cm
+		|corrosionResistance=380
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=80%
+	|bastium=20%
+	  }}
+}}<section begin=summary/>Leg structure for durable attachment of exorium processing unit to ships. Not mandatory for processing unit operation, but usually required to secure tank in place.<section end=summary/>
+
+== Related Articles ==
+
+* [[Exorium processing unit (Assembly)]]
+
+[[Category:Devices and machines]]

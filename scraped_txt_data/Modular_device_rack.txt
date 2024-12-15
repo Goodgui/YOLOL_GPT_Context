@@ -1,0 +1,191 @@
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Module rack base.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=YOLOL rack
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=YOLOL device
+	  |function=Houses modular YOLOL readers
+	  
+	  |size=48×48×48 cm
+	  |mass=629.74
+	  |volume=63.29
+	  |corrosionResistance=450
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=5
+	  |deviceInterfaces=
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=40%
+	  |arkanium=
+	  |bastium=25%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=35%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The YOLOL rack is the base device for any modular device rack. It does nothing on its own, except join the data network of adjacent racks. All the [[#Modules|modules]] plug into a rack to provide actual functionality for a rack. It can connect to any rack adjacent to it from any side except the front and will form one [[Data networks|network]] with those devices, which is a nice alternative to wiring each chip when using [[YOLOL chip socket|chip sockets]]. The [[#Socket_Core|socket core]] module provides a [[Cable tool|cable]] socket to connect a set of device racks to another network. <section end=summary/>
+
+== Modules ==
+
+There are three modules that can be plugged into the slot on the front of a rack:
+
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Module chip core.png]]
+		|name=Chip core
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=316.6
+		|volume=31.82
+		|corrosionResistance=430
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|sockets=0
+		|YOLOLchips=3
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=25%
+		|bastium=35%
+		|vokarium=40%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Module socket core.png]]
+		|name=Socket core
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=347.5
+		|volume=34.92
+		|corrosionResistance=430
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|sockets=1
+		|YOLOLchips=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=35%
+		|vokarium=50%
+		|ajatite=15%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Module chip reader.png]]
+		|name=Chip Reader
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=384.4
+		|volume=38.63
+		|corrosionResistance=430
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|sockets=0
+		|YOLOLchips=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=35%
+		|ajatite=20%
+		|vokarium=45%
+	  }}
+	}}
+}}
+
+
+* '''[[#Chip Core|Chip Core]]''': Basic module with three chip slots
+* '''[[#Socket Core|Socket Core]]''': Module with two chip slots, and a cable socket to connect the rack network to an external network
+* '''[[#Chip Reader|Chip Reader]]''': Alternate chip module for one chip in a configuration that allows editing and monitoring
+
+The modular attachment points on the sides of the device rack can also interact with [[Memory relay|memory relays]], both as a means of including those into their network and to exploit the sockets on the relays in order to power the device rack in the event that a Socket Core is not installed.
+
+== Device fields == 
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''CurrentState'''
+|
+|
+|-
+! '''OnState'''
+|
+|
+|-
+! '''OffState'''
+|
+|
+|-
+!'''ButtonStyle'''
+|
+|
+|}
+
+
+[[Category:Devices and machines|Modular device rack]]

@@ -1,0 +1,88 @@
+{{Otherlang2
+|ru=Солнечная панель с датчиком света
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Solar panel light sensor.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Power device
+	  |function=Detects star light
+	  |availability=
+	  |size=144×144×12
+	  |mass=3.321.6
+	  |volume=221.44
+	  |primaryMaterial=Charodium
+	  |corrosionResistance=510
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	  |{{SB Infobox Device IO
+		|electricOut=25
+	  }}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=40%
+	  |ajatite=
+	  |arkanium=
+	  |bastium=10%
+	  |charodium=30%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=20%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Solar panel light sensors are devices used to orientate [[Solar panel|solar panels]] to follow the position of the sun in order to maximize power generation. Though the light sensor incorporates a section of photovoltaic cells, the maximum power output of the solar panel light sensor is significantly less than regular solar panels.<section end=summary/>
+
+Adjacent [[Solar panel|solar panels]] and solar panel light sensors are automatically added to the same device network, and do not require individual [[Hardpoints|hardpoints]] to provide power.
+
+== Device fields ==
+
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''LightDetected'''
+|Whether the sensor is currently facing a viable source of light
+| 0 - 1
+|-
+! '''LightOffsetVertical'''
+|Vertical offset of the panel to the source of light, in degrees
+| -90 - 90
+|-
+! '''LightOffsetHorizontal'''
+|Horizontal offset of the panel to the source of light, in degrees
+| -90 - 90
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related pages ==
+* [[Solar panel (assembly)]]
+
+[[Category:Devices and machines]]

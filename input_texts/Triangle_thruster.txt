@@ -1,0 +1,96 @@
+{{Otherlang2
+|jp=トライアングルスラスター
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_Triangle_thruster_stacks.png]]
+	  |previewImage=[[Image:Triangle thruster stacks preview.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thrusters
+	  |function=Generates propulsion
+	  
+	  |size=144×144×144 cm
+	  |mass=11,512.05 ''(approx.)''
+	  |volume=1,156.99
+	  |corrosionResistance=350
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=<ul><li>96.2 e/s ''(all T1)''</li>
+<li>84.1 e/s ''(all T2)''</li>
+<li>136.1 e/s ''(all T3)''</li></ul>
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=<ul><li>27.864 p/s ''(all T1)''</li>
+<li>24.369 p/s ''(all T2)''</li>
+<li>35.239 p/s ''(all T3)''</li></ul>
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |thrust=<ul><li>300,000 ''(all T1)''</li>
+<li>330,000 ''(all T2)''</li>
+<li>390,000 ''(all T3)''</li></ul>
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=3
+	  |deviceInterfaces=1
+	}}
+	|{{SB Infobox Component Section
+	  |Triangle thruster body
+	  |Triangle thruster combustion chamber
+	  |Triangle thruster nozzle
+	  |Thruster electricity converter
+	  |Thruster gas converter
+	}}
+
+}}<section begin=summary/>Triangle thrusters are a type of [[Thrusters|thruster]]. While smaller and less powerful than [[Box thruster|Box Thrusters]], they allow for modular construction of compound thrusters. Triangle thrusters that touch on any of the three sides (excluding the nozzle or [[Hardpoints|Hardpoint]]) fire as one and share resources (power and propellant). This means that Triangle Thrusters can be stacked to form large single thrusters, however this comes at the cost of finite control as single thrusters within the group become [[YOLOL|inaddressable]]. </br> <!-- This is a comment: There is a space in the next section to generate the yellow text and not see it as bold text-->
+ '''Important: Renaming connected triangle thrusters into separate groups will not make them fire individually! Instead it will cause significant scripting issues.'''<section end=summary/>
+
+== Basic information ==
+
+Triangle thrusters are composed of five distinct components:
+* The body, which houses the other components and provides convenient mounting surfaces. The body also holds two of the modular ports.
+* The chamber, which burns [[Propellant tank|propellant]] to produce thrust. The chamber holds the final modular port.
+* The nozzle, which channels the exhaust out of the chamber (thus producing thrust). Any tier of nozzle is compatible with any tier of body.
+* The electricity converter, which converts power from [[Generator (Assembly)|generators]] and [[Battery|batteries]] into power usable by the thruster. Any tier of electricity converter is compatible with any tier of body.
+* The propellant converter, which prepares propellant to be burnt. Any tier of propellant converter is compatible with any tier of body.
+
+
+Despite their relatively low thrust power per unit, the modularity and ease-of-use that triangle thrusters offer is unmatched, though one does need to be careful to properly protect grouped thrusters as the destruction of just a few units can cause a total disruption of the entire thruster bank. 2 triangle thrusters exceeds the amount of thrust from a single box thruster while saving on space, so they are common on cheap short range shuttles or as part of the main thrust on massive freighters where propellant is not a concern.
+{| class="wikitable"
+|+ Thrust Values
+|-
+! Tier !! Body !! Nozzle
+|-
+| 1 || 240000 || 60000
+|-
+| 2 || 264000 || 66000
+|-
+| 3 || 312000|| 78000
+|}
+
+== Device fields ==
+
+===[[Triangle_thruster_body|Triangle thruster body]]===
+{{#lst:Triangle_thruster_body|deviceFields}}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related content ==
+
+[[File:Triangle_thruster_resource_usage_(dark).png|400px]] 
+
+[[File:Triangle_Thruster_Orientation.png|500px]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,60 @@
+Cooling rack
+Type
+Power device
+Function
+Provides coolant to generators
+Size
+96×96×48 cm
+Mass
+731.23 kg
+Volume
+73.49 kv
+Corrosion resistance
+440
+Primary material
+Bastium
+Input / Output
+Coolant output
+5,000 per second
+Coolant capacity
+30,000 (3 cooling cells)
+Modular interfaces
+1
+Composition
+Ajatite
+15%
+Bastium
+65%
+Vokarium
+20%
+The cooling rack is a device used to provide a significant reduction in heat via coolant. Unlike a heatsink and radiator system, a coolant rack is not designed for long-term usage, as its coolant is quickly used up during operation and will require replenishing. Thus, some ships use a combination of both systems to cool their generator.
+Basic Usage
+The cooling board can hold up to three cooling cells.
+Receives
+Coolant
+from the cooling cells and processes it to reduce
+Heat
+.
+Coolant cells will slowly replenish their supply of fresh coolant over time. However, a coolant recharge rack can be used to expedite this process.
+The cooling board can be placed anywhere on a generator, and will provide coolant to each generator of the complex it is directly connected to. Generator complexes connected via pipe will not share coolant.
+A single coolant rack can provide up to 5,000 coolant per second (half of the coolant cell's capacity), and can disperse 5 units of heat with 1 unit of coolant. Thus, a coolant rack can disperse up to 25,000 heat per second.
+See heat mechanics for more info.
+There is only one connector on the cooling board.
+Device fields
+YOLOL field
+Description
+Range
+CoolerUnitRateLimit
+Upper limit for conversion rate for this cooler
+0 - 100
+CoolerUnitRate
+Current conversion rate for this cooler. Conversion is being performed at 1 conversion * this percentage per second.
+0 - 100
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Articles
+Generator (Assembly)
+Small cooling cell
+Heat mechanics

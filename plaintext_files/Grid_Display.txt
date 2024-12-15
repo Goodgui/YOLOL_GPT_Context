@@ -1,0 +1,139 @@
+Grid Display
+Type
+YOLOL device
+Function
+Displays information
+Grid displays are general-use information screens players can use YOLOL to display all sorts of information or symbols on, for a variety of reasons ranging from simple text readouts to complex data representations. Grid Displays can used by attaching them to a Control table
+Types
+Grid Display Basic
+Size
+48×48×3 cm
+Mass
+62.57 kg
+Volume
+6.91 kv
+Corrosion resistance
+510
+Primary material
+Bastium
+Input / Output
+Electric input
+0.01 e/s
+Composition
+Ajatite
+14.99%
+Bastium
+15.02%
+Nhurgite
+10%
+Vokarium
+60%
+Grid Display chip Advanced
+Size
+48×48×3 cm
+Mass
+59.77 kg
+Volume
+6.91 kv
+Corrosion resistance
+570
+Primary material
+Bastium
+Input / Output
+Electric input
+0.01 e/s
+Composition
+Ajatite
+14.99%
+Arkanium
+19.99%
+Bastium
+15.03%
+Nhurgite
+10%
+Vokarium
+39.99%
+Basic information
+Displays with a 25x25 grid, with each square containing one text character
+The player may use the device's fields to edit contents of the screen.
+Select the grid square to edit by moving a "cursor" to the correct square, identified with X/Y values
+Adjust the input-field to add content to the grid:
+Text: inserts one character of the input text per square, wrapping to next line at line end, wrapping back to beginning at last square
+Extended Features
+Grid Displays with Layers
+Player may use the universal tool or YOLOL to select the layer they are manipulating
+Each screen has a set amount of maximum layers of information on it
+Player may control the size and position offset from centre of each grid
+Grids may extend outside the boundaries of the physical screen - content on squares out of the bounds is not drawn
+Device fields
+Basic
+YOLOL field
+description
+range
+GridDisplayOnState
+Turns the entire screen on/off
+0/1,    0 is off, everything else is on.
+GridDisplayTextHue
+Sets the colour
+0 - 360
+CursorX
+Sets the X value of the square the edit cursor is at
+1 - 25
+CursorY
+Sets the Y value of the square the edit cursor is at
+1 - 25
+ShowCursor
+Sets whether to highlight the grid square the cursor is placed on.
+0/1
+MoveCursor
+When enabled cursor automatically moves to next grid square after inputting max length string.
+0/1
+ClearGrid
+When enabled contents of the display is cleared. Cursor Moves to first cell of the grid.
+0/1
+Input
+Adjusts the screen contents starting from the cursor's grid square
+String: inputs text one character per square, wrapping automatically to next line start when reaching end of line, top left when reaching end of grid
+Advanced
+YOLOL field
+description
+range
+GridDisplayOnState
+Turns the entire screen on/off
+0/1,   0 is off, everything else is on.
+SelectedLayer
+Selects the layer to make changes to
+1 - 3
+GridLayerTextHue
+Sets the hue colour of the layer's contents
+0 - 360
+LayerGridSize
+Scales the grid on the selected layer - effectively setting font size
+1 - 25
+LayerGridOffsetX
+Sets the grid's X offset from the screen's middle
+0 - 24
+LayerGridOffsetY
+Sets the grid's Y offset from the screen's middle
+0 - 24
+CursorX
+Sets the X value of the square the edit cursor is at - cursor is layer-specific
+1 - 25
+CursorY
+Sets the Y value of the square the edit cursor is at - cursor is layer-specific
+1 - 25
+ShowCursor
+Sets whether to highlight the grid square the cursor is placed on on the active layer
+0/1
+MoveCursor
+When enabled cursor automatically moves to next grid square after inputting max length string.
+0/1
+ClearLayerGrid
+When enabled contents of the display is cleared. Cursor Moves to first cell of the grid.
+0/1
+Input
+Adjusts the screen contents starting from the cursor's grid square
+String: inputs text one character per square, wrapping automatically to next line start when reaching end of line, top left when reaching end of grid     Number: 0 clears layer contents and resets all layer-specific values, others act as references to a picture library and draw the referred to picture within the selected square
+Universal Tool
+Data networks
+YOLOL

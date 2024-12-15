@@ -1,0 +1,87 @@
+{{Otherlang2
+|ru=Гироскоп
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[File:GyroPNG.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Controls
+	  |function=Tracks device rotation
+	  |size=48x48x24 cm
+	  |mass=338.0
+	  |volume=38.951
+	  |corrosionResistance=
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=15%
+	  |bastium=30%
+	  |bastonium=35%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=20%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Gyroscope devices are used to track device rotation over yaw, pitch and roll axes relative to a calibrated 0-pose. Calibrate 0-pose by setting GyroCalibrateId to 1, it will automatically return to 0 after calibration is complete.
+
+Due to the device's construction, roll delta values are limited to a range of [-90,90] and rolling further than that will cause the yaw and pitch values to change.<section end=summary/>
+
+== Basic information ==
+* Gyroscope resets after each ship reloading/rehosting
+* Gyroscope can work without electricity
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''GyroCalibrate'''
+|  Reset gyroscope and set a 0-position
+| 0 - 1
+|-
+! '''GyroPitch'''
+|  Pitch offset
+| -180 to 180
+|-
+! '''GyroYaw'''
+|  Yaw offset
+| -180 to 180
+|-
+! '''GyroRoll'''
+|  Roll offset
+| -90 to 90
+|}
+To learn more about the usage of fields, consult these wiki pages:
+* [[Universal tool]]
+* [[Data networks]]
+* [[YOLOL]]
+
+
+[[Category:Devices and machines|Gyroscope]]

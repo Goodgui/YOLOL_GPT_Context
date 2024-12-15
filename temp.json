@@ -1,0 +1,30 @@
+{
+    "title": "title",
+    "summary": "summary",
+    "tiers": [
+      {
+        "name": "name",
+        "size": "# x # x # cm",
+        "mass": #,
+        "volume": #,
+        "corrosionResistance": #,
+        "composition": {
+          "material a": "#%",
+          "material b": "#%"
+        },
+        "materials": {
+          "material 1": #,
+          "material 2": #
+        },
+        "device_fields": [
+          {
+            "name": "",
+            "description": "",
+            "range": ""
+          }
+        ],
+        "other": {}
+      }
+    ],
+    "other": {}
+  }

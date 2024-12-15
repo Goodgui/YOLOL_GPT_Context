@@ -1,0 +1,31 @@
+Plasma thruster engine
+Type
+Thruster device
+Function
+Generates thrust force
+Size
+288×288×156 cm
+Mass
+36,730.1 kg
+Volume
+3,924.16 kv
+Corrosion resistance
+510
+Primary material
+Kutonium
+Composition
+Aegisium
+17%
+Arkanium
+23%
+Charodium
+25%
+Kutonium
+5%
+Vokarium
+10%
+Ymrium
+20%
+The plasma thruster engine is one of the components of a plasma thruster that corroborate to produce thrust. A properly assembled plasma thruster requires four of these to function, and they are assembled in 2×2 pattern. The complete 2x2 assembly provides a 20% propellant conversion bonus.
+Related pages
+Plasma thruster

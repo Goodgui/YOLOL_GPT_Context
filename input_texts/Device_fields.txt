@@ -1,0 +1,114 @@
+{{Otherlang2
+|en=Device_fields
+|de=Device_fields:de
+|fr=Device_fields:fr
+|zh-cn=设备参数
+}}
+Device fields are used to control and read the status of [[Devices_and_machines|devices]] connected to a [[Data_networks|data network]]. They can be read or set by the [[Universal tool]], [[YOLOL Chip]], or by other devices on the same network.
+
+= List of Device Fields =
+== Base mounted devices ==
+
+===[[Battery]]===
+{{#lsth:Battery|Device fields}}
+
+===[[Cargo beam|Cargo beam]]===
+{{#lsth:Cargo beam|Device fields}}
+
+===[[Fixed mount|Fixed mount]]===
+{{#lsth:Fixed mount|Device fields}}
+
+===[[Generator (Assembly)|Generator]]===
+{{#lsth:Generator|Device fields}}
+
+===[[Hinges|Hinges]]===
+{{#lsth:Hinges|Device fields}}
+
+===[[Mounted weapons]]===
+{{#lsth:Mounted weapons|Device fields}}
+
+===[[Radio transmitters|Radio transmitters]]===
+{{#lsth:Radio transmitters|Device fields}}
+
+===[[Range finder|Range finder]]===
+{{#lsth:Range finder|Device fields}}
+
+===[[Robot arms|Robot arms]]===
+{{#lsth:Robot arms|Device fields}}
+
+===[[Thrusters|Thrusters]]===
+{{#lsth:Thrusters|Device fields}}
+
+===[[Turntable|Turntable]]===
+{{#lsth:Turntable|Device fields}}
+
+== Interactables ==
+
+=== [[Buttons]] ===
+{{#lsth:Buttons|Device fields}}
+
+===[[Lamps|Lamps]]===
+{{#lsth:Lamps|Device fields}}
+
+===[[Levers|Levers]]===
+{{#lsth:Levers|Device fields}}
+
+===[[Propellant tank|Propellant]]===
+{{#lsth:Propellant tank|Device fields}}
+
+== Rail devices ==
+
+===[[Rail mover|Mover]]===
+{{#lsth:Rail mover|Device fields}}
+
+===[[Rail relay|Relay]]===
+{{#lsth:Rail relay|Device fields}}
+
+===[[Rail sensor strip|Sensor strip]]===
+{{#lsth:Rail sensor strip|Device fields}}
+
+
+===[[Rail trigger|Trigger]]===
+{{#lsth:Rail trigger|Device fields}}
+
+== Screens ==
+
+=== [[Information screen]] ===
+{{#lsth:Information screen|Device fields}}
+
+===[[Modular displays|Modular displays]]===
+{{#lsth:Modular displays|Device fields}}
+
+== Utility Devices ==
+
+===[[Cargo lock frame (Assembly)]]===
+{{#lsth:Cargo lock frame (Assembly)|Device fields}}
+
+===[[Flight control unit|Flight control unit]]===
+{{#lsth:Flight control unit|Device fields}}
+
+===[[Main flight computer|Main flight computer]]===
+{{#lsth:Main flight computer|Device fields}}
+
+===[[Mining laser (Assembly)|Mining laser]]===
+{{#lsth:Mining laser|Device fields}}
+
+===[[Network relay]]===
+{{#lsth:Network relay|Device fields}}
+
+===[[Tractor beam (Assembly)|Tractor beam]]===
+{{#lsth:Tractor beam|Device fields}}
+
+== YOLOL devices ==
+
+===[[YOLOL Chip]]===
+{{#lsth:YOLOL Chip|Device fields}}
+
+===[[Chip socket]]===
+{{#lsth:Chip socket|Device fields}}
+
+===[[Memory chip]]===
+{{#lsth:Memory chip|Device fields}}
+
+===[[Modular device rack]]===
+{{#lsth:Modular device rack|Device fields}}

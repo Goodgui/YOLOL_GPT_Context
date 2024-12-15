@@ -1,0 +1,48 @@
+Solar panel light sensor
+Type
+Power device
+Function
+Detects star light
+Size
+144×144×12
+Mass
+3.321.6 kg
+Volume
+221.44 kv
+Corrosion resistance
+510
+Primary material
+Charodium
+Input / Output
+Electric output
+25
+Composition
+Aegisium
+40%
+Bastium
+10%
+Charodium
+30%
+Vokarium
+20%
+Solar panel light sensors are devices used to orientate solar panels to follow the position of the sun in order to maximize power generation. Though the light sensor incorporates a section of photovoltaic cells, the maximum power output of the solar panel light sensor is significantly less than regular solar panels.
+Adjacent solar panels and solar panel light sensors are automatically added to the same device network, and do not require individual hardpoints to provide power.
+Device fields
+YOLOL field
+Description
+Range
+LightDetected
+Whether the sensor is currently facing a viable source of light
+0 - 1
+LightOffsetVertical
+Vertical offset of the panel to the source of light, in degrees
+-90 - 90
+LightOffsetHorizontal
+Horizontal offset of the panel to the source of light, in degrees
+-90 - 90
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related pages
+Solar panel (assembly)

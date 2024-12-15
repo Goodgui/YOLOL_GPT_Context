@@ -1,0 +1,104 @@
+{{ClosedAlphaContent}}
+
+{{Otherlang2
+|de=Rail_relay:de
+|fr=Rail_relay/fr
+|zh-cn=单向轨道中继器
+|ru=Рельсовое реле
+|ua=Рейкове реле
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase rail relay.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Rail device
+	  |function=Creates rail sub-networks
+	  
+	  |size=24×24×96 cm
+	  |mass=412.72
+	  |volume=41.58
+	  |corrosionResistance=400
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+<!--
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+-->
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}<section begin=summary/>A rail relay is used to divide a rail network into separate sections with separate sub-networks to enable the creation of modular rail systems. They function similarly to [[Network relay|network relays]]<section end=summary/>
+
+== Basic information ==
+
+Rail relays connect to a rail network like any other rail piece, but only transmits data in one direction
+* One end of the relay acts as the "input" connection
+* The other end acts as the "output" connection
+
+When the relay is powered, changes made to device fields connected to the input propagate will apply to all similarly named device fields that are connected to relay output.
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''IsEnabled'''
+| On/Off
+| 0/1
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Rail relay]]

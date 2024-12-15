@@ -1,0 +1,25 @@
+Fast travel gate core outer body
+Type
+Navigation device
+Function
+Part of a warp device
+Size
+180×200×200 cm
+Mass
+26,747.5 kg
+Volume
+2766.03 kv
+Corrosion resistance
+485
+Primary material
+Aegisium
+Composition
+Aegisium
+15%
+Arkanium
+5%
+Charodium
+25%
+Vokarium
+55%
+The fast travel gate core outer body accounts for two of the seven components of a properly assembled fast travel gate core. Two are required for the device, mounted to the inner bodies of the device, which are in turn supported by the supports.

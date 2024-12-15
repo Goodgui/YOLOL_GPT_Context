@@ -1,0 +1,46 @@
+Mining laser
+Type
+Utility device
+Function
+Mines material
+Size
+132×48×48 cm
+Mass
+2,155 kg
+Volume
+222.9 kv
+Corrosion resistance
+467
+Primary material
+Aegisium
+Input / Output
+Electric input
+6,000 e/s
+Composition
+Aegisium
+15%
+Arkanium
+10%
+Charodium
+42%
+Exorium
+18%
+Vokarium
+15%
+The mining laser is a device that projects a strong laser within a short range before it. This laser is capable of pulverizing asteroids and other materials, which can then be collected with the ore collector, making for an expedient method of mining.
+Device fields
+YOLOL field
+description
+range
+MiningLaserOn
+Mining laser turns off when this is set to 0 and on when set to anything else
+0 - 1
+MiningLaserBeamLength
+The length of the beam. Measured in meters.
+0 - 20
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL
+Related Pages
+Mining laser (Assembly)

@@ -1,0 +1,31 @@
+Plasma thruster frame
+Type
+Thruster device
+Function
+Mounts the nozzle collar of a plasma thruster
+Size
+288×288×144 cm
+Mass
+33,507.7 kg
+Volume
+3,579.88 kv
+Corrosion resistance
+440
+Primary material
+Kutonium
+Composition
+Aegisium
+25%
+Arkanium
+5%
+Charodium
+10%
+Kutonium
+35%
+Vokarium
+10%
+Ymrium
+15%
+The plasma thruster frame is a component of the plasma thruster that mounts the superconductors to the engine of the thruster. Four of these are required for a properly assembled plasma thruster, arranged in a 2×2 pattern.
+Related pages
+Plasma thruster

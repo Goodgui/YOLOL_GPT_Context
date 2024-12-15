@@ -1,0 +1,66 @@
+{
+  "title": "Box Thruster",
+  "summary": "Box thrusters are a type of thruster that produce significantly more thrust than triangle thrusters, at the expense of nearly double the electricity intake. They are most commonly found working as the main thrusters of civilian ships.",
+  "tiers": [
+    {
+      "name": "Tier 1",
+      "size": "360 x 96 x 144 cm",
+      "mass": 18878.53,
+      "volume": 1897.34,
+      "corrosionResistance": 350,
+      "composition": {},
+      "materials": {},
+      "device_fields": [],
+      "other": {
+        "electricIn": "210 e/s",
+        "propellantIn": "30.96 p/s",
+        "thrust": "500,000",
+        "thrustValues": {
+          "body": 400000,
+          "nozzle": 100000
+        }
+      }
+    },
+    {
+      "name": "Tier 2",
+      "size": "360 x 96 x 144 cm",
+      "mass": 18878.53,
+      "volume": 1897.34,
+      "corrosionResistance": 350,
+      "composition": {},
+      "materials": {},
+      "device_fields": [],
+      "other": {
+        "electricIn": "183.6 e/s",
+        "propellantIn": "26.966 p/s",
+        "thrust": "550,000",
+        "thrustValues": {
+          "body": 440000,
+          "nozzle": 110000
+        }
+      }
+    },
+    {
+      "name": "Tier 3",
+      "size": "360 x 96 x 144 cm",
+      "mass": 18878.53,
+      "volume": 1897.34,
+      "corrosionResistance": 350,
+      "composition": {},
+      "materials": {},
+      "device_fields": [],
+      "other": {
+        "electricIn": "297 e/s",
+        "propellantIn": "39.154 p/s",
+        "thrust": "650,000",
+        "thrustValues": {
+          "body": 520000,
+          "nozzle": 130000
+        }
+      }
+    }
+  ],
+  "other": {
+    "basicInformation": "Box thrusters are composed of five distinct components: The body, which houses the other components and provides convenient mounting surfaces. Any tier of body is compatible with any tier of the other components (For example, tier 2 bodies with tier 2 converters and a tier 3 nozzle are common in high efficiency ships). The chamber, which burns propellant to produce thrust. The nozzle, which channels the exhaust out of the chamber (thus producing thrust). Any tier of nozzle is compatible with any tier of Box Thruster. The electricity converter, which converts power from generators and batteries into power usable by the thruster. Any tier of electricity converter is compatible with any tier of Box Thruster. The propellant converter, which prepares propellant to be burnt. Any tier of propellant converter is compatible with any tier of Box Thruster. Unlike triangle thrusters, box thrusters do not have a resource-sharing port, and cannot be placed adjacent to one another in order to share power or propellant. Each box thruster must have its own device hardpoint with its own connection to the power and propellant networks in order to function. Despite this, and though they require significantly more space, box thrusters remain a popular choice as they produce considerable thrust per unit and do not drain as much propellant compared to triangle thrusters."
+  }
+}

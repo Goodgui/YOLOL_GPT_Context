@@ -1,0 +1,59 @@
+{{Otherlang2
+|ru = Большой генератор. Торцевая крышка
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Large Generator, End Cover.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=31,172.86
+		|volume=3,550.44
+		|size=348×348×156 cm
+		|corrosionResistance=368
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device IO
+        |heatCapacity=1,500
+        |heatDissipation=5 per second
+        |heatTransfer=75 per second ''(to radiator)''
+      }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=40%
+	|lukium=17%
+	|charodium=23%
+	|valkite=10%
+	|kutonium=10%
+	  }}
+}}<section begin=summary/>End cover for large generator unit. 2 end covers, together with 2 side structures, 4 edge structures and 8 corner structures, form the outer shell of a large generator unit. Includes connection point to link with other large generator parts or large module connector.<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''GeneratorUnitStoredHeat'''
+| Current value for stored heat
+| 0 - 1,500
+|-
+! '''GeneratorUnitMaxStoredHeat'''
+| Maximum value for stored heat
+| 0 - 1,500
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+
+* [[Large generator (Assembly)]]
+
+[[Category:Devices and machines]]

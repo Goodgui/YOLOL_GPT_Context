@@ -1,0 +1,64 @@
+An advanced cradle and a basic cradle
+Turret cradle
+Type
+Utility machinery
+Function
+Turret mobility
+Size
+144×144×108 cm
+(basic)
+204×204×204 cm
+(adv.)
+Mass
+6,603.91 kg
+(basic)
+7,937.51 kg
+(adv.)
+Volume
+663.71 kv
+(basic)
+797.74 kv
+(adv.)
+Corrosion resistance
+340
+Primary material
+Bastium
+Input / Output
+Electric input
+~3 e/s
+Modular interfaces
+2
+Device interfaces
+2
+(adv.)
+Composition
+Bastium
+80%
+Vokarium
+20%
+Cradles are device platforms that enable devices mounted to turntables to pitch forward and backwards. They are a pivotal part of any turret system, and can mount many devices such as weapons or tools like the mining laser.
+Basic information
+A cradle's target rotation can be set with the universal tool, or by connecting it to a control device such as a lever or a button. The cradle's turret rotation device field will rotate the cradle to the specified number in degrees, and does not allow relative adjustments (eg: +5 or -5). Cradles must be mounted to turntables in order to function, as they do not have other interfaces like a hardpoint. The speed at which a cradle rotates is determined by the mass attached to it, and adding too many devices to a cradle will slow it severely. Cradles like the advanced cradle also have provisions for mounting devices to the bases on their outward-facing 'ears'.
+Device fields
+YOLOL field
+description
+range
+TurretPitch
+Target pitch of the cradle
+0
+TurretCurrentPitch
+Current rotation of the cradle
+0
+MaxRotation
+High limit of the rotation
+180 / 160 on basic cradle
+MinRotation
+Low limit of the rotation
+-180 / -20 on basic cradle
+TargetVelocity
+Target velocity with which the cradle rotates
+3
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

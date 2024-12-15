@@ -1,0 +1,165 @@
+The fixed launcher mount, fixed weapon mount 1, and fixed weapon mount 2
+Fixed mount
+Type
+Machinery
+Function
+Mounts tools and weapons
+Machinery that are not required to be mobile (such as tractor beams, mining lasers, and guns) can be attached to a fixed mount for a simple and easy connection. The mount for a weapon or utility is required, as these objects do not have sockets directly mounted to them and require the mount to receive electricity.
+Types
+Immobile mounts
+These variants of fixed mounts are bolted directly to hardpoints, and offer no rotation:
+Fixed weapon mount 1
+Type
+Utility device
+Function
+Mounts ship weapons or utility devices
+Size
+96×96×36  cm
+Mass
+895.6 kg
+Volume
+90.01 kv
+Corrosion resistance
+330
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Bastium
+85%
+Vokarium
+15%
+Fixed weapon mount 2
+Type
+Utility device
+Function
+Mounts ship weapons or utility devices
+Size
+96×96×36  cm
+Mass
+1,446.6 kg
+Volume
+145.39 kv
+Corrosion resistance
+330
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Bastium
+85%
+Vokarium
+15%
+Fixed launcher mount
+Type
+Utility device
+Function
+Mounts torpedo launchers
+Size
+96×96×36  cm
+Mass
+1,485.2 kg
+Volume
+149.27 kv
+Corrosion resistance
+390
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Ajatite
+20%
+Bastium
+55%
+Vokarium
+25%
+Mobile mounts
+These variants of fixed mounts are bolted to small turntables, and offer rotation on the Y-axis:
+Fixed mount small turntable 1
+Type
+Utility device
+Function
+Utility mount with yawing ability
+Size
+96×96×36  cm
+Mass
+807.24 kg
+Volume
+81.13 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Bastium
+100%
+Fixed mount small turntable 2
+Type
+Utility device
+Function
+Utility mount with yawing ability
+Size
+96×96×84  cm
+Mass
+1,197.8 kg
+Volume
+120.38 kv
+Corrosion resistance
+300
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Bastium
+100%
+Launcher mount small turntable
+Type
+Utility device
+Function
+Utility mount with yawing ability
+Size
+96×96×36  cm
+Mass
+1,232.6 kg
+Volume
+123.88 kv
+Corrosion resistance
+390
+Primary material
+Bastium
+Input / Output
+Modular interfaces
+1
+Device interfaces
+1
+Composition
+Ajatite
+20%
+Bastium
+55%
+Vokarium
+25%
+Related pages
+Cradle
+Mounted weapons

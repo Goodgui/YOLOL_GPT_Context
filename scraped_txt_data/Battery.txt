@@ -1,0 +1,99 @@
+{{Otherlang2
+|de=Battery:de
+|fr=Battery/fr
+|zh-cn=电池
+|ru=Батарея
+|ua=Батареї
+|jp=バッテリー
+|es=Battery:es
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Battery_nov_2019.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Power
+	  |function=Stores electrical power
+	  |size=96×48×72 cm
+	  |mass=3,236.64
+	  |volume=325.29
+	  |corrosionResistance=790
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=10,000 e/s
+	  |electricOut=10,000 e/s
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=6
+	  |deviceInterfaces=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=15%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=80%
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=5%
+	  |xhalium=
+	}}
+}}<section begin=summary/>A battery is a storage device for electrical energy, and currently is available in just one size. This battery holds up to 10,000 energy units and has two sockets on opposite sides for ease-of-use, but are also semi-modular and can share connections with batteries placed immediately adjacent to them. Small ships can run entirely on batteries, but most ships use them as a buffer to handle periods of higher energy drain while their [[Generator (Assembly)|generators]] are warming up. Batteries with energy stored tend to explode when damaged, so designers should be careful about how many batteries they place near one another. Power drain and recharge is automatically balanced between all batteries on the network if all batteries have the same priority. It is common to see ships with an emergency buffer using the priority field to keep vital systems running in the case of an unintended shutdown.<section end=summary/>
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''BatteryPriority'''
+| Batteries with a lower priority get used first
+| 
+|-
+! '''StoredBatteryPower'''
+| Current charge level of the battery
+| 0 - 10 000
+|-
+! '''MaxBatteryPower'''
+| Maximum charge level of the battery
+| 10 000
+|}
+To learn more about the usage of fields, consult these wiki pages:
+* [[Universal tool]]
+* [[Data networks]]
+* [[YOLOL]]
+
+
+[[Category:Devices and machines|Battery]]

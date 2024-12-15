@@ -1,0 +1,25 @@
+Plasma thruster nozzle
+Type
+Thruster device
+Function
+Mounts the nozzle collar of a plasma thruster
+Size
+540×270×144 cm
+Mass
+26,115.6 kg
+Volume
+2,790.13 kv
+Corrosion resistance
+450
+Primary material
+Kutonium
+Composition
+Aegisium
+30%
+Kutonium
+35%
+Ymrium
+35%
+The plasma thruster nozzle is a component of the plasma thruster that is mounted at the very end of the superconductor tunnel. They serve to direct the force of a plasma thruster, and two of these are needed for a properly assembled plasma thruster.
+Related pages
+Plasma thruster

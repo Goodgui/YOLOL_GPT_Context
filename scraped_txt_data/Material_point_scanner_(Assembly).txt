@@ -1,0 +1,73 @@
+{{Otherlang2
+|ru=Точечный_сканер_материалов_(Собранный)
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Material point scanner (assembly).png]]
+	  |factionLogo=
+	  |caption=An assembled material point scanner
+	  |name=Material point scanner
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Mining device
+	  |function=Identifies materials
+	  
+	  |size=204×96×72 cm
+	  |mass=11,147
+	  |volume=1,130.12
+	  |corrosionResistance=308
+	  |suppressUnitsKg=
+	  |suppressUnitsKv=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=~300 e/s
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=
+	}}
+
+
+	|{{SB Infobox Component Section
+	  |Material point scanner
+	  |Utility tool body type 1
+	  |Utility tool capacitor
+	}}
+}}<section begin=summary/>The material point scanner provides information about the [[materials]] an object contains.<section end=summary/>
+
+== Basic information ==
+
+The material scanner casts a ray 100 meters long. If an object is detected within this range, it will update the 'ScanResults', 'Material', and 'Volume' devicefields  If an object contains more than one material, the user can change the 'Index' device field to page through the returned results. These fields will not update until a new object is scanned.
+
+The fields can only be read from a Text Panel if it is written manually by Yolol. Example code execution to manually read and write the results would be:
+:Material=:SMaterial :Volume=:SVolume goto1
+where :Material and :Volume are the names of text panels, and where :SVolume and :SMaterial are the renamed "Volume" and "Material" fields on the Point Scanner. Index must be set to "1" and ScanResults set to 2.
+== Device fields ==
+===[[Material_point_scanner|Material point scanner]]===
+{{#lst:Material_point_scanner|deviceFields}}
+===[[Utility_tool_capacitor|Utility tool capacitor]]===
+{{#lst:Utility_tool_capacitor|deviceFields}}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+
+[[Category:Devices and machines|Mining laser]]

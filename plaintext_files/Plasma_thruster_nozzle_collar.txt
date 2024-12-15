@@ -1,0 +1,29 @@
+Plasma thruster nozzle collar
+Type
+Thruster device
+Function
+Mounts the superconductors to the frame
+Size
+540×310×144 cm
+Mass
+36,809.5 kg
+Volume
+3,932.64 kv
+Corrosion resistance
+470
+Primary material
+Kutonium
+Composition
+Aegisium
+10%
+Arkanium
+30%
+Charodium
+30%
+Kutonium
+15%
+Ymrium
+15%
+The plasma thruster nozzle collar is a component of the plasma thruster that goes between the frame and the superconductor assembly. Two of these are required for a properly assembled plasma thruster.
+Related pages
+Plasma thruster

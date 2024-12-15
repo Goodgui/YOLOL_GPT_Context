@@ -1,0 +1,152 @@
+Tripod
+Type
+Weapon device
+Function
+Stationary heavy weapon platform
+Composition
+Ajatite
+517.00
+Bastium
+827.30
+Charodium
+723.80
+Tripod weapons are heavy infantry weaponry platforms that can hold different types of tripod weapons. While setting up a tripod takes a moment, tripod weapons can be easily taken off and swapped for another. Tripod weapons operate at a lowered fire rate when not attached to electricity. To attach a tripod weapon to electricity the operating endoskeleton needs to be connected to a resource bridge.
+Tripod Weapon types
+Tripod Autocannon
+Weapon class
+Tripod weapon
+Specifications
+Muzzle velocity
+900 m/s
+Rate of fire
+800 RPM
+Magazine capacity
+200
+Projectile
+20x100mm
+Projectile mass
+5.25  voxels
+Composition
+Bastium
+463.60
+Charodium
+2162.90
+Vokarium
+463.40
+Ammo
+Bastium
+515.74
+Ice
+75.20
+Nhurgite
+678.40
+Tripod Laser
+Weapon class
+Tripod weapon
+Specifications
+Muzzle velocity
+1500 m/s
+Rate of fire
+900 RPM
+Magazine capacity
+300
+Projectile
+Laser
+Projectile mass
+1.24  voxels
+Composition
+Aegisium
+1367.00
+Ajatite
+769.00
+Bastium
+769.40
+Surtrite
+1367.00
+Ammo
+Aegisium
+0.39
+Ajatite
+0.26
+Bastium
+0.40
+Nhurgite
+240.00
+Vokarium
+1.57
+Tripod Plasma
+Weapon class
+Tripod weapon
+Specifications
+Muzzle velocity
+800 m/s
+Rate of fire
+240 RPM
+Magazine capacity
+80
+Projectile
+Plasma bolt
+Projectile mass
+22.5  voxels
+Composition
+Aegisium
+426.60
+Arkanium
+597.20
+Bastium
+284.80
+Charodium
+739.40
+Vokarium
+796.40
+Ammo
+Aegisium
+0.53
+Bastium
+0.22
+Charodium
+0.63
+Ice
+77.36
+Karnite
+270.96
+Vokarium
+39.30
+Tripod Railgun
+Weapon class
+Tripod weapon
+Specifications
+Muzzle velocity
+1200 m/s
+Rate of fire
+70 RPM
+Magazine capacity
+20
+Projectile
+20x100mm
+Projectile mass
+33.33  voxels
+Composition
+Ajatite
+535.75
+Arkanium
+612.50
+Bastium
+2067.75
+Charodium
+1914.00
+Ilmatrium
+1378.00
+Vokarium
+1148.25
+Ammo
+Bastium
+57.01
+Ice
+7.52
+Nhurgite
+67.84
+Targium
+7.61
+Vokarium
+2.54

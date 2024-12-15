@@ -1,0 +1,56 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Triangle thruster combustion chamber, tier 1.png]]
+	  |factionLogo=
+	  |caption=A tier 1 triangle thruster combustion chamber
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Houses [[Triangle thruster|thruster]] components
+	  
+	}}
+}}<section begin=summary/>The [[Triangle thruster|triangle thruster]] combustion chamber is a device that burns propellant to produce thrust force. <section end=summary/>
+
+== Types ==
+
+The triangle thruster combustion chamber is currently available in the following styles:
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Triangle thruster combustion chamber, tier 1.png]]
+		|name=Tier 1 combustion chamber
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=96×96×96 cm
+		|mass=5,769.0
+		|volume=384.60
+		|corrosionResistance=295
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=35%
+		|charodium=45%
+		|vokarium=20%
+	  }}
+
+	|{{SB Infobox Device IO
+		|modInterfaces=3
+		|deviceInterfaces=1
+	}}
+	}}
+}}
+
+== Related pages ==
+
+* [[Box thruster]]
+* [[Triangle thruster]]
+* [[Maneuver thruster]]
+
+[[Category:Devices and machines]]

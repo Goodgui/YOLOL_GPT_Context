@@ -1,0 +1,107 @@
+{{Otherlang2
+|zh-cn=冷却液交换器
+|ua=Стійка зарядки елементів охолодження
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:CoolantRechargeRack.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Coolant device
+	  |function=Recycles coolant
+	  
+	  |size=72×72×36 cm
+	  |mass=823.67
+	  |volume=85.44
+	  |corrosionResistance=630
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=100 per second
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=15 per second
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=
+	  |deviceInterfaces=1
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=60%
+	  |ajatite=
+	  |arkanium=
+	  |bastium=25%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=15%
+	  |xhalium=
+	}}
+}}<section begin=summary/>Coolant recharge racks are used to recharge expired [[Small_cooling_cell|coolant cells]].<section end=summary/>
+
+== Basic Usage==
+
+* Recycles used (hot) coolant from coolant cells that are placed inside it back into usable (cold) coolant.
+* '''Mounted on a [[Hardpoints|hardpoint]], not the generator.'''
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''CoolantRechargeRateLimit'''
+| Upper limit for conversion rate for this recharge rack
+| 0 - 100
+|-
+! '''CoolantRechargeRate'''
+| Current conversion rate for this recharge rack.
+| 0 - 100
+|-
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+* [[Generator (Assembly)]]
+* [[Small cooling cell]]
+
+[[Category:Devices and machines]]

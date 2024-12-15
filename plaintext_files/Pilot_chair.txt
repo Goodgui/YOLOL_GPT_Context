@@ -1,0 +1,59 @@
+Pilot chairs come in many configurations
+Pilot chair
+Type
+Control device
+Function
+Allows keybinding
+Size
+156×100×144 cm (assembled)
+Mass
+2,784.30 kg (assembled)
+Volume
+279.83 kv (assembled)
+Corrosion resistance
+300 (lowest)
+Primary material
+Bastium
+Input / Output
+Sockets
+2
+Modular interfaces
+On control table:
+24×24 cm x11
+12×24 cm x9
+Composition (chair)
+Bastium
+65%
+Vokarium
+35%
+Composition (control table)
+Ajatite
+40%
+Bastium
+45%
+Vokarium
+15%
+Composition (armrest)
+Bastium
+100%
+Composition (stand)
+Bastium
+95%
+Vokarium
+5%
+Pilot chairs are a unique type of seat: Not only can they provided convenient modular interfaces for devices such as levers and buttons, but they also enable the user to configure key-binds for controllable devices within a short radius around them.
+Basic information
+A pilot's chair provides additional support and comfort for endoskeletons during long journeys in space. The armrests provide a convenient mounting point for input devices, but so too does the control table: A large panel packed with 20 modular interfaces to support screens, buttons, and more.
+Pilot seats can be assembled from four pieces bolted together, though the seat is functional as a single part:
+Seat
+Stand
+Two sides (arm rests)
+Levers and buttons can be interacted with through keybinds when they are within roughly 2m of the pilot seat, the seat does not need to be connected to the cable network to do this. the cable connection just provides power/data to devices that can be mounted on the control table.
+The default key of '
+v'
+is used to open the keybinds menu while sat in a pilot chair.
+Gallery
+Pilot chair stand
+Pilot chair
+Pilot chair sides
+Pilot chair control table

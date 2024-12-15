@@ -1,0 +1,218 @@
+{{Otherlang2
+|de=Hinges:de
+|fr=Hinges/fr
+|zh-cn=铰链
+|ru=Шарниры
+|ua=Петлі
+|jp=ヒンジ
+}}{{SB Infobox Begin
+  |setWidth=16vw
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_devices_hinges.png]]
+	  |factionLogo=
+	  |caption=Two of the many types of hinges available
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility machinery
+	  |function=Joint motor
+	  
+	}}
+}}<section begin=summary/>Hinges are devices used for creating turning, sliding and opening mechanisms such as doors, hatches and sliding doors.<section end=summary/>
+
+== Basic information ==
+
+Hinges are most frequently interacted with via a [[Buttons|button]] or [[YOLOL]] script, but can also be interacted with directly via the [[Universal tool|universal tool]]. They are not especially strong, and cannot be used to mount [[Thrusters|thrusters]] to a ship; nor do any of them have provisions to transfer power or propellant beyond the joint itself.
+
+<!-- Hidden. These hinges may be added in the future, but currently are not.
+There are currently 16 different hinges and they all share the same operation being either a fold/unfold or a sliding hinge. The majority of the variety is taken up by fold/unfolding hinges. A major issue with hinges when making ships is that most of them do not pass on electricity or signals. Hinges are also said to be weak to pressure, so one shouldn't mount them to thrusters. -->
+
+== Gallery ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Hinge (c-profile).png]]
+		|name=Hinge (C-profile)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×144×36 cm
+		|mass=1,419 kg
+		|volume=142.7 kv
+		|corrosionResistance=400
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=2
+		|modInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Hinge (l-profile).png]]
+		|name=Hinge (L-profile)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×144×36 cm
+		|mass=1,148 kg
+		|volume=115.3 kv
+		|corrosionResistance=400
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=2
+		|modInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=100%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Hinge A (48x48).png]]
+		|name=Hinge (A-1)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×48×12 cm
+		|mass=331 kg
+		|volume=33.3 kv
+		|corrosionResistance=425
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=1
+		|modInterfaces=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=10%
+		|bastium=75%
+		|tengium=15%
+	  }}
+	}}
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Hinge A (48x144).png]]
+		|name=Hinge (A-2)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×144×12 cm
+		|mass=940 kg
+		|volume=94.4 kv
+		|corrosionResistance=435
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=2
+		|modInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=15%
+		|bastium=65%
+		|tengium=20%
+	  }}
+	}}
+		|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Hinge B (48x48).png]]
+		|name=Hinge (B-1)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×48×12 cm
+		|mass=331 kg
+		|volume=33.3 kv
+		|corrosionResistance=425
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=1
+		|modInterfaces=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=10%
+		|bastium=75%
+		|tengium=15%
+	  }}
+	}}
+		|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Hinge B (48x144).png]]
+		|name=Hinge (B-2)
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×144×12 cm
+		|mass=940 kg
+		|volume=94.4 kv
+		|corrosionResistance=435
+	  }}
+
+	  |{{SB Infobox Device IO
+		|electricIn=5 e/s
+		|sockets=2
+		|modInterfaces=2
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|ajatite=15%
+		|bastium=65%
+		|tengium=20%
+	  }}
+	}}
+}}
+
+== Device fields ==
+
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''DoorOpenState'''
+| Input field for requested door state. 0 is closed, 1 is fully open.
+| [0,1]
+|-
+! '''DoorCurrentState'''
+| Reports the current position of the door, on the same scale as ''DoorOpenState''
+| [0,1]
+|-
+! '''EndAngle / EndPosition'''
+| The rotation/position the joint should be at when ''DoorOpenState'' is 1. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+| 
+|-
+!'''StartAngle / StartPosition'''
+| The rotation/position the joint should be at when ''DoorOpenState'' is 0. Is measured in percents(%) relative to the maximum possible open state for prismatic joints, and degrees in hinge joints.
+| 
+|-
+! '''TargetVelocity'''
+| The maximum velocity the joint will reach. Different joint devices have different velocity limits, and might not be able to reach the configured velocity.
+| 
+|}
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Hinges]]

@@ -1,0 +1,35 @@
+The front and back sides of a panel base
+Panel base
+Type
+Interface device
+Function
+Provides a modular connection
+Size
+24×24 cm
+Mass
+48.65 kg
+Volume
+4.89 kv
+Corrosion resistance
+510
+Primary material
+Bastium
+Input / Output
+Electric input
+Passive
+Sockets
+1
+Modular interfaces
+1
+Composition
+Ajatite
+14.98%
+Bastium
+15.02%
+Nhurgite
+9.99%
+Vokarium
+60%
+The panel base provides a convenient way to connect modular devices such as text panels and buttons to the network, which it itself connects to via the socket on the rear side of the device.
+Basic information
+Like most devices, panel bases provide a bilateral connection to the network that they are connected to: Data that is received on the modular connection is shared with any device connected to the socket, and vice versa. It is worth noting that panel bases provide a proximal connection with their modular side, and some devices such as progress bars do not necessarily need to snapped onto the panel base in order to be 'connected'.

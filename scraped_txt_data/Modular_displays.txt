@@ -1,0 +1,166 @@
+{{Otherlang2 
+|de=Modular_displays:de
+|fr=Modular_displays/fr
+|zh-cn=模块化显示器
+|ru=Модульные дисплеи
+|ua=Модульні дисплеї
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Display Panels.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=Modular Displays
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Display devices
+	  |function=Data display
+	  
+	}}
+}}
+
+Modular displays are most commonly used in spaceship cockpits as information screens and they are considered vital for easy ship management.
+Progress bars are generally configured to show progress from 0 to 100, whereas text panels are generally used to show text.
+They can however be used to display whatever information needed.
+
+== Basic information ==
+
+All modular displays need to be connected to a [[Data networks|data network]] and a [[Generator (Assembly)|power source]] in order for them to work.
+* Modular displays are designed for displaying information.
+* The displayable content is set to the '''PanelValue''' field.
+* They can be connected to the panel base directly or via another modular device by snapping them together.
+**Modular devices are: Displays, [[Buttons|hybrid buttons]] and the [[audio signal device mark 1]].
+* [[YOLOL]] can be used to display information, but it is not necessary.
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Progress bar 12x24.png]]
+		|name=Progress bar 12×24
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×12×3 cm
+		|mass=5.77
+		|volume=0.58
+		|corrosionResistance=509
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=12×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=15.29%
+		|ajatite=14.94%
+		|vokarium=59.9%
+		|nhurgite=9.87%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Progress bar 24x48.png]]
+		|name=Progress bar 24×48
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=48×24×3 cm
+		|mass=30.25
+		|volume=3.04
+		|corrosionResistance=510
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=24×48 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=15.05%
+		|ajatite=14.98%
+		|vokarium=59.99%
+		|nhurgite=9.99%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Text panel 24x24.png]]
+		|name=Text panel 24×24
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=24×24×3 cm
+		|mass=14.5
+		|volume=1.46
+		|corrosionResistance=540
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=24×24 cm
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=10%
+		|ajatite=65%
+		|vokarium=10%
+		|nhurgite=14.99%
+	  }}
+	}}
+}}
+
+== Extra ==
+
+{{#lst:Socket|progressBarMemory}}
+
+== Device fields ==
+
+===Progress bars===
+{|class="wikitable"
+! YOLOL field
+! description
+! default
+|-
+! '''PanelValue'''
+| The value to display on the progress bar
+| 
+|-
+! '''PanelMinValue'''
+| The value at or below which the progress bar will appear empty 
+| 0
+|-
+! '''PaneMaxValue'''
+| The range at or over which the progress bar will appear full(PanelMaxValue-PanelMinValue=TrueMaxValue)
+| 100
+|-
+! '''PanelVariableResolution'''
+| The smallest increment the number and progress bar will reflect, written out as a power of 10 (i.e. 0.01 will display two decimal places)
+| 1
+|}
+
+===Text Panel===
+{|class="wikitable"
+! YOLOL field
+! description
+! default
+|-
+! '''PanelValue'''
+| The value to display on the text panel
+| 
+|-
+! '''PanelVariableResolution'''
+| The smallest increment the number and text panel will reflect, written out as a power of 10 (i.e. 0.01 will display two decimal places)
+| 1
+|}
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+[[Category:Devices and machines|Modular displays]]

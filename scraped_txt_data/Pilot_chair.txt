@@ -1,0 +1,163 @@
+{{Otherlang2
+|jp=パイロットチェア
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Starbase_pilot_chair.png]]
+	  |factionLogo=
+	  |caption=Pilot chairs come in many configurations
+	  |name=Pilot chair
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Control device
+	  |function=Allows keybinding
+	  
+	  |size=156×100×144 cm (assembled)
+	  |mass=2,784.30 kg (assembled)
+	  |volume=279.83 kv (assembled)
+	  |corrosionResistance=300 (lowest)
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |coolantIn=
+	  |coolantOut=
+	  |propellantIn=
+	  |propellantOut=
+	  |fuelIn=
+	  |fuelOut=
+	  |sockets=2
+	  |YOLOLchips=
+	  |modInterfaces=On control table:<ul><li>24×24 cm x11</li><li>12×24 cm x9</li></ul>
+	  |deviceInterfaces=
+	}}
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (chair)
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=65%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=35%
+	  |xhalium=
+	}}
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (control table)
+	  |aegisium=
+	  |ajatite=40%
+	  |arkanium=
+	  |bastium=45%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=15%
+	  |xhalium=
+	}}
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (armrest)
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=100%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+	|{{SB Infobox Device Construction
+	  |headerOverride=Composition (stand)
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=95%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=5%
+	  |xhalium=
+	}}
+}}
+<section begin=summary/>Pilot chairs are a unique type of seat: Not only can they provided convenient modular interfaces for devices such as [[Levers|levers]] and [[Buttons|buttons]], but they also enable the user to configure key-binds for controllable devices within a short radius around them. <section end=summary/>
+
+== Basic information ==
+A pilot's chair provides additional support and comfort for endoskeletons during long journeys in space. The armrests provide a convenient mounting point for input devices, but so too does the control table: A large panel packed with 20 modular interfaces to support [[Modular_displays|screens]], buttons, and more.
+
+Pilot seats can be assembled from four pieces [[Bolt tool|bolted]] together, though the seat is functional as a single part:
+* Seat
+* Stand
+* Two sides (arm rests)
+
+[[Levers]] and [[buttons]] can be interacted with through keybinds when they are within roughly 2m of the pilot seat, the seat does not need to be connected to the [[Data_networks|cable network]] to do this. the cable connection just provides power/data to devices that can be mounted on the control table.
+
+The default key of ''''v'''' is used to open the keybinds menu while sat in a pilot chair.
+
+== Gallery ==
+
+<gallery mode="packed" widths="220px">
+Image:Pilot chair stand.png|''Pilot chair stand''
+Image:Pilot chair.png|''Pilot chair''
+Image:Pilot chair sides.png|''Pilot chair sides''
+Image:Pilot chair control table.png|''Pilot chair control table''
+</gallery>
+
+[[Category:Devices and machines|Chairs]]

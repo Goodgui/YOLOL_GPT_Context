@@ -1,0 +1,85 @@
+{{Otherlang2
+|de=Mining_laser:de
+|fr=Mining_laser:fr
+|zh-cn=采矿激光
+|ua=Рудозбірник
+|ru=Шахтерский лазер
+}}
+
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Ore collector.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Gathers mined ore
+	  
+	  |size=108×84×60 cm
+	  |mass=2,159
+	  |volume=223.2
+	  |corrosionResistance=710
+	  |primaryMaterial=Aegisium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=47%
+	  |ajatite=22%
+	  |arkanium=19%
+	  |bastium=
+	  |charodium=
+	  |corazium=
+	  |exorium=12%
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=
+	  |xhalium=
+	}}
+}}<section begin=summary/>The ore collector is a device that efficiently collects mined ore, and is often used in conjunction with the [[Mining laser (Assembly)|mining laser]]. They are also used in the tutorial halls at the mining job. A value of 2,000 in the Power field is recommended for 2 or more lasers, with an extra 1,000 per lasers above 4. Alternatively, multiple collectors may be used.<section end=summary/>
+
+== Device fields ==
+<section begin=deviceFields/>
+{|class="wikitable"
+! YOLOL field
+! description
+! range
+|-
+! '''ToggleOn'''
+| Ore collector turns off when this is set to 0 and on when set to anything else
+| 0 - 1
+|-
+! '''Power'''
+| Determines how fast the collector collects ore, and how much power it consumes in KV.
+| 0 - 6000
+|-
+|}
+<section end=deviceFields/>
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Pages ==
+
+[[Ore collector (Assembly)]]
+
+[[Category:Devices and machines]]

@@ -1,0 +1,81 @@
+{{Otherlang2
+|ua=Фіксоване кріплення для озброєння 1
+}}
+{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Fixed mount, type 1.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility device
+	  |function=Mounts ship weapons or utility devices
+	  
+	  |size=96×96×36  cm
+	  |mass=895.6
+	  |volume=90.01
+	  |corrosionResistance=330
+	  |primaryMaterial=Bastium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+
+	|{{SB Infobox Device IO
+	  |electricIn=
+	  |electricOut=
+	  |energyCapacity=
+	  |coolantIn=
+	  |coolantOut=
+	  |coolantCapacity=
+	  |coolantRefresh=
+	  |heatGeneration=
+	  |heatDissipation
+	  |propellantIn=
+	  |propellantOut=
+	  |propellantCapacity
+	  |fuelIn=
+	  |fuelOut=
+	  |fuelCapacity
+	  |sockets=
+	  |YOLOLchips=
+	  |modInterfaces=1
+	  |deviceInterfaces=1
+	  |enhancement=
+	}}
+
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=
+	  |ajatite=
+	  |arkanium=
+	  |bastium=85%
+	  |charodium=
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=15%
+	  |xhalium=
+	}}
+}}<section begin=summary/>A fixed mount for a variety of devices. This device enables YOLOL operation of [[Mounted weapons|ship weapons]] or utility devices such as [[Mining laser (Assembly)|mining lasers]], and can mount one device.<section end=summary/>
+
+== Related pages ==
+
+*[[Fixed mount]]
+
+[[Category:Devices and machines]]

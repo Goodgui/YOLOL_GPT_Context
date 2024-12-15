@@ -1,0 +1,30 @@
+{{Otherlang2
+}}{{SB Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Exorium Processing Unit, End Cover.png]]
+		|name=
+		|border=none
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|mass=32,916
+		|volume=3,749
+		|size=432×432×60 cm
+		|corrosionResistance=480
+		|primaryMaterial=Ymrium
+	  }}
+
+	  |{{SB Infobox Device Construction
+	|ymrium=5%
+	|lukium=45%
+	|charodium=20%
+	|kutonium=15%
+	|aegisium=15%
+	  }}
+}}<section begin=summary/>End cover for exorium processing unit. 2 end covers, together with 2 side structures, 2 top/bottom structures and 4 side covers, are required to complete the outer shell of the processing unit. Includes connection point to link with other large generator parts or large module connector.<section end=summary/>
+
+== Related Articles ==
+
+* [[Exorium processing unit (Assembly)]]
+
+[[Category:Devices and machines]]

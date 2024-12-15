@@ -1,0 +1,64 @@
+An assembled material point scanner
+Material point scanner
+Type
+Mining device
+Function
+Identifies materials
+Size
+204×96×72 cm
+Mass
+11,147 kg
+Volume
+1,130.12 kv
+Corrosion resistance
+308
+Input / Output
+Electric input
+~300 e/s
+Sub-components
+The material point scanner provides information about the materials an object contains.
+Basic information
+The material scanner casts a ray 100 meters long. If an object is detected within this range, it will update the 'ScanResults', 'Material', and 'Volume' devicefields  If an object contains more than one material, the user can change the 'Index' device field to page through the returned results. These fields will not update until a new object is scanned.
+The fields can only be read from a Text Panel if it is written manually by Yolol. Example code execution to manually read and write the results would be:
+Material=:SMaterial :Volume=:SVolume goto1
+where :Material and :Volume are the names of text panels, and where :SVolume and :SMaterial are the renamed "Volume" and "Material" fields on the Point Scanner. Index must be set to "1" and ScanResults set to 2.
+Device fields
+Material point scanner
+YOLOL field
+description
+range
+Active
+The scanner turns off when this is set to 0 and on when set to anything else
+0 - 1
+Index
+The current material to provide information for. Starting at 0
+0 -
+ScanResults
+The number of diferent materials the object contains
+0 -
+Material
+The material of the current 'Index' i.e. "Ukonium"
+String
+Volume
+The Volume of the current 'Index' i.e. 272
+0 -
+Scan
+Must be set to 1 to initiate a scan, auto-resets to 0 once scan is complete
+0 - 1
+Reset
+Resets the stored scan result
+0 - 1
+Utility tool capacitor
+YOLOL field
+description
+range
+StoredLocalPower
+How much power is stored in the capacitor
+0 - 4000
+MaxLocalPower
+Maximum amount of power that can be stored
+4000
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

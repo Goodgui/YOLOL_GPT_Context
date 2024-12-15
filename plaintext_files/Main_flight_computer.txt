@@ -1,0 +1,46 @@
+Main flight computer
+Type
+Control device
+Function
+Automatic thruster control
+Size
+96 × 48 × 48 cm
+Mass
+2017.96 kg
+Volume
+202.81 kv
+Corrosion resistance
+470
+Primary material
+Bastium
+Input / Output
+Electric input
+0.5 e/s
+Sockets
+4
+Composition
+Ajatite
+15%
+Bastium
+15%
+Vokarium
+70%
+The Main flight computer combines information from one or more flight control units and sends the necessary data to each thruster connected to it. Due to this it is possible to use several FCUs on a single ship. However, it is recommended to use only one FCU per MFC, meaning that if 2 MFC's are used, they would each need their own FCU, with the IO fields renamed to prevent crosstalk (will cause significant issues if present)
+Basic information
+Main flight computers are placed in the same network as flight control units and thrusters. Main flight computers require electricity in order for them to work, but do not actually consume any power.
+Device fields
+YOLOL field
+description
+range
+FcuMfcIO1
+For connecting an FCU to the MFC
+-
+FcuMfcIO2
+-
+ThrusterPowerLevel01 - 50
+50 fields for connecting thrusters to the MFC. These field names are set for the ships thrusters.
+-
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

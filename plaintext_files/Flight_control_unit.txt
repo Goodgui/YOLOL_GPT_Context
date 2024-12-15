@@ -1,0 +1,152 @@
+Basic (blue), advanced (red), and premium (yellow) FCUs
+Flight Control Unit
+Type
+Control device
+Function
+Automatic thruster control
+Flight control units (FCU) receive input from control devices like levers and - in conjunction with the Main Flight Computer (MFC) - determines which thrusters to fire to achieve the desired maneuvering. FCUs come in three varieties with progressively more control schema with each successive upgrade, and several can be used on a single ship to allow for cockpits placed in unusual orientations.
+Basic information
+An FCU's input devices, such as buttons or levers, need to be in the same network as the FCU for them to function.
+Control devices are mapped to an FCU's different inputs by matching their device fields.
+FCUs must be connected to the MFC in order to function properly.
+Each thruster group is controlled by exactly one MFC. There can be several MFCs in one ship.
+The FCU must be installed in a correct orientation, the three arrows on the top of the FCU point towards the front of the ship.
+A basic FCU allows forward, backwards, pitch, yaw, and roll. A basic FCU will also automatically balance the ship while maneuvering.
+An advanced FCU allows all of the maneuvers and has all the features that a basic FCU does, but adds lateral and vertical strafing.
+A premium FCU allows all of the maneuvers and has all the features that an advanced FCU does, but adds functionality to coordinate forward and backward movement with pitch, roll, and yaw movements. This is particularly noticeable on large ships.
+Types
+Basic FCU
+Size
+48×48×24 cm
+Mass
+514 kg
+Volume
+51.66 kv
+Corrosion resistance
+460
+Primary material
+Bastium
+Input / Output
+Electric input
+0.5 e/s
+Sockets
+2
+Composition
+Ajatite
+60%
+Bastium
+20%
+Vokarium
+20%
+Advanced FCU
+Size
+48×48×24 cm
+Mass
+774.9 kg
+Volume
+51.66 kv
+Corrosion resistance
+455
+Primary material
+Charodium
+Input / Output
+Electric input
+0.5 e/s
+Sockets
+2
+Composition
+Ajatite
+12%
+Charodium
+15%
+Vokarium
+73%
+Premium FCU
+Size
+48×48×24 cm
+Mass
+483.8 kg
+Volume
+51.69 kv
+Corrosion resistance
+431
+Primary material
+Kutonium
+Input / Output
+Electric input
+0.5 e/s
+Sockets
+2
+Composition
+Ajatite
+18%
+Arkanium
+22%
+Kutonium
+15%
+Lukium
+10%
+Vokarium
+10%
+Xhalium
+25%
+Device fields
+YOLOL field
+description
+default range
+availability
+FcuMfcIO
+For connecting the Main flight computer
+All
+FcuInputRange
+Scales the accepted input range
+100
+All
+FcuGeneralMultiplier
+A "soft power switch", scales all output
+100
+All
+FcuForward
+Moves the ship straight forward or combines FcuFwdBwd rotations with the forward movement
+0 to 100
+All
+FcuBackward
+Moves the ship straight backward or combines FcuFwdBwd rotations with the backward movement
+0 to 100
+All
+FcuRotationalPitch
+In-place pitch rotation
+-100 to 100
+All
+FcuRotationalYaw
+In-place yaw rotation
+-100 to 100
+All
+FcuRotationalRoll
+In-place roll rotation
+-100 to 100
+All
+FcuUpDown
+Moves the ship straight up or down
+-100 to 100
+Advanced, Premium
+FcuRightLeft
+Moves the ship straight right or left
+-100 to 100
+Advanced, Premium
+FcuFwdBwdPitch
+Rotation combined to forward/backward movement
+-100 to 100
+Premium
+FcuFwdBwdYaw
+Rotation combined to forward/backward movement
+-100 to 100
+Premium
+FcuFwdBwdRoll
+Rotation combined to forward/backward movement
+-100 to 100
+Premium
+To learn more about how to use fields, consult these wiki pages:
+Universal Tool
+Data networks
+YOLOL

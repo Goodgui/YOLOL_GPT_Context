@@ -1,0 +1,58 @@
+{{Otherlang2
+|jp=プラズマスラスターノズルカラー
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Plasma thruster, nozzle collar.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Mounts the superconductors to the frame
+	  
+	  |size=540×310×144 cm
+	  |mass=36,809.5
+	  |volume=3,932.64
+	  |corrosionResistance=470
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+	
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=10%
+	  |ajatite=
+	  |arkanium=30%
+	  |bastium=
+	  |charodium=30%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=15%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |ymrium=15%
+	  |vokarium=
+	  |xhalium=
+	}}
+}}<section begin=summary/>The plasma thruster nozzle collar is a component of the [[Plasma thruster|plasma thruster]] that goes between the [[Plasma thruster frame|frame]] and the [[Plasma thruster superconductor|superconductor assembly]]. Two of these are required for a properly assembled plasma thruster.<section end=summary/>
+
+== Related pages ==
+
+*[[Plasma thruster]]
+
+[[Category:Devices and machines]]

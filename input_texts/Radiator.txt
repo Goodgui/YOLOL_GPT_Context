@@ -1,0 +1,151 @@
+{{Otherlang2
+|zh-cn=散热器
+|ua=Радіатор
+|jp=ラジエーター
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:RadiatorParts.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Coolant device
+	  |function=Remove heat
+	  
+	  |suppressUnitsKg=1
+	  |suppressUnitsKv=1
+	  |subComponents=
+	}}
+
+
+
+
+}}<section begin=summary/>Radiators are very effective options for sustained cooling, but often they require [[heatsink|heatsinks]] to reach their full potential. Each section attached extends the radiator's maximum performance without requiring additional mounting slots. Radiators can be used in conjunction with [[Cooling rack|cooling racks]], but it is not required.<section end=summary/>
+
+== Types ==
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Radiator base.png|250px]]
+		|name=Radiator base
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×72×48 cm
+		|mass=1,404.8
+		|volume=141.19
+		|corrosionResistance=310
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=2
+		|deviceInterfaces=1
+		|heatCapacity=1,500
+		|heatDissipation=1,500 per second
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=20%
+		|vokarium=30%
+		|charodium=50%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Radiator extension.png|250px]]
+		|name=Radiator extension
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=72×72×24 cm
+		|mass=533.3
+		|volume=53.60
+		|corrosionResistance=310
+		|primaryMaterial=Bastium
+	  }}
+
+	  |{{SB Infobox Device IO
+		|modInterfaces=2
+		|heatCapacity=1,500
+		|heatDissipation=750 per second
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|bastium=20%
+		|vokarium=30%
+		|charodium=50%
+	  }}
+	}}
+
+
+}}
+
+== Basic usage ==
+
+* Radiator Bases can be mounted on hardpoints and Radiator Extensions can be mounted to Radiator Bases or other Extensions.
+** Radiator Bases have one device interface and two modular output interfaces (where you can connect Radiator Extensions' input interface).
+** Radiator Extensions have one input (side with colored bolting spots) and one output interface.
+** Both Bases and Extensions can also be mounted on generators, fuelchambers or heatsinks, but that might be unintended behaviour.
+* Radiators remove heat transferred to them by heat producers and [[Heatsink|heatsinks]].
+** Heat is transferred through pipes or connected devices.
+** '''Note:''' Devices have a limit to how much of their heat they can transfer to radiators (default 75, heatsinks 750 - can be added together). See [[Heat_mechanics|heat mechanics]] for in depth info.
+
+== Device fields ==
+<section begin=deviceFields/>
+
+===[[Radiator|Radiator Base]]===
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''RadiatorHeatDissipation'''
+| Current radiation rate for this radiator base
+| 0 - 1500
+|-
+! '''RadiatorStoredHeat'''
+| Current amount of heat in this radiator base
+| 0 - RadiatorMaxStoredHeat
+|-
+! '''RadiatorMaxStoredHeat'''
+| Maximum amount of heat that can be stored in the radiator base
+| 1500
+|-
+|}
+
+===[[Radiator|Radiator Extension]]===
+{|class="wikitable"
+! YOLOL field
+! Description
+! Range
+|-
+! '''RadiatorHeatDissipation'''
+| Current radiation rate for this radiator extension
+| 0 - 750
+|-
+! '''RadiatorStoredHeat'''
+| Current amount of heat in this radiator  extension
+| 0 - RadiatorMaxStoredHeat
+|-
+! '''RadiatorMaxStoredHeat'''
+| Maximum amount of heat that can be stored in the radiator extension
+| 1500
+|-
+|}<section end=deviceFields/>
+
+To learn more about how to use fields, consult these wiki pages:
+* [[Universal tool|Universal Tool]]
+* [[Data networks|Data networks]]
+* [[YOLOL|YOLOL]]
+
+== Related Articles ==
+* [[Generator (Assembly)]]
+* [[Cooling rack]]
+
+[[Category:Devices and machines]]

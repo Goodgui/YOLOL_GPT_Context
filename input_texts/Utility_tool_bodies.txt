@@ -1,0 +1,88 @@
+{{otherlang2
+|ru=Корпуса вспомогательных устройств
+}}{{SB Infobox Begin
+  |setWidth=16vw
+	|{{SB Infobox Header
+	  |image=[[Image:Utility tool bodies.png]]
+	  |factionLogo=
+	  |caption=A collection of tool bodies
+	  |name=Utility tool bodies
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Utility devices
+	  |function=Mounts toolheads
+	  
+	}}
+}}<section begin=summary/>The utility tool body is a device that can mount certain tools, and provides power and [[YOLOL]] access to them. They come in three varieties, though two of them are mirrors of each other. <section end=summary/>
+
+== Types == 
+
+{{SB Mini Infobox Wrap
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Utility tool body 1.png]]
+		|name=[[Utility tool body type 1]]
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=108×96×60 cm
+		|mass=3,215.04 kg
+		|volume=323.12 kv
+		|corrosionResistance=370
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|aegisium=10%
+		|bastium=10%
+		|charodium=15%
+		|ilmatrium=20%
+		|merkerium=20%
+		|tengium=10%
+		|vokarium=15%
+	  }}
+	}}
+
+	|{{SB Mini Infobox Begin
+	  |{{SB Infobox Header
+		|image=[[Image:Utility tool body 2.png]]
+		|name=[[Utility tool body type 2]]
+	  }}
+
+	  |{{SB Infobox Device General Information
+		|size=108×48×84 cm
+		|mass=1,679.36
+		|volume=168.78 kv
+		|corrosionResistance=370
+	  }}
+
+	  |{{SB Infobox Device IO
+		|deviceInterfaces=1
+	  }}
+
+	  |{{SB Infobox Device Construction
+		|aegisium=10%
+		|bastium=10%
+		|charodium=15%
+		|ilmatrium=20%
+		|merkerium=20%
+		|tengium=10%
+		|vokarium=15%
+	  }}
+	}}
+
+}}
+
+== Related Pages ==
+
+*[[Mining laser (Assembly)]]
+*[[Material point scanner (Assembly)]]
+*[[Laser designator (Assembly)]]
+
+
+[[Category:Devices and machines]]

@@ -1,0 +1,103 @@
+YOLOL Chip
+Type
+YOLOL device
+Function
+Executes code
+The YOLOL chip is a movable container for programmed scripts. Scripts can be edited via the physical chip interface directly, or by using the universal tool. The chip must be placed in a reader, such as the chip socket or device rack, in order to function.
+Types
+YOLOL chip (basic)
+Size
+42×28×3 cm
+Mass
+25.1 kg
+Volume
+2.52 kv
+Corrosion resistance
+460
+Primary material
+Bastium
+Input / Output
+Electric input
+0.01 e/s
+Composition
+Ajatite
+45%
+Bastium
+20%
+Vokarium
+35%
+YOLOL chip (adv.)
+Size
+42×28×3 cm
+Mass
+25.1 kg
+Volume
+2.52 kv
+Corrosion resistance
+514
+Primary material
+Bastium
+Input / Output
+Electric input
+0.01 e/s
+Composition
+Ajatite
+41.98%
+Arkanium
+17.98%
+Bastium
+20.04%
+Karnite
+10%
+Vokarium
+10%
+YOLOL chip (pro.)
+Size
+42×28×3 cm
+Mass
+25.1 kg
+Volume
+2.52 kv
+Corrosion resistance
+306
+Primary material
+Bastium
+Input / Output
+Electric input
+0.01 e/s
+Composition
+Ajatite
+7.98%
+Bastium
+12.06%
+Corazium
+15%
+Karnite
+6.98%
+Vokarium
+7.98%
+Xhalium
+50%
+Basic information
+The YOLOL chip can interact with any connected device networks when placed inside a chip slot.
+This interaction is done with a specific script.
+How the programmable chips work:
+The chip executes a single line of the script per configured time interval.
+The chip has play and pause buttons, and screen lock and unlock buttons.
+The chips are locked by default, and are opened by sliding down the lock icon on the screen.
+The chip must be placed into a chip socket, which is connected to a power source and to a data network.
+The chip can hold 20 lines of code.
+One line in the chip can hold a total 70 characters of code.
+NOTE!
+The available operators and commands may be limited by the type of chip.
+Basic chips have a limited selection of functions while more advanced ones can perform more complex operations natively.
+Device fields
+YOLOL field
+description
+range
+ChipWait
+Controls script execution. Negative values mean execution is paused, zero means script is being executed, and positive values mean execution will continue after the amount of line runs have passed that are equal to the value.
+Numeric, any
+Universal Tool
+Data networks
+YOLOL

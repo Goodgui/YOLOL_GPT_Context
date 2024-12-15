@@ -1,0 +1,75 @@
+Operators:
+A+B, Addition, String A is appended by String B, Basic
+A-B, Subtraction, Last appearance of String B in String A is removed from String A, Basic
+A*B, Multiplication, Runtime error (line skipped), Basic
+A/B, Division, Runtime error (line skipped), Basic
+A++, PostIncrement (A=A+1), Appends a space to String A (evaluates to original value), Basic
+A--, PostDecrement (A=A-1), Removes last character of String A (runtime error if empty), Basic
+++A, PreIncrement (A=A+1), Appends a space to String A (evaluates to modified value), Basic
+--A, PreDecrement (A=A-1), Removes last character of String A (runtime error if empty), Basic
+A=B, Assignment, String operation assigns B to A, Basic
+A+=B, Addition-assignment (A=A+B), String A is appended by String B and assigned to A, Basic
+A-=B, Subtraction-assignment (A=A-B), Last appearance of String B in String A is removed and assigned to A, Basic
+A*=B, Multiplication-assignment (A=A*B), Runtime error (line skipped), Basic
+A/=B, Division-assignment (A=A/B), Runtime error (line skipped), Basic
+A^=B, Exponentiation-assignment (A=A^B), Runtime error (line skipped), Advanced
+A%=B, Modulo-assignment (A=A%B), Runtime error (line skipped), Advanced
+A^B, Exponentiation, Runtime error (line skipped), Advanced
+A%B, Modulo, Runtime error (line skipped), Advanced
+ABS A, Modulus (absolute value), Runtime error (line skipped), Advanced
+A!, Factorial, Runtime error (line skipped), Advanced
+SQRT A, Square root of A, Runtime error (line skipped), Advanced
+SIN A, Sine of A (degrees), Runtime error (line skipped), Professional
+COS A, Cosine of A (degrees), Runtime error (line skipped), Professional
+TAN A, Tangent of A (degrees), Runtime error (line skipped), Professional
+ASIN A, Inverse sine of A (degrees), Runtime error (line skipped), Professional
+ACOS A, Inverse cosine of A (degrees), Runtime error (line skipped), Professional
+ATAN A, Inverse tangent of A (degrees), Runtime error (line skipped), Professional
+
+Logical Operators:
+A<B, Less than, Returns 1 if String A is alphabetically before String B, otherwise 0, Basic
+A>B, Greater than, Returns 1 if String A is alphabetically after String B, otherwise 0, Basic
+A<=B, Less than or equal to, Returns 1 if String A is alphabetically before or equal to String B, otherwise 0, Basic
+A>=B, Greater than or equal to, Returns 1 if String A is alphabetically after or equal to String B, otherwise 0, Basic
+A==B, Equal to, Returns 1 if String A is identical to String B, otherwise 0, Basic
+A!=B, Not equal to, Returns 1 if String A is not identical to String B, otherwise 0, Basic
+NOT A, Not, Returns 1 if A is 0, otherwise 0, Basic
+A AND B, And, Returns 1 if neither A nor B are 0, otherwise 0, Basic
+A OR B, Or, Returns 1 if either A or B is not 0, otherwise 0, Basic
+
+Order of Operations:
+1. Increment/Decrement: `++`, `--`
+2. Negation: `-` (unary minus)
+3. Exponentiation: `^`
+4. Multiplication/Division/Modulo: `*`, `/`, `%`
+5. Addition/Subtraction: `+`, `-`
+6. Comparisons: `<`, `>`, `<=`, `>=`, `==`, `!=`
+7. Logical NOT: `NOT`
+8. Logical AND: `AND`
+9. Logical OR: `OR`
+
+Rules:
+1. Operators with higher precedence are executed before lower precedence.
+2. When operators have the same precedence, they are evaluated from left to right.
+3. Parentheses can be used to change the order of evaluation.
+
+Basic order:
+x = 2 + 3 * 4
+Result: x = 14 (multiplication first, then addition)
+
+Using parentheses:
+x = (2 + 3) * 4
+Result: x = 20 (parentheses change the order)
+
+Logical operations:
+x = 1 AND 0 OR 1
+Result: x = 1 (AND evaluated first, then OR)
+
+Combining logical and arithmetic:
+x = NOT (2 + 3 > 4)
+Result: x = 0 (comparison first, then NOT)
+
+Parentheses for clarity:
+x = 2 + (3 * 4) / (1 + 1)
+Result: x = 8 (inner parentheses evaluated first)
+

@@ -1,0 +1,57 @@
+{{Otherlang2
+|jp=プラズマスラスターコア
+}}{{SB Infobox Begin
+	|{{SB Infobox Header
+	  |image=[[Image:Plasma thruster, core.png]]
+	  |factionLogo=
+	  |caption=
+	  |name=
+	  |border=none
+	}}
+
+	|{{SB Infobox Device General Information
+	  |type=Thruster device
+	  |function=Generates thrust force
+	  
+	  |size=576×168×204 cm
+	  |mass=36,958.4
+	  |volume=3,948.55
+	  |corrosionResistance=494
+	  |primaryMaterial=Kutonium
+	  |suppressUnitsKg
+	  |suppressUnitsKv
+	  |subComponents=
+	}}
+	
+	|{{SB Infobox Device Construction
+	  |headerOverride=
+	  |aegisium=28%
+	  |ajatite=
+	  |arkanium=12%
+	  |bastium=
+	  |charodium=32%
+	  |corazium=
+	  |exorium=
+	  |haderite=
+	  |ice=
+	  |ilmatrium=
+	  |karnite=
+	  |kutonium=10%
+	  |lukium=
+	  |merkerium=
+	  |nhurgite=
+	  |oninum=
+	  |surtrite=
+	  |tengium=
+	  |ukonium=
+	  |valkite=
+	  |vokarium=18%
+	  |xhalium=
+	}}
+}}<section begin=summary/>The plasma thruster core is the device responsible for generating the thrust force of a [[Plasma thruster|plasma thruster]], in conjunction with the [[Plasma thruster engine|engines]]. Just one is required for the proper assembly of a plasma thruster.<section end=summary/>
+
+== Related pages ==
+
+*[[Plasma thruster]]
+
+[[Category:Devices and machines]]
